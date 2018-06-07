@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="app_name">Picture</string>
+    <string name="decode_err_msg">Image decoding failed!</string>
+    <string name="first_pic_msg">Is the first picture</string>
+    <string name="last_pic_msg">Is the last picture</string>
+    <string name="no_pic_msg">No image</string>
+    <string name="scanning">Image scanning, please wait...</string>
+    <string name="sd">SD</string>
+    <string name="str_btn_back">Back</string>
+    <string name="str_btn_next">Next</string>
+    <string name="str_btn_pause">Pause</string>
+    <string name="str_btn_play">Play</string>
+    <string name="str_btn_pre">Previous</string>
+    <string name="str_btn_rotate">Rotate right</string>
+    <string name="str_btn_rotate_left">Rotate left</string>
+    <string name="str_btn_setwallpaper">Set as wallpaper</string>
+    <string name="str_btn_zoomin">Zoom in</string>
+    <string name="str_btn_zoomout">Zoom out</string>
+    <string name="str_error_decode">Picture can not be displayed</string>
+    <string name="str_error_download">Network error,can not download</string>
+    <string name="str_error_io">Picture open failed</string>
+    <string name="str_error_toolarge">The image is too large to display</string>
+    <string name="str_tips_setwallpaper_failed">Failed to set background image</string>
+    <string name="str_tips_setwallpaper_success">Set the background image to be successful</string>
+    <string name="title_media">Media</string>
+    <string name="title_music">Music</string>
+    <string name="title_photo">Picture</string>
+    <string name="title_video">Video</string>
+    <string name="usb">USB</string>
+
+</resources>

@@ -1,0 +1,34 @@
+<resources>
+
+    <color name="bg_gray">#e8e8e8</color>
+    <color name="gray">#585858</color>
+	<color name="blue">#00a9ec</color>
+	<color name="green">#00c056</color>
+	
+	<color name="popup_title_color">#ffc9cdd1</color>
+    <color name="advance_setting_item_bg">#fff8f8f8</color>
+    <color name="light_blue">#00e9fc</color>
+    <color name="transparent">#00000000</color>
+	<color name="textdec">#f18c14</color>
+	
+	<color name="title_bar">#92bde1</color>
+    <color name="title_bar_pressed">#426c8e</color>
+    <color name="bottom_bar">#92bde1</color>
+    <color name="bottom_bar_text_pressed">#ffffff</color>
+    <color name="bottom_bar_text_normal">#c8e7f6</color>
+    <color name="white">#ffffff</color>
+    <color name="gray1">#f1f1f1</color>
+    <color name="gray2">#cdcdcd</color>
+    <color name="blue1">#02709a</color>
+    <color name="blue2">#02229a</color>
+    <color name="yellow">#ffff00</color>
+  	<color name="green2">#f5f9fc</color>   
+  	
+  	<color name="back_default">#023d5f</color>
+  	<color name="back_dark">#012539</color>
+  	<color name="back_gray">#8baeca</color>
+  	
+  	<color name="text_light">#7bc9ff</color>
+  	<color name="text_normal">@android:color/white</color>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background">#b0080808</color>
+    <color name="control_back">#AA00003D</color>
+    <color name="dialog_back">#330000FF</color>
+    <color name="lightred">#90FF0000</color>
+    <color name="touming">#E0000000</color>
+
+    <!-- 透明色 -->
+    <color name="lucency">#00000000</color>
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <!-- 红色 -->
+    <color name="red">#FF0000</color>
+    <!-- 绿色 -->
+    <color name="green">#00FF00</color>
+    <!-- 蓝色 -->
+    <color name="blue">#0000FF</color>
+    <!-- 透明灰色 -->
+    <color name="lucencyblue">#800000FF</color>
+    <!-- 橙色 -->
+    <color name="orange">#FFA500</color>
+    <!-- 透明橙色 -->
+    <color name="lucencyorange">#80FFA500</color>
+    <!-- 灰色 -->
+    <color name="grey">#C3C3C3</color>
+    <!-- 透明灰色 -->
+    <color name="lucencygrey">#80808080</color>
+    <!-- 青色 -->
+    <color name="cyan">#00FFFF</color>
+    <!-- APP背景色 -->
+    <color name="appbackground">#0A2758</color>
+    <!-- 文本高亮颜色 -->
+    <color name="textpresscolor">#00326F</color>
+
+</resources>

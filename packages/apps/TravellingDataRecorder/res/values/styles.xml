@@ -1,0 +1,55 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+	
+    <style name="ListItemTextStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+    <style name="BottomBarTextStyle">
+        <item name="android:textSize">@dimen/text_size_2</item>
+        <item name="android:textColor">@color/color_btn_state</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/selector_control_btn_bg</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">68.0px</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:drawablePadding">0dp</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    
+    <style name="title_v_style_new" parent="BottomBarTextStyle">
+        <item name="android:layout_marginTop">28dp</item>
+        <item name="android:layout_marginBottom">28dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:button">@null</item>
+    </style>
+    
+    <style name="dialog" parent="@android:style/Theme.Dialog">  
+		<item name="android:windowFrame">@null</item>  
+		<item name="android:windowIsFloating">true</item>  
+		<item name="android:windowIsTranslucent">false</item>  
+		<item name="android:windowNoTitle">true</item>  
+		<item name="android:background">@null</item>  
+		<item name="android:backgroundDimEnabled">false</item>  
+		<item name="android:windowBackground"> @android:color/transparent </item>
+	</style>
+</resources>

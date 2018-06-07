@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	>
+	<!-- 
+    android:minHeight="?android:attr/listPreferredItemHeight" -->
+    <ImageView 
+        android:id="@+id/history_backimage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:adjustViewBounds="true"
+        android:gravity="center"
+        android:visibility="invisible"
+        
+        /> 
+
+<LinearLayout
+  android:descendantFocusability="blocksDescendants"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:gravity="center_vertical"
+  android:id="@+id/history_item"
+  android:background="@xml/device_list_status">
+  	
+    	<ImageView
+  		android:id="@+id/phone_icon"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:src="@drawable/phone_icon"
+  		android:visibility="gone"
+  		/>
+    	
+  	<ImageView
+  		android:id="@+id/btn_call_history_img"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_marginLeft="20dp"
+  		android:layout_marginRight="20dp"
+  		android:src="@drawable/ic_call_log_header_outgoing_call"
+  		/>
+  	<LinearLayout 
+  	    android:layout_width="320dp"
+  		android:layout_height="fill_parent"
+  		android:orientation="vertical"
+  	    >
+  	    
+	  	<TextView
+	  		android:layout_width="fill_parent"
+	  		android:layout_height="0dp"
+	  		android:layout_weight="1"
+	  		android:id="@+id/item_history_name"
+	  		android:gravity="center_vertical"
+	  		android:textSize="24sp"
+	  		android:textColor="@color/btn_clearall"
+	  		android:singleLine="true"
+	  		android:ellipsize="end"
+	  		/>
+	  	<TextView
+	  		android:layout_width="fill_parent"
+	  		android:layout_height="0dp"
+	  		android:layout_weight="1"
+	  		android:gravity="center_vertical"
+	  		android:id="@+id/item_history_number"
+	  		android:textSize="24sp"
+	  		android:textColor="@color/btn_clearall"
+	  		android:singleLine="true"
+	  		android:focusable="true"
+	  		android:ellipsize="marquee"
+	  		android:focusableInTouchMode="true"
+	        android:marqueeRepeatLimit="marquee_forever"
+	  		android:visibility="visible"
+	  		/>
+  	</LinearLayout>
+    <TextView
+  		android:layout_width="280dp"
+  		android:layout_height="fill_parent"
+  		android:paddingRight="10dp"
+  		android:gravity="right|center_vertical"
+  		android:id="@+id/item_history_time"
+  		android:textSize="22sp"
+  		android:layout_gravity="center_vertical"
+  		android:textColor="@color/btn_clearall"
+  		android:ellipsize="end"
+  		android:singleLine="false"
+  		android:focusable="true"
+  		android:focusableInTouchMode="true"
+  		/>
+    <ImageButton 
+  		android:id="@+id/item_history_del"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:background="@drawable/del_record"
+  		android:visibility="gone"
+  		/>
+</LinearLayout>
+
+</FrameLayout>

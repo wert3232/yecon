@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/showTitle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="@string/factory_adjust_button_region"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+    <com.yecon.carsetting.DrawRound
+        android:id="@+id/drawRound"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/showProgress"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="45sp" />
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="600dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:max="100"
+        android:progress="1" />
+
+</LinearLayout>

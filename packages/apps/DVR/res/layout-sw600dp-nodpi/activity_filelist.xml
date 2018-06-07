@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 放左边的列表，右边的视频播放窗口 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <!-- 放文件列表 -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/filelist_layout"
+            android:orientation="horizontal"
+            android:visibility="visible" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ListView
+                    android:id="@+id/lv_all"
+                    style="@style/ListViewTheme" />
+
+                <TextView
+                    android:id="@+id/nofile_hint"
+                    style="@style/BottomBarBtnTheme"
+                    android:layout_gravity="center"
+                    android:drawableTop="@drawable/empty_icon"
+                    android:text="@string/str_no_file"
+                    android:textSize="26sp"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:src="@drawable/dvr_flist_fenge" />
+        </LinearLayout>
+
+        <!-- 放视频播放 -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <!-- 视频窗口 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content" >
+                </LinearLayout>
+
+                <RelativeLayout
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content" >
+        			
+                    <com.autochips.dvr.YeconVideoView
+                    android:id="@+id/dvr_video_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="8dp" >
+            </LinearLayout>
+
+            <!-- 一个总的布局，包括进度条时间按钮 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id = "@+id/playcontrol_layout"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <!-- 进度条 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content" >
+                    </LinearLayout>
+
+                    <SeekBar
+                        android:id="@+id/dvr_video_progress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxHeight="30dp"
+                		android:minHeight="30dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:progress="0"
+                        android:progressDrawable="@xml/seekbar_img"
+                        android:thumb="@xml/thumb" >
+                    </SeekBar>
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content" >
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 当前时间  总时间 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content" >
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/dvr_cur_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str_cur_time"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/dvr_total_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str_total_time"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content" >
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 播放 上一曲 下一曲 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <ImageButton
+                        android:id="@+id/dvr_btn_pre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:src="@drawable/btn_prev" />
+
+                    <ImageButton
+                        android:id="@+id/dvr_btn_play"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="visible"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:src="@drawable/btn_play" />
+                    <ImageButton
+                        android:id="@+id/dvr_btn_pause"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:src="@drawable/btn_pause" />
+
+                    <ImageButton
+                        android:id="@+id/dvr_btn_next"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#00000000"
+                        android:src="@drawable/btn_next" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 放底部的盘符按钮 -->
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="0"
+        android:background="@drawable/bottombar_bg"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/btn_tab_internal"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_folder_bg"
+            android:text="@string/str_tab_internal"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/btn_tab_sd1"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_folder_bg"
+            android:text="@string/str_tab_sd1"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/btn_tab_sd2"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_folder_bg"
+            android:text="@string/str_tab_sd2"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/btn_tab_usb1"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_folder_bg"
+            android:text="@string/str_tab_usb1"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/btn_tab_usb2"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_folder_bg"
+            android:text="@string/str_tab_usb2"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/btn_tab_usb3"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_folder_bg"
+            android:text="@string/str_tab_usb3"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/btn_tab_usb4"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_folder_bg"
+            android:text="@string/str_tab_usb4"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/btn_tab_usb5"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_folder_bg"
+            android:text="@string/str_tab_usb5"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

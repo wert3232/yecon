@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom_bar"
+    android:orientation="horizontal" >
+
+    <ToggleButton
+        android:id="@+id/action_check"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/button_bg_pub"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/btn_text_color"
+        android:textOff="@string/action_check_all"
+        android:textOn="@string/action_uncheck_all"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/action_delete"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/button_bg_pub"
+        android:enabled="false"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/action_delete"
+        android:textColor="@color/btn_text_color"
+        android:textSize="22sp" />
+
+    <ToggleButton
+        android:id="@+id/action_copy"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/button_bg_pub"
+        android:enabled="false"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/btn_text_color"
+        android:textOff="@string/action_copy"
+        android:textOn="@string/action_cancel"
+        android:textSize="22sp" />
+
+    <ToggleButton
+        android:id="@+id/action_cut"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/button_bg_pub"
+        android:enabled="false"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/btn_text_color"
+        android:textOff="@string/action_cut"
+        android:textOn="@string/action_cancel"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/action_paste"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/button_bg_pub"
+        android:enabled="false"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/action_paste"
+        android:textColor="@color/btn_text_color"
+        android:textSize="22sp" />
+
+</LinearLayout>

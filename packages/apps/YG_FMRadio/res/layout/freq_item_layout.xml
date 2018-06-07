@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp"
+    >
+	<TextView 
+	    android:id="@+id/freq_info_no"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:gravity="center"
+	    android:textColor="@color/tv_freq_select_color"
+	    android:background="@drawable/selector_freq_no_bg"
+	    android:textSize="@dimen/freq_unit_textview_textsize"
+	    />
+	    
+	    
+    <Space
+        android:layout_width="@dimen/space_layout_height"
+        android:layout_height="@dimen/space_layout_height" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_freq_btn"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    >
+	<TextView
+	    android:id="@+id/freq_info_value"
+	    android:layout_width="76dp"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:textColor="@color/tv_freq_select_color"
+	    android:textSize="@dimen/bottom_bar_textview_size"
+	    />
+	<TextView 
+	    android:id="@+id/freq_info_unit"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="5dp"
+	    android:layout_gravity="center_vertical|right"
+	    android:textColor="@color/tv_freq_select_color"
+	    android:textSize="@dimen/pre_freq_textview_textsize"
+	    />
+</LinearLayout>
+</LinearLayout>

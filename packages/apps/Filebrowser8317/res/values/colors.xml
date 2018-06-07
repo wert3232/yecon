@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="red">#7f00</drawable>
+    <drawable name="blue">#770000ff</drawable>
+    <drawable name="green">#7700ff00</drawable>
+    <drawable name="yellow">#77ffff00</drawable>
+    <drawable name="screen_background_black">#ff000000</drawable>
+    <drawable name="translucent_background">#e0000000</drawable>
+    <drawable name="transparent_background">#00000000</drawable>
+    <drawable name="filebrowser_bottom_cl">#e2200000</drawable>
+    <drawable name="filebrowser_listscrollbar_cl">#000000ff</drawable>
+    <drawable name="filebrowser_listselected_cl">#ffffff00</drawable>
+
+    <color name="solid_red">#f00</color>
+    <color name="solid_blue">#0000ff</color>
+    <color name="solid_green">#7cfc00</color>
+    <color name="solid_yellow">#ffffff00</color>
+    <color name="mmp_black">#000000</color>
+    <!-- 透明色 -->
+    <color name="lucency">#00000000</color>
+    <!-- 白色 -->
+    <color name="mmp_white">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="progress_start">#ff454543</color>
+    <color name="progress_end">#ff453452</color>
+    <!-- APP背景色 -->
+    <color name="appbackground">#0A2758</color>
+    <!-- 显示区域背景色 -->
+    <color name="showbackground">#003E92</color>
+    <!-- 文本高亮颜色 -->
+    <color name="textpresscolor">#00326F</color>
+
+</resources>

@@ -1,0 +1,102 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:carsetting="http://schemas.android.com/apk/res/com.yecon.carsetting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:padding="@dimen/fragment_padding" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/set_backcar_mirror"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_icon="@xml/icon_camera_state"
+            carsetting:item_style="1"
+            carsetting:item_subTitle="@string/set_backcar_mirror" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/set_parking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_icon="@xml/icon_parking_state"
+            carsetting:item_style="2"
+            carsetting:item_subTitle="@string/set_parking" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/set_screen_bright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_icon="@xml/icon_video_bright_state"
+            carsetting:item_seekbarMax="100"
+            carsetting:item_seekbarPos="50"
+            carsetting:item_style="6"
+            carsetting:item_subTitle="@string/set_screen_bright" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/set_screen_contast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_icon="@xml/icon_video_contrast_state"
+            carsetting:item_seekbarMax="100"
+            carsetting:item_seekbarPos="50"
+            carsetting:item_style="6"
+            carsetting:item_subTitle="@string/set_screen_contast" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/set_screen_hue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_icon="@xml/icon_video_hue_state"
+            carsetting:item_seekbarMax="100"
+            carsetting:item_seekbarPos="50"
+            carsetting:item_style="6"
+            carsetting:item_subTitle="@string/set_screen_hue" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/set_screen_saturation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_icon="@xml/icon_video_saturation_state"
+            carsetting:item_seekbarMax="100"
+            carsetting:item_seekbarPos="50"
+            carsetting:item_style="6"
+            carsetting:item_subTitle="@string/set_screen_saturation" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/set_screen_colorful"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_icon="@xml/icon_video_style_colorful_state"
+            carsetting:item_style="0"
+            carsetting:item_subTitle="@string/set_screen_colorful" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/set_screen_soft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_icon="@xml/icon_video_style_soft_state"
+            carsetting:item_style="0"
+            carsetting:item_subTitle="@string/set_screen_soft" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/set_screen_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_icon="@xml/icon_reset_state"
+            carsetting:item_style="0"
+            carsetting:item_subTitle="@string/set_screen_reset" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/set_backlight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="1"
+            carsetting:item_subTitle="@string/set_backlight" />
+    </LinearLayout>
+
+</ScrollView>

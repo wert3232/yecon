@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">Informace GPS</string>
+  <string name="reset_btn">přesázet</string>
+  <string name="back_btn">ukončit</string>
+  <string name="longitude">zeměpisná délka:</string>
+  <string name="latitude">zeměpisná šířka:</string>
+  <string name="height">výška:</string>
+  <string name="speed">rychlost:</string>
+  <string name="utc">Čas:</string>
+  <string name="unit">km/h</string>
+  <string name="meter">m</string>
+  <string name="fetch_gps_data">získávání dat gps...</string>
+  <string name="gpstest_title">GPS</string>
+</resources>

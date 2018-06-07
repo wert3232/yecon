@@ -1,0 +1,7 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="button_loundness_style">
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

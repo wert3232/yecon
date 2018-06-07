@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Metazone操作</string>
+    <string name="cb_sdcard_swap">GPS卡和媒体卡交换</string>
+    <string name="cb_gps_data_ext">GPS地图外置</string>
+    <string name="cb_mcu_debug_switch">MCU调试开关</string>
+    <string name="btn_write_metazone_file">Metazone文件写入</string>
+    <string name="btn_set_system_volume">系统音量设置</string>
+    <string name="btn_set_bt_volume">蓝牙音量设置</string>
+    <string name="btn_save_and_reboot">保存并重启</string>
+	<string name="btn_reset_value">重  置</string>
+	<string name="nothing_changed">配置未改变，无需保存和重启!</string>
+	<string name="dlg_title_metazone">写入Metazone文件</string>
+	<string name="dlg_msg_metazone">请将要写入的Metazone.bin文件存放到/mnt/ext_sdcard1/目录下。确定要将SD卡上的Metazone文件写入系统吗？</string>
+	<string name="str_ok">确定</string>
+	<string name="str_cancel">取消</string>
+	<string name="str_back">返回</string>
+	<string name="str_msg_write">一共写入</string>
+	<string name="str_msg_bytes">字节到Metazone区域,重启系统后才能生效...</string>
+	<string name="str_msg_nometafile">在/mnt/ext_sdcard1/下找不到Metazone.bin文件，写入失败！</string>
+	<string name="btn_reboot">重启系统</string>
+	
+    <string name="btn_system_volume">系统音量</string>
+    <string name="btn_bt_volume">蓝牙通话音量</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_play">播放1kHz</string>
+    <string name="btn_pause">暂停1kHz</string>
+    <string name="btn_add1">+1</string>
+    <string name="btn_add2">+10</string>
+    <string name="btn_add3">+100</string>
+    <string name="btn_add4">+1000</string>
+    <string name="btn_add5">+10000</string>
+    <string name="btn_sub1">-1</string>
+    <string name="btn_sub2">-10</string>
+    <string name="btn_sub3">-100</string>
+    <string name="btn_sub4">-1000</string>
+    <string name="btn_sub5">-10000</string>
+    <string name="sp_volume_prompt">选择最大音量级别</string>
+    <string name="volume_data_prompt">音量级别数据</string>
+    <string name="volume_level">音量级别</string>
+    <string name="volume_data">音量数据</string>
+    <string name="curr_volume_level">当前音量级别:</string>
+    <string name="volume_interval_time">5</string>
+    <string name="str_auto_interval">自动执行间隔(秒)</string>
+    <string name="str_auto">自动执行</string>
+    <string name="str_stop_auto">停止执行</string>
+    <string name="tv_comment">注意：在设置系统音量前，请先关闭媒体音效。音量级别可配置范围为30-80级，系统音量数值范围是0-131072（0x2000）。蓝牙通话音量数值范围为0-255。</string>
+    <string name="str_sysvol_out_of_range">数据超出容许范围(0~131072)</string>
+    <string name="str_btvol_out_of_range">数据超出容许范围(0~255)</string>
+    <string name="str_save_ok">保存成功，路径为:</string>
+    <string name="str_save_failed">保存失败！请确认是否有插TF卡(/mnt/ext_sdcard1/)</string>
+    <string name="str_read_failed">读取CSV文件失败！请确认文件是否存在</string>
+    <string name="str_format_error">CSV文件格式错误！请检查文件格式</string>
+    <string name="str_id_error">音量ID格式错误！请检查</string>
+    <string name="str_data_error">非法音量数据！请检查是否超出范围</string>
+    <string name="str_load_default">。 是否需要为您载入默认的音量数据？</string>
+    <string name="dlg_title_csv">读取CSV文件出错</string>
+    <string name="str_save_error">蓝牙通话音量最大级数与系统音量最大级数不一致，请重新设置蓝牙最大音量级别，保存失败！</string>
+    <string name="dlg_title_vol">音量保存提醒</string>
+    <string name="dlg_msg_save">音量设置已经改变，是否需要保存？</string>
+   
+    
+</resources>

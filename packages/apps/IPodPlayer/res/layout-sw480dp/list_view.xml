@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/bg_default">
+	
+     <LinearLayout
+        android:id="@+id/dd_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_bar_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/vArtist"
+            style="@style/BottomBarTextStyle"
+            android:contentDescription="@string/app_name"
+            android:background="@drawable/selector_bottom_btn_bg" 
+            android:drawableTop="@xml/tab_selector_performer"
+            android:text="@string/artist"/>
+
+        <TextView
+            android:id="@+id/vList"
+            style="@style/BottomBarTextStyle"
+            android:contentDescription="@string/app_name"
+            android:background="@drawable/selector_bottom_btn_bg" 
+            android:drawableTop="@xml/tab_selector_playlist"
+            android:text="@string/str_btn_list"/>
+
+        <TextView
+            android:id="@+id/vAlbum"
+            style="@style/BottomBarTextStyle"
+            android:contentDescription="@string/app_name"
+            android:background="@drawable/selector_bottom_btn_bg" 
+            android:drawableTop="@xml/tab_selector_album"
+            android:text="@string/album"/>
+        
+    </LinearLayout>
+
+	<ListView
+        android:id="@+id/music_list_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_left_margin"
+        android:paddingRight="@dimen/activity_right_margin"
+        android:paddingTop="@dimen/activity_top_margin"
+        android:paddingBottom="@dimen/activity_bottom_margin"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/dd_bottom"
+        android:layout_gravity="top"
+        android:divider="@null"
+        android:listSelector="@drawable/listview_item_bg"
+        />
+     
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/checkBoxcurcity"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_marginRight="136dp"
+        android:onClick="checkCurcity"
+        android:text="@string/chkcurrentcity" />
+
+    <fragment
+        android:id="@+id/fmid"
+        android:name="com.autochips.weather.SettingsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    
+
+</LinearLayout>

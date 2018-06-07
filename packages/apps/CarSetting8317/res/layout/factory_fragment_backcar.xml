@@ -1,0 +1,51 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:carsetting="http://schemas.android.com/apk/res/com.yecon.carsetting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:padding="@dimen/fragment_padding" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_backcar_enable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="2"
+            carsetting:item_subTitle="@string/factory_backcar_enable" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_backcar_mirror"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_backcar_mirror" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_backcar_track"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="2"
+            carsetting:item_subTitle="@string/factory_backcar_track" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_backcar_radar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="2"
+            carsetting:item_subTitle="@string/factory_backcar_radar" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_backcar_mute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            carsetting:item_style="2"
+            carsetting:item_subTitle="@string/factory_backcar_mute" />
+    </LinearLayout>
+
+</ScrollView>

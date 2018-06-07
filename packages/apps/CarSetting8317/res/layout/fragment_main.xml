@@ -1,0 +1,124 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:carsetting="http://schemas.android.com/apk/res/com.yecon.carsetting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:padding="@dimen/fragment_padding" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/set_general"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_icon="@xml/icon_general_state"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/set_general" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/set_datetime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_icon="@xml/icon_datetime_state"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/set_datetime" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/set_wallpaper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_icon="@xml/icon_wallpaper_state"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/set_wallpaper" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/set_navigation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_icon="@xml/icon_navigation_state"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/set_navigation" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/set_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_icon="@xml/icon_video_state"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/set_video" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/set_swc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_icon="@xml/icon_swc_state"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/set_swc" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/set_factory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_icon="@xml/icon_factory_state"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/set_factory" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/set_sound_effect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_icon="@xml/icon_sound_effect_state"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/set_sound_effect" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/set_radio_frequency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_icon="@xml/icon_radio_state"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/set_radio_frequency" >
+        </com.yecon.carsetting.view.HeaderLayout>
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/set_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_icon="@xml/icon_bt_state"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/set_bt" >
+        </com.yecon.carsetting.view.HeaderLayout>
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/set_gps_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_icon="@xml/icon_gpsinfo_state"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/set_gps_info" >
+        </com.yecon.carsetting.view.HeaderLayout>
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/set_wifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_icon="@xml/icon_wifi_state"
+            carsetting:item_style="2"
+            carsetting:item_subTitle="@string/set_wifi" >
+        </com.yecon.carsetting.view.HeaderLayout>
+        
+        <TextView
+            
+            android:id="@+id/factory_return"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:textColor="#fff"
+            android:textSize="22sp"
+            android:text="@string/str_btn_back" />
+    </LinearLayout>
+
+</ScrollView>

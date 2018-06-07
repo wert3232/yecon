@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/appbackground"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    
+    <include layout="@layout/list_error" />
+
+    <LinearLayout
+        android:id="@+id/layout_scan"
+        style="@style/LayoutScanTheme"
+        android:orientation="vertical" >
+
+        <ProgressBar
+            android:layout_width="@dimen/progress_default_width"
+            android:layout_height="@dimen/progress_default_height"
+            android:indeterminateDrawable="@drawable/yecon_progressbar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/textview_default_padding"
+            android:text="@string/file_scanning"
+            android:textColor="@color/white"
+            android:textSize="@dimen/scan_textview_textsize" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/layout_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottombar_bg" >
+
+        <TextView
+            android:id="@+id/btn_tab_list"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_list_bg"
+            android:text="@string/str_tab_list" 
+            android:visibility="gone"/>
+        
+	<TextView
+            android:id="@+id/btn_tab_internal"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_folder_bg"
+            android:text="@string/str_tab_internal"
+            android:visibility="gone" />
+		
+        <TextView
+            android:id="@+id/btn_tab_sd1"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_folder_bg"
+            android:text="@string/str_tab_sd1"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/btn_tab_sd2"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_folder_bg"
+            android:text="@string/str_tab_sd2" 
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/btn_tab_usb1"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_folder_bg"
+            android:text="@string/str_tab_usb1" 
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/btn_tab_usb2"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_folder_bg"
+            android:text="@string/str_tab_usb2" 
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/btn_tab_usb3"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_folder_bg"
+            android:text="@string/str_tab_usb3" 
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/btn_tab_usb4"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_folder_bg"
+            android:text="@string/str_tab_usb4" 
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/btn_tab_usb5"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_folder_bg"
+            android:text="@string/str_tab_usb5" 
+            android:visibility="gone"/>
+        
+    </LinearLayout>
+
+</LinearLayout>

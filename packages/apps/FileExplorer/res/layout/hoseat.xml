@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line" />
+
+    <LinearLayout
+        android:id="@+id/hotseat1"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hoseat_bg"
+        android:orientation="horizontal" >
+        <TextView
+            android:onClick="showOperate"
+            android:clickable="true"
+            android:gravity="center"
+            android:id="@+id/operate_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/operation"
+            android:textColor="#ffffffff"/>
+        <TextView
+            android:onClick="grid_listClick"
+            android:clickable="true"
+            android:gravity="center"
+            android:id="@+id/mode_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/mode"
+            android:textColor="#ffffffff"/>
+
+        <TextView
+            android:clickable="true"
+            android:onClick="selectVideo"
+            android:gravity="center"
+            android:id="@+id/video_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/video"
+            android:textColor="#ffffffff" />
+        <TextView
+            android:focusable="true"
+            android:onClick="select_equipment"
+            android:clickable="true"
+            android:gravity="center"
+            android:id="@+id/select_device_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/select_equipment"
+             android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#ffffffff" />
+        <TextView
+            android:clickable="true"
+            android:onClick="selectMusic"
+            android:gravity="center"
+            android:id="@+id/music_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/music"
+            android:textColor="#ffffffff" />
+
+         <TextView
+             android:clickable="true"
+             android:onClick="selectImage"
+            android:gravity="center"
+            android:id="@+id/image_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/image"
+            android:textColor="#ffffffff"/>
+         <TextView
+             android:clickable="true"
+             android:onClick="selectAPK"
+            android:gravity="center"
+            android:id="@+id/apk_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/apk"
+            android:textColor="#ffffffff" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hotseat2"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hoseat_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:onClick="backLast"
+            android:clickable="true"
+            android:gravity="center"
+            android:id="@+id/back_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/str_btn_back"
+                style="@style/BottomBarTextStyle"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:onClick="newDirOrFile"
+            android:clickable="true"
+            android:gravity="center"
+            android:id="@+id/new_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/str_new"
+                style="@style/BottomBarTextStyle"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:onClick="rename"
+            android:clickable="true"
+            android:gravity="center"
+            android:id="@+id/rename_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/str_rename"
+                style="@style/BottomBarTextStyle"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:onClick="copyClick"
+            android:clickable="true"
+            android:gravity="center"
+            android:id="@+id/copi_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/str_copy"
+                style="@style/BottomBarTextStyle"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:onClick="cutClick"
+            android:clickable="true"
+            android:gravity="center"
+            android:id="@+id/cut_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/help_cut"
+                style="@style/BottomBarTextStyle"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:onClick="pasteClick"
+            android:clickable="true"
+            android:gravity="center"
+            android:id="@+id/paste_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/help_paste"
+                style="@style/BottomBarTextStyle"
+            android:textColor="#ffffffff"/>
+
+        <TextView
+            android:onClick="delClick"
+            android:clickable="true"
+            android:gravity="center"
+            android:id="@+id/delte_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/help_delete"
+                style="@style/BottomBarTextStyle"
+            android:textColor="#ffffffff"/>
+
+        <TextView
+            android:onClick="select_equipment"
+            android:clickable="true"
+            android:gravity="center"
+            android:id="@+id/copyto_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/str_copy_to"
+                style="@style/BottomBarTextStyle"
+            android:textColor="#ffffffff" />
+    </LinearLayout>
+
+</LinearLayout>

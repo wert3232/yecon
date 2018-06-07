@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:layout_marginTop="200dp">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="300dp"
+		android:layout_height="wrap_content" android:layout_marginBottom="30dp"
+		android:layout_marginLeft="100dp" android:gravity="center">
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_marginLeft="5dp" android:layout_marginBottom="50dp"
+			android:layout_height="fill_parent" android:gravity="center">
+			<RadioGroup android:layout_width="250dp"
+				android:layout_marginLeft="40dp" android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:id="@+id/fomat">
+				<RadioButton 
+					android:text="@string/fmt601" 
+					android:id="@+id/fmt601" 
+					android:textSize="40dp"
+					android:checked="true" />
+				<RadioButton 
+					android:text="@string/fmt656" 
+					android:id="@+id/fmt656" 
+					android:textSize="40dp"
+					android:layout_marginTop="10dp"/>	
+			</RadioGroup>
+		</LinearLayout>
+	</LinearLayout>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="300dp"
+		android:layout_height="wrap_content" android:layout_marginLeft="50dp"
+		android:layout_marginBottom="30dp" android:gravity="center">
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_marginBottom="50dp" android:layout_height="fill_parent"
+			android:gravity="center">
+			
+			<RadioGroup android:layout_width="250dp"
+				android:layout_height="wrap_content" android:orientation="vertical"
+				android:checkedButton="@+id/bP" android:id="@+id/isProgressive">
+				<RadioButton 
+					android:text="@string/bP" 
+					android:id="@+id/bP" 
+					android:textSize="40dp" 
+					android:layout_marginTop="10dp"
+					android:checked="true" />
+				<RadioButton 
+					android:text="@string/bI" 
+					android:id="@+id/bI" 
+					android:textSize="40dp" 
+					android:layout_marginTop="10dp"/>
+			</RadioGroup>
+		</LinearLayout>
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_marginTop="50dp" android:layout_height="fill_parent"
+			android:gravity="center">
+			<Button android:id="@+id/apply" android:layout_width="260dp"
+				android:layout_height="wrap_content" android:layout_gravity="bottom"
+				android:layout_marginBottom="100dp" 
+				android:text="@string/apply" android:scaleType="fitCenter"
+				android:focusable="true" android:focusableInTouchMode="true" 
+				android:textSize="40dp"
+				android:background="@drawable/apply_button"/>
+		</LinearLayout>
+	</LinearLayout>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="300dp"
+		android:layout_height="wrap_content" android:layout_marginLeft="50dp"
+		android:layout_marginBottom="30dp" android:gravity="center">
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_marginBottom="50dp" android:layout_height="fill_parent"
+			android:gravity="center">
+			
+			<RadioGroup android:layout_width="250dp"
+				android:layout_height="wrap_content" android:orientation="vertical"
+				android:checkedButton="@+id/h480" android:id="@+id/height">
+				<RadioButton 
+					android:text="@string/h480" 
+					android:id="@+id/h480" 
+					android:textSize="40dp" 
+					android:layout_marginTop="10dp"
+					android:checked="true" />
+				<RadioButton 
+					android:text="@string/h576" 
+					android:id="@+id/h576" 
+					android:textSize="40dp" 
+					android:layout_marginTop="10dp"/>	
+			</RadioGroup>
+		</LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>

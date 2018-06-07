@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_loading"
+    style="@style/LayoutScanTheme"
+    android:background="@color/appbackground"
+    android:orientation="vertical" >
+
+    <ProgressBar
+    	android:visibility="gone"
+        android:layout_width="@dimen/progress_default_width"
+        android:layout_height="@dimen/progress_default_height"
+        android:indeterminateDrawable="@drawable/yecon_progressbar" />
+
+    <TextView
+    	android:visibility="gone"
+        android:id="@+id/tv_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/textview_default_padding"
+        android:text="@string/music_scanning"
+        android:textColor="@color/white"
+        android:textSize="@dimen/scan_textview_textsize" />
+
+</LinearLayout>

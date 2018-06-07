@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:background="#0A2758"
+    	>
+    	
+        <FrameLayout
+            android:id="@+id/layout_content"
+            android:layout_width="@dimen/fragment_width"
+            android:layout_height="@dimen/fragment_height" />
+        
+    <RadioGroup
+        android:id="@+id/tab_List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:soundEffectsEnabled="true"
+        android:background="@drawable/below_bar" >
+
+        <RadioButton
+            android:id="@+id/tab_dial"
+            android:checked="false"
+            style="@style/tab_rb_style"
+            android:drawableTop="@drawable/btn_call_image"
+            android:drawablePadding="-30dp"
+            android:text="@string/BtDialerLabel" />
+
+        <RadioButton
+            android:id="@+id/tab_callhistory"
+            android:checked="false"
+            style="@style/tab_rb_style"
+            android:drawableTop="@drawable/btn_callhistory_image"
+            android:drawablePadding="-30dp"
+            android:text="@string/BtCallHistoryLabel" /> 
+
+        <RadioButton
+            android:id="@+id/tab_phonebook"
+            android:checked="false"
+            style="@style/tab_rb_style"
+            android:drawableTop="@drawable/btn_phonebook_image"
+            android:drawablePadding="-30dp"
+            android:text="@string/BtPhonebookLabel" />
+
+        <RadioButton
+            android:id="@+id/tab_setting"
+            android:checked="false"
+            style="@style/tab_rb_style"
+            android:drawableTop="@drawable/btn_setting_image"
+            android:drawablePadding="-30dp"
+            android:text="@string/BtSettingsLabel" />
+
+        <RadioButton
+            android:id="@+id/tab_music"
+            android:checked="false"
+            style="@style/tab_rb_style"
+            android:drawableTop="@drawable/btn_music_image"
+            android:drawablePadding="-30dp"
+            android:text="@string/BtMusicLabel" />
+    </RadioGroup>
+</LinearLayout>	

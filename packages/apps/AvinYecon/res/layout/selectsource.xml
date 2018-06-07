@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout  
+		android:orientation="vertical" android:layout_width="300dp"
+		android:layout_height="fill_parent" android:layout_marginBottom="30dp"
+		android:layout_marginLeft="100dp" android:gravity="center">
+		<ImageView android:id="@+id/video_source"
+			android:background="@drawable/video_source" android:layout_width="50dp"
+			android:layout_height="50dp" android:layout_marginLeft="1dip"
+			android:layout_marginRight="10dip" android:layout_marginTop="8dip" />
+		<LinearLayout  
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_marginLeft="5dp" android:layout_marginBottom="50dp"
+			android:layout_height="fill_parent" android:gravity="center">
+			<ToggleButton android:id="@+id/video_on_off" style="@style/AVTouchToggleButton"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textOn="@string/video_on" android:textOff="@string/video_off" />
+			<RadioGroup android:layout_width="200dp"
+				android:layout_marginLeft="40dp" android:layout_height="wrap_content"
+				android:orientation="vertical" android:checkedButton="@+id/video_button1"
+				android:id="@+id/select_video">
+				<RadioButton android:text="@string/videoin1" android:id="@+id/video_button1" android:textSize="40dp"/>
+				<RadioButton android:text="@string/videoin2" android:id="@+id/video_button2" android:textSize="40dp" android:layout_marginTop="10dp"/>
+				<RadioButton android:text="@string/videoin3" android:id="@+id/video_button3" android:textSize="40dp" android:layout_marginTop="10dp"/>
+				<RadioButton android:text="@string/videoin4" android:id="@+id/video_button4" android:textSize="40dp" android:layout_marginTop="10dp"/>
+				<RadioButton android:text="@string/videoin5" android:id="@+id/video_button5" android:textSize="40dp" android:layout_marginTop="10dp"/>
+			</RadioGroup>
+		</LinearLayout>
+	</LinearLayout>
+
+	<Button android:id="@+id/apply" android:layout_width="260dp"
+		android:layout_height="wrap_content" android:layout_gravity="bottom"
+		android:layout_marginBottom="20dp" 
+		android:text="@string/apply" android:scaleType="fitCenter"
+		android:focusable="true" android:focusableInTouchMode="true" 
+		android:textSize="40dp"
+		android:background="@drawable/apply_button"/>
+
+	<LinearLayout  
+		android:orientation="vertical" android:layout_width="300dp"
+		android:layout_height="fill_parent" android:layout_marginRight="100dp"
+		android:layout_marginBottom="30dp" android:gravity="center">
+		<ImageView android:id="@+id/audio_source"
+			android:background="@drawable/audio_source" android:layout_width="50dp"
+			android:layout_height="50dp" android:layout_marginLeft="4dip"
+			android:layout_marginRight="2dip" android:layout_marginTop="8dip" />
+		<LinearLayout  
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_marginBottom="50dp" android:layout_height="fill_parent"
+			android:gravity="center">
+			<ToggleButton android:id="@+id/audio_on_off" style="@style/AVTouchToggleButton"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textOn="@string/audio_on" android:textOff="@string/audio_off" />
+			<RadioGroup android:layout_width="200dp"
+				android:layout_height="wrap_content" android:orientation="vertical"
+				android:checkedButton="@+id/audio_button1" android:id="@+id/select_audio">
+				<RadioButton android:text="@string/audioin1" android:id="@+id/audio_button1" android:textSize="40dp" android:layout_marginTop="10dp"/>
+				<RadioButton android:text="@string/audioin2" android:id="@+id/audio_button2" android:textSize="40dp" android:layout_marginTop="10dp"/>
+				<RadioButton android:text="@string/audioin3" android:id="@+id/audio_button3" android:textSize="40dp" android:layout_marginTop="10dp"/>
+				<RadioButton android:text="@string/audioin4" android:id="@+id/audio_button4" android:textSize="40dp" android:layout_marginTop="10dp"/>
+				<RadioButton android:text="@string/audioin5" android:id="@+id/audio_button5" android:textSize="40dp" android:layout_marginTop="10dp"/>
+			</RadioGroup>
+
+		</LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="str_ford_menu_sync">Sync语音</string>
+    <string name="str_ford_menu_carset">中控设置</string>
+    <!-- 福特中控设置 -->
+    <string name="str_tx_ford_carset">车辆设置</string>
+    <string name="str_tx_ford_carset_state">状态</string>
+    <string name="str_tx_ford_carset_eco">节油模式</string>
+    <string name="str_tx_ford_carset_enginehotper">引擎未热</string>
+    <string name="str_tx_ford_carset_other">其他</string>
+    <string name="str_ford_carset_tractionctrl">牵引力控制系统</string>
+    <string name="str_ford_carset_trunLightonce">转向灯设定</string>
+    <string name="str_ford_carset_msgtoneon">信息提示音</string>
+    <string name="str_ford_carset_warntoneon">警告提示音</string>
+    <string name="str_ford_carset_tonetype">当前发声模式</string>
+    <string name="str_ford_carset_mileunit">里程单位</string>
+    <string name="str_ford_carset_travelplan">节油模式-行驶规划</string>
+    <string name="str_ford_carset_travelspeed">节油模式-车速</string>
+    <string name="str_ford_carset_autobright">亮度</string>
+    <string name="str_ford_carset_enginehotper">XX%里程引擎未热百分比</string>
+    <string name="str_ford_carset_showenginehot">显示引擎未热项</string>
+    <string name="str_ford_carset_rainsensor">雨水感应器</string>
+    <string name="str_ford_carset_interiorlight">车内照明</string>
+    <string name="str_ford_carset_parklockctrl">Park lock Ctrl</string>
+    <string name="str_ford_attr_trunLightonce1">闪烁一次</string>
+    <string name="str_ford_attr_trunLightonce2">闪烁三次</string>
+    <string name="str_ford_attr_tonetype1">关闭</string>
+    <string name="str_ford_attr_tonetype2">慢速</string>
+    <string name="str_ford_attr_tonetype3">中速</string>
+    <string name="str_ford_attr_tonetype4">急速</string>
+    <string name="str_ford_attr_tonetype5">自动</string>
+    <string name="str_ford_attr_autobright1">手动</string>
+    <string name="str_ford_attr_autobright2">自动</string>
+    <string name="str_ford_attr_showenginehot1">不显示</string>
+    <string name="str_ford_attr_showenginehot2">显示</string>
+    <!-- sync -->
+    <string name="str_ford_sync_speech">语音</string>
+    <string name="str_ford_sync_phone">电话</string>
+    <string name="str_ford_sync_last">上一曲</string>
+    <string name="str_ford_sync_next">下一曲</string>
+    <string name="str_ford_sync_swicth">切换</string>
+    <string name="str_ford_sync_huang">挂断</string>
+    <string name="str_ford_sync_up">上</string>
+    <string name="str_ford_sync_dn">下</string>
+    <string name="str_ford_sync_left">左</string>
+    <string name="str_ford_sync_right">右</string>
+    <string name="str_ford_sync_ok">Ok</string>
+
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/device_item"
+    android:layout_width="fill_parent"
+    android:layout_height="57dp"
+    android:descendantFocusability="beforeDescendants"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp" 
+  	android:background="@xml/device_list_status">
+
+    <ImageView
+        android:id="@+id/device_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+        android:src="@drawable/imagecon" />
+
+        <TextView
+            android:id="@+id/item_remote_device_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+  		android:textColor="@color/btn_clearall"
+            android:textSize="24sp" 
+            android:gravity="center_vertical|left"
+            android:layout_gravity="center_vertical"/>
+        
+        <TextView
+            android:id="@+id/item_remote_connect_status"
+            android:layout_width="wrap_content" 
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+  		android:textColor="@color/btn_clearall"
+            android:textSize="22sp" 
+            android:layout_weight="4"
+            android:gravity="center_vertical|right"
+            android:layout_gravity="center_vertical"/>
+        
+    <TextView
+        android:id="@+id/item_remote_device_macaddr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="right"
+        android:layout_weight="1"
+        android:paddingRight="20dp"
+  		android:textColor="@color/btn_clearall"
+        android:textSize="22sp" 
+        android:visibility="gone"/>
+    <!-- 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_marginTop="0dp"
+  android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/item_remote_device_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+  		android:textColor="@color/btn_clearall"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/item_remote_connect_status"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+  		android:textColor="@color/btn_clearall"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_remote_device_macaddr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="right"
+        android:layout_weight="1"
+        android:paddingRight="20dp"
+  		android:textColor="@color/btn_clearall"
+        android:textSize="22sp" />
+ -->
+</LinearLayout>

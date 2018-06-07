@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MY_CANBus</string>
+    <string name="canbus_type_camry">Camry</string>
+    <string name="canbus_type_gc7">GC7</string>
+    <string name="canbus_type_vw">Volkswagen</string>
+    <string name="canbus_type_peugeot">Peugeot</string>
+    <string name="canbus_type_hyundai">Hyundai</string>
+    <string name="canbus_type_mazda">Mazda</string>
+    <string name="canbus_type_ford">Ford</string>
+    <string name="canbus_type_gm">GM</string>
+    <string name="canbus_type_honda">Honda</string>
+    <string name="btn_back">Back</string>
+    <string name="switcher_on">On</string>
+    <string name="switcher_off">Off</string>
+    <string name="item_air_conditioner">Air conditioner</string>
+    <string name="ac_temp_unit_c"> ℃</string>
+    <string name="ac_temp_unit_f"> ℉</string>
+    <string name="ac_ac">AC</string>
+    <string name="ac_auto_wind">Auto</string>
+    <string name="ac_dual">Dual</string>
+    <string name="ac_temp_lo">LO</string>
+    <string name="ac_temp_hi">HI</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btn_startService">Start Service</string>
+
+</resources>

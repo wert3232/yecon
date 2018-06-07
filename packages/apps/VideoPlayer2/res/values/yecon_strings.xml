@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="default_duration_time">00:00:00</string>
+    <string name="no_sd_error">No video</string>
+    <string name="file_scanning">File scanning, please wait!</string>
+    <string name="prompt_fastforward">FF: </string>
+    <string name="prompt_rewind">RW: </string>
+    <string name="folder_usb">USB folder</string>
+    <string name="folder_sd">SD card folder</string>
+    <string name="num0">0</string>
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="num3">3</string>
+    <string name="num4">4</string>
+    <string name="num5">5</string>
+    <string name="num6">6</string>
+    <string name="num7">7</string>
+    <string name="num8">8</string>
+    <string name="num9">9</string>
+    <string name="numok">OK</string>
+    <string name="MAX_TRACKS_IS">The max is </string>
+    <string name="parking_prompt_contents">For driving safety, please pay attention to driving!</string>
+    <string name="str_btn_pre">Prev</string>
+    <string name="str_btn_play">Play</string>
+    <string name="str_btn_pause">Pause</string>
+    <string name="str_btn_next">Next</string>
+    <string name="str_btn_rand">Rand on</string>
+    <string name="str_btn_rand_off">Rand off</string>
+    <string name="str_btn_loop">List loop</string>
+    <string name="str_btn_loop_current">one loop</string>
+    <string name="str_btn_loop_off">Loop off</string>
+    <string name="str_btn_list">List</string>
+	<string name="str_tab_folder">Folders</string>
+    <string name="str_tab_list">Playing List</string>
+    <string name="str_tab_internal">Internal</string>
+    <string name="str_tab_sd1">SD1</string>
+    <string name="str_tab_sd2">SD2</string>
+    <string name="str_tab_usb1">USB1</string>
+    <string name="str_tab_usb2">USB2</string>
+    <string name="str_tab_usb3">USB3</string>
+    <string name="str_tab_usb4">USB4</string>
+    <string name="str_tab_usb5">USB4</string>
+</resources>

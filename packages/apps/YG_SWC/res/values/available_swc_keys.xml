@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="available_swc_keys">
+        <item>pre</item>
+        <item>next</item>
+        <item>vol_up</item>
+        <item>power</item>
+        <item>vol_down</item>
+        <item>mute</item>
+        <item>phone_on</item>
+        <item>phone_off</item>
+        <item>mode</item>
+        <item>navi</item>
+        <item>radio</item>
+        <item>play_pause</item>
+        <item>dvd</item>
+        <item>eq</item>
+        <item>loud</item>
+        <item>voice</item>
+        <item>rand</item>
+        <item>return</item>
+        <item>home</item>
+    </string-array>
+
+</resources>

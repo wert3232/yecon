@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="80dp"
+	>
+	<!-- 
+    android:minHeight="?android:attr/listPreferredItemHeight" -->
+
+	<LinearLayout
+	  	android:id="@+id/phonebook_item"
+	  	android:descendantFocusability="blocksDescendants"
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="fill_parent"
+	  	android:orientation="horizontal"
+	  	android:gravity="center_vertical"
+	  	android:layout_marginTop="4dp"
+	  	android:layout_marginBottom="4dp"
+	  	android:background="@drawable/device_list_status">
+	
+	    
+	    <ImageView
+	  		android:id="@+id/phone_icon"
+	  		android:layout_width="wrap_content"
+	  		android:layout_height="fill_parent"
+	  		android:layout_marginTop="0dp"
+	  		android:layout_marginLeft="0dp"
+	  		android:src="@drawable/phone_icon"
+	  		android:visibility="visible"
+	  		/>
+	    <LinearLayout 
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="fill_parent"
+	        android:orientation="vertical"
+	        android:gravity="center"
+	        android:layout_marginLeft="20dp"
+	        >
+		  	<TextView
+		  		android:layout_width="match_parent"
+		  		android:layout_height="wrap_content"
+		  		android:id="@+id/item_phonebook_name"
+		  		android:textSize="22sp"
+		  		android:textColor="@color/btn_clearall"
+		  		android:gravity="center_vertical"
+		  		android:singleLine="true"
+		  		android:ellipsize="end"
+		  		/>
+		  	<!-- <com.autochips.bluetooth.view.MarqueeText
+		  		android:layout_width="match_parent"
+		  		android:layout_height="wrap_content"
+		  		android:layout_marginLeft="12dp"
+		  		android:id="@+id/item_phonebook_number"
+		  		android:textSize="22sp"
+		  		android:gravity="center_vertical"
+		  		android:textColor="@color/btn_clearall"
+		  		android:singleLine="true"
+		  		android:focusable="false"
+		  		android:ellipsize="marquee"
+		  		android:focusableInTouchMode="true"
+		        android:marqueeRepeatLimit="marquee_forever"
+		  		/> -->
+		  		<TextView 
+		  		    android:layout_width="match_parent"
+			  		android:layout_height="wrap_content"
+			  		android:layout_marginLeft="12dp"
+			  		android:id="@+id/item_phonebook_number"
+			  		android:textSize="22sp"
+			  		android:gravity="center_vertical"
+			  		android:textColor="@color/btn_clearall"
+			  		android:singleLine="true"
+			  		android:ellipsize="marquee"
+			        android:marqueeRepeatLimit="marquee_forever"
+		  		    />
+		 </LinearLayout>
+	</LinearLayout>
+
+</FrameLayout>

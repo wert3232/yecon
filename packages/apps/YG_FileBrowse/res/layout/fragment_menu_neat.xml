@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/action_search_bkg"
+    android:focusableInTouchMode="true"
+    android:gravity="center_vertical" >
+
+    <requestFocus />
+
+    <EditText
+        android:id="@+id/action_search"
+        android:layout_width="700dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="90dp"
+        android:background="#00000000"
+        android:hint="@string/search_hint"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:maxLength="24"
+        android:selectAllOnFocus="true"
+        android:singleLine="true" >
+    </EditText>
+
+    <ImageButton
+        android:id="@+id/action_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:background="@null"
+        android:onClick="onClick"
+        android:src="@drawable/menu_more" >
+    </ImageButton>
+
+</LinearLayout>

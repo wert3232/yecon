@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<style name="BottomPanelAnim" parent="android:Animation">
+		<item name="android:windowEnterAnimation">@anim/anim_bottom_in</item>
+		<item name="android:windowExitAnimation">@anim/anim_bottom_out</item>
+	</style>
+	<style name="AVTouchToggleButton">
+		<item name="android:gravity">right|center</item>
+		<item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:background">@drawable/mm_av_on</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:ellipsize">marquee</item>
+	</style>
+	<style name="AVIN_bt_style">
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">#FFFFFF</item>
+	    <item name="android:textSize">25sp</item>
+		<item name="android:singleLine">true</item>
+	    <item name="android:paddingLeft">20dp</item>
+	    <item name="android:layout_width">0dp</item>
+	    <item name="android:layout_height">match_parent</item>
+	    <item name="android:layout_weight">1</item>
+	    <item name="android:background">@drawable/button_press_bg</item>
+	    
+	  
+	</style>
+	
+	
+</resources>

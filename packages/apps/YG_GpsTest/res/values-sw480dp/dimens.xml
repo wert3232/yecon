@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- margin -->
+    <dimen name="layout_default_margin">16dp</dimen>
+
+    <!-- padding -->
+    <dimen name="content_default_padding">10dp</dimen>
+    <dimen name="layout_default_padding">16dp</dimen>
+
+    <!-- width -->
+    <dimen name="earth_view_width">260dp</dimen>
+    <dimen name="snr_prn_view_height">150dp</dimen>
+
+    <!-- text size -->
+    <dimen name="reset_textview_size">22sp</dimen>
+    <dimen name="info_textview_size">22sp</dimen>
+    <dimen name="btn_default_size">22sp</dimen>
+
+    <integer-array name="SnrPrnViewConstant">
+        <item>12</item>
+        <item>0</item>
+        <item>50</item>
+        <item>25</item>
+        <item>70</item>
+        <item>10</item>
+        <item>40</item>
+        <item>140</item>
+    </integer-array>
+
+</resources>

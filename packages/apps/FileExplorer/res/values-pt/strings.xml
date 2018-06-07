@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	
+	 <string name="app_name">Arquivos</string>
+    <string name="fujian">Copiar</string>
+    <string name="system_prompt ">Comando do sistema</string>
+    <string name="hello">Hello World, APKTools!</string>
+    <string name="data_load">Buscar dados</string>
+    <string name="data_quxiao">Cancelar busca</string>
+    <string name="data_load_msg">Buscando... aguarde!</string>
+    <string name="data_load_msg2">Carregando imagem... </string>
+    <string name="file_name">Nome do arquivo</string>
+    <string name="file_property">Propriedades do arquivo</string>
+    <string name="file_path">Caminho do arquivo</string>
+    <string name="file_date">Editar hora</string>
+    <string name="help">Instruções:</string>
+    <string name="help_home">Diretório principal</string>
+    <string name="help_search">Buscar</string>
+    <string name="help_uplevel">Subir um nível</string>
+    <string name="help_help">Ajuda</string>
+    <string name="help_list">Modo Lista</string>
+    <string name="help_grid">Modo ícones</string>
+    <string name="help_operation">Modo de Operação</string>
+    <string name="help_choose">Escolher</string>
+ 
+    <string name="help_copy">Copiar</string>
+    <string name="help_cut">Cortar</string>
+    <string name="help_paste">Colar</string>
+    <string name="help_delete">Excluir</string>
+    <string name="help_close">Sair</string>
+    <string name="search_specify_hint">Buscar arquivos por nome</string>
+    <string name="search_type_example">Buscar parte do nome do arquivo. Exemplo: pdf ou doc</string>
+    <string name="menu_bt_scan">Buscar</string>
+    <string name="search_path">Caminho</string>
+    <string name="search_type">Tipo</string>
+    <string name="search_keyworld">Palavra chave</string>
+    <string name="search_keyworld_checkbox">BBuscar arquivos por nome</string>
+    <string name="search_keyworld_error">Insira a palavra chave</string>
+    <string name="operation">Operação</string>
+    <string name="str_copy">Copiar</string>
+    <string name="str_new">Novo</string>
+    <string name="str_rename">Renomear</string>
+    <string name="str_new_file">Arquivo</string>
+    <string name="str_new_folder">Pasta</string>
+    <string name="msg_error_rename">Já existe um arquivo com !</string>
+    <string name="nofile">este nome, crie outro!</string>
+    <string name="msg_error_error">Erro!</string>
+    <string name="msg_error_faild">Falha de operação!</string>
+    <string name="msg_error_childpath">Não pode ser cortado para um subdiretório sob o diretório!</string>
+    <string name="msg_error_nocontent">Nenhum conteúdo para colar!</string>
+    <string name="msg_error_noobject">Nenhum objeto selecionado!</string>
+    <string name="operation_prepare">Preparando... </string>
+    <string name="operation_copy">Copiando:</string>
+    <string name="operation_delete">Excluindo:</string>
+    <string name="confirm_delete_title">Confirmação de exclusão</string>
+    <string name="confirm_delete_msg">Tem certeza que deseja?</string>
+    <string name="str_ok">excluir</string>
+    <string name="str_cancel">Cancelar</string>
+
+ 
+    <string name="mode">Modo</string>
+    <!-- hoseat txetView text -->
+    <string name="video">Video</string>
+    <string name="select_equipment">Dispositivo</string>
+    <string name="music">Música</string>
+    <string name="image">Imagem</string>
+    <string name="apk">APK</string>
+    
+    
+    
+    <string name="title_activity_photo">PhotoActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    
+    <!-- 未翻译 -->
+	<!-- 提示视频不能播放 -->
+	<string name="canotplayvedio"> O explorador de arquivos não suporta a função de reprodução, utilize um app de vídeo para reproduz-lo.</string>
+   <!-- 提示不能播放音乐 -->
+     <string name="fileExceplorerCanotPlay">O explorador de arquivos não suporta o formato deste vídeo. </string>
+     <!-- 损坏 -->
+     <string name="file_isnot_complete">O arquivo está danificado e não pode ser aberto.</string>
+	
+	
+	
+</resources>

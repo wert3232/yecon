@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 应用名 -->
+    <string name="app_name">Car Info</string>
+    <string name="choose_name">CarType Switch</string>
+    <!-- 空调信息 -->
+    <string name="ac_temp_unit_c"> ℃</string>
+    <string name="ac_temp_unit_f"> ℉</string>
+    <string name="ac_ac">AC</string>
+    <string name="ac_temp_lo">LO</string>
+    <string name="ac_temp_hi">HI</string>
+    <string name="ac_temp_lv">lv</string>
+    <string name="ac_eco">ECO</string>
+    <string name="ac_sync">SYNC</string>
+    <!-- 车型选择界面 -->
+    <string name="tx_can_show">Please select the corresponding models according to the options:</string>
+    <string name="bt_can_box">manufacturer:</string>
+    <string name="bt_can_line">cars:</string>
+    <string name="bt_can_type">models:</string>
+    <string name="bt_can_cfg">configuration:</string>
+    <string name="bt_can_sure">application</string>
+    <string name="tx_can_tips_same">Is this model</string>
+    <string name="tx_can_tips_str">Model selection success immediately restart the machine!</string>
+    <string name="other_ok">determine</string>
+    <string name="other_cancel">cancel</string>
+
+    <!-- honda 原车信息 -->
+    <string name="str_car_set">CarSet</string>
+    <string name="str_fuel_mil">Fuel Mil</string>
+    <string name="str_compass">Compass</string>
+    <string name="str_air_set">AirSet</string>
+    <string name="str_usb_ipod">UsbIpod</string>
+    <string name="str_trip_a_reset_timeing">TripA reset timing</string>
+    <string name="str_trip_b_reset_timeing">TripB reset timing</string>
+    <string name="str_adjust_out_temp">Adjust outSide temperature</string>
+    <string name="str_fuel_backlight">fuel backlight</string>
+    <string name="str_auto_light_sensitivity">Auto light sensitivity</string>
+    <string name="str_headlight_auto_off_time">Headlight auto off time</string>
+    <string name="str_interior_light_diming_time">Interior light diming time</string>
+    <string name="str_keyless_lock_answer_back">Keyless lock answer back</string>
+    <string name="str_key_and_remote_unlock_mode">Key and remote unlock mode</string>
+    <string name="str_security_relock_time">Security relock with</string>
+    <string name="str_auto_door_unlock_with">Auto door unlock with</string>
+    <string name="str_auto_door_lock_with">Auto door lock with</string>
+
+    <!-- <string name="str_keyless_access_beep_volume">Keyless access beep volume</string> -->
+    <string name="str_keyless_access_beep">Keyless access beep</string>
+    <string name="str_remote_start_system">Remote start system</string>
+    <string name="str_door_unlock_mode">Door unlock mode</string>
+    <string name="str_keyless_access_light_flash">Keyless access light flash</string>
+    <string name="str_auto_interior_illuminatiom_sensitivity">Auto interior illumination sensitivity</string>
+    <string name="str_adjust_alarm_volume">Adjust alarm volume</string>
+    <string name="str_fuel_efficienty_backlight">Fuel efficienty_backlight</string>
+    <string name="str_new_message_notification">New message notifications</string>
+    <string name="str_speed_distance_unit">Speed distance units</string>
+    <string name="str_tachometer">Tachometer</string>
+    <string name="str_walk_away_auto_lock">Walk away auto lock</string>
+    <string name="str_auto_head_light_on_with_wiper_on">Auto head light on with wiper on</string>
+    <string name="str_voice_alarm_system_volume">Voice alarm system volume</string>
+    <string name="str_engine_auto_notification">Engine automatic start stop tips</string>
+    <string name="str_acc_front_waring">ACC detection prompt tone</string>
+    <string name="str_pause_lkas_tone">Tone of pause LKAS</string>
+    <string name="str_set_front_waring_distance">Set risk distance head of car</string>
+    <string name="str_minor_lane_departure_system_settings">Minor lane departure system set</string>
+    <string name="str_tachometer_settings">Tachometer settings</string>
+
+    <!-- honda 油耗里程 -->
+    <string name="str_the_driving_conditions">Current Drive</string>
+    <string name="str_resume_driving_conditions">History of Trip A</string>
+    <string name="str_instant_fuel">Instance fuel</string>
+    <string name="str_average_fuel">Average fuel</string>
+    <string name="str_driving_range">Range:</string>
+    <string name="str_this_time">Current</string>
+    <string name="str_last_time">Previous</string>
+    <string name="str_first_time">First time</string>
+    <string name="str_second_time">Second time</string>
+    <string name="str_third_time">Third time</string>
+    <string name="str_delete_record">delete</string>
+    <string name="str_trip_a">Trip A</string>
+    <string name="str_invalid">--</string>
+
+    <!-- 里程重设条件 -->
+    <string name="str_refuel">With refuel</string>
+    <string name="str_ignite_off">Ignite off</string>
+    <string name="str_manually">Manually</string>
+
+    <!-- 时间 -->
+    <string name="str_time_0">0s</string>
+    <string name="str_time_15">15s</string>
+    <string name="str_time_30">30s</string>
+    <string name="str_time_60">60s</string>
+    <string name="str_time_90">90s</string>
+    <!-- 自动点灯敏感度 -->
+    <string name="str_sensitivity_min">Min</string>
+    <string name="str_sensitivity_low">Low</string>
+    <string name="str_sensitivity_mid">Middle</string>
+    <string name="str_sensitivity_high">High</string>
+    <string name="str_sensitivity_max">Max</string>
+
+    <!-- 自动落锁方式 -->
+    <string name="str_lock_by_speed">Vehicle speed</string>
+    <string name="str_lock_by_stalls">Shift from P</string>
+    <string name="str_lock_close">Off</string>
+
+    <!-- 自动解锁方式 -->
+    <string name="str_unlock_by_drive_door">All doors when driver\'s door opens</string>
+    <string name="str_unlock_by_stalls">All doors when shifted to park</string>
+    <string name="str_unlock_by_acc">All doors when ignition switched off</string>
+    <string name="str_unlock_by_close">Off</string>
+
+    <!-- 车门解锁 -->
+    <string name="str_unlock_drive_door">Driver door</string>
+    <string name="str_unlock_all_door">All doors</string>
+
+    <!-- 速度单位 -->
+    <string name="str_speed_unit_kmh">km/h  km</string>
+    <string name="str_speed_unit_mph">mph  mil</string>
+
+    <!-- 音量 -->
+    <string name="str_volume_min">Small</string>
+    <string name="str_volume_max">big</string>
+
+    <!-- 距离 -->
+    <string name="str_distance_fra">Away</string>
+    <string name="str_distance_center">Middle</string>
+    <string name="str_distance_near">Near</string>
+
+    <!-- 车道偏离辅修系统设定 -->
+    <string name="str_set_center">Middle</string>
+    <string name="str_set_wide">Wide</string>
+    <string name="str_set_warning_only">Warning only</string>
+    <!-- 指南针 -->
+    <string name="str_compass_calibration">Compass calibration</string>
+    <string name="str_compass_state">Status：</string>
+    <string name="str_compass_area">Area：</string>
+    <string name="str_compass_angle">magnetic field</string>
+    <string name="str_compass_is_calibration">Calibrating</string>
+    <string name="str_compass_exe_calibration">Perform calibration</string>
+    <string name="str_compass_exit_calibration">Exit calibration</string>
+    <!-- honda空调 -->
+    <string name="str_air_ac_mode">A/C</string>
+    <string name="str_air_win_mode">Mode</string>
+    <string name="str_air_temp">Temp</string>
+    <!-- honda usbipod -->
+    <string name="str_usbipod_time">00:00</string>
+    <string name="str_usbipod_tarck">0/0</string>
+    <string name="str_usbipod_pre">Previous</string>
+    <string name="str_usbipod_next">Next</string>
+    <string name="str_usbipod_play">Play</string>
+    <string name="str_usbipod_pause">Pause</string>
+    <string name="str_usbipod_f_pre">Pre Folder</string>
+    <string name="str_usbipod_f_next">Next Folder</string>
+    <string name="str_usbipod_cur_folder">CurFolder:</string>
+    <string name="str_usbipod_close">Close/Stop</string>
+    <string name="str_usbipod_loading">Loading</string>
+    <string name="str_usbipod_uncon">No Deivice</string>
+    <string name="str_usbipod_con">Device Connected</string>
+    <string name="str_usbipod_playing">Playing</string>
+
+    <!-- gm -->
+    <string name="str_gm_air_set">Air conditioning aystem settings</string>
+    <string name="str_gm_car_comforts">Vehicle comfort and convenience</string>
+    <string name="str_gm_impact_checking">Collision/detection system</string>
+    <string name="str_gm_lan">Language settings</string>
+    <string name="str_gm_light_setttings">Light settings</string>
+    <string name="str_gm_central_locking">Central locking set</string>
+    <string name="str_gm_intelligent_remote_key">Smart remote key settings</string>
+    <string name="str_gm_reset">Reset</string>
+    <string name="str_gm_confirm_reset">Confirm factory reset</string>
+    <string name="str_gm_confirm">Reset</string>
+    <string name="str_gm_auto_wind_set">Automatic wind setting mode</string>
+    <string name="str_gm_air_quality_sensor">Air mass sensor settings</string>
+    <string name="str_gm_part_temp">Air conditioning temperature partition</string>
+    <string name="str_gm_auto_defog_r">Automatic rear window defogging</string>
+    <string name="str_gm_auto_defog_f">Automatic front window demisting</string>
+    <string name="str_gm_remote_seat_heat">Remote start automatic seat heating</string>
+    <string name="str_gm_start_mode">Air conditioning startup mode</string>
+    <string name="str_gm_low">Low</string>
+    <string name="str_gm_mid">Mid</string>
+    <string name="str_gm_high">High</string>
+    <string name="str_gm_low_send">Low sensitivity</string>
+    <string name="str_gm_high_send">High sensitivity</string>
+    <string name="str_gm_unified_set">Unified set</string>
+    <string name="str_gm_part_setup">Partitioning Setup</string>
+    <string name="str_gm_last_set">By last setting</string>
+    <string name="str_gm_lan_chinese">Simplified Chinese</string>
+    <string name="str_gm_lan_english">English</string>
+    <string name="str_gm_car_set">In the control settings</string>
+    <string name="str_gm_on_star">OnStar</string>
+    <string name="str_gm_seek_headlight">Seek headlight function</string>
+    <string name="str_gm_lock_headlight_delay">Headlight latch delay settings</string>
+    <string name="str_gm_prevent_lock">Prevent the automatic latch when open door</string>
+    <string name="str_gm_start_lock">Start automatically latch</string>
+    <string name="str_gm_park_lock">Parking automatic latch</string>
+    <string name="str_gm_delay_lock">Delay latch</string>
+    <string name="str_gm_remote_unlock">Remote Unlock Light Feedback</string>
+    <string name="str_gm_remote_lock">Remote lock feedback</string>
+    <string name="str_gm_remote_unlock_set">Remote Unlock</string>
+    <string name="str_gm_start_wiper_by_back">Rear wipers automatically start</string>
+    <string name="str_gm_remote_then_lock">Remote lock the door again</string>
+    <string name="str_gm_remote_start_car">Remote Automatic Vehicle</string>
+    <string name="str_gm_car_body_ctrl">车身中控操作标识位</string>
+    <string name="str_gm_near_unlock">Near the car unlocked settings</string>
+    <string name="str_gm_froget_key">Forgotten keys reminder</string>
+    <string name="str_gm_person_by_driver">Driver personalized settings</string>
+    <string name="str_gm_auto_relock">Automatic re-lock the doors</string>
+    <string name="str_gm_flank_warning">Blind spot warning flank</string>
+    <string name="str_gm_radar_state">Parking assist radar</string>
+    <string name="str_gm_away_lock">From the car automatically latch</string>
+    <string name="str_gm_auto_collision">Auto collision preparation</string>
+    <string name="str_gm_car_state">Car status notification</string>
+    <string name="str_gm_auto_wiper">Auto Wiper</string>
+    <string name="str_gm_remote_wind">Remote window control</string>
+    <string name="str_gm_car_speed">Speed signal</string>
+    <string name="str_gm_warning_vol">Warning sound volume settings</string>
+
+    <!-- 落锁大灯延时设置 -->
+    <string name="str_gm_time_close">Close</string>
+    <string name="str_gm_time_30s">30 Second</string>
+    <string name="str_gm_time_1minute">1 Minute</string>
+    <string name="str_gm_time_2minute">2 Minute</string>
+
+    <!-- 驻车自动解锁 -->
+    <string name="str_gm_close">Close</string>
+    <string name="str_gm_open">Open</string>
+    <string name="str_gm_alram">alarm</string>
+    <string name="str_gm_alram_brake">Alarms and brake</string>
+    <string name="str_gm_hroning">When the speaker starts tweet</string>
+    <string name="str_gm_driver_door">Driver\'s door</string>
+    <string name="str_gm_all_door">All doors</string>
+    <string name="str_gm_only_light">Only light</string>
+    <string name="str_gm_light_horn">Lighting and Speaker</string>
+    <string name="str_gm_only_horn">Only Speaker</string>
+    <string name="str_gm_cant_operate">Inoperable</string>
+    <string name="str_gm_operate">Operable</string>
+    <string name="str_air_ac">AC</string>
+    <string name="str_air_ac_max">AC/MAX</string>
+    <string name="str_air_auto">Auto</string>
+    <string name="str_air_dual">Dual</string>
+    <string name="str_onstar_incoming">Incoming</string>
+    <string name="str_onstar_outgoing">Outgoing</string>
+    <string name="str_onstar_speaking">Speaking</string>
+    <!-- Gm end -->
+
+
+    <!-- Psa Start -->
+    <string name="str_psa_trip_com">Trip computer</string>
+    <string name="str_psa_page0">Page0</string>
+    <string name="str_psa_page1">Page1</string>
+    <string name="str_psa_page2">page2</string>
+    <string name="str_psa_other">Other</string>
+    <string name="str_psa_invalid">--</string>
+    <string name="str_psa_l_per_km">L/100Km</string>
+    <string name="str_psa_km">Km</string>
+    <string name="str_psa_km_per_h">Km/H</string>
+    <string name="str_psa_fuel_consumption">CurOilUse:</string>
+    <string name="str_psa_recharge_mileage">GoneMileage:</string>
+    <string name="str_psa_destination_miles">Destination city:</string>
+    <string name="str_psa_start_stop_timing">Start Stop function Timing:</string>
+    <string name="str_psa_fuel_average">AveOilUse:</string>
+    <string name="str_psa_speed_average">AviSpeed:</string>
+    <string name="str_psa_accumulated_miles">TotalMileage:</string>
+
+    <!-- psa CarSet -->
+    <string name="str_psa_rear_wiper">When Rear Wiper</string>
+    <string name="str_psa_driver_assist">Driving assistance</string>
+    <string name="str_psa_auto_door">Door locked state</string>
+    <string name="str_psa_driver_assist1">Parking aid</string>
+    <string name="str_psa_center_door">Central locking state</string>
+    <string name="str_psa_trip_page">Trip computer cur page</string>
+    
+    <string name="str_psa_light_status">Daytime running lights</string>
+    <string name="str_psa_light_delay">Headlight delayed state</string>
+    <string name="str_psa_auto_run_ill">Servo steering headlights</string>
+    
+    <string name="str_psa_light_atmosphere">Mood lighting state</string>
+    <string name="str_psa_radar_stop">Reversing radar disabled</string>
+    <string name="str_psa_backcar">Reversing state</string>
+    <string name="str_psa_p_gear">P gear or handbrake</string>
+    <string name="str_psa_small_light">Small lamp status</string>
+    
+    <string name="str_psa_light_go_home">With me home lighting</string>
+    <string name="str_psa_guest_light">Hospitality Lighting</string>
+    <string name="str_psa_eq_set">Sound settings</string>
+    <string name="str_psa_fuel_unit">Unit fuel consumption</string>
+    
+    <string name="str_psa_blind_area">Blind spot detection</string>
+    <string name="str_psa_start_stop_func">Engine start-stop function is deactivated</string>
+    <string name="str_psa_guest_func">Welcome Function</string>
+    <string name="str_psa_doors_open_set">Door open options</string>
+    <string name="str_psa_lan_set">Language settings</string>
+    <string name="str_psa_tire_pressure">Tire Pressure Calibration</string>
+    
+    <string name="str_psa_disable">Disable</string>
+    <string name="str_psa_enable">Enable</string>
+    <string name="str_psa_open">Open</string>
+    <string name="str_psa_close">Close</string>
+    <string name="str_psa_15s">15S</string>
+    <string name="str_psa_30s">30S</string>
+    <string name="str_psa_60s">60S</string>
+    
+    <string name="str_psa_eq_type1">Classic Sound</string>
+    <string name="str_psa_eq_type2">Crystal rhythm</string>
+    <string name="str_psa_eq_type3">Urban Rhythm</string>
+    <string name="str_psa_eq_type4">Jungle Fantasy</string>
+    
+    <string name="str_psa_fuel_unit1">KM/L</string>
+    <string name="str_psa_fuel_unit2">L/100KM</string>
+    <string name="str_psa_fuel_unit3">MPG</string>
+    
+    <string name="str_psa_english">English</string>
+    <string name="str_psa_chinese">Chinese</string>
+    <string name="str_psa_french">French</string>
+    
+    <string name="str_psa_only_driver_door">Only the driver\'s door</string>
+    <string name="str_psa_all_door">All the doors</string>
+    
+    <!-- PSA 报警记录、诊断编号、功能状态 -->
+    <string name="str_psa_warn">Alarm record</string>
+    <string name="str_psa_func">Functional status information</string>
+    <string name="str_psa_diog">Diagnostic Information</string>
+    
+    <string name="str_psa_warn_num">Total alarm:</string>
+    <string name="str_psa_func_num">Total state:</string>
+    <string name="str_psa_diog_num">Total diagnosis:</string>
+    
+    <string name="str_psa_no_func">No alarm recording</string>
+    <string name="str_psa_no_warn">No functional status information</string>
+    <string name="str_psa_no_diog">Diagnosis normal</string>
+    
+    <string name="str_psa_warn00">No record</string>
+    <string name="str_psa_warn01">Parking aid enabled</string>
+    <string name="str_psa_warn02">Disabled parking aid</string>
+    <string name="str_psa_warn03">Front passenger airbag is enabled</string>
+    <string name="str_psa_warn04">Passenger front airbag is disabled</string>
+    <string name="str_psa_warn05">Enable self-locking doors</string>
+    <string name="str_psa_warn06">Disable the door lock</string>
+    <string name="str_psa_warn07">The door is locked</string>
+    <string name="str_psa_warn08">Doors are unlocked</string>
+    <string name="str_psa_warn09">When Rear wiper use</string>
+    <string name="str_psa_warn0A">When Rear wiper disabled</string>
+    <string name="str_psa_warn0B">Engine temperature fault, please stop</string>
+    <string name="str_psa_warn0C">Please Fill the Coolant</string>
+    <string name="str_psa_warn0D">Please add engine oil</string>
+    <string name="str_psa_warn0E">Engine oil pressure fault, please stop</string>
+    <string name="str_psa_warn0F">Brake system failure</string>
+    <string name="str_psa_warn10">Inoperable</string>
+    <string name="str_psa_warn11">Doors, trunk, hood, rear window or the fuel tank is not closed</string>
+    <string name="str_psa_warn12">Multiple tire burst</string>
+    <string name="str_psa_warn13">Particulate filter clogging risks: Please refer to the instructions</string>
+    <string name="str_psa_warn14">Speed suspension failure：90km/h</string>
+    <string name="str_psa_warn15">Suspension system failure</string>
+    <string name="str_psa_warn16">Power steering failure</string>
+    <string name="str_psa_warn17">10km/h</string>
+    <string name="str_psa_warn18">Parking brake</string>
+    <string name="str_psa_warn19">The parking brake release</string>
+    <string name="str_psa_warn1A">Brake control fault the parking brake is automatically activated</string>
+    <string name="str_psa_warn1B">Grated brake pads</string>
+    <string name="str_psa_warn1C">Parking brake fault</string>
+    <string name="str_psa_warn1D">Variable speed tail loss of function, please refer to the instructions</string>
+    <string name="str_psa_warn1E">ABS malfunction</string>
+    <string name="str_psa_warn1F">ESP/ASR System error</string>
+    <string name="str_psa_warn20">Transmission system failure</string>
+    <string name="str_psa_warn21">Gearbox malfunction: maintenance vehicles</string>
+    <string name="str_psa_warn22">Cruise Control Fault</string>
+    <string name="str_psa_warn23">Particulate filter additive inadequate: Please maintenance vehicles</string>
+    <string name="str_psa_warn24">Electronic anti-theft system failure</string>
+    <string name="str_psa_warn25">Parking assist system malfunction</string>
+    <string name="str_psa_warn26">Parking measuring system failure</string>
+    <string name="str_psa_warn27">Battery charging or power supply system failure</string>
+    <string name="str_psa_warn28">Insufficient tire pressure</string>
+    <string name="str_psa_warn29">Near bad light bulb</string>
+    <string name="str_psa_warn2A">High beam bulb bad</string>
+    <string name="str_psa_warn2B">Bad brake lamp</string>
+    <string name="str_psa_warn2C">Fog lamps bad</string>
+    <string name="str_psa_warn2D">Turn signal bulb is broken</string>
+    <string name="str_psa_warn2E">Reversing the bad bulb</string>
+    <string name="str_psa_warn2F">Position light bulb is broken</string>
+    <string name="str_psa_warn30">Bar for shifting to "P" file</string>
+    <string name="str_psa_warn31">Beware of icy</string>
+    <string name="str_psa_warn32">Beware handbrake</string>
+    <string name="str_psa_warn33">Windshield washer fluid inadequate</string>
+    <string name="str_psa_warn34">Fuel shortage</string>
+    <string name="str_psa_warn35">Cutting oil</string>
+    <string name="str_psa_warn36">Remote control low battery</string>
+    <string name="str_psa_warn37">No tire pressure monitoring</string>
+    <string name="str_psa_warn38">High-speed, tire pressure detection is appropriate</string>
+    <string name="str_psa_warn39">Insufficient tire pressure</string>
+    <string name="str_psa_warn3A">Diagnosis</string>
+    <string name="str_psa_warn3B">Diagnosis complete</string>
+    <string name="str_psa_warn3C">Left and right seat belt</string>
+    <string name="str_psa_warn3D">Middle rear seat belt not fastened</string>
+    <string name="str_psa_warn3E">Left rear seat belt</string>
+    <string name="str_psa_warn3F">Rear right seat belt</string>
+    <string name="str_psa_warn40">Use automatic wiper</string>
+    <string name="str_psa_warn41">Disable automatic wiper</string>
+    <string name="str_psa_warn42">Headlights turn on automatically enabled</string>
+    <string name="str_psa_warn43">Headlights turn on automatically deactivated</string>
+    <string name="str_psa_warn44">Unable to open hardtop: Partitions not put</string>
+    <string name="str_psa_warn45">Hardtop operation is completed</string>
+    <string name="str_psa_warn46">An immediate end to the operation hardtop</string>
+    <string name="str_psa_warn47">Operation failed: hardtop is locked</string>
+    <string name="str_psa_warn48">Folding hardtop mechanical failure</string>
+    <string name="str_psa_warn49">The operation failed: the rear window is not closed</string>
+    <string name="str_psa_warn4A">Anti-slip down a system failure</string>
+    <string name="str_psa_warn4B">Driving modes: Normal Mode</string>
+    <string name="str_psa_warn4C">Driving mode: Dirt mode</string>
+    <string name="str_psa_warn4D">Driving mode: snow mode</string>
+    <string name="str_psa_warn4E">Driving mode: Sandy pattern</string>
+    <string name="str_psa_warn4F">ESP Disable system</string>
+    <string name="str_psa_warn50">Driving distance unmeasurable: Low Visibility</string>
+    <string name="str_psa_warn51">Driving distance unmeasurable: initializing</string>
+    <string name="str_psa_warn52">Events ceiling operation failed: Expanded not in place</string>
+    <string name="str_psa_warn53">Trunk lid is not closed</string>
+    <string name="str_psa_warn54">Fuel tank cap is not locked</string>
+    <string name="str_psa_warn55">Right rear door is not closed</string>
+    <string name="str_psa_warn56">Left rear door is not closed</string>
+    <string name="str_psa_warn57">Right front door is not closed</string>
+    <string name="str_psa_warn58">Left front door is not closed</string>
+    <string name="str_psa_warn59">Beware handbrake</string>
+    <string name="str_psa_warn5A">Airbags or seat belt pre-tensioners fault</string>
+    <string name="str_psa_warn5B">Diesel filter water: Make maintenance vehicles</string>
+    <string name="str_psa_warn5C">Tire pressure monitoring system failure</string>
+    <string name="str_psa_warn5D">Unable to open hardtop: System-temperature (less than the left rear tire pressure: Please inflated, and then re-initialized)</string>
+    <string name="str_psa_warn5E">Unable to open hardtop: System-temperature (less than the right rear tire pressure: Please inflated, and then re-initialized)</string>
+    <string name="str_psa_warn5F">Electronic anti boot failure</string>
+    <string name="str_psa_warn60">Steering wheel lock malfunction: maintenance vehicles</string>
+    <string name="str_psa_warn61">Detection middle brake light</string>
+    <string name="str_psa_warn62">Preheat / disable pre-ventilation: insufficient fuel (cruise control system failure)</string>
+    <string name="str_psa_warn63">Preheat / pre-aeration disabled: Low battery</string>
+    <string name="str_psa_warn64">Hybrid system malfunction: speed, maintenance of vehicles</string>
+    <string name="str_psa_warn65">Hybrid system malfunction: maintenance vehicles</string>
+    <string name="str_psa_warn66">Headlight automatic control system failure</string>
+    <string name="str_psa_warn67">Hybrid system malfunction: Please refer to the instructions and parking</string>
+    <string name="str_psa_warn68">Unable to open hardtop: System-temperature (less than the left front tire pressure: Please inflated, and then re-initialized)</string>
+    <string name="str_psa_warn69">Unable to open hardtop: The system temperature is too high (insufficient front right tire pressure: Please inflated, and then re-initialized)</string>
+    <string name="str_psa_warn6A">Tire pressure monitoring system failure (not the tire pressure monitor)</string>
+    <string name="str_psa_warn6B">Trailer hitch malfunction: maintenance of vehicles (light sensor failure)</string>
+    <string name="str_psa_warn6C">Preheat / disable pre-ventilation: Adjust the clock</string>
+    <string name="str_psa_warn6D">The risk of collision detection failure (the hood is not closed)</string>
+    <string name="str_psa_warn6E">Headlights with dynamic steering fault</string>
+    <string name="str_psa_warn6F">Automatic parking brake system failure (the hood is not closed)</string>
+    <string name="str_psa_warn70">Lane departure warning Fault</string>
+    <string name="str_psa_warn71">Sensor Failure: No left rear tire pressure monitoring</string>
+    <string name="str_psa_warn72">Sensor Failure: No rear right tire pressure monitoring</string>
+    <string name="str_psa_warn73">Sensor Failure: No right front tire pressure monitoring</string>
+    <string name="str_psa_warn74">Sensor Failure: No left front tire pressure monitoring</string>
+    <string name="str_psa_warn75">Tire pressure monitoring system failure (filling stain additive)</string>
+    <string name="str_psa_warn76">Engine (engine) failure: Please stop</string>
+    <string name="str_psa_warn77">Engine (engine) fault: vehicle maintenance</string>
+    <string name="str_psa_warn78">Driving distance measurement error</string>
+    <string name="str_psa_warn79">Filling pollution Additives: Never start</string>
+    <string name="str_psa_warn7A">Filling antipollution additive</string>
+    <string name="str_psa_warn7B">Left front tire pressure insufficient: Please inflated, and then re-initialize (anti-pollution system failure: Never start)</string>
+    <string name="str_psa_warn7C">Insufficient front right tire pressure: Please inflated, and then re-initialize (anti-pollution system failure: activation disabled)</string>
+    <string name="str_psa_warn7D">Left rear tire pressure insufficient: Please inflated, and then re-initialize (anti-pollution system failure: activation disabled)</string>
+    <string name="str_psa_warn7E">Right rear tire pressure insufficient: Please inflated, and then re-initialize (anti-pollution system failure: activation disabled)</string>
+    <string name="str_psa_warn7F">Left rear tire rupture: replacement or repair of tires</string>
+    <string name="str_psa_warn80">Right rear tire burst: replacement or repair of tires</string>
+    <string name="str_psa_warn81">Front right tire rupture: replacement or repair of tires</string>
+    <string name="str_psa_warn82">Front left tire burst: replacement or repair of tires</string>
+    <string name="str_psa_warn83">Right rear brake light bulb is broken</string>
+    <string name="str_psa_warn84">Left rear brake light bulb is broken</string>
+    <string name="str_psa_warn85">Antipollution system failure</string>
+    <string name="str_psa_warn86">Pollution prevention system failure: Never start</string>
+	<string name="str_psa_warn87">Close headlights</string>
+	<string name="str_psa_warnF0">No information</string>
+	<string name="str_psa_warnFF">Unknown Information</string>
+	
+	<!-- psa 记忆速度 -->
+	<string name="str_psa_speed1">Speed1</string>
+	<string name="str_psa_speed2">Speed2</string>
+	<string name="str_psa_speed3">Speed3</string>
+	<string name="str_psa_speed4">Speed4</string>
+	<string name="str_psa_speed5">Speed5</string>
+	<string name="str_psa_speed6">Speed6</string>
+	<string name="str_psa_reset">Reset</string>
+	<string name="str_psa_user_set">Customer Settings</string>
+	<string name="str_psa_mem_speed">Memory speed: </string>
+	<string name="str_psa_mem_speed_set">Memory speed set value</string>
+	<string name="str_psa_cru_speed_set">Set cruise speed value</string>
+	<string name="str_psa_limit_speed_set">Setting the speed limit</string>
+	<string name="str_psa_speed_unit">km/h</string>
+	
+	<!-- 传祺 Carset-->
+	<string name="str_cq_air_set">Air Set</string>
+	<string name="str_cq_compressor">Auto compressor status</string>
+	<string name="str_cq_cyclectrl">Auto inner and outer loop control mode</string>
+	<string name="str_cq_cozy">Conditioned comfort curve settings</string>
+	<string name="str_cq_anion_mode">Negative ion mode</string>
+	
+	<string name="str_cq_seat_set">Seat setting</string>
+	<string name="str_cq_leftautoheat">Driving seat automatic heating setting</string>
+	<string name="str_cq_rightautoheat">Heated passenger seat automatically set</string>
+	<string name="str_cq_leftheatlv">Driving position seat heating</string>
+	<string name="str_cq_rightheatlv">Copilot seat heating position</string>
+	<string name="str_cq_welcomefunc">Seat welcome feature set</string>
+	<string name="str_cq_autokey">Intelligent Key automatically identify the position of the seat</string>
+	
+	<string name="str_cq_drive_assistance">Driving assistance</string>
+	<string name="str_cq_overspeed">Speed alarm</string>
+	<string name="str_cq_alramvol">Instrument cluster alarm volume</string>
+	<string name="str_cq_powertime">Remote power-up time</string>
+	<string name="str_cq_starttime">Remote start time</string>
+	<string name="str_cq_steermode">Steering mode</string>
+	
+	<string name="str_cq_car_body">Body Accessories</string>
+	<string name="str_cq_remoteunlock">Remote Unlock</string>
+	<string name="str_cq_lockbyspeed">Speed lock</string>
+	<string name="str_cq_autounlock">Auto Unlock</string>
+	<string name="str_cq_remotewind">Remote left front windows and skylights</string>
+	<string name="str_cq_frontwiper">Front wiper maintenance functions</string>
+	<string name="str_cq_rearwiper">Rear wiper reverse automatic wiper function</string>
+	<string name="str_cq_rearviewmirror">Automatic folding exterior mirrors</string>
+	
+	<string name="str_cq_light_ctrl">Lighting control</string>
+	<string name="str_cq_followtohome">I went home with</string>
+	<string name="str_cq_foglights">Fog steering assist</string>
+	<string name="str_cq_daylights">Daytime Running Lights</string>
+	<string name="str_cq_lightsensitivity">Auto Light sensitivity</string>
+	
+	<string name="str_cq_cycle_auto">automatic</string>
+	<string name="str_cq_cycle_manu">Manually</string>
+	
+	<string name="str_cq_slow">slow</string>
+	<string name="str_cq_normal">normal</string>
+	<string name="str_cq_fast">fast</string>	
+	
+	<string name="str_cq_movement">movement</string>
+	<string name="str_cq_standard">standard</string>
+	<string name="str_cq_Cozy">cozy</string>	
+	
+	<string name="str_cq_lv1">Level 1</string>
+	<string name="str_cq_lv2">Level 3</string>
+	<string name="str_cq_lv3">Level 3</string>
+	<string name="str_cq_close">Close</string>
+	<string name="str_cq_lowbeamlights">Only light near</string>
+	<string name="str_cq_rear_light">Near the rear fog light</string>	
+	<!-- 传祺 end -->
+	
+	<!-- 名爵 MG start -->
+	<string name="str_mg_lock_ctrl">Lock control</string>
+	<string name="str_mg_driving_latch">Driving latch</string>
+	<string name="str_mg_unlock">Auto Unlock</string>
+	<string name="str_mg_unlock_mode">Unlock mode</string>
+	<string name="str_mg_near_unlock">Smart unlock car near</string>
+	
+	<string name="str_mg_lights_ctrl">Lighting control (with me home)</string>
+	<string name="str_mg_revers_lights">Reversing light</string>
+	<string name="str_mg_near_lights">Low beam lights</string>
+	<string name="str_mg_fog_lights">Rear fog lamps</string>
+	<string name="str_mg_gohome_time">I went home with the duration</string>
+	
+	<string name="str_mg_f_lights_ctrl">Lighting control (look for cars indication)</string>
+	<string name="str_mg_f_gohome_time">Searching cars indication duration</string>
+	
+	<string name="str_mg_time_00">30s</string>
+	<string name="str_mg_time_01">1m</string>
+	<string name="str_mg_time_02">1m30s</string>
+	<string name="str_mg_time_03">2m</string>
+	<string name="str_mg_time_04">2m30s</string>
+	<string name="str_mg_time_05">3m</string>
+	<string name="str_mg_time_06">3m30s</string>
+	<string name="str_mg_time_07">4m</string>
+	<string name="str_mg_time_08">4m30s</string>
+	<string name="str_mg_time_09">5m</string>
+	
+	<string name="str_mg_air_on">On</string>
+	<string name="str_mg_air_off">Off</string>
+	
+	<string name="str_mg_air_par">Parallel</string>
+	<string name="str_mg_air_par_dn">Parallel Down</string>
+	<string name="str_mg_air_dn">Down</string>
+	<string name="str_mg_air_up_dn">Up Down</string>
+	<string name="str_mg_air_up">Up</string>
+	<string name="str_mg_air_auto">Auto Desk</string>
+    <!-- 雷达界面 -->
+    <string name="radar_text">Parking system</string>
+    <string name="radar_warn_text">Please make sure the safe to reverse</string>
+    <string name="str_mazda_set_h">H</string>
+    <string name="str_mazda_set_m">M</string>
+    <string name="str_mazda_set_s">S</string>
+    <string name="str_jac_tpms_normal">normal</string>
+    <string name="str_jac_tpms_warn">error</string>
+    
+    <string name="str_zotye_tpms_state_1">fail</string>
+    <string name="str_zotye_tpms_state_2">low warn</string>
+    <string name="str_zotye_tpms_state_3">high warn</string>
+    <string name="str_zotye_tpms_state_4">system fail</string>
+</resources>

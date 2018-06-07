@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="Z:/yecon/yecon_ac8317/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/mcu"/>
+	<classpathentry exported="true" kind="lib" path="Z:/yecon/yecon_ac8317/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/os"/>
+	<classpathentry exported="true" kind="lib" path="Z:/yecon/yecon_ac8317/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media"/>
+	<classpathentry exported="true" kind="lib" path="Z:/yecon/yecon_ac8317/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/content"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/TuoXianUI"/>
+	<classpathentry exported="true" kind="lib" path="Z:/yecon/yecon_ac8317/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/bluetooth"/>
+	<classpathentry exported="true" kind="lib" path="Z:/yecon/yecon_ac8317/out/target/common/obj/JAVA_LIBRARIES/autochips_intermediates/classes/com/autochips/settings"/>
+	<classpathentry exported="true" kind="lib" path="Z:/yecon/yecon_ac8317/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/net"/>
+	<classpathentry exported="true" kind="lib" path="Z:/yecon/yecon_ac8317/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view"/>
+	<classpathentry exported="true" kind="lib" path="Z:/yecon/yecon_ac8317/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/constant"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/core_class"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="lib" path="Z:/yecon/yecon_ac8317/out/target/common/obj/JAVA_LIBRARIES/autochips_intermediates/classes/com/autochips/bluetooth"/>
+	<classpathentry exported="true" kind="lib" path="Z:/yecon/yecon_ac8317/out/target/common/obj/JAVA_LIBRARIES/autochips_intermediates/classes/com/autochips/storage"/>
+	<classpathentry exported="true" kind="lib" path="Z:/yecon/yecon_ac8317/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/backlight"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

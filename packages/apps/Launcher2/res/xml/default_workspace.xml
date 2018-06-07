@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher" >
+
+    <!-- workspace -->
+
+<!--     <appwidget
+        launcher:className="com.autochips.weather.WeatherProvider"
+        launcher:packageName="com.autochips.weather"
+        launcher:screen="0"
+        launcher:spanX="6"
+        launcher:spanY="1"
+        launcher:x="0"
+        launcher:y="0" />
+ -->
+    <favorite
+        launcher:className="com.yecon.OperateIntro.mainActivity"
+        launcher:packageName="com.yecon.OperateIntro"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="1" />
+    <favorite
+        launcher:className="com.yecon.avin.AVInActivity"
+        launcher:packageName="com.yecon.avin"
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="1" />
+    <favorite
+        launcher:className="com.yecon.imagebrowser.ImageBrowserActivity"
+        launcher:packageName="com.yecon.imagebrowser"
+        launcher:screen="0"
+        launcher:x="2"
+        launcher:y="1" />
+    <favorite
+        launcher:className="com.autochips.dvr.MainActivity"
+        launcher:packageName="com.autochips.dvr"
+        launcher:screen="0"
+        launcher:x="3"
+        launcher:y="1" />
+    <favorite
+        launcher:className="com.autochips.miracast.MainActivity"
+        launcher:packageName="com.autochips.miracast"
+        launcher:screen="0"
+        launcher:x="4"
+        launcher:y="1" />
+    <favorite
+        launcher:className="com.yecon.dvdplayer.DvdStartupActivity"
+        launcher:packageName="com.yecon.dvdplayer"
+        launcher:screen="0"
+        launcher:x="5"
+        launcher:y="1" />
+
+    <!-- hotseat -->
+
+    <favorite
+        launcher:className="com.yecon.carsetting.NavigationAcitivity"
+        launcher:container="-101"
+        launcher:packageName="com.yecon.carsetting"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.yecon.fmradio.FMRadioMainActivity"
+        launcher:container="-101"
+        launcher:packageName="com.yecon.fmradio"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.autochips.bluetooth.MainBluetoothActivity"
+        launcher:container="-101"
+        launcher:packageName="com.autochips.bluetooth"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.yecon.video.VideoPlaybackMainActivity"
+        launcher:container="-101"
+        launcher:packageName="com.yecon.video"
+        launcher:screen="3"
+        launcher:x="3"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.yecon.music.MusicPlaybackMainActivity"
+        launcher:container="-101"
+        launcher:packageName="com.yecon.music"
+        launcher:screen="4"
+        launcher:x="4"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.yecon.carsetting.FragmentTabAcitivity"
+        launcher:container="-101"
+        launcher:packageName="com.yecon.carsetting"
+        launcher:screen="5"
+        launcher:x="5"
+        launcher:y="0" />
+
+</favorites>

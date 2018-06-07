@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FileManager</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="file_name">Name</string>
+    <string name="file_modifiedtime">Modified Time</string>
+    <string name="file_size">Size</string>
+    <string name="file_kind">Kind</string>
+
+    <!-- popup menu -->
+    <string name="popup_menu_rename">Rename</string>
+    <string name="popup_menu_info">Info</string>
+
+    <!-- button operation -->
+
+    <string name="action_check_all">Check all</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_paste">Paste</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_uncheck_all">Uncheck all</string>
+    <string name="action_cut">Cut</string>
+
+    <!-- action bar -->
+    <string name="action_gridview">Grid</string>
+    <string name="action_listview">List</string>
+    <string name="action_left">Left</string>
+
+    <!-- mime option dialog -->
+    <string name="dialog_select_type">Unknown file,please choose a type.</string>
+    <string name="dialog_type_text">Text</string>
+    <string name="dialog_type_video">Video</string>
+    <string name="dialog_type_audio">Audio</string>
+    <string name="dialog_type_image">Image</string>
+
+    <!-- input dialog activity -->
+    <string name="activity_input_confirm">OK</string>
+    <string name="activity_input_cancel">Cancel</string>
+    <string name="activity_title_new_folder">New Folder Name</string>
+
+    <!-- alert dialog -->
+    <string name="alert_rename">Rename</string>
+    <string name="alert_back">Back</string>
+    <string name="alert_invaild_name">Invaild Name</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dialog_delete_warning">Delete these items?</string>
+    <string name="dialog_progress_delete">Deleting...</string>
+    <string name="dialog_progress_paste">Pasting...</string>
+    <string name="dialog_progress_load">Loading...</string>
+    <string name="dialog_progress_search">Searching...</string>
+    <string name="dialog_error_title">ERROR</string>
+    <!-- <string name="digloa_complete_title">Complete</string> -->
+    <string name="load_error">CAN NOT LOAD</string>
+    <string name="dialog_paste_error_notwritable">THIS PATH IS NOT WRITABLE</string>
+    <string name="dialog_paste_error_contained">CAN NOT PASTE TO THE SAME FOLDER</string>
+    <string name="dialog_paste_error_nospace">NOT ENOUGH SPACE</string>
+    <string name="dialog_paste_error_androidsecure">INCLUDE .android_secure FOLDER</string>
+    <string name="dialog_delete_error">DELETE UNFINISHED</string>
+    <string name="dialog_delete_abort">DELETE ABORT</string>
+     <string name="dialog_caculating">Caculating</string>
+
+    <!--file category fragment -->
+    <string name="usb">U-</string>
+    <string name="usb1">USB1</string>
+    <string name="usb2">USB2</string>
+    <string name="usb3">USB3</string>
+    <string name="usb4">USB4</string>
+    <string name="usb5">USB5</string>
+    <string name="sd1">SD1</string>
+    <string name="sd2">SD2</string>
+    <string name="internal">HardDisk</string>
+
+    <!-- test -->
+    <string name="test">test</string>
+
+    <string name="empty_view_description">No Files</string>
+
+    <!-- fragment normal info title-->
+    <string name="fragment_info_normal_title_name">Name</string>
+    <string name="fragment_info_normal_title_type">Type</string>
+    <string name="fragment_info_normal_title_location">Location</string>
+    <string name="fragment_info_normal_title_size">Size</string>
+    <string name="fragment_info_normal_title_time">Time</string>
+    <string name="fragment_info_normal_title_read">Readable</string>
+    <string name="fragment_info_normal_title_write">Writable</string>
+    <string name="fragment_info_normal_title_exe">Executable</string>
+    <string name="fragment_info_normal_title_permission">Permission</string>
+
+    <!-- fragment image info title -->
+    <string name="fragment_info_image_title_size">Original Size</string>
+    <string name="fragment_info_image_title_color">Color Format</string>
+
+    <!-- fragment info subtitle -->
+    <string name="fragment_info_width">Width</string>
+    <string name="fragment_info_height">Height</string>
+
+    <!-- fragment info units -->
+    <string name="pixels">pixel(s)</string>
+    <string name="tab">tab</string>
+
+    <!-- file type -->
+    <string name="file_type_folder">Folder</string>
+    <string name="file_type_audio">Audio</string>
+    <string name="file_type_video">Video</string>
+    <string name="file_type_image">Image</string>
+    <string name="file_type_other">Other</string>
+
+    <string name="menu_item_title_new_folder">Create New Folder</string>
+    <string name="menu_item_title_sort">Sort</string>
+    <string name="menu_item_title_view">View</string>
+
+    <string name="search_hint">Search</string>
+    <string name="search_fail">Can not find the file</string>
+
+    <string name="indicator_file_normal">Normal</string>
+    <string name="indicator_file_more">More</string>
+
+    <string name="resolution">Resolution(px)</string>
+
+    <string name="dateTaken">Date Taken</string>
+    <string name="longtitude">Longtitude</string>
+    <string name="latitude">Latitude</string>
+
+    <string name="duration">Duration</string>
+    <string name="artist">Artist</string>
+    <string name="album">Album</string>
+    
+    <string name="storage_total">Total space </string>
+    <string name="storage_free">Free space </string>
+    
+    <string name="no_support_apk">Can not open this file</string>
+</resources>

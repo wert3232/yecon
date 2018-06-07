@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">MemoryFlashTest</string>
+    <string name="description">Please choose Memory or Flash to test.</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="exit">Exit</string>
+    <string name="MemoryAndFlash">Memory And Flash</string>
+    <string name="Memory">Memory</string>
+    <string name="Flash">Flash</string>
+</resources>

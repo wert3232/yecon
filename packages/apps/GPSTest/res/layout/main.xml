@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:id="@+id/main_view"
+	>
+	<LinearLayout
+	android:id="@+id/lineralayout1"
+	android:layout_width="fill_parent"
+	android:layout_height="50px"
+	android:background="@drawable/top_bar"
+	>
+	<RelativeLayout
+	    
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+	>
+	<Button
+	
+	    android:id="@+id/restart_bt"
+		android:layout_width="85px"
+		android:layout_height="40px"
+		
+		android:text="@string/reset_btn"
+		android:textColor="@color/white"
+		android:singleLine="true"
+		android:background="@drawable/my_reset"
+		android:layout_alignParentLeft="true"
+		android:layout_centerVertical="true"
+		android:layout_marginLeft="10px"
+		/>
+	<TextView
+		android:id="@+id/title"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	    android:gravity="center"
+	    
+		android:text="@string/gpstest_title"
+		android:textSize="28px"
+		
+		android:textColor="@color/white"
+		android:layout_centerInParent="true"
+		
+		android:layout_centerVertical="true"
+		/>
+	    
+    <Button
+        android:id="@+id/back"
+		android:layout_width="85px"
+		android:layout_height="40px"
+	   
+		
+		
+		android:background="@drawable/gps_top_back"
+		android:layout_alignParentRight="true"
+		android:layout_centerVertical="true"
+		android:layout_marginRight="5px"
+	 />
+	 </RelativeLayout>
+	 
+	
+	
+	</LinearLayout>
+	
+	<LinearLayout
+	android:id="@+id/lineralayout3"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/batwo"
+	android:orientation="vertical"
+	>
+	<LinearLayout
+	android:id="@+id/lineralayout2"
+	android:layout_width="fill_parent"
+	android:layout_height="0px"
+	android:layout_weight="1"
+	
+	android:orientation="horizontal"
+	>
+		<com.android.yecon.gpstest.GpsEarthView
+			android:layout_width="50px"
+			android:layout_height="fill_parent"
+			android:id="@+id/gpsearthview"
+			android:background="@drawable/eartwo"
+		/>	 
+	    
+	    <RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    
+	    android:gravity="center_vertical"
+	    
+	   
+	    >
+	 
+	     <!--  display latitude -->
+	 <TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+		    android:id="@+id/latitude_tv"
+			android:textSize="20px"
+			android:textColor="@color/black"
+			android:text="@string/latitude"
+			
+			android:layout_marginLeft="120px"
+		
+			android:singleLine="true"
+			
+			
+			
+			/>
+		
+			
+	<!--  display longitude -->
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/longitude_tv"
+		android:textSize="20px"
+		android:textColor="@color/black"
+		android:text="@string/longitude"
+		android:layout_below="@id/latitude_tv"
+		android:layout_alignLeft="@id/latitude_tv"
+		android:layout_marginTop="10px"
+		android:singleLine="true"
+		/>
+		
+	<!--  display height -->	
+	<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+		    android:id="@+id/height_tv"
+			android:textSize="20px"
+			android:textColor="@color/black"
+			android:text="@string/height"
+			android:layout_below="@id/longitude_tv"
+		    android:layout_alignLeft="@id/longitude_tv"
+		    android:layout_marginTop="10px"
+		    android:singleLine="true"
+			/>
+		 
+				
+	<!--  display speed -->
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/speed_tv"
+		android:textSize="20px"
+		android:textColor="@color/black"
+		android:text="@string/speed"
+		android:layout_below="@id/height_tv"
+		    android:layout_alignLeft="@id/height_tv"
+		    android:layout_marginTop="10px"
+		    android:singleLine="true"
+		/>
+		
+			
+	<!--  display UTC -->
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	    android:id="@+id/UTC_tv"
+		android:textSize="20px"
+		android:textColor="@color/black"
+		android:text="@string/utc"
+		android:layout_below="@id/speed_tv"
+		    android:layout_alignLeft="@id/speed_tv"
+		    android:layout_marginTop="10px"
+		    android:singleLine="true"
+		/>
+	
+	    </RelativeLayout>
+	    
+	    
+	    
+	</LinearLayout>
+	
+	<!-- android:background="#ffffff" -->
+	<LinearLayout
+	android:id="@+id/lineralayout3"
+	android:layout_width="fill_parent"
+	android:layout_height="170px"
+	
+	
+	
+	
+	android:gravity="center_horizontal"
+	>
+	<!-- Display SNR of the statellites
+	android:background="#aa0000" -->		
+	<com.android.yecon.gpstest.GPSSnrPrnView
+		android:layout_width="500px"
+		android:layout_height="170px"
+		android:id="@+id/gpssnrprnview"
+		
+		
+		
+		
+		/>	
+		
+		
+		</LinearLayout>
+	
+	
+	
+	
+	</LinearLayout>
+	
+	
+	
+	</LinearLayout>

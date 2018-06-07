@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- padding -->
+    <dimen name="city_layout_left_padding">130dp</dimen>
+    <!-- margin -->
+    <dimen name="weather_widget_layout_margin_left">4dp</dimen>
+    <dimen name="weather_widget_layout_margin_right">4dp</dimen>
+    <!-- width -->
+    <dimen name="weather_widget_layout_left_width">395dp</dimen>
+    <dimen name="weather_widget_layout_right_width">395dp</dimen>
+    <dimen name="weather_widget_layout_height">140dp</dimen>
+    <dimen name="date_layout_height">90dp</dimen>
+    <dimen name="time_layout_height">70dp</dimen>
+    <dimen name="time_imageview_layout_height">200dp</dimen>
+    <dimen name="time_imageview_layout_width">240dp</dimen>
+    <dimen name="city_layout_width">300dp</dimen>
+    <!-- size -->
+    <dimen name="weather_line1_textsize">24sp</dimen>
+    <dimen name="weather_line2_textsize">18sp</dimen>
+
+</resources>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fuel_bg"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="@dimen/tx_hisfuel_progress_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tx_curfuel_trip_padding"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/tx_curfuel_trip_padding" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_tx_hisfuel_best"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_curfuel_size" />
+
+            <TextView
+                android:id="@+id/tx_hisfuel_best_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+
+            <Button
+                android:id="@+id/btn_hisfuel_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tx_curfuel_trip_padding"
+                android:background="@drawable/choose_btn"
+                android:text="@string/str_btn_hisfuel_update"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_curfuel_size" />
+
+            <Button
+                android:id="@+id/btn_hisfuel_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tx_curfuel_trip_padding"
+                android:background="@drawable/choose_btn"
+                android:text="@string/str_btn_hisfuel_clear"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_curfuel_size" />
+
+            <Button
+                android:id="@+id/btn_hisfuel_2cur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tx_curfuel_trip_padding"
+                android:background="@drawable/choose_btn"
+                android:text="@string/str_btn_hisfuel_2cur"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_curfuel_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tx_curfuel_trip_padding1"
+            android:background="@drawable/toyota_hisfuel_bg"
+            android:orientation="horizontal" >
+
+            <com.can.ui.draw.FuelProgressBar
+                android:id="@+id/pb_hisfuel_progress_bar_1"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="@dimen/tx_hisfuel_progress_width2"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/tx_curfuel_progress_width"
+                android:layout_marginLeft="@dimen/tx_curfuel_progress_width"
+                android:max="60"
+                android:progress="0"
+                android:progressDrawable="@drawable/toyota_progressbar" />
+
+            <com.can.ui.draw.FuelProgressBar
+                android:id="@+id/pb_hisfuel_progress_bar_2"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="@dimen/tx_hisfuel_progress_width2"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/tx_curfuel_progress_width"
+                android:layout_marginLeft="@dimen/dsp_seekbar_margintop"
+                android:max="60"
+                android:progress="0"
+                android:progressDrawable="@drawable/toyota_progressbar" />
+
+            <com.can.ui.draw.FuelProgressBar
+                android:id="@+id/pb_hisfuel_progress_bar_3"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="@dimen/tx_hisfuel_progress_width2"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/tx_curfuel_progress_width"
+                android:layout_marginLeft="@dimen/dsp_seekbar_margintop"
+                android:max="60"
+                android:progress="0"
+                android:progressDrawable="@drawable/toyota_progressbar" />
+
+            <com.can.ui.draw.FuelProgressBar
+                android:id="@+id/pb_hisfuel_progress_bar_4"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="@dimen/tx_hisfuel_progress_width2"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/tx_curfuel_progress_width"
+                android:layout_marginLeft="@dimen/dsp_seekbar_margintop"
+                android:max="60"
+                android:progress="0"
+                android:progressDrawable="@drawable/toyota_progressbar" />
+
+            <com.can.ui.draw.FuelProgressBar
+                android:id="@+id/pb_hisfuel_progress_bar_5"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="@dimen/tx_hisfuel_progress_width2"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/tx_curfuel_progress_width"
+                android:layout_marginLeft="@dimen/dsp_seekbar_margintop"
+                android:max="60"
+                android:progress="0"
+                android:progressDrawable="@drawable/toyota_progressbar" />
+
+            <com.can.ui.draw.FuelProgressBar
+                android:id="@+id/pb_hisfuel_progress_bar_6"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="@dimen/tx_hisfuel_progress_width2"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/tx_curfuel_progress_width"
+                android:layout_marginLeft="@dimen/dsp_seekbar_margintop"
+                android:max="60"
+                android:progress="0"
+                android:progressDrawable="@drawable/toyota_progressbar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tx_hisfuel_trip1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/tx_curfuel_trip_padding1"
+                android:text="@string/str_tx_hisscale_t1"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+
+            <TextView
+                android:id="@+id/tx_hisfuel_trip2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/tx_curfuel_trip_padding2"
+                android:text="@string/str_tx_hisscale_t2"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+
+            <TextView
+                android:id="@+id/tx_hisfuel_trip3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/tx_curfuel_trip_padding2"
+                android:text="@string/str_tx_hisscale_t3"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+
+            <TextView
+                android:id="@+id/tx_hisfuel_trip4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/tx_curfuel_trip_padding2"
+                android:text="@string/str_tx_hisscale_t4"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+
+            <TextView
+                android:id="@+id/tx_hisfuel_trip5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/tx_curfuel_trip_padding2"
+                android:text="@string/str_tx_hisscale_t5"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+
+            <TextView
+                android:id="@+id/tx_hisfuel_trip_current"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/tx_curfuel_trip_padding2"
+                android:text="@string/str_tx_hisscale_t6"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tx_hisfuel_min_uitl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_tx_fuelunit_l100km"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tx_default_size" />
+
+        <TextView
+            android:id="@+id/tx_hisfuel_pro_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tx_curfuel_progress_width"
+            android:text="@string/str_tx_scale_a1"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tx_default_size" />
+
+        <TextView
+            android:id="@+id/tx_hisfuel_pro_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tx_curfuel_trip_padding3"
+            android:text="@string/str_tx_scale_a2"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tx_default_size" />
+
+        <TextView
+            android:id="@+id/tx_hisfuel_pro_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tx_curfuel_trip_padding3"
+            android:text="@string/str_tx_scale_a3"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tx_default_size" />
+
+        <TextView
+            android:id="@+id/tx_hisfuel_pro_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tx_curfuel_trip_padding2"
+            android:text="@string/str_tx_scale_a4"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tx_default_size" />
+    </LinearLayout>
+
+</LinearLayout>

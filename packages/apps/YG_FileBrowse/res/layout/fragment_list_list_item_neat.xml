@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yecon.filemanager.ListItemHolder xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/fragment_list_item_file_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_horizontal_margin"
+        android:paddingLeft="16dp"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:scaleType="centerInside" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/fragment_list_item_file_name"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            layout="@layout/text_view1" />
+
+        <include
+            android:id="@+id/fragment_list_item_file_size"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+	    android:visibility="gone"
+            layout="@layout/text_view2" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/fragment_list_item_file_modifiedtime"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+	    android:visibility="gone"
+        layout="@layout/text_view3" />
+
+    <include
+        android:id="@+id/fragment_list_item_file_kind"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7"
+	    android:visibility="gone"
+        layout="@layout/text_view3" />
+
+</com.yecon.filemanager.ListItemHolder>

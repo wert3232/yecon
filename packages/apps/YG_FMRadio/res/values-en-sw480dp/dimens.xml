@@ -1,0 +1,3 @@
+<resources>
+    <dimen name="bottom_bar_textview_size">20sp</dimen>
+</resources>

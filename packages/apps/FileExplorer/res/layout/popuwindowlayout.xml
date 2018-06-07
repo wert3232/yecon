@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/popuwindow_height"
+     android:background="@drawable/top_bar_bg">
+   
+        <ImageButton
+            android:id="@+id/pop_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/back_selector"
+            android:onClick="backLast" />
+
+        <TextView
+            android:id="@+id/current_path1"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:freezesText="true"
+            android:gravity="center_vertical"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:paddingLeft="2.0dip"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textSize="@dimen/photoback"
+            android:textColor="#ffffffff"/>
+    
+       <!--  <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+        	android:id="@+id/back"
+            android:src="@drawable/ic_top_bar_back_n"
+            android:layout_marginLeft="40dp"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/image"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="80dp"
+            android:layout_gravity="center"/> -->
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AndroidCalibrate!</string>
+    <string name="app_name">AndroidCalibrate</string>
+    
+    <!-- Begin : Added by vend00102 2012/06/18 -->
+    <string name="calibrate_success">Calibrate Done!</string>
+    <string name="calibrate_failed">Calibrate failed!</string>
+    <string name="calibrate_re">Calibrate failed, try again!</string>
+    <string name="ts_failed">Rewrite TS ATTR failed!</string>
+    <string name="calibrate_restart">sorry,please restart system!</string>
+    <string name="start_show">Touch crosshair to calibrate screen</string>
+    <string name="no_need_calibrate">No need calibrate because of Capacitive Touch Screen!</string>
+    <!-- End : Added by vend00102 2012/06/18 -->
+</resources>

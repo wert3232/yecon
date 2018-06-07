@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="controlbar_horizontal_margin">10dp</dimen>
+    <dimen name="controlbar_vertical_margin">0dp</dimen>
+    <dimen name="controlbar_horizontal_padding">10dp</dimen>
+    <dimen name="controlbar_vertical_padding">0dp</dimen>
+    <dimen name="controlbar_btn_margin">10dp</dimen>
+    <dimen name="filename_padding">10dp</dimen>
+    <dimen name="filename_textSize">20dp</dimen>
+    <dimen name="curtain_hight">100dp</dimen>
+
+    <!-- Dimens margin -->
+    <dimen name="activity_left_margin">15dp</dimen>
+    <dimen name="activity_right_margin">15dp</dimen>
+    <dimen name="activity_top_margin">10dp</dimen>
+    <dimen name="activity_bottom_margin">10dp</dimen>
+    <dimen name="bottombar_button_right_margin">75dp</dimen>
+
+    <!-- Dimens padding -->
+    <dimen name="bottombar_prompt_textview_padding">90dp</dimen>
+    <dimen name="bottombar_prompt_textview_padding_right">26dp</dimen>
+    <dimen name="sd_error_textview_bottom_padding">40dp</dimen>
+    <dimen name="bottom_bar_drawable_padding">4dp</dimen>
+
+    <!-- Dimens textsize -->
+    <dimen name="track_textview_textsize">30sp</dimen>
+    <dimen name="bottombar_textview_textsize">24sp</dimen>
+    <dimen name="default_text_size">26sp</dimen>
+    <dimen name="default_text2_size">18sp</dimen>
+
+    <!-- Dimens space -->
+    <dimen name="layout_default_space">5dp</dimen>
+    <dimen name="thumnail_item_width">193dp</dimen>
+    <dimen name="thumnail_item_height">182dp</dimen>
+
+</resources>

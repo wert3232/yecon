@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">收音機</string>
+    <string name="fmr_default_freq">87.50</string>
+    <string name="fmr_unit_mhz">MHz</string>
+    <string name="fmr_unit_khz">KHz</string>
+    <string name="fmr_loc">LOC</string>
+    <string name="fmr_dx">DX</string>
+    <string name="fmr_ps">PS</string>
+    <string name="fmr_as">AMS</string>
+    <string name="fmr_st">ST</string>
+    <string name="fmr_band_fm1">FM1</string>
+    <string name="fmr_band_fm2">FM2</string>
+    <string name="fmr_band_fm3">FM3</string>
+    <string name="fmr_band_am1">AM1</string>
+    <string name="fmr_band_am2">AM2</string>
+    <string name="str_btn_band">波段</string>
+    <string name="str_btn_loc">远近程</string>
+    <string name="str_btn_st">立体声</string>
+    <string name="str_btn_as">搜台</string>
+    <string name="str_btn_ps">预览</string>
+
+</resources>

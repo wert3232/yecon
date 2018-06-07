@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">APK Araçları</string>
+    <string name="app_name">Dosya Gezgini</string>
+    <string name="data_load">Data Tarama</string>
+    <string name="data_load_msg">Tarıyor…Lütfen bekleyiniz!</string>
+    <string name="file_name">Dosya adı</string>
+    <string name="file_property">Dosya cinsi</string>
+    <string name="file_path">Dosya yolu</string>
+    <string name="file_date">Giriş zamanı</string>
+    <string name="help">Talimatlar:</string>
+    <string name="help_home">Ana Dizin</string>
+    <string name="help_search">Ara</string>
+    <string name="help_uplevel">Bir seviye yukarı</string>
+    <string name="help_help">Destek</string>
+    <string name="help_list">Liste modu</string>
+    <string name="help_grid">Simge modu</string>
+    <string name="help_operation">İşlem modu</string>
+    <string name="help_choose">Seç</string>
+    <string name="help_copy">Kopyala</string>
+    <string name="help_cut">Kes</string>
+    <string name="help_paste">Yapıştır</string>
+    <string name="help_delete">Sil</string>
+    <string name="help_close">Çıkış</string>
+    <string name="search_specify_hint">Herhangi bir dosyayı isimle ara</string>
+    <string name="search_type_example">Dosya adının parçası olabilir. Mesela: "test" ya da "pdf" ya da "doc" giriniz.</string>
+    <string name="menu_bt_scan">Ara</string>
+    <string name="search_path">Yol</string>
+    <string name="search_type">Tür</string>
+    <string name="search_keyworld">Anahtar kelime</string>
+    <string name="search_keyworld_checkbox">Herhangi bir dosyayı isimle ara</string>
+    <string name="search_keyworld_error">Anahtar kelime girilmelidir!</string>
+    <string name="operation">İşlem</string>
+    <string name="str_copy">Kopyala</string>
+    <string name="str_new">Yeni</string>
+    <string name="str_rename">Yeniden adlandır</string>
+    <string name="str_new_file">Dosya</string>
+    <string name="str_new_folder">Klasör</string>
+    <string name="msg_error_rename">Dosya adı olarak aynı ad mevcut, başka ad belirleyiniz!</string>
+    <string name="msg_error_error">Hata!</string>
+    <string name="msg_error_faild">İşlem başarısız!</string>
+    <string name="msg_error_childpath">Dizin altındaki bir altdizine kesilemez!</string>
+    <string name="msg_error_nocontent">Yapıştır-panosu boş!</string>
+    <string name="msg_error_noobject">Hiçbir obje seçmediniz!</string>
+    <string name="operation_prepare">Hazırlanıyor..</string>
+    <string name="operation_copy">Kopyalıyor…</string>
+    <string name="operation_delete">Siliniyor:</string>
+    <string name="confirm_delete_title">Silme Onayı</string>
+    <string name="confirm_delete_msg">Silmek istediğinize emin misiniz?</string>
+    <string name="str_ok">OK</string>
+	<string name="str_cancel">İptal</string>
+	
+	<string name="mode">Mode</string>
+</resources>

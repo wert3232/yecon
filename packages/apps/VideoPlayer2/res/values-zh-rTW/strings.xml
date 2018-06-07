@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">歡迎進入視頻播放器！</string>
+    <string name="app_name">視頻</string>
+    <string name="sdcard_missing_message">"沒有可以播放的視頻文件！"</string>
+    <string name="path">/sdcard/test0.mp4</string>
+    <string name="error_title">錯誤</string>
+    <string name="error_message">"抱歉，播放器不支持此類型的視頻文件！"</string>
+    <string name="data_error">"視頻數據錯誤！"</string>
+    <string name="not_support_audio">音頻不支持!</string>
+    <string name="not_support_audio_codec">音频格式不支持！</string>
+    <string name="not_support_audio_bitrate">音频比特率不支持！</string>
+    <string name="not_support_audio_samplingrate">音频採樣率不支持！</string>
+    <string name="not_support_audio_profilelevel">音频壓縮規範級別不支持！</string>
+    <string name="not_support_video">視頻不支持！</string>
+    <string name="not_support_video_codec">視頻格式不支持！</string>
+    <string name="not_support_video_bitrate">視頻比特率不支持！</string>
+    <string name="not_support_video_framerate">視頻楨率不支持！</string>
+    <string name="not_support_video_profilelevel">視頻壓縮規範級別不支持！</string>
+    <string name="not_support_video_resolution">視頻解析度不支持！</string>
+    <string name="not_support_menu">"DivX Menu不支持!</string>
+    <string name="not_support_ff">"抱歉，此文件不支持快進操作！"</string>
+    <string name="not_support_rw">"抱歉，此文件不支持後退操作！"</string>
+    <string name="not_support_seek">"抱歉，此文件不支持SEEK操作！"</string>
+    <string name="authorization_error">設備沒有播放此DivX視頻保護文件的權限！</string>
+    <string name="rental_has_used">已經播放過</string>
+    <string name="rental_tip_mid">次，最多可播放</string>
+    <string name="rental_tip_suffix"> 次。</string>
+    <string name="rental_has_expired">已達到最大播放次數!</string>
+    <string name="rental_continue">繼續?</string>
+    <string name="OK">確認</string>
+    <string name="Cancel">取消</string>
+    <string name="attention">"注意"</string>
+    <string name="scan">"正在讀取數據……"</string>
+    <string name="time_escaped">"00:00:00"</string>
+    <string name="time_all">"00:00:00"</string>
+    <string name="timegohome">"已切換到後排，前排將回到主界面，點擊屏幕取消"</string>
+    <string name="time_remain">"剩餘"</string>
+    <string name="time_second">"秒"</string>
+    <string name="time_milisecond">"毫秒"</string>
+    <string name="repeat_current_notif">重复播放当前视频！</string>
+    <string name="random_all_notif">随机播放所有视频！</string>
+    <string name="repeat_off_notif">重复播放所有视频！</string>
+
+</resources>

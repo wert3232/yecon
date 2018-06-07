@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wesail.tdr"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        <activity
+            android:name=".TDRActivity">
+            <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> -->
+        </activity>
+        <activity android:name="com.wesail.tdr.ui.MainMenuAcitivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> 
+        </activity>
+        <activity android:name="com.wesail.tdr.ui.BadDriveRecrodAcitivity"/>
+	        <activity android:name="com.wesail.tdr.ui.BadDriveRecrodOvertimeDrivingAcitivity"/>
+	        <activity android:name="com.wesail.tdr.ui.BadDriveRecrodOverspeedAcitivity"/>
+	        <activity android:name="com.wesail.tdr.ui.BadDriveRecrodAccidentDoubtAcitivity"/>
+	        <activity android:name="com.wesail.tdr.ui.BadDriveRecrodAccidentDoubtDetilAcitivity"/>
+        <activity android:name="com.wesail.tdr.ui.RecordQueryAcitivity"/>
+	        <activity android:name="com.wesail.tdr.ui.RecordQueryDravelSpeedAcitivity"/>
+	        	<activity android:name="com.wesail.tdr.ui.RecordQueryDravelSpeedDetilAcitivity"/>
+	        <activity android:name="com.wesail.tdr.ui.RecordQueryPowerAcitivity"/>
+        <activity android:name="com.wesail.tdr.ui.MileageAcitivity"/>
+        <activity android:name="com.wesail.tdr.ui.VehicleFileAcitivity"/>
+        <activity android:name="com.wesail.tdr.ui.RecorderInformationAcitivity"/>
+        <activity android:name="com.wesail.tdr.ui.DriverInfromationAcitivity"/>
+        <service android:name="com.wesail.tdr.service.TDRService"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- dingbu -->
+    <dimen name="popuwindow_height">40dp</dimen>
+    <!-- 选择sd和内部存储 -->
+    <dimen name="task_paddingleft">10dp</dimen>
+    <dimen name="task_paddingbottom">20dp</dimen>
+    <!-- 图片浏览top textView-->
+    <dimen name="photoback">20sp</dimen>
+    <!-- 弹出新建 -->
+    <dimen name="newalertwith">230dp</dimen>
+    <!-- 切换为列表模式时文件名TextView长度 -->
+    <dimen name="fntv">400dp</dimen>
+</resources>

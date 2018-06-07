@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, APKTools!</string>
+    <string name="fujian">復件</string>
+    <string name="app_name">文件瀏覽器</string>
+    <string name="system_prompt ">系統提示</string>
+    <string name="data_load">數據掃描</string>
+    <string name="data_quxiao">取消掃描</string>
+    <string name="data_load_msg">掃描中...請稍等！</string>
+    <string name="data_load_msg2">取消中...請稍等！</string>
+    <string name="file_name">文件名稱</string>
+    <string name="file_property">文件屬性</string>
+    <string name="file_path">文件路徑</string>
+    <string name="file_date">修改時間</string>
+    <string name="help">說明：</string>
+    <string name="help_home">初始化主目錄</string>
+    <string name="help_search">搜索</string>
+    <string name="help_uplevel">上級目錄</string>
+    <string name="help_help">幫助</string>
+    <string name="help_list">列表模式</string>
+    <string name="help_grid">圖標模式</string>
+    <string name="help_operation">操作模式</string>
+    <string name="help_choose">選擇</string>
+    <string name="help_copy">複製</string>
+    <string name="help_cut">剪切</string>
+    <string name="help_paste">粘貼</string>
+    <string name="help_delete">刪除</string>
+    <string name="help_close">退出</string>
+    <string name="search_specify_hint">自定義關鍵字</string>
+    <string name="search_type_example">搜索所有類型的文件，只需要輸入部分文件名。示例：test;pdf;doc;Mp3;3gp</string>
+    <string name="menu_bt_scan">搜 索</string>
+    <string name="search_path">路徑</string>
+    <string name="search_type">類型</string>
+    <string name="search_keyworld">關鍵字</string>
+    <string name="search_keyworld_checkbox">自定義關鍵字</string>
+    <string name="search_keyworld_error">必須輸入關鍵字！</string>
+    <string name="operation">操作</string>
+    <string name="str_copy">複製</string>
+    <string name="str_new">新建</string>
+    <string name="str_rename">重命名</string>
+    <string name="str_new_file">文件</string>
+    <string name="str_new_folder">文件夾</string>
+    <string name="msg_error_rename">文件名稱與現有文件重名，請指定另一名稱！</string>
+    <string name="nofile">當前沒有搜索到文件！</string>
+    <string name="msg_error_error">出錯！</string>
+    <string name="msg_error_faild">操作失敗！</string>
+    <string name="msg_error_childpath">不能將目錄剪切到子目錄下！</string>
+    <string name="msg_error_nocontent">粘帖板上無內容！</string>
+    <string name="msg_error_noobject">您沒有選擇任何對象！</string>
+    <string name="operation_prepare">正在準備...</string>
+    <string name="operation_copy">正在複製：</string>
+    <string name="operation_delete">正在刪除：</string>
+    <string name="confirm_delete_title">刪除確認</string>
+    <string name="confirm_delete_msg">你確定要刪除嗎？</string>
+    <string name="str_ok">確定</string>
+	<string name="str_cancel">取消</string>
+	
+	<!-- hoseat txetView text -->
+	<string name="mode">模式</string>
+    <string name="video">視頻</string>
+    <string name="select_equipment">選擇設備</string>
+    <string name="music">音樂</string>
+    <string name="image">圖片</string>
+    <string name="apk">APK</string>
+	
+	<string name="canotplayvedio">當前應用不提供視頻播放功能，請用視頻應用進行播放！</string>
+	<!-- 提示不能播放音乐 -->
+     <string name="fileExceplorerCanotPlay">文件管理器不支持此格式的播放，請在音樂播放器中播放此音樂！</string>
+     <!-- 损坏 -->
+     <string name="file_isnot_complete">此文件已經損壞，無法打開！</string>
+</resources>

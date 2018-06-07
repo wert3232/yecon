@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Phone Link</string>
+    <string name="show_ui">Show</string>
+    <string name="cali">Cali</string>
+    <string name="hide_ui">Hide</string>
+    <string name="notice_title">Notice</string>
+    <string name="notice_content">"The WLAN chip detected(%1$s) doesn't support the dual channel communication, Miracast cannot work well with wifi station.\nPress "OK" to disconnect wifi and open Miracast.\nPress "Cancel" to quit Miracast."</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="ap_warning_content">"The WLAN chip detected(%1$s) doesn't support the dual channel communication, Miracast cannot work well with wifi station."</string>
+    <string name="fail_calibrate">calibrate fail!</string>
+    <string name="success_calibrate">calibrate success!</string>
+    <string name="connect_HID">Please connect HID!</string>
+    <string name="calibrate_Tip">Please calibrate first!</string>
+    <string name="continue_calibrate">continue_calibrate</string>
+    <string name="wait_invitations"> Waiting for connection invitations from other devices.</string>
+    <string name="miracast_disconnect">Miracast disconnecting.</string>
+    <string name="disconnect_wifi">WiFi disconnecting.</string>
+    <string name="build_connection">"Device: %1$s, Building connection."</string>
+    <string name="display_direct_not_ready">Loading....</string>
+    <string name="packet_lost">Miracast Packet Lost.</string>
+    <string name="wfd_connecting">Miracast Connecting.</string>
+    <string name="wifi_disabled">Wireless display is disabled because Wi-Fi is off.</string>
+    <string name="wifi_enabling">Wireless display is enabling.</string>
+    <string name="wifi_enabled">Wifi enabled.</string>
+    <string name="wait_wfd_feature_on">Wireless display feature is enabling.</string>
+	
+    <string name="wlan_title">Select Wlan</string>
+	<string name="wlan_hint">Please choose a valid wlan.</string>
+	<string name="wlan_can_be_connect">Valid wlan</string>
+	<string name="next_step">Next step</string>
+	<string name="remember_secret">Remember</string>
+	<string name="please_input_secret">Please enter Wifi password</string>
+	<string name="signal_strength">Signal</string>
+    <string name="security_level">Seurity</string>
+    <string name="password">Password</string>
+    <string name="show_password">Show password</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="conn_status">Status</string>
+    <string name="ip_address">IP address</string>
+    <string name="scanning">Scanning...</string>
+    <string name="exiting">Exiting...</string>
+    
+    <string name="linking">Connecting</string>
+    <string name="link_step1">1、Check wifi.</string>
+    <string name="link_step2">2、Connect wireless display</string>
+    <string name="link_guide">Please find the wireless display setting on your phone, and choose to connect to this device</string>
+    <string name="retry">Retry</string>
+    <string name="exit">Exit</string>
+    <string name="choose_wifi">Wifi Ap</string>
+    <string name="switch_to_ap">Switch to ap</string>
+    <string name="choose_way_connect">Please choose a way to connect</string>
+    <string name="android_usb">Android USB</string>
+    <string name="android_wifi">Android WiFi</string>
+    <string name="iphone_wifi">iPhone WiFi</string>
+    
+    <string name="pull_refresh">Pull to refresh</string>
+    <string name="refresh_lasttime">Refresh last time</string>
+    <string name="start_title">Phone link with colorful life</string>
+    
+    <string name="calibrate">Colibrate</string>
+    <string name="home">Return to destop</string>
+</resources>

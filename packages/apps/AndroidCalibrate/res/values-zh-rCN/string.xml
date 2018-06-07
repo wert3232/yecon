@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AndroidCalibrate!</string>
+    <string name="app_name">屏幕校准</string>
+    
+    <!-- Begin : Added by vend00102 2012/06/18 -->
+    <string name="calibrate_success">校准成功！</string>
+    <string name="calibrate_failed">校准失败！</string>
+    <string name="calibrate_re">校准失败，请重新校准</string>
+    <string name="ts_failed">重写TS ATTR失败</string>
+    <string name="calibrate_restart">对不起，请重新启动系统</string>
+    <string name="start_show">触碰十字光标，校准屏幕</string>
+    <string name="no_need_calibrate">电容触摸屏不需要进行校准！</string>
+    <!-- End : Added by vend00102 2012/06/18 -->
+</resources>

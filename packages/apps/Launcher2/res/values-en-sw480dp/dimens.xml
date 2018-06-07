@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="default_text_size">20sp</dimen>
+    <dimen name="default_text2_size">20sp</dimen>
+</resources>

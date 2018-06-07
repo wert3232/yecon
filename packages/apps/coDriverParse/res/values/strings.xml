@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">coDriverParse</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="contacts_fail">联系人失败</string>
+    <string name="contacts_ready">联系人Ready</string>
+    <string name="contacts_tts">播报TTS</string>
+    <string name="bt_connect">藍牙連接</string>
+    <string name="bt_dis_connect">藍牙断开連接</string>
+    <string name="wakeup_enable">打开唤醒</string>
+    <string name="wakeup_disable">关闭唤醒</string>
+
+</resources>

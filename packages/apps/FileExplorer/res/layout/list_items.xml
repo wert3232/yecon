@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="85dip">
+
+    <ImageView
+        android:id="@+id/f_icon"
+        android:layout_width="85dip"
+        android:layout_height="75dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="10dip"
+        android:layout_alignParentLeft="true"
+         />
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/grid_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/hoseat_btn_select_n"/>
+
+    <TextView
+        android:id="@+id/f_title"
+        android:textColor="@color/bright_text_dark_focused"
+        android:layout_width="300dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+		android:ellipsize="end"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/f_icon"/>
+
+    <TextView
+        android:id="@+id/f_text"
+        android:textColor="@color/bright_text_dark_focused"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="42dp"
+         />
+
+</RelativeLayout>

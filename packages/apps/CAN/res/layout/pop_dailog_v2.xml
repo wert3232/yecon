@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_prompt_bk"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/pop_dailog_v2_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tx_curfuel_trip_padding"
+        android:gravity="center"
+        android:textSize="@dimen/tx_default_size" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/tx_curfuel_trip_padding1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/pop_dailog_seekbar_val"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/str_tx_dsp_tre"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tx_default_size" />
+
+        <SeekBar
+            android:id="@+id/pop_dailog_seekbar"
+            android:layout_width="@dimen/dsp_seekbar_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dsp_seekbar_margintop"
+            android:paddingLeft="@dimen/tx_curfuel_trip_padding"
+            android:progressDrawable="@drawable/toyota_dsp_seekbar" />
+    </LinearLayout>
+
+</LinearLayout>

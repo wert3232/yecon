@@ -1,0 +1,37 @@
+<resources>
+
+    <dimen name="fragment_padding">37dp</dimen>
+    <dimen name="textsize_l">45sp</dimen>
+    <dimen name="textsize_m">35sp</dimen>
+    <dimen name="textsize_s">18sp</dimen>
+    <dimen name="textsize_general">25sp</dimen>
+    <dimen name="textsize_item_prompt2">18sp</dimen>
+    <dimen name="item_content_width_gap">40dp</dimen>
+    <!-- headlayout -->
+    <dimen name="headlayout_seekbar_width">322dip</dimen>
+    <dimen name="headlayout_seekbar_height">30dp</dimen>
+    <!-- keyboard -->
+    <dimen name="keyboard_textsize">30sp</dimen>
+    <dimen name="keyboard_num_width_gap">55dip</dimen>
+    <dimen name="keyboard_num_width">132dip</dimen>
+    <!-- DatePicker  TimePicker -->
+    <dimen name="DatePicker_NumberPicker_width">120dip</dimen>
+    <dimen name="TimePicker_NumberPicker_width">82dip</dimen>
+    <!-- factory -->
+    <dimen name="factory_dlg_seekbar_width">292dip</dimen>
+
+    <!-- factory qicaideng -->
+    <dimen name="qicaideng_seekbar_width">646dp</dimen>
+    <dimen name="qicaideng_seekbar_height">32dp</dimen>
+    <dimen name="qicaideng_seekbar_width_gap">20dp</dimen>
+    <dimen name="qicaideng_seekbar_height_gap">64dp</dimen>
+
+    <!-- RGB dialog -->
+    <dimen name="dialog_seekbar_width">348dp</dimen>
+    <dimen name="dialog_seekbar_height">26dp</dimen>
+
+    <!-- calibration -->
+    <dimen name="calibration_width_gap">88dp</dimen>
+    <dimen name="calibration_height_gap">45dp</dimen>
+
+</resources>

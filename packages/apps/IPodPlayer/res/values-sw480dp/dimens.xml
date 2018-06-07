@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	
+    <dimen name="activity_left_margin">0dp</dimen>
+    <dimen name="activity_right_margin">0dp</dimen>
+    <dimen name="activity_top_margin">36dp</dimen>
+    <dimen name="activity_bottom_margin">0dp</dimen>
+    <dimen name="bottom_bar_drawable_padding">0dp</dimen>
+    
+    <dimen name="default_text_size">26sp</dimen>
+	<dimen name="default_text2_size">18sp</dimen>	
+	
+	<dimen name="seekbar_layout_top_padding">20dp</dimen>
+    <dimen name="seekbar_layout_bottom_padding">20dp</dimen>
+    <dimen name="seekbar_layout_right_padding">10dp</dimen>
+    <dimen name="seekbar_layout_left_padding">10dp</dimen>
+    
+    <dimen name="seekbar_default_width">738dp</dimen>
+    <dimen name="seekbar_default_height">25dp</dimen>
+</resources>

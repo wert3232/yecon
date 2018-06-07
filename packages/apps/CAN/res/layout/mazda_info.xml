@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_mazda_sethour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_fuel_del"
+         
+                android:text="@string/str_mazda_set_h"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+
+            <Button
+                android:id="@+id/btn_mazda_setmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_fuel_del"
+    
+                android:text="@string/str_mazda_set_m"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+
+            <Button
+                android:id="@+id/btn_mazda_setsen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_fuel_del"
+    
+                android:text="@string/str_mazda_set_s"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

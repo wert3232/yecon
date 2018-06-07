@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources>     
+	<color name="noback">#00000000</color>  
+	
+    <!-- 透明色 -->
+    <color name="lucency">#00000000</color>
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <!-- 红色 -->
+    <color name="red">#FF0000</color>
+    <!-- 绿色 -->
+    <color name="green">#00FF00</color>
+    <!-- 蓝色 -->
+    <color name="blue">#0000FF</color>
+    <!-- 橙色 -->
+    <color name="orange">#FFA500</color>
+    <!-- 青色 -->
+    <color name="cyan">#00DEFF</color>
+    <!-- 文本高亮颜色 -->
+    <color name="textpresscolor">#00326f</color>
+    
+    <color name="text_press">#00326f</color>
+    <color name="text_normal">#ffffff</color>
+    
+    <color name="text_low">#dddddd</color>
+</resources>

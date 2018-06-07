@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/fragment_padding" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tx_toyota_lockset"
+                style="@style/car_info_style1"
+                android:text="@string/str_tx_carset_lockset" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tx_toyota_lockset_speedautolock"
+                style="@style/car_info_style"
+                android:text="@string/str_tx_carset_lockset_speedautolock" />
+
+            <CheckBox
+                android:id="@+id/checkbox_toyota_lockset_speedautolock_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tx_toyota_lockset_linkageautolock"
+                style="@style/car_info_style"
+                android:text="@string/str_tx_carset_lockset_linkageautolock" />
+
+            <CheckBox
+                android:id="@+id/checkbox_toyota_lockset_linkageautolock_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tx_toyota_lockset_smartcarlock"
+                style="@style/car_info_style"
+                android:text="@string/str_tx_carset_lockset_smartcarlock" />
+
+            <CheckBox
+                android:id="@+id/checkbox_toyota_lockset_smartcarlock_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tx_toyota_lockset_blocklinkunlock"
+                style="@style/car_info_style"
+                android:text="@string/str_tx_carset_lockset_blocklinkunlock" />
+
+            <CheckBox
+                android:id="@+id/checkbox_toyota_lockset_blocklinkunlock_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tx_toyota_lockset_unlockthekey"
+                style="@style/car_info_style"
+                android:text="@string/str_tx_carset_lockset_unlockthekey" />
+
+            <CheckBox
+                android:id="@+id/checkbox_toyota_lockset_unlockthekey_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tx_toyota_lockset_responselock"
+                style="@style/car_info_style"
+                android:text="@string/str_tx_carset_lockset_responselock" />
+
+            <CheckBox
+                android:id="@+id/checkbox_toyota_lockset_responselock_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tx_toyota_lockset_2presslock"
+                style="@style/car_info_style"
+                android:text="@string/str_tx_carset_lockset_2presslock" />
+
+            <CheckBox
+                android:id="@+id/checkbox_toyota_lockset_2presslock_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tx_toyota_lockset_drivinglinkunlock"
+                style="@style/car_info_style"
+                android:text="@string/str_tx_carset_lockset_drivinglinkunlock" />
+
+            <CheckBox
+                android:id="@+id/checkbox_toyota_lockset_drivinglinkunlock_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tx_toyota_lockset_smartdoorunlock"
+                style="@style/car_info_style"
+                android:text="@string/str_tx_carset_lockset_smartdoorunlock" />
+
+            <CheckBox
+                android:id="@+id/checkbox_toyota_smartdoorunlock_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tx_toyota_lockset_lockunlockfeedtone"
+                style="@style/car_info_style"
+                android:text="@string/str_tx_carset_lockset_lockunlockfeedtone" />
+
+            <Button
+                android:id="@+id/btn_toyota_lockset_lockunlockfeedtone_right"
+                style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tx_toyota_lockset_electricdooradjust"
+                style="@style/car_info_style"
+                android:text="@string/str_tx_carset_lockset_electricdooradjust" />
+
+            <Button
+                android:id="@+id/btn_toyota_lockset_electricdooradjust_right"
+                style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tx_toyota_lightset"
+                style="@style/car_info_style1"
+                android:text="@string/str_tx_carset_lightset" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tx_toyota_lightset_daytimelight"
+                style="@style/car_info_style"
+                android:text="@string/str_tx_carset_lightset_daytimelight" />
+
+            <CheckBox
+                android:id="@+id/checkbox_toyota_lightset_daytimelight_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tx_toyota_lightset_headlampssensitivity"
+                style="@style/car_info_style"
+                android:text="@string/str_tx_carset_lightset_headlampssensitivity" />
+
+            <Button
+                android:id="@+id/btn_toyota_lightset_headlampssensitivity_right"
+                style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tx_toyota_lightset_setcarlightofftime"
+                style="@style/car_info_style"
+                android:text="@string/str_tx_carset_lightset_setcarlightofftime" />
+
+            <Button
+                android:id="@+id/btn_toyota_lightset_setcarlightofftime_right"
+                style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tx_toyota_lightset_headlampofftime"
+                style="@style/car_info_style"
+                android:text="@string/str_tx_carset_lightset_headlampofftime" />
+
+            <Button
+                android:id="@+id/btn_toyota_lightset_headlampofftime_right"
+                style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tx_toyota_airset"
+                style="@style/car_info_style1"
+                android:text="@string/str_tx_carset_airset" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tx_toyota_airset_autolinkage"
+                style="@style/car_info_style"
+                android:text="@string/str_tx_carset_airset_autolinkage" />
+
+            <CheckBox
+                android:id="@+id/checkbox_toyota_airset_autolinkage_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tx_toyota_airset_inoutgasautolinkage"
+                style="@style/car_info_style"
+                android:text="@string/str_tx_carset_airset_inoutgasautolinkage" />
+
+            <CheckBox
+                android:id="@+id/checkbox_toyota_airset_inoutgasautolinkage_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tx_toyota_airset_autorelocktime"
+                style="@style/car_info_style"
+                android:text="@string/str_tx_carset_airset_autorelocktime" />
+
+            <Button
+                android:id="@+id/btn_toyota_airset_autorelocktime_right"
+                style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tx_toyota_otherset"
+                style="@style/car_info_style1"
+                android:text="@string/str_tx_carset_otherset" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tx_toyota_otherset_cameratrack"
+                style="@style/car_info_style"
+                android:text="@string/str_tx_carset_otherset_cameratrack" />
+
+            <Button
+                android:id="@+id/btn_toyota_otherset_cameratrack_right"
+                style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tx_toyota_otherset_radarvol"
+                style="@style/car_info_style"
+                android:text="@string/str_tx_carset_otherset_radarvol" />
+
+            <Button
+                android:id="@+id/btn_toyota_otherset_radarvol_right"
+                style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tx_toyota_otherset_fueluint"
+                style="@style/car_info_style"
+                android:text="@string/str_tx_carset_otherset_fueluint" />
+
+            <Button
+                android:id="@+id/btn_toyota_otherset_fueluint_right"
+                style="@style/car_set_right_style1" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

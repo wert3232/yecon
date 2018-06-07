@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:windlevel="http://schemas.android.com/apk/res/com.yecon.canbus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/ac_air_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ac_upper_part_height"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tv_dual"
+            style="@style/ACTextViewTheme"
+            android:layout_width="@dimen/canbus_tv_default_width"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/ac_dual" />
+
+        <TextView
+            android:id="@+id/tv_auto_wind"
+            style="@style/ACTextViewTheme"
+            android:layout_width="@dimen/canbus_tv_default_width"
+            android:layout_weight="1.2"
+            android:drawableRight="@drawable/ac_wind_l"
+            android:text="@string/ac_auto_wind" />
+
+        <TextView
+            android:id="@+id/tv_ac"
+            style="@style/ACTextViewTheme"
+            android:layout_width="@dimen/canbus_tv_default_width"
+            android:layout_weight="0.8"
+            android:text="@string/ac_ac" />
+
+        <ImageView
+            android:id="@+id/iv_inner_loop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ac_inner_loop" />
+
+        <ImageView
+            android:id="@+id/iv_front_glass"
+            android:layout_width="@dimen/canbus_tv_default_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ac_front_glass" />
+
+        <ImageView
+            android:id="@+id/iv_rear_glass"
+            android:layout_width="@dimen/canbus_tv_default_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ac_rear_glass" />
+
+        <Space
+            android:layout_width="@dimen/canbus_tv_default_width"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/canbus_tv_default_width"
+        android:layout_weight="1"
+        android:gravity="center_vertical" >
+
+        <FrameLayout
+            android:layout_width="@dimen/canbus_tv_default_width"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/iv_people_l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/ac_iv_people_margin"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ac_people_l" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="@dimen/ac_layout_blow_margin"
+                android:layout_marginTop="@dimen/ac_layout_blow_margin_top"
+                android:gravity="left"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/iv_blow_head_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ac_iv_blow_head_margin"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ac_blow_head_l" />
+
+                <ImageView
+                    android:id="@+id/iv_blow_hands_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ac_blow_hands_l" />
+
+                <ImageView
+                    android:id="@+id/iv_blow_feet_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ac_blow_feet_l" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_heat_seat_l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:layout_marginBottom="@dimen/ac_iv_heat_seat_margin"
+                android:layout_marginRight="@dimen/ac_iv_heat_seat_margin"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ac_heat_seat_l1" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="@dimen/canbus_tv_default_width"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/iv_people_r"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/ac_iv_people_margin"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ac_people_r" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/ac_layout_blow_margin"
+                android:layout_marginTop="@dimen/ac_layout_blow_margin_top"
+                android:gravity="right"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/iv_blow_head_r"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/ac_iv_blow_head_margin"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ac_blow_head_r" />
+
+                <ImageView
+                    android:id="@+id/iv_blow_hands_r"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ac_blow_hands_r" />
+
+                <ImageView
+                    android:id="@+id/iv_blow_feet_r"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ac_blow_feet_r" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_heat_seat_r"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|bottom"
+                android:layout_marginBottom="@dimen/ac_iv_heat_seat_margin"
+                android:layout_marginLeft="@dimen/ac_iv_heat_seat_margin"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ac_heat_seat_r1" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ac_below_part_height"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_temp_l"
+            style="@style/ACTextViewTheme"
+            android:layout_width="@dimen/canbus_tv_default_width"
+            android:layout_weight="2"
+            android:paddingRight="@dimen/ac_tv_temp_left_padding_right"
+            android:text="@string/ac_temp_lo" />
+
+        <ImageView
+            android:id="@+id/iv_wind_l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ac_wind_l" />
+
+
+        <com.yecon.canbus.view.CANBusWindLevelView
+            android:id="@+id/cwv_wind_speed"
+            android:layout_width="@dimen/ac_wind_width"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/ac_wind_height"
+            windlevel:BmpNormal="@drawable/ac_wind_normal"
+            windlevel:BmpSelect="@drawable/ac_wind_sel"
+            windlevel:MaxLevel="7"
+            windlevel:Spacing="5" />
+
+
+        <ImageView
+            android:id="@+id/iv_wind_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ac_wind_r" />
+
+        <TextView
+            android:id="@+id/tv_temp_r"
+            style="@style/ACTextViewTheme"
+            android:layout_width="@dimen/canbus_tv_default_width"
+            android:layout_weight="2"
+            android:paddingLeft="@dimen/ac_tv_temp_right_padding_left"
+            android:text="@string/ac_temp_lo" />
+
+    </LinearLayout>
+
+</LinearLayout>

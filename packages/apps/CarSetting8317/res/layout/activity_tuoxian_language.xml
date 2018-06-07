@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    >
+	<com.tuoxianui.view.TopBar
+	    android:id="@+id/topbar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    app:top_title="@string/settings_item_language_name"
+	    />
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:paddingTop="10dp"
+	    android:paddingLeft="16dp"
+	    android:paddingRight="16dp"
+	    android:paddingBottom="@dimen/settings_btn_margin_bottom"
+	    android:orientation="vertical"
+	    >
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1"
+	        android:orientation="vertical"
+	        >
+			<com.yecon.carsetting.view.MyRadioGroup
+	           android:id="@+id/radioGroup"
+	           android:layout_width="match_parent"
+	           android:layout_height="match_parent"
+	           android:gravity="center"
+	           android:orientation="vertical" >
+		        <RadioButton
+	                 android:id="@+id/cn_simplified "
+	                 style="@style/title_v_style_new"
+	                 android:text="@string/str_cn_simplified"
+	                 />
+	            <RadioButton
+	                android:id="@+id/english"
+	                style="@style/title_v_style_new"
+	                android:text="@string/str_english" />
+            </com.yecon.carsetting.view.MyRadioGroup>
+	    </LinearLayout>
+		<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="#00fa76a7"
+	        android:orientation="horizontal"
+	        android:layout_gravity="bottom|center_horizontal"
+	        android:gravity="center"
+	         >
+		    <TextView
+	            android:id="@+id/back"
+	            style="@style/BottomBarTextStyle"
+	            android:contentDescription="@string/str_btn_back"
+	            android:text="@string/str_btn_back" />
+		    <TextView
+		        android:layout_weight="3"
+	            style="@style/BottomBarTextStyle"
+	            android:contentDescription="@null"
+	            android:visibility="invisible"
+	             />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

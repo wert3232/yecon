@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fuel_bg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/tx_curfuel_trip_padding2"
+    android:paddingLeft="@dimen/tx_hisfuel_progress_width1"
+    android:paddingRight="@dimen/tx_hisfuel_progress_width1"
+    android:paddingTop="@dimen/tx_curfuel_trip_padding2" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_dz7_conv_title"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/tx_curfuel_size" />
+
+    <ListView
+        android:id="@+id/list_dz7_conv_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+</LinearLayout>

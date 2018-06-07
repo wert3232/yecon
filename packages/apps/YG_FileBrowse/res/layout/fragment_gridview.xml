@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yecon.filemanager.FileGridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="24dp"
+    android:horizontalSpacing="16dp"
+    android:columnWidth="106dp"
+    android:stretchMode="columnWidth"
+    android:gravity="center">
+
+</com.yecon.filemanager.FileGridView>

@@ -1,0 +1,73 @@
+<resources>
+    <string-array name="weekday">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+    
+    <string name="app_name">天气</string>
+    <string name="settings_city_select">选择城市</string>
+    <string name="current_city">当前选择城市：</string>
+     <string name="chkcurrentcity">使用当前城市</string>
+    <string name="unknown">未知</string>
+    <string name="updateing">正在更新天气 &#8230;</string>
+    <string name="error">网络连接失败！</string>
+    <string name="timeout">网络连接超时！</string>
+    <string name="invalid_data">返回无效数据！</string>
+ 	
+    <string-array name="yahoo_condition ">
+        <item>龙卷风</item>
+        <item>热带风暴</item>
+        <item>飓风</item>
+        <item>雷暴</item>
+        <item>暴雨</item>
+        <item>雨夹雪</item>
+        <item>雨夹冰雹</item>
+        <item>雪夹冰雹</item>
+        <item>冻雨</item>
+        <item>小雨</item>
+        <item>冻雨</item>
+        <item>阵雨</item>
+        <item>阵雨</item>
+        <item>阵雪</item>
+        <item>阵雪</item>
+        <item>雪</item>
+        <item>雪</item>
+        <item>冰雹</item>
+        <item>雨夹雪</item>
+        <item>雾霾</item>
+        <item>雾</item>
+        <item>霾</item>
+        <item>霾</item>
+        <item>晴</item>
+        <item>晴</item>
+        <item>多云</item>
+        <item>多云</item>
+        <item>多云</item>
+        <item>多云</item>
+        <item>多云</item>
+        <item>多云</item>
+        <item>晴</item>
+        <item>晴</item>
+        <item>晴</item>
+        <item>晴</item>
+        <item>雨和冰雹</item>
+        <item>晴</item>
+        <item>暴雨</item>
+        <item>雷雨</item>
+        <item>雷雨</item>
+        <item>阵雨</item>
+        <item>大雪</item>
+        <item>雨夹雪</item>
+        <item>大雪</item>
+        <item>晴</item>
+        <item>雷阵雨</item>
+        <item>雨夹雪</item>
+        <item>雷阵雨</item>
+    </string-array>
+
+</resources>

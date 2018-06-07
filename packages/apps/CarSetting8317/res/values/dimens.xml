@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!-- tuoxian -->
+    <dimen name="settings_item_wrap_pading_top">4dp</dimen>
+    <dimen name="settings_item_wrap_pading_bottom">4dp</dimen>
+    <dimen name="settings_item_wrap_pading_left">4dp</dimen>
+    <dimen name="settings_item_wrap_pading_right">4dp</dimen>
+    <dimen name="settings_item_wrap_between_gap">20dp</dimen>
+    <dimen name="textsize_general">22sp</dimen>
+    <dimen name="settings_btn_margin_bottom">8dp</dimen>
+    <dimen name="bottom_btn_text_size">32sp</dimen>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="default_duration_time">00:00:00</string>
+    <string name="no_sd_error">没有视频文件</string>
+    <string name="file_scanning">文件掃描中，請等待！</string>
+    <string name="prompt_fastforward">快進：</string>
+    <string name="prompt_rewind">快退：</string>
+    <string name="folder_usb">USB文件夾</string>
+    <string name="folder_sd">SD卡文件夾</string>
+    <string name="MAX_TRACKS_IS">最大 </string>
+    <string name="parking_prompt_contents">為了行駛安全，請注意駕駛！</string>
+    <string name="str_btn_pre">上一曲</string>
+    <string name="str_btn_play">播放</string>
+    <string name="str_btn_pause">暂停</string>
+    <string name="str_btn_next">下一曲</string>
+    <string name="str_btn_rand">随机开</string>
+    <string name="str_btn_rand_off">随机关</string>
+    <string name="str_btn_loop">列表循环</string>
+    <string name="str_btn_loop_current">单曲循环</string>
+    <string name="str_btn_loop_off">关闭循环</string>
+    <string name="str_btn_list">列表</string>
+	<string name="str_tab_folder">文件夹</string>
+    <string name="str_tab_list">正在播放</string>
+    <string name="str_tab_internal">內部存儲</string>
+        <string name="str_tab_sd1">SD1</string>
+    <string name="str_tab_sd2">SD2</string>
+    <string name="str_tab_usb1">USB1</string>
+    <string name="str_tab_usb2">USB2</string>
+    <string name="str_tab_usb3">USB3</string>
+    <string name="str_tab_usb4">USB4</string>
+    <string name="str_tab_usb5">USB4</string>
+</resources>

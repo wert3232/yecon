@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Dimens margin -->
+    <dimen name="freq_num_margin">5dp</dimen>
+    <!-- Dimens padding -->
+    <dimen name="textview_left_padding">10dp</dimen>
+    <dimen name="textview_right_padding">20dp</dimen>
+    <dimen name="textview_top_padding">20dp</dimen>
+    <dimen name="textview_bottom_padding">5dp</dimen>
+    <dimen name="seekbar_padding">20dp</dimen>
+    <dimen name="bottom_bar_drawable_padding">4dp</dimen>
+
+    <!-- Dimens textsize -->
+    <dimen name="pre_freq_textview_textsize">28sp</dimen>
+    <dimen name="loc_textview_textsize">28sp</dimen>
+    <dimen name="freq_unit_textview_textsize">30sp</dimen>
+    <dimen name="freq_num_textview_textsize">90sp</dimen>
+    <dimen name="bottom_bar_textview_size">18sp</dimen>
+
+    <!-- width -->
+    <dimen name="space_layout_height">30dp</dimen>
+
+</resources>

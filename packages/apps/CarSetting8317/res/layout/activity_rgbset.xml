@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_set_bk" >
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/factory_rgb_set"
+        android:textColor="@color/textcolor"
+        android:textSize="@dimen/textsize_general" />
+    
+    <Button
+        android:id="@+id/rgb_reset_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginRight="30dp"
+         android:text="@string/light_reset_bt"
+         android:textColor="@color/textcolor"
+         android:textSize="@dimen/textsize_general"
+        android:layout_alignRight="@+id/text_title"
+        android:background="@drawable/btn_rgb_reset" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_title"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@xml/icon_video_bright_state" />
+
+            <SeekBar
+                android:id="@+id/seekBar_brightness"
+                android:layout_width="@dimen/dialog_seekbar_width"
+                android:layout_height="@dimen/dialog_seekbar_height"
+                android:layout_marginLeft="20dp"
+                android:max="255"
+                android:maxHeight="@dimen/dialog_seekbar_height"
+                android:minHeight="@dimen/dialog_seekbar_height"
+                android:progressDrawable="@xml/seekbar_dialog_style"
+                android:thumb="@xml/selector_seekbar_yuv_point_state"
+                android:thumbOffset="0px" />
+
+            <TextView
+                android:id="@+id/text_bright_value"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:gravity="left"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textsize_general" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@xml/icon_video_contrast_state" />
+
+            <SeekBar
+                android:id="@+id/seekBar_contrast"
+                android:layout_width="@dimen/dialog_seekbar_width"
+                android:layout_height="@dimen/dialog_seekbar_height"
+                android:layout_marginLeft="20dp"
+                android:max="255"
+                android:maxHeight="@dimen/dialog_seekbar_height"
+                android:minHeight="@dimen/dialog_seekbar_height"
+                android:progressDrawable="@xml/seekbar_dialog_style"
+                android:thumb="@xml/selector_seekbar_yuv_point_state"
+                android:thumbOffset="0px" />
+
+            <TextView
+                android:id="@+id/text_contrast_value"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:gravity="left"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textsize_general" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@xml/icon_video_hue_state" />
+
+            <SeekBar
+                android:id="@+id/seekBar_hue"
+                android:layout_width="@dimen/dialog_seekbar_width"
+                android:layout_height="@dimen/dialog_seekbar_height"
+                android:layout_marginLeft="20dp"
+                android:max="63"
+                android:maxHeight="@dimen/dialog_seekbar_height"
+                android:minHeight="@dimen/dialog_seekbar_height"
+                android:progressDrawable="@xml/seekbar_dialog_style"
+                android:thumb="@xml/selector_seekbar_yuv_point_state"
+                android:thumbOffset="0px" />
+
+            <TextView
+                android:id="@+id/text_hue_value"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:gravity="left"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textsize_general" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@xml/icon_video_saturation_state" />
+
+            <SeekBar
+                android:id="@+id/seekBar_saturation"
+                android:layout_width="@dimen/dialog_seekbar_width"
+                android:layout_height="@dimen/dialog_seekbar_height"
+                android:layout_marginLeft="20dp"
+                android:max="255"
+                android:maxHeight="@dimen/dialog_seekbar_height"
+                android:minHeight="@dimen/dialog_seekbar_height"
+                android:progressDrawable="@xml/seekbar_dialog_style"
+                android:thumb="@xml/selector_seekbar_yuv_point_state"
+                android:thumbOffset="0px" />
+
+            <TextView
+                android:id="@+id/text_saturation_value"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:gravity="left"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textsize_general" />
+        </LinearLayout>
+    </LinearLayout>
+
+    
+
+</RelativeLayout>

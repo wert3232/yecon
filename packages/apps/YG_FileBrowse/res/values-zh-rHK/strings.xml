@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">文件管理器</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置</string>
+    <string name="file_name">名字</string>
+    <string name="file_modifiedtime">修改時間</string>
+    <string name="file_size">大小</string>
+    <string name="file_kind">類型</string>
+
+    <!-- popup menu -->
+    <string name="popup_menu_rename">重命名</string>
+    <string name="popup_menu_info">信息</string>
+
+    <!-- button operation -->
+
+    <string name="action_check_all">全選</string>
+    <string name="action_rename">重命名</string>
+    <string name="action_copy">複製</string>
+    <string name="action_paste">粘貼</string>
+    <string name="action_delete">刪除</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_uncheck_all">取消全選</string>
+    <string name="action_cut">剪切</string>
+
+    <!-- action bar -->
+    <string name="action_gridview">平鋪</string>
+    <string name="action_listview">列表</string>
+    <string name="action_left">Left</string>
+
+    <!-- mime option dialog -->
+    <string name="dialog_select_type">未知文件類型，請選擇一項</string>
+    <string name="dialog_type_text">文本</string>
+    <string name="dialog_type_video">視頻</string>
+    <string name="dialog_type_audio">音頻</string>
+    <string name="dialog_type_image">圖片</string>
+
+    <!-- input dialog activity -->
+    <string name="activity_input_confirm">確定</string>
+    <string name="activity_input_cancel">取消</string>
+    <string name="activity_title_new_folder">新文件名字</string>
+    <string name="tab">tab</string>
+    <!-- alert dialog -->
+    <string name="alert_rename">重命名</string>
+    <string name="alert_back">退出</string>
+    <string name="alert_invaild_name">無效的名字</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dialog_delete_warning">刪除這些對象？</string>
+    <string name="dialog_progress_delete">正在刪除中...</string>
+    <string name="dialog_progress_paste">正在粘貼中...</string>
+    <string name="dialog_progress_load">正在加載中...</string>
+    <string name="dialog_progress_search">正在搜索中...</string>
+    <string name="dialog_error_title">錯誤</string>
+     <string name="load_error">無法加載</string>
+     <string name="dialog_paste_error_notwritable">此路徑無法寫入</string>
+    <string name="dialog_paste_error_contained">無法複製相同的文件夾</string>
+    <string name="dialog_paste_error_nospace">沒有足夠空間</string>
+    <string name="dialog_paste_error_androidsecure">包括.android_secure 文件夾</string>
+    <string name="dialog_delete_error">無法刪除</string>
+    <string name="dialog_delete_abort">刪除終止</string>
+    <string name="dialog_caculating">計算中</string>
+
+    <!--file category fragment -->
+    <string name="usb1">USB1</string>
+    <string name="usb2">USB2</string>
+    <string name="usb3">USB3</string>
+    <string name="usb4">USB4</string>
+    <string name="usb5">USB5</string>
+    <string name="sd1">SD1</string>
+    <string name="sd2">SD2</string>
+    <string name="internal">內置存儲</string>
+
+    <!-- test -->
+    <string name="test">test</string>
+
+    <string name="empty_view_description">空文件夾</string>
+
+    <!-- fragment normal info -->
+    <string name="fragment_info_normal_title_name">文件名</string>
+    <string name="fragment_info_normal_title_type">文件類型</string>
+    <string name="fragment_info_normal_title_location">文件路徑</string>
+    <string name="fragment_info_normal_title_size">文件大小</string>
+    <string name="fragment_info_normal_title_time">修改時間</string>
+    <string name="fragment_info_normal_title_read">可讀</string>
+    <string name="fragment_info_normal_title_write">可寫</string>
+    <string name="fragment_info_normal_title_exe">可執行</string>
+    <string name="fragment_info_normal_title_permission">權限</string>
+
+    <!-- file type -->
+    <string name="file_type_folder">文件夾</string>
+    <string name="file_type_audio">音頻</string>
+    <string name="file_type_video">視頻</string>
+    <string name="file_type_image">圖片</string>
+    <string name="file_type_other">其他</string>
+
+    <string name="menu_item_title_new_folder">新建文件夾</string>
+    <string name="menu_item_title_sort">排序</string>
+    <string name="menu_item_title_view">視圖</string>
+
+    <string name="search_hint">搜索</string>
+    <string name="search_fail">未能找到文件</string>
+
+    <string name="indicator_file_normal">常規</string>
+    <string name="indicator_file_more">更多</string>
+
+    <string name="resolution">分辨率（像素）</string>
+    <string name="dateTaken">拍攝日期</string>
+    <string name="longtitude">經度</string>
+    <string name="latitude">緯度</string>
+
+    <string name="duration">時長</string>
+    <string name="artist">藝術家</string>
+    <string name="album">專輯</string>
+    
+    <string name="storage_total">總容量 </string>
+    <string name="storage_free">可用空間 </string>
+    
+    <string name="no_support_apk">無法打開此文件</string>
+</resources>

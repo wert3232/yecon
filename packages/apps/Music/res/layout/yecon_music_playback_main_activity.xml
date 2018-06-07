@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appbackground" >
+
+    <LinearLayout
+        android:id="@+id/layout_play"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_album"
+                android:layout_width="@dimen/imageview_album_width"
+                android:layout_height="@dimen/imageview_album_height"
+                android:layout_marginLeft="@dimen/imageview_album_left_margin"
+                android:layout_marginRight="@dimen/imageview_album_right_margin"
+                android:contentDescription="@string/musicbrowserlabel"
+                android:src="@drawable/albumart_mp_unknown" />
+
+            <LinearLayout
+                android:id="@+id/layout_song_info"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <com.yecon.music.view.MarqueeTextView
+                    android:id="@+id/tv_track"
+                    style="@style/TrackTextViewTheme"
+                    android:drawableLeft="@drawable/ic_play_track" />
+
+                <com.yecon.music.view.MarqueeTextView
+                    android:id="@+id/tv_artist"
+                    style="@style/TrackTextViewTheme"
+                    android:drawableLeft="@drawable/ic_play_artist" />
+
+                <com.yecon.music.view.MarqueeTextView
+                    android:id="@+id/tv_album"
+                    style="@style/TrackTextViewTheme"
+                    android:drawableLeft="@drawable/ic_play_album" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_control_audio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/musicbrowserlabel"
+                android:paddingRight="@dimen/control_audio_padding"
+                android:paddingTop="@dimen/control_audio_padding"
+                android:src="@drawable/ic_audio_bg" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_track_index"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingBottom="@dimen/space_view_top_margin"
+            android:paddingTop="@dimen/space_view_top_margin"
+            android:text="@string/musicbrowserlabel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/track_index_textview_textsize" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="@dimen/textview_default_padding"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_progress_time"
+                style="@style/TimeTextViewTheme" />
+
+            <SeekBar
+                android:id="@+id/sb_music_playback_process"
+                android:layout_width="@dimen/seekbar_default_width"
+                android:layout_height="wrap_content"
+                android:maxHeight="@dimen/seekbar_default_height"
+                android:minHeight="@dimen/seekbar_default_height"
+                android:paddingLeft="@dimen/space_view_left_margin"
+                android:paddingRight="@dimen/space_view_left_margin"
+                android:progressDrawable="@xml/seekbar_img"
+                android:thumb="@xml/thumb" />
+
+            <TextView
+                android:id="@+id/tv_total_time"
+                style="@style/TimeTextViewTheme" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_music_op"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottombar_bg" >
+
+            <TextView
+                android:id="@+id/btn_op_pre"
+                style="@style/BottomBarBtnTheme"
+                android:drawableTop="@drawable/btn_pre_bg"
+                android:text="@string/str_btn_pre" />
+
+            <TextView
+                android:id="@+id/btn_op_play"
+                style="@style/BottomBarBtnTheme"
+                android:drawableTop="@drawable/btn_play_bg"
+                android:text="@string/str_btn_play" />
+
+            <TextView
+                android:id="@+id/btn_op_next"
+                style="@style/BottomBarBtnTheme"
+                android:drawableTop="@drawable/btn_next_bg"
+                android:text="@string/str_btn_next" />
+
+            <TextView
+                android:id="@+id/btn_op_rand"
+                style="@style/BottomBarBtnTheme"
+                android:drawableTop="@drawable/btn_rand_bg"
+                android:text="@string/str_btn_rand" />
+
+            <TextView
+                android:id="@+id/btn_op_loop"
+                style="@style/BottomBarBtnTheme"
+                android:drawableTop="@drawable/btn_loop_bg"
+                android:text="@string/str_btn_loop" />
+
+            <TextView
+                android:id="@+id/btn_op_list"
+                style="@style/BottomBarBtnTheme"
+                android:drawableTop="@drawable/btn_list_bg"
+                android:text="@string/str_btn_list" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_scan"
+        style="@style/LayoutScanTheme"
+        android:orientation="vertical" >
+
+        <ProgressBar
+            android:layout_width="@dimen/progress_default_width"
+            android:layout_height="@dimen/progress_default_height"
+            android:indeterminateDrawable="@drawable/yecon_progressbar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/textview_default_padding"
+            android:text="@string/music_scanning"
+            android:textColor="@color/white"
+            android:textSize="@dimen/scan_textview_textsize" />
+    </LinearLayout>
+
+</FrameLayout>

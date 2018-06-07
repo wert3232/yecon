@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/fragment_padding" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style1"
+                android:text="@string/str_tx_ford_carset" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_ford_carset_tractionctrl" />
+
+            <CheckBox
+                android:id="@+id/checkbox_ford_carset_tractionctrl_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_ford_carset_trunLightonce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_ford_carset_trunLightonce" />
+
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_ford_carset_msgtoneon" />
+
+            <CheckBox
+                android:id="@+id/checkbox_ford_carset_msgtoneon_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_ford_carset_warntoneon" />
+
+            <CheckBox
+                android:id="@+id/checkbox_ford_carset_warntoneon_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_ford_carset_tonetype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_ford_carset_tonetype" />
+
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_ford_carset_mileunit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_ford_carset_mileunit" />
+
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style1"
+                android:text="@string/str_tx_ford_carset_state" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_ford_carset_travelplan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_ford_carset_travelplan" />
+
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_ford_carset_travelspeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_ford_carset_travelspeed" />
+
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_ford_carset_autobright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_ford_carset_autobright" />
+
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style1"
+                android:text="@string/str_tx_ford_carset_enginehotper" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_ford_carset_enginehotper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_ford_carset_enginehotper" />
+
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_ford_carset_showenginehot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_ford_carset_showenginehot" />
+
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style1"
+                android:text="@string/str_tx_ford_carset_other" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_ford_carset_rainsensor" />
+
+            <CheckBox
+                android:id="@+id/checkbox_ford_carset_rainsensor_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_ford_carset_interiorlight" />
+
+            <CheckBox
+                android:id="@+id/checkbox_ford_carset_interiorlight_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_ford_carset_parklockctrl" />
+
+            <CheckBox
+                android:id="@+id/checkbox_ford_carset_parklockctrl_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

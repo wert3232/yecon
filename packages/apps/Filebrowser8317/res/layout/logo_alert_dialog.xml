@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:background="@drawable/alarm_bg" -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/alert_dialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/set_logo_text"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/alert_set_logo"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="480dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/set_logo_text"
+        android:layout_marginBottom="6dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_dialog_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@xml/alert_dialog_button"
+            android:text="@string/alert_ok"
+            android:textColor="@color/mmp_black"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_dialog_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:background="@xml/alert_dialog_button"
+            android:text="@string/alert_cancel"
+            android:textColor="@color/mmp_black"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>

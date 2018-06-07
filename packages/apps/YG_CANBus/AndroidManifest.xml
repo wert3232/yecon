@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yecon.canbus" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:allowBackup="true"
+        android:persistent="true" >
+        <activity
+            android:name="com.yecon.canbus.raise.ford.FordACActivity"
+            android:theme="@style/CarConditionerActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yecon.canbus.raise.ford.FordCIActivity"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.yecon.canbus.raise.honda.HondaACActivity"
+            android:theme="@style/CarConditionerActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yecon.canbus.raise.honda.HondaCIActivity"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.yecon.canbus.raise.honda.HondaCamryACActivity"
+            android:theme="@style/CarConditionerActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yecon.canbus.raise.honda.HondaCamryCIActivity"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.yecon.canbus.raise.gm.GMACActivity"
+            android:theme="@style/CarConditionerActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yecon.canbus.raise.gm.GMCIActivity"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.yecon.canbus.raise.vw.VWACActivity"
+            android:theme="@style/CarConditionerActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yecon.canbus.raise.vw.VWCIActivity"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.yecon.canbus.raise.peugeot.PeugeotACActivity"
+            android:theme="@style/CarConditionerActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yecon.canbus.raise.peugeot.PeugeotCIActivity"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.yecon.canbus.raise.mazda.MazdaACActivity"
+            android:theme="@style/CarConditionerActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yecon.canbus.raise.mazda.MazdaCIActivity"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.yecon.canbus.raise.hyundai.HyundaiACActivity"
+            android:theme="@style/CarConditionerActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yecon.canbus.raise.hyundai.HyundaiCIActivity"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.yecon.canbus.YeconCANBusActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/car_info_app_name"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.yecon.canbus.parse.YeconCANBusService" >
+            <intent-filter>
+                <action android:name="yecon.intent.action.CANBUS_SERVICE" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="com.yecon.canbus.parse.YeconCANBusBootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

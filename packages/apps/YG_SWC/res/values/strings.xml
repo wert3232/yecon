@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SWC</string>
+    <string name="btn_pre">back</string>
+    <string name="btn_next">next</string>
+    <string name="btn_volume_up">volume+</string>
+    <string name="btn_power">power</string>
+    <string name="btn_volume_down">volume-</string>
+    <string name="btn_volume_mute">mute</string>
+    <string name="btn_phone_on">pick up</string>
+    <string name="btn_phone_off">hang up</string>
+    <string name="btn_src">mode</string>
+    <string name="btn_navi">navigation</string>
+    <string name="btn_radio">band</string>
+    <string name="btn_media">play</string>
+    <string name="btn_reset">reset</string>
+    <string name="swc_prompt">Press the wheel button first, then press the corresponding button on screen.</string>
+    <string name="swc_warning">The system has studied this button.</string>
+	
+     <string name="btn_home">Home</string>
+    <string name="btn_return">Back</string>
+    <string name="btn_rand">Random</string>
+    <string name="btn_eq">EQ</string>
+    <string name="btn_loud">Loud</string>
+    <string name="btn_voice">Voice</string>
+    <string name="not_support_key">This key is not supported.</string>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- item -->
+
+    <dimen name="item_gap">2dp</dimen>
+    <dimen name="bottombar_button_right_margin">40dp</dimen>
+
+    <!-- Dimens space -->
+    <dimen name="fragment_padding">28dp</dimen>
+    <dimen name="textsize_l">25sp</dimen>
+    <dimen name="textsize_m">22sp</dimen>
+    <dimen name="textsize_s">18sp</dimen>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:carsetting="http://schemas.android.com/apk/res/com.yecon.carsetting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:padding="@dimen/fragment_padding" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_boot_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="2"
+            carsetting:item_subTitle="@string/factory_boot_logo" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_sleep_power_enable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            carsetting:item_style="2"
+            carsetting:item_subTitle="@string/factory_sleep_power_enable" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_sleep_ready_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_sleep_ready_time" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_power_off_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_power_off_time" />
+    </LinearLayout>
+
+</ScrollView>

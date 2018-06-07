@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/RadioGroup_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:background="@drawable/factory_list_bg"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp" >
+
+        <RadioButton
+            android:id="@+id/Radio_style_1"
+            style="@style/radio_tab_style"
+            android:text="@string/factory_videoset_aux"
+            android:textSize="@dimen/textsize_general" />
+
+        <RadioButton
+            android:id="@+id/Radio_style_2"
+            style="@style/radio_tab_style"
+            android:text="@string/factory_videoset_backcar"
+            android:textSize="@dimen/textsize_general" />
+
+        <RadioButton
+            android:id="@+id/Radio_style_3"
+            style="@style/radio_tab_style"
+            android:text="@string/factory_videoset_usb"
+            android:textSize="@dimen/textsize_general" />
+
+        <RadioButton
+            android:id="@+id/Radio_style_4"
+            style="@style/radio_tab_style"
+            android:text="@string/factory_videoset_dvd"
+            android:textSize="@dimen/textsize_general" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/layout_gain_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RadioGroup_menu"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/factory_list_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tag_ygain"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/light_y_gain_title"
+                android:textColor="@android:color/white"
+                android:textSize="27sp" />
+
+            <ImageView
+                android:id="@+id/ygain_minus"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/item_left_bg" />
+
+            <SeekBar
+                android:id="@+id/seekBar_ygain"
+                android:layout_width="352px"
+                android:layout_height="19px"
+                android:max="511"
+                android:maxHeight="19px"
+                android:minHeight="19px"
+                android:progressDrawable="@xml/seekbar_factory_style"
+                android:thumb="@xml/selector_factory_seekbar_point_state"
+                android:thumbOffset="5px" />
+
+            <TextView
+                android:id="@+id/text_ygain_value"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@android:color/white"
+                android:textSize="27sp" />
+
+            <ImageView
+                android:id="@+id/ygain_add"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/item_right_bg" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/factory_list_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tag_ugain"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/light_u_gain_title"
+                android:textColor="@android:color/white"
+                android:textSize="27sp" />
+
+            <ImageView
+                android:id="@+id/ugain_minus"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/item_left_bg" />
+
+            <SeekBar
+                android:id="@+id/seekBar_ugain"
+                android:layout_width="352px"
+                android:layout_height="19px"
+                android:max="511"
+                android:maxHeight="19px"
+                android:minHeight="19px"
+                android:progressDrawable="@xml/seekbar_factory_style"
+                android:thumb="@xml/selector_factory_seekbar_point_state"
+                android:thumbOffset="5px" />
+
+            <TextView
+                android:id="@+id/text_ugain_value"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@android:color/white"
+                android:textSize="27sp" />
+
+            <ImageView
+                android:id="@+id/ugain_add"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/item_right_bg" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/factory_list_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tag_vgain"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/light_v_gain_title"
+                android:textColor="@android:color/white"
+                android:textSize="27sp" />
+
+            <ImageView
+                android:id="@+id/vgain_minus"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/item_left_bg" />
+
+            <SeekBar
+                android:id="@+id/seekBar_vgain"
+                android:layout_width="352px"
+                android:layout_height="19px"
+                android:max="511"
+                android:maxHeight="19px"
+                android:minHeight="19px"
+                android:progressDrawable="@xml/seekbar_factory_style"
+                android:thumb="@xml/selector_factory_seekbar_point_state"
+                android:thumbOffset="5px" />
+
+            <TextView
+                android:id="@+id/text_vgain_value"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@android:color/white"
+                android:textSize="27sp" />
+
+            <ImageView
+                android:id="@+id/vgain_add"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/item_right_bg" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

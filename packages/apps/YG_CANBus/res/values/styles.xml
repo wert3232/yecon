@@ -1,0 +1,43 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="CarConditionerActivityTheme" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="YUVActivityTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="CANBusTypeButtonTheme">
+        <item name="android:layout_width">@dimen/canbus_button_default_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">@dimen/canbus_type_textview_textsize</item>
+    </style>
+
+    <style name="ACTextViewTheme">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/ac_textview_default_size</item>
+    </style>
+
+    <style name="CITextViewTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawablePadding">@dimen/ci_textview_drawpadding</item>
+        <item name="android:paddingTop">@dimen/ci_textview_padding_top</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/textview_color</item>
+        <item name="android:textSize">@dimen/ci_textview_default_size</item>
+    </style>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_gravity="center"
+	android:orientation="vertical" 
+	android:id="@+id/layout_empty"
+	android:visibility="gone"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+  >
+    <TextView 
+	    android:textSize="@dimen/track_textview_textsize" 
+	    android:textColor="@color/white" 
+	    android:layout_gravity="center" 
+	    android:id="@+id/tv_sd_error" 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/no_pic_msg" 
+	    android:drawableTop="@drawable/no_image" />
+</FrameLayout>

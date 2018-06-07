@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="str_tx_jeep_menu_carset">Car Set</string>
+    <string name="str_tx_jeep_menu_cdinfo">CD Info</string>
+    <string name="str_tx_jeep_menu_compass">Compass</string>
+    <string name="str_tx_jeep_menu_airset">Air Set</string>
+    <string name="str_tx_jeep_menu_dspinfo">Dsp Info</string>
+    <!-- Car set -->
+    <!-- 1 -->
+    <string name="str_tx_jeep_carset_safe_assist">Safe driving and supporting</string>
+    <string name="str_tx_jeep_carset_parksense">parksense</string>
+    <string name="str_tx_jeep_carset_fparksensevol">Front parksense volume</string>
+    <string name="str_tx_jeep_carset_rparksensevol">Rear parksense volume</string>
+    <string name="str_tx_jeep_carset_tiltrmirror">Tilt the rearmirror while backcar</string>
+    <string name="str_tx_jeep_carset_affectdyncline">Affect the dynamic parking guide line</string>
+    <string name="str_tx_jeep_carset_rainfallwiper">Induction of rainfall wiper</string>
+    <string name="str_tx_jeep_carset_rampauxiliary">Ramp start auxiliary</string>
+    <string name="str_tx_jeep_carset_blindspotwarn">Blind spot warning</string>
+    <!-- 2 -->
+    <string name="str_tx_jeep_carset_videoparkfixline">Video parking fixed guide line</string>
+    <string name="str_tx_jeep_carset_rradarautoparkaux">After radar auto parking auxiliary</string>
+    <string name="str_tx_jeep_carset_allowautobrakeservice">Allow automatic brake service</string>
+    <string name="str_tx_jeep_carset_autoparkbrake">Automatic parking brake</string>
+    <string name="str_tx_jeep_carset_lanedeparturecal">Lane departure calibration</string>
+    
+    <string name="str_tx_jeep_carset_fcollisionwarnbrake">Front collision warn auto brake</string>
+    <string name="str_tx_jeep_carset_fcollisionwarn">The front collision warning</string>
+    <string name="str_tx_jeep_carset_antiglareautobeam">Anti-glare automatic high beam</string>
+    <string name="str_tx_jeep_carset_cardoorwarn">Car door warning</string>
+    <string name="str_tx_jeep_carset_autostartdrivingseat">Start auto start when driving seat heaters</string>
+    <string name="str_tx_jeep_carset_nearlightupauto">Near the headlights light up automatically</string>
+    <string name="str_tx_jeep_carset_lanedeparturewarning">Lane departure warning</string>
+    <string name="str_tx_jeep_carset_buzzerswitch">Buzzer switch</string>
+    
+    <string name="str_tx_jeep_carset_carlight">Car Light</string>
+    <string name="str_tx_jeep_carset_headlightoffdelay">Headlights off delay</string>
+    <string name="str_tx_jeep_carset_wiperautostartlight">Start wipers autostart when the headlights</string>
+    <string name="str_tx_jeep_carset_daytimerunlight">Daytime running lights</string>
+    <string name="str_tx_jeep_carset_lightflash">Lock the car lights flashing</string>
+
+    <string name="str_tx_jeep_carset_doorandlock">Door and Lock</string>
+    <string name="str_tx_jeep_carset_autodoorlock">Auto door lock</string>
+    <string name="str_tx_jeep_carset_getoffautounlock">Get off the car auto unlocked</string>
+    <string name="str_tx_jeep_carset_driveautopadlock">Driving auto padlock</string>
+    <string name="str_tx_jeep_carset_lockcarvoice">Lock the car when a voice</string>
+    <string name="str_tx_jeep_carset_firsttimunlock">First time with car keys unlock</string>
+    <string name="str_tx_jeep_carset_nokeytoenter">No keys to enter</string>
+    <string name="str_tx_jeep_carset_intellkeyperset">Intelligent key personalized Settings</string>
+    <string name="str_tx_jeep_carset_electricdooralarm">Electric door alarm</string>
+    
+    <string name="str_tx_jeep_carset_engineshutdown">Engine shutdown option</string>
+    <string name="str_tx_jeep_carset_seatconvpassinout">Seat convenient pass in and out</string>
+    <string name="str_tx_jeep_carset_enginepowershutdown">Engine power shut down latency</string>
+    
+    <string name="str_tx_jeep_carset_suspension">Suspension</string>
+    <string name="str_tx_jeep_carset_onoroffadjustsuspen">Get on or off auto adjust suspension</string>
+    <string name="str_tx_jeep_carset_showsuspensioninfo">Show suspension info</string>
+    <string name="str_tx_jeep_carset_tirejack">Tire jack</string>
+    <string name="str_tx_jeep_carset_modeoftransport">Mode of transport</string>
+    <string name="str_tx_jeep_carset_wheelalignmentmodel">Wheel alignment model</string>
+    
+    <string name="str_tx_jeep_carset_otherset">Other set</string>
+    <string name="str_tx_jeep_carset_rearviewadjustlens">Rearview mirror adjustment lens</string>
+    <string name="str_tx_jeep_carset_unitset">Unit set</string>
+    <string name="str_tx_jeep_carset_langset">Lang set</string>
+    <string name="str_tx_jeep_carset_reset">Reset All</string>
+    
+    <string name="str_tx_jeep_cdinfo_fr">FR</string>
+    <string name="str_tx_jeep_cdinfo_ff">FF</string>
+    <string name="str_tx_jeep_cdinfo_repeat">Repeat ON</string>
+    <string name="str_tx_jeep_cdinfo_random">Random ON</string>    
+    <string name="str_tx_jeep_cdinfo_repeat_off">Repeat OFF</string>
+    <string name="str_tx_jeep_cdinfo_random_off">Random oFF</string>
+    
+    <string name="str_tx_jeep_cdinfo_playmode1">Normal</string>
+    <string name="str_tx_jeep_cdinfo_playmode2">Random</string>
+    <string name="str_tx_jeep_cdinfo_playmode3">Repeat</string>
+    
+    <string name="str_tx_jeep_cdinfo_playstate1">Nodisk</string>
+    <string name="str_tx_jeep_cdinfo_playstate2">Play</string>
+    <string name="str_tx_jeep_cdinfo_playstate3">Loading</string>
+    <string name="str_tx_jeep_cdinfo_playstate4">Read</string>
+    <string name="str_tx_jeep_cdinfo_playstate5">Eject</string>
+    <string name="str_tx_jeep_cdinfo_playstate6">Pause</string>
+    <string name="str_tx_jeep_cdinfo_playstate7">Stop</string>
+    <string name="str_tx_jeep_cdinfo_playstate8">Swith</string>
+    <string name="str_tx_jeep_cdinfo_playstate9">Error</string>
+    
+    <string name="str_compass_f_calibration">Finish calibration</string>
+    <string name="str_compass_ing_calibration">Action Calibration</string>
+    <string name="str_compass_fa_calibration">Calibration Fail</string>
+    
+    <string name="str_air_lhot">LHot:</string>
+    <string name="str_air_rhot">RHot:</string>
+    <string name="str_air_sync">Sync</string>
+    <string name="str_air_rear">Rear</string>
+    <string name="str_air_on">ON</string>    
+    <string name="str_air_off">OFF</string>
+    
+    <string name="str_tx_jeep_carset_parksense_1">None</string>
+    <string name="str_tx_jeep_carset_parksense_2">Volume</string>
+    <string name="str_tx_jeep_carset_parksense_3">Volume and show</string>
+    
+    <string name="str_tx_jeep_carset_fparksense_1">None</string>
+    <string name="str_tx_jeep_carset_fparksense_2">Low</string>
+    <string name="str_tx_jeep_carset_fparksense_3">High</string>
+    
+    <string name="str_tx_jeep_carset_rparksense_1">None</string>
+    <string name="str_tx_jeep_carset_rparksense_2">Low</string>
+    <string name="str_tx_jeep_carset_rparksense_3">High</string>
+    
+    <string name="str_tx_jeep_carset_blindspotwarn_1">Close</string>
+    <string name="str_tx_jeep_carset_blindspotwarn_2">Carlight</string>
+    <string name="str_tx_jeep_carset_blindspotwarn_3">Carlight and warn</string>
+    
+    <string name="str_tx_jeep_carset_firsttimunlock_1">All door</string>
+    <string name="str_tx_jeep_carset_firsttimunlock_2">Driver door</string>
+    
+    <string name="str_tx_jeep_carset_enginepowershutdown_1">0S</string>
+    <string name="str_tx_jeep_carset_enginepowershutdown_2">45S</string>
+    <string name="str_tx_jeep_carset_enginepowershutdown_3">5Min</string>
+    <string name="str_tx_jeep_carset_enginepowershutdown_4">10Min</string>
+    
+    <string name="str_tx_jeep_carset_unitset_1">Metric</string>
+    <string name="str_tx_jeep_carset_unitset_2">US</string>
+    
+    <string name="str_tx_jeep_carset_langset_1">English</string>
+    <string name="str_tx_jeep_carset_langset_2">Chinese</string>
+    
+    <string name="str_tx_jeep_carset_lanedeparturecal_1">Low</string>
+    <string name="str_tx_jeep_carset_lanedeparturecal_2">Mid</string>
+    <string name="str_tx_jeep_carset_lanedeparturecal_3">High</string>
+    
+    <string name="str_tx_jeep_carset_autostartdrivingseat_1">Close</string>
+    <string name="str_tx_jeep_carset_autostartdrivingseat_2">Long Distance</string>
+    <string name="str_tx_jeep_carset_autostartdrivingseat_3">All</string>
+    
+    <string name="str_tx_jeep_carset_lanedeparturewarning_1">Early</string>
+    <string name="str_tx_jeep_carset_lanedeparturewarning_2">Center</string>
+    <string name="str_tx_jeep_carset_lanedeparturewarning_3">Late</string>
+</resources>

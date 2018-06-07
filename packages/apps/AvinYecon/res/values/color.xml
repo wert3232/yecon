@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background">#00000000</color>
+    <color name="control_back">#AA00003D</color>
+    <color name="dialog_back">#330000FF</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    
+    <color name="text_nor">@android:color/white</color>
+    <color name="text_pre">#00deff</color>
+	
+</resources>

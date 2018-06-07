@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dimens margin -->
+
+
+    <!-- Dimens padding -->
+    <dimen name="textview_left_padding">20dp</dimen>
+    <dimen name="textview_right_padding">20dp</dimen>
+    <dimen name="index_textview_padding">10dp</dimen>
+    <dimen name="title_textview_padding">10dp</dimen>
+    <dimen name="prompt_textview_left_padding">11dp</dimen>
+    <dimen name="prompt_textview_right_padding">11dp</dimen>
+    <dimen name="prompt_textview_bottom_padding">10dp</dimen>
+
+    <!-- Dimens textsize -->
+    <dimen name="prompt_textview_textsize">22sp</dimen>
+    <dimen name="index_textview_textsize">22sp</dimen>
+    <dimen name="title_textview_textsize">18sp</dimen>
+
+    <!-- Dimens width -->
+
+</resources>

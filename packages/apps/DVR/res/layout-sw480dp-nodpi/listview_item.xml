@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_item_normal"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/video_id"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:text="@string/str_video_id" />
+    
+    <TextView
+        android:id="@+id/video_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="22sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/str_video_name" />
+
+    <ImageButton
+        android:id="@+id/lock_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#00000000"
+        android:visibility="gone"
+        android:focusable="false"
+        android:src="@drawable/unlock" />
+
+    <ImageButton
+        android:id="@+id/del_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#00000000"
+        android:focusable="false"
+        android:src="@drawable/btn_delete" />
+
+</LinearLayout>

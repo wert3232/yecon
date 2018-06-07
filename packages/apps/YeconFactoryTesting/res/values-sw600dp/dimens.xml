@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- padding dimens -->
+    <dimen name="textview_default_padding_left">10dp</dimen>
+    <dimen name="textview_default_padding_right">10dp</dimen>
+    <!-- margin dimens -->
+    <dimen name="imageview_default_margin_top">10dp</dimen>
+    <dimen name="imageview_default_margin_bottom">10dp</dimen>
+    <dimen name="imageview_default_margin_left">10dp</dimen>
+    <dimen name="imageview_default_margin_right">10dp</dimen>
+    <!-- text size -->
+    <dimen name="textview_default_size">24sp</dimen>
+    <dimen name="textview_version_size">18sp</dimen>
+    <dimen name="textview_prompt_size">22sp</dimen>
+    <dimen name="textview_storage_size">20sp</dimen>
+    <dimen name="textview_rec_size">30sp</dimen>
+
+</resources>

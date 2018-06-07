@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">GPS Informacije</string>
+  <string name="reset_btn">ponovno postavi</string>
+  <string name="back_btn">izađi</string>
+  <string name="longitude">zemljopisna dužina:</string>
+  <string name="latitude">zemljopisna širina:</string>
+  <string name="height">visina:</string>
+  <string name="speed">brzina:</string>
+  <string name="utc">Vrijeme:</string>
+  <string name="unit">km/h</string>
+  <string name="meter">m</string>
+  <string name="fetch_gps_data">dobivam gps podatke...</string>
+  <string name="gpstest_title">GPS</string>
+</resources>

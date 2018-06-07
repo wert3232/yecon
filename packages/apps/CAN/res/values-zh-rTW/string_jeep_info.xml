@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="str_tx_jeep_menu_carset">中控設置</string>
+    <string name="str_tx_jeep_menu_cdinfo">CD信息</string>
+    <string name="str_tx_jeep_menu_compass">指南針</string>
+    <string name="str_tx_jeep_menu_airset">空調控制</string>
+    <string name="str_tx_jeep_menu_dspinfo">功放信息</string>
+    <!-- Car set -->
+    <string name="str_tx_jeep_carset_safe_assist">安全驾驶和辅助</string>
+    <string name="str_tx_jeep_carset_parksense">雷达泊车</string>
+	<string name="str_tx_jeep_carset_fparksensevol">前Parksense音量</string>
+    <string name="str_tx_jeep_carset_rparksensevol">后Parksense音量</string>
+    <string name="str_tx_jeep_carset_tiltrmirror">倒车时倾斜后视镜</string>
+    <string name="str_tx_jeep_carset_affectdyncline">Parkview影响泊车动态引导线</string>
+    <string name="str_tx_jeep_carset_rainfallwiper">雨量感应式雨刷</string>
+    <string name="str_tx_jeep_carset_rampauxiliary">坡道起步辅助</string>
+    <string name="str_tx_jeep_carset_blindspotwarn">忙点警报</string>
+    <!-- 2 -->
+    <string name="str_tx_jeep_carset_videoparkfixline">Parkview影响泊车固定引导线</string>
+    <string name="str_tx_jeep_carset_rradarautoparkaux">后雷达泊车自动辅助</string>
+    <string name="str_tx_jeep_carset_allowautobrakeservice">允许自动制动服务</string>
+    <string name="str_tx_jeep_carset_autoparkbrake">自动泊车制动</string>
+    <string name="str_tx_jeep_carset_lanedeparturecal">车道偏离校正力度</string>
+    
+    <string name="str_tx_jeep_carset_fcollisionwarnbrake">前方碰撞警报自动制动</string>
+    <string name="str_tx_jeep_carset_fcollisionwarn">前方碰撞警告</string>
+    <string name="str_tx_jeep_carset_antiglareautobeam">自动防炫远光灯</string>
+    <string name="str_tx_jeep_carset_cardoorwarn">车门报警</string>
+    <string name="str_tx_jeep_carset_autostartdrivingseat">车辆启动时自动启动主驾驶座椅加热</string>
+    <string name="str_tx_jeep_carset_nearlightupauto">靠近时大灯自动亮起</string>
+    <string name="str_tx_jeep_carset_lanedeparturewarning">车道偏离警告</string>
+    <string name="str_tx_jeep_carset_buzzerswitch">蜂鸣器开关</string>
+    
+    <string name="str_tx_jeep_carset_carlight">车灯</string>
+    <string name="str_tx_jeep_carset_headlightoffdelay">大灯关闭延时</string>
+    <string name="str_tx_jeep_carset_wiperautostartlight">启动雨刷时自动启动大灯</string>
+    <string name="str_tx_jeep_carset_daytimerunlight">日间行车灯</string>
+    <string name="str_tx_jeep_carset_lightflash">锁车转向灯闪烁</string>
+    <string name="str_tx_jeep_carset_doorandlock">车门和锁</string>
+    <string name="str_tx_jeep_carset_autodoorlock">自动车门锁定</string>
+    <string name="str_tx_jeep_carset_getoffautounlock">下车时自动解锁</string>
+    <string name="str_tx_jeep_carset_driveautopadlock">行车自动落锁</string>
+    <string name="str_tx_jeep_carset_lockcarvoice">锁车时发出提示音</string>
+    <string name="str_tx_jeep_carset_firsttimunlock">首次按车钥匙解锁</string>
+    <string name="str_tx_jeep_carset_nokeytoenter">无钥匙进入</string>
+    <string name="str_tx_jeep_carset_intellkeyperset">智能钥匙个性化设置</string>
+    <string name="str_tx_jeep_carset_electricdooralarm">电动尾门报警</string>
+    
+    <string name="str_tx_jeep_carset_engineshutdown">发动机关闭选项</string>
+    <string name="str_tx_jeep_carset_seatconvpassinout">座椅便利进出</string>
+    <string name="str_tx_jeep_carset_enginepowershutdown">发动机电源关闭延迟</string>
+    
+    <string name="str_tx_jeep_carset_suspension">悬架</string>
+    <string name="str_tx_jeep_carset_onoroffadjustsuspen">上下车自动调节悬架</string>
+    <string name="str_tx_jeep_carset_showsuspensioninfo">显示悬架信息</string>
+    <string name="str_tx_jeep_carset_tirejack">轮胎千斤顶</string>
+    <string name="str_tx_jeep_carset_modeoftransport">运输模式</string>
+    <string name="str_tx_jeep_carset_wheelalignmentmodel">轮胎校准模式</string>
+    
+    <string name="str_tx_jeep_carset_otherset">其他设置</string>
+    <string name="str_tx_jeep_carset_rearviewadjustlens">后视镜调光镜</string>
+    <string name="str_tx_jeep_carset_unitset">单位设置</string>
+    <string name="str_tx_jeep_carset_langset">语言设置</string>
+    <string name="str_tx_jeep_carset_reset">恢复出厂设置</string>
+    
+    <string name="str_tx_jeep_cdinfo_fr">快退</string>
+    <string name="str_tx_jeep_cdinfo_ff">快进</string>
+    <string name="str_tx_jeep_cdinfo_repeat">循环开</string>
+    <string name="str_tx_jeep_cdinfo_repeat_off">循环关</string>
+    <string name="str_tx_jeep_cdinfo_random">随机开</string> 
+    <string name="str_tx_jeep_cdinfo_random_off">随机关</string>
+    
+    <string name="str_tx_jeep_cdinfo_playmode1">普通模式</string>
+    <string name="str_tx_jeep_cdinfo_playmode2">随机</string>
+    <string name="str_tx_jeep_cdinfo_playmode3">循环</string>
+    
+    <string name="str_tx_jeep_cdinfo_playstate1">无碟</string>
+    <string name="str_tx_jeep_cdinfo_playstate2">播放</string>
+    <string name="str_tx_jeep_cdinfo_playstate3">加载</string>
+    <string name="str_tx_jeep_cdinfo_playstate4">读取</string>
+    <string name="str_tx_jeep_cdinfo_playstate5">出碟</string>
+    <string name="str_tx_jeep_cdinfo_playstate6">暂停</string>
+    <string name="str_tx_jeep_cdinfo_playstate7">停止</string>
+    <string name="str_tx_jeep_cdinfo_playstate8">换曲</string>
+    <string name="str_tx_jeep_cdinfo_playstate9">错误</string>    
+    
+    <string name="str_compass_f_calibration">完成校准</string>
+    <string name="str_compass_ing_calibration">正在校准</string>
+    <string name="str_compass_fa_calibration">校准失败</string>
+    
+    <string name="str_air_lhot">LHot:</string>
+    <string name="str_air_rhot">RHot:</string>
+    <string name="str_air_sync">Sync</string>
+    <string name="str_air_rear">Rear</string>
+    <string name="str_air_on">ON</string>    
+    <string name="str_air_off">OFF</string>
+        
+    <string name="str_tx_jeep_carset_parksense_1">无</string>
+    <string name="str_tx_jeep_carset_parksense_2">声音</string>
+    <string name="str_tx_jeep_carset_parksense_3">声音+显示</string>
+    
+    <string name="str_tx_jeep_carset_fparksense_1">无</string>
+    <string name="str_tx_jeep_carset_fparksense_2">低</string>
+    <string name="str_tx_jeep_carset_fparksense_3">高</string>
+    
+    <string name="str_tx_jeep_carset_blindspotwarn_1">关闭</string>
+    <string name="str_tx_jeep_carset_blindspotwarn_2">车灯</string>
+    <string name="str_tx_jeep_carset_blindspotwarn_3">车灯+警告</string>
+    
+    <string name="str_tx_jeep_carset_firsttimunlock_1">所有门</string>
+    <string name="str_tx_jeep_carset_firsttimunlock_2">驾驶门</string>
+    
+    <string name="str_tx_jeep_carset_enginepowershutdown_1">0S</string>
+    <string name="str_tx_jeep_carset_enginepowershutdown_2">45S</string>
+    <string name="str_tx_jeep_carset_enginepowershutdown_3">5分钟</string>
+    <string name="str_tx_jeep_carset_enginepowershutdown_4">10分钟</string>
+    
+    <string name="str_tx_jeep_carset_unitset_1">公制</string>
+    <string name="str_tx_jeep_carset_unitset_2">英制</string>
+    
+    <string name="str_tx_jeep_carset_langset_1">英文</string>
+    <string name="str_tx_jeep_carset_langset_2">中文</string>
+    
+    <string name="str_tx_jeep_carset_lanedeparturecal_1">低</string>
+    <string name="str_tx_jeep_carset_lanedeparturecal_2">中</string>
+    <string name="str_tx_jeep_carset_lanedeparturecal_3">高</string>
+    
+    <string name="str_tx_jeep_carset_autostartdrivingseat_1">关闭</string>
+    <string name="str_tx_jeep_carset_autostartdrivingseat_2">远程</string>
+    <string name="str_tx_jeep_carset_autostartdrivingseat_3">全部</string>
+    
+    <string name="str_tx_jeep_carset_lanedeparturewarning_1">早</string>
+    <string name="str_tx_jeep_carset_lanedeparturewarning_2">中</string>
+    <string name="str_tx_jeep_carset_lanedeparturewarning_3">迟</string>
+</resources>

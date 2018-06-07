@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">行驶记录</string>
+    <string name="bad_driving_record">不良驾驶记录</string>
+    <string name="record_query">记录查询</string>
+    <string name="mileage">行驶里程</string>
+    <string name="vehicle_file">车辆档案</string>
+    <string name="recorder_information">记录仪信息</string>
+    <string name="driver_information">驾驶人信息</string>
+    
+    <string name="overtime_driving_record">超时驾驶记录</string>
+    <string name="overspeed_records">超速记录</string>
+    <string name="accident_doubt_record">事故疑点记录</string>
+    
+    <string name="driver_id">驾驶员证件号</string>
+    <string name="start_time">起始时间</string>
+    <string name="end_time">结束时间</string>
+    <string name="timeout_driving_threshold">超时驾驶门限值</string>
+    
+    <string name="time">时间</string>
+    <string name="overtime">超速时间</string>
+    <string name="overspeed_average_speed">超速平均速度</string>
+    <string name="kmh"><xliff:g id="speed_value">%f</xliff:g>km/h</string>
+    
+    <string name="event">事件</string>
+    <string name="detail">详细</string>
+    <string name="travel_end_time">行驶结束时间</string>
+    
+    <string name="parking_before_seconds">停车前/秒</string>
+    <string name="speed">速度</string>
+    <string name="brake">制动</string>
+    <string name="turn_left">左转</string>
+    <string name="turn_right">右转</string>
+    <string name="far_light">远光</string>
+    <string name="dipped_light">近光</string>
+    <string name="alarm">报警</string>
+    <string name="open_the_door">开门</string>
+    <string name="open">开</string>
+    <string name="close">关</string>
+    
+    <string name="travel_speed">行驶速度</string>
+    <string name="power_down_power_down_record">上电掉电记录</string>
+    
+    <string name="date">日期</string>
+    
+    <string name="seconds">秒钟</string>
+    
+    <string name="time_type">时间类型</string>
+    <string name="time_of_occurrence">发生时间</string>
+    <string name="power_on">通电</string>
+    <string name="power_off">断电</string>
+    
+    <string name="initial_mileage">初始里程:</string>
+    <string name="accumulated_miles">累计里程:</string>
+    <string name="km">km</string>
+    
+    <string name="vehicle_identification_number">车辆识别代号:</string>
+    <string name="vehicle_number">车辆号码:</string>
+    <string name="number_plate_classification">号码牌分类:</string>
+    <string name="large_trucks">大型货车</string>
+    
+    <string name="authentication_code">认证代码:</string>
+    <string name="certified_product_model">认证产品型号:</string>
+    <string name="first_time_to_install">初次安装时间:</string>
+    
+    <string name="driver_s_license_number">驾驶证号:</string>
+    
+    <string name="back">返回</string>
+    
+    <string name="test">无</string>
+    <string name="second">s</string>
+    <string name="km_h">km/h</string>
+    <string name="test_data">0000/00/00 00:00:00</string>
+    
+    <string name="over_time_info">超时驾驶门限值: 10min</string>
+	
+    <string name="loading">加载中</string>
+    
+    <string name="other_ok">确定</string>
+    <string name="other_cancel">取消</string>
+   
+    	
+	<string name="msg_disconnect">未检测到行驶记录仪，请检查连接线束或重新连接设备</string>
+</resources>

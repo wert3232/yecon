@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yeconui="http://schemas.android.com/apk/res/com.can.activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/can_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="@dimen/dsp_air_ctrl_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dsp_air_margintop"
+        android:background="@drawable/air_honda_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="@dimen/dsp_air_temp_width"
+            android:layout_height="@dimen/dsp_air_ctrl_height"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/gm_air_left_temp_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/air_temp_add" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/gm_tv_left_temp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/air_text_selector_color"
+                android:textSize="@dimen/tx_air_info_size" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/gm_air_left_temp_del"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/air_temp_del" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/dsp_air_temp_width"
+            android:layout_height="@dimen/dsp_air_ctrl_height"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/gm_air_right_temp_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/air_temp_add" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/gm_tv_right_temp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/air_text_selector_color"
+                android:textSize="@dimen/tx_air_info_size" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/gm_air_right_temp_del"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/air_temp_del" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gm_air_ll_wind"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dsp_air_wind_height"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/gm_btn_air_wind_del"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/air_wind_del" />
+
+            <com.can.ui.draw.FuelSeekBar
+                android:id="@+id/gm_seekbar_wind"
+                android:layout_width="@dimen/dsp_air_seekbar_width"
+                android:layout_height="@dimen/dsp_air_seekbar_height"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dsp_air_marginleft_wind"
+                android:progressDrawable="@drawable/air_wind_seekbar"
+                android:thumb="@null"
+                yeconui:can_move="false" />
+
+            <Button
+                android:id="@+id/gm_btn_air_wind_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dsp_air_marginleft_wind"
+                android:background="@drawable/air_win_add" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dsp_air_wind_height"
+            android:layout_below="@id/gm_air_ll_wind"
+            android:layout_centerHorizontal="true" >
+
+            <Button
+                android:id="@+id/gm_btn_air_auto"
+                android:layout_width="@dimen/dsp_air_auto_width"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:gravity="center"
+                android:text="@string/str_air_auto"
+                android:textColor="@color/air_text_selector_color"
+                android:textSize="@dimen/tx_air_info_size" />
+
+            <Button
+                android:id="@+id/gm_btn_air_dual"
+                android:layout_width="@dimen/dsp_air_auto_width"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:gravity="center"
+                android:text="@string/str_air_dual"
+                android:textColor="@color/air_text_selector_color"
+                android:textSize="@dimen/tx_air_info_size" />
+
+            <FrameLayout
+                android:layout_width="@dimen/dsp_air_auto_width"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/gm_btn_air_front_deg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/air_front_deg" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="@dimen/dsp_air_auto_width"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/gm_btn_air_cycle_in"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/air_cycle_in" />
+
+                <Button
+                    android:id="@+id/gm_btn_air_cycle_out"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/air_cycle_out"
+                    android:visibility="gone" />
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/air_bottom_bar" >
+
+        <Button
+            android:id="@+id/gm_btn_air_ac"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:text="@string/str_air_ac"
+            android:textColor="@color/air_text_selector_color"
+            android:textSize="@dimen/tx_air_info_size" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/gm_btn_air_par_wind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/air_par_wind" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/gm_btn_air_down_par_wind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/air_wind_dn_par" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/gm_btn_air_down_up_wind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/air_wind_dn_up" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/gm_btn_air_down_wind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/air_down_wind" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:orientation="vertical">
+	<RelativeLayout
+	  android:orientation="horizontal"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:background="@drawable/pair_bg"
+	  android:layout_marginLeft="1dp"
+	  android:layout_marginRight="1dp"
+	  android:padding="1dp"
+	  android:layout_marginTop="1dp"
+	  android:layout_marginBottom="1dp"
+	  >
+	  <RelativeLayout 
+	  	android:orientation="vertical"
+	  	android:layout_width="545dp"
+	  	android:layout_height="fill_parent"
+	  	android:layout_gravity="center"
+	  	android:layout_marginLeft="31dp"
+	  	android:layout_marginTop="32dp"
+		>
+		<TextView
+			android:id="@+id/paired_devices_title"
+			android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="#80000000"
+	  		android:textSize="25dp"
+	  		android:textColor="#ffffff"
+	  		android:text="@string/paired_devices_string"
+			/>
+	  	<ListView android:id="@+id/bluetooth_paired_devices"
+	        android:choiceMode="singleChoice"
+	        android:layout_width="fill_parent"
+	        android:layout_height="200dp"
+	        android:layout_weight="1"
+	        android:layout_below="@id/paired_devices_title"
+	        android:cacheColorHint="#00000000"
+	        android:divider="#5B5556"
+		    android:dividerHeight="1dip"
+		    android:listSelector = "#00000000"
+	        /> 	
+	    <TextView
+	    	android:id="@+id/usable_devices_title"
+			android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/bluetooth_paired_devices"
+	        android:background="#80000000"
+	  		android:textSize="25dp"
+	  		android:textColor="#ffffff"
+	  		android:layout_marginTop="2dp"
+	  		android:text="@string/usable_devices_string"
+			/>
+		<ListView android:id="@+id/bluetooth_usable_devices"
+	        android:choiceMode="singleChoice"
+	        android:layout_width="fill_parent"
+	        android:layout_height="270dp"
+	        android:layout_weight="1"
+	        android:layout_below="@id/usable_devices_title"
+	        android:cacheColorHint="#00000000"
+	        android:divider="#5B5556"
+		    android:dividerHeight="1dip"
+		    android:listSelector = "#00000000"
+		    /> 	
+	  </RelativeLayout>
+	  <LinearLayout 
+	  	android:orientation="vertical"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:layout_gravity="center"
+	  	android:layout_marginLeft="610dp"
+	  	
+		>
+	  	<ImageButton android:id="@+id/btn_scan_bt"
+	  		android:layout_width="wrap_content"
+	  		android:layout_height="wrap_content"
+	  		android:src="@xml/bt_pairedhistory_scan"
+	  		android:background="#00000000"
+	  		android:layout_marginTop="27dp"
+	  		 />
+	  	 <!--	
+	  	<Button android:id="@+id/btn_pair_bt"
+	  		android:layout_width="wrap_content"
+	  		android:layout_height="100dp"
+	  		android:textColor="@color/btn_textview"
+	  		android:textSize="28dp"
+	  		android:background="@drawable/btn_180_50_bg"
+	  		android:text="@string/pair_btdevice_string"
+	  		android:layout_gravity="center"
+	  		android:layout_marginTop="20dp"
+	  		 />-->
+	  	
+	  	<ImageButton android:id="@+id/btn_connect_bt"
+	  		android:layout_width="wrap_content"
+	  		android:layout_height="wrap_content"
+	  		android:src="@xml/bt_pairedhistory_connect"
+	  		android:background="#00000000"
+	  		android:layout_marginTop="50dp"
+	  		 />
+	  	<ImageButton android:id="@+id/btn_disconnect_bt"
+	  		android:layout_width="wrap_content"
+	  		android:layout_height="wrap_content"
+	  		android:src="@xml/bt_pairedhistory_disconnect"
+	  		android:background="#00000000"
+	  		android:layout_marginTop="50dp"
+	  		 />
+	  	<ImageButton android:id="@+id/btn_unpair_bt"
+	  		android:layout_width="wrap_content"
+	  		android:layout_height="wrap_content"
+	  		android:src="@xml/bt_pairedhistory_delete"
+	  		android:background="#00000000"
+	  		android:layout_marginTop="50dp"
+	  		 />
+	  	</LinearLayout>
+	  	
+	  	
+	</RelativeLayout>
+
+    <!-- waiting downloading layout -->
+    <LinearLayout
+         android:id="@+id/scan_device_layout"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:orientation="horizontal"
+         android:layout_marginLeft="250dp"
+         android:layout_marginTop="265dp"
+         android:visibility="gone"
+         >
+         <ProgressBar
+             android:id="@+id/progressbar_scan_device"
+             android:indeterminateDrawable="@drawable/blue_progressbar"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" 
+             />
+
+         <TextView
+             android:layout_marginLeft="5dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/str_download_phonebook"
+             android:visibility="gone" />
+     </LinearLayout>
+</FrameLayout>

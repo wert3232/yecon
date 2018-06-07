@@ -1,0 +1,216 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appbackground"
+    android:orientation="vertical"
+    tools:context=".SWCMainActivity" >
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.yecon.swc.SWCItemView
+            android:id="@+id/layout_pre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </com.yecon.swc.SWCItemView>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.yecon.swc.SWCItemView
+            android:id="@+id/layout_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </com.yecon.swc.SWCItemView>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.yecon.swc.SWCItemView
+            android:id="@+id/layout_volume_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </com.yecon.swc.SWCItemView>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.yecon.swc.SWCItemView
+            android:id="@+id/layout_power"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </com.yecon.swc.SWCItemView>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.yecon.swc.SWCItemView
+            android:id="@+id/layout_volume_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </com.yecon.swc.SWCItemView>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.yecon.swc.SWCItemView
+            android:id="@+id/layout_volume_mute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </com.yecon.swc.SWCItemView>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.yecon.swc.SWCItemView
+            android:id="@+id/layout_phone_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </com.yecon.swc.SWCItemView>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.yecon.swc.SWCItemView
+            android:id="@+id/layout_phone_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </com.yecon.swc.SWCItemView>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.yecon.swc.SWCItemView
+            android:id="@+id/layout_src"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </com.yecon.swc.SWCItemView>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.yecon.swc.SWCItemView
+            android:id="@+id/layout_navi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </com.yecon.swc.SWCItemView>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.yecon.swc.SWCItemView
+            android:id="@+id/layout_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </com.yecon.swc.SWCItemView>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.yecon.swc.SWCItemView
+            android:id="@+id/layout_media"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </com.yecon.swc.SWCItemView>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottombar_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Space
+            android:layout_width="@dimen/prompt_textview_left_padding"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_prompt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bottombar_prompt_bg"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/prompt_textview_left_padding"
+            android:text="@string/swc_prompt"
+            android:textColor="@color/white"
+            android:textSize="@dimen/prompt_textview_textsize" />
+
+        <Space
+            android:layout_width="@dimen/prompt_textview_right_padding"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_reset_bg"
+            android:drawableLeft="@drawable/btn_reset_ic_bg"
+            android:drawablePadding="@dimen/title_textview_padding"
+            android:gravity="center_vertical"
+            android:text="@string/btn_reset"
+            android:textColor="@color/tv_press_color"
+            android:textSize="@dimen/prompt_textview_textsize" />
+    </LinearLayout>
+
+</LinearLayout>

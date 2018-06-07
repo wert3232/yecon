@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OperateIntro</string>
+    <string name="catalogue">Catalogue</string>
+
+    <string-array name="Contents">
+        <item>Attention</item>
+        <item>Home page</item>
+        <item>Radio</item>
+        <item>BT</item>
+        <item>DVD</item>
+        <item>USB/SD</item>
+        <item>AUX</item>
+        <item>CMMB</item>
+        <item>IPOD</item>
+        <item>Navigation</item>
+        <item>Setting</item>
+        <item>GPS Information</item>
+        <item>DVR</item>
+        <item>TPMS</item>
+    </string-array>
+    
+    <string-array name="directory">
+        <item>page 1-5</item>
+        <item>page 6-7</item>
+        <item>page 8</item>
+        <item>page 9-13</item>
+        <item>page 14-15</item>
+        <item>page 16-19</item>
+        <item>page 20</item>
+        <item>page 21</item>
+        <item>page 22</item>
+        <item>page 23</item>
+        <item>page 24-40</item>
+        <item>page 41</item>
+        <item>page 42</item>
+        <item>page 43-44</item>
+    </string-array>
+
+</resources>

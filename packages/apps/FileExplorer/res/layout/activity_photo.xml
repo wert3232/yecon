@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linea"
+    tools:context=".PhotoActivity">  
+      
+   <com.adnroid.file.imageutil.MyViewPager 
+	    android:id="@+id/my_pager"
+	    android:layout_width="wrap_content"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    android:layout_height="wrap_content"
+	    />
+</LinearLayout>

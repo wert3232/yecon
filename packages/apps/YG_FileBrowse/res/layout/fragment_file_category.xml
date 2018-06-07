@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/fragment_cate_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical"
+        android:showDividers="middle" >
+
+        <Button
+            android:id="@+id/action_internal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_menu_pub"
+            android:clickable="true"
+            android:drawableTop="@drawable/menu_internal"
+            android:gravity="center"
+            android:text="@string/internal"
+            android:textColor="@color/btn_text_color"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/action_sd1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_menu_pub"
+            android:clickable="false"
+            android:drawableTop="@drawable/menu_sd"
+            android:gravity="center"
+            android:text="@string/sd1"
+            android:textColor="@color/btn_text_color"
+            android:textSize="30sp" />
+        <Button
+            android:id="@+id/action_sd2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_menu_pub"
+            android:clickable="false"
+            android:drawableTop="@drawable/menu_sd"
+            android:gravity="center"
+            android:text="@string/sd2"
+            android:textColor="@color/btn_text_color"
+            android:textSize="30sp" />
+        
+        <Button
+            android:id="@+id/action_usb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_menu_pub"
+            android:clickable="false"
+            android:drawableTop="@drawable/menu_usb"
+            android:gravity="center"
+            android:text="@string/usb1"
+            android:textColor="@color/btn_text_color"
+            android:textSize="30sp" />
+        <Button
+            android:id="@+id/action_usb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_menu_pub"
+            android:clickable="false"
+            android:drawableTop="@drawable/menu_usb"
+            android:gravity="center"
+            android:text="@string/usb2"
+            android:textColor="@color/btn_text_color"
+            android:textSize="30sp" />
+        <Button
+            android:id="@+id/action_usb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_menu_pub"
+            android:clickable="false"
+            android:drawableTop="@drawable/menu_usb"
+            android:gravity="center"
+            android:text="@string/usb3"
+            android:textColor="@color/btn_text_color"
+            android:textSize="30sp" />
+        <Button
+            android:id="@+id/action_usb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_menu_pub"
+            android:clickable="false"
+            android:drawableTop="@drawable/menu_usb"
+            android:gravity="center"
+            android:text="@string/usb4"
+            android:textColor="@color/btn_text_color"
+            android:textSize="30sp" />
+        <Button
+            android:id="@+id/action_usb5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_menu_pub"
+            android:clickable="false"
+            android:drawableTop="@drawable/menu_usb"
+            android:gravity="center"
+            android:text="@string/usb5"
+            android:textColor="@color/btn_text_color"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/fragment_padding" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style1"
+                android:text="@string/str_tx_jeep_carset_safe_assist" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_jeep_carset_parksense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_parksense" />
+
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_jeep_carset_fparksensevol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_fparksensevol" />
+
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_jeep_carset_rparksensevol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_rparksensevol" />
+
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_tiltrmirror" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_tiltrmirror_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_affectdyncline" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_affectdyncline_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_rainfallwiper" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_rainfallwiper_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_rampauxiliary" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_rampauxiliary_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_jeep_carset_blindspotwarn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_blindspotwarn" />
+
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_videoparkfixline" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_videoparkfixline_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_rradarautoparkaux" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_rradarautoparkaux_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_allowautobrakeservice" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_allowautobrakeservice_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_autoparkbrake" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_autoparkbrake_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_jeep_carset_lanedeparturecal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_lanedeparturecal" />
+
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_fcollisionwarnbrake" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_fcollisionwarnbrake_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_jeep_carset_fcollisionwarn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_fcollisionwarn" />
+
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_antiglareautobeam" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_antiglareautobeam_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_cardoorwarn" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_cardoorwarn_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_jeep_carset_autostartdrivingseat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_autostartdrivingseat" />
+
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_jeep_carset_nearlightupauto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_nearlightupauto" />
+
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_jeep_carset_lanedeparturewarning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_lanedeparturewarning" />
+
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_buzzerswitch" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_buzzerswitch_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style1"
+                android:text="@string/str_tx_jeep_carset_carlight" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_jeep_carset_headlightoffdelay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_headlightoffdelay" />
+
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_wiperautostartlight" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_wiperautostartlight_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_daytimerunlight" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_daytimerunlight_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_lightflash" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_lightflash_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style1"
+                android:text="@string/str_tx_jeep_carset_doorandlock" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_autodoorlock" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_autodoorlock_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_getoffautounlock" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_getoffautounlock_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_driveautopadlock" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_driveautopadlock_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_lockcarvoice" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_lockcarvoice_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_firsttimunlock" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_firsttimunlock_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_nokeytoenter" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_nokeytoenter_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_intellkeyperset" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_intellkeyperset_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_electricdooralarm" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_electricdooralarm_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style1"
+                android:text="@string/str_tx_jeep_carset_engineshutdown" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_seatconvpassinout" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_seatconvpassinout_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_jeep_carset_enginepowershutdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_enginepowershutdown" />
+
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style1"
+                android:text="@string/str_tx_jeep_carset_suspension" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_onoroffadjustsuspen" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_onoroffadjustsuspen_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_showsuspensioninfo" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_showsuspensioninfo_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_tirejack" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_tirejack_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_modeoftransport" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_modeoftransport_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_wheelalignmentmodel" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_wheelalignmentmodel_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style1"
+                android:text="@string/str_tx_jeep_carset_otherset" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_rearviewadjustlens" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jeep_carset_rearviewadjustlens_onoff"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_jeep_carset_unitset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_unitset" />
+
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_jeep_carset_langset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_langset" />
+
+            <TextView style="@style/car_set_right_style1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_jeep_carset_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_tx_jeep_carset_reset" />
+
+            <TextView style="@style/car_set_right_style2" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

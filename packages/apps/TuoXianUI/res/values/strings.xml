@@ -1,0 +1,5 @@
+<resources>
+
+    <string name="app_name">TuoXianUI</string>
+	<string name="dialog_title_no_Storage">No Usb disk or SD card </string>
+</resources>

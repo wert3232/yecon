@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Car Setting</string>
+    <string name="settings">Setting</string>
+    <string name="source_navi">Navigation</string>
+    <!-- set  main -->
+    <string name="set_general">General</string>
+    <string name="set_datetime">Date Time</string>
+    <string name="set_wallpaper">Wallpaper</string>
+    <string name="set_navigation">Navigation</string>
+    <string name="set_video">Video</string>
+    <string name="set_swc">SWC</string>
+    <string name="set_factory">Factory Set</string>
+    <string name="set_sound_effect">Sound Effect</string>
+    <string name="set_calibration">Calibration</string>
+    <string name="set_radio_frequency">Radio Area</string>
+    <string name="set_bt">Bluetooth</string>
+    <string name="set_gps_info">Gps info</string>
+    <string name="set_carcorder">DVR</string>
+    <string name="set_wifi">Wi-Fi</string>
+
+    <!-- wifi -->
+    <string name="wifi_ssid">SSID:</string>
+    <string name="wifi_enc">ENC:</string>
+    <string name="wifi_password">Password:</string>
+    <string name="wifi_connect">Connect</string>
+    <string name="wifi_disconnect">Disconnect</string>
+    <string name="wifi_forget">Forget</string>
+    <string name="wifi_WLAN_Unprotected">WLAN Unprotected</string>
+    <string name="wifi_WLAN_UNKNOWN">WLAN UNKNOWN</string>
+    <string name="wifi_WPA_Usable">(WPS Usable)</string>
+    <string name="wifi_UNABLECONNECT">unable connect</string>
+    <string name="wifi_state_SCANNING">scanning...</string>
+    <string name="wifi_state_AUTHENTICATING">authenticating...</string>
+    <string name="wifi_state_OBTAINING_IPADDR">obtaining ip address...</string>
+    <string name="wifi_state_CONNECTING">connecting...</string>
+    <string name="wifi_state_CONNECTED">connected</string>
+    <string name="wifi_state_DISCONNECTING">disconnecting...</string>
+    <string name="wifi_state_DISCONNECTED">disconnected</string>
+
+    <!-- set  genenal -->
+    <string name="set_language">Language</string>
+    <string name="set_buzzer">Beep</string>
+    <string name="set_lighting_detect">Light Detect</string>
+    <string name="set_screensaver">ScreenSaver</string>
+    <string name="set_reset">Reset</string>
+    <string name="set_about">About</string>
+    <string name="set_assistive_touch">AssistiveTouch</string>
+    <string name="set_voice_button">Show voice button</string>
+    <string name="set_wakeup_button">Voice wakeup</string>
+
+    <!-- set  time -->
+    <string name="set_datetime_clock">Clock</string>
+    <string name="set_datetime_24hours">24-hour time</string>
+    <string name="set_datetime_gps_syc">Gps syc time</string>
+    <string name="set_datetime_zone">TimeZone</string>
+
+    <!-- set  bt -->
+    <string name="set_bt_device">Device name</string>
+    <string name="set_bt_pair">Pair code</string>
+    <string name="set_bt_auto_connect">Auto connect</string>
+    <string name="set_bt_auto_answer">Auto answer</string>
+
+    <!-- set navigation -->
+    <string name="set_nav_maps_select">Default map</string>
+    <string name="set_nav_maps_prompt">Please install maps apk!</string>
+    <string name="set_nav_volume_gis">Volume gis</string>
+    <string name="set_nav_volume_backcar">Volume backcar</string>
+    <string name="set_nav_volume_bt">Volume bt</string>
+    <string name="set_nav_volume_media_front">Volume front media</string>
+    <string name="set_nav_volume_media_back">Volume rear</string>
+    <string name="set_nav_gps_test">Gps info</string>
+    <string name="set_nav_maps_list_decription">Map list</string>
+    <string name="set_nav_maps_list">Select map</string>
+    <string name="set_nav_volume_remix">Volume Remix</string>
+    <string name="set_nav_volume_listen">Volume Listen</string>
+
+    <!-- set video -->
+    <string name="set_backcar_mirror">Rear Camera Mirror</string>
+    <string name="set_parking">Parking</string>
+    <string name="set_screen_bright">Bright</string>
+    <string name="set_screen_contast">Contrast</string>
+    <string name="set_screen_hue">Hue</string>
+    <string name="set_screen_saturation">Saturation</string>
+    <string name="set_screen_colorful">Colorful</string>
+    <string name="set_screen_soft">Soft</string>
+    <string name="set_screen_reset">Reset</string>
+    <string name="set_backlight">Backlight</string>
+
+    <!-- general -->
+    <string name="general_backcar_record">BackCar video record</string>
+    <string name="general_key_light">Button lamp brightness</string>
+    <string name="general_car_battery_protect">Battery protect</string>
+    <string name="general_car_battery_protect_m">middle</string>
+    <string name="general_open_sound">Power Volume</string>
+    <string name="general_buzzer">Buzzer</string>
+    <string name="general_cvbs">CVBS</string>
+    <string name="general_headlight_detection">Headlight detection</string>
+    <string name="general_parking_detection">Parking</string>
+    <string name="general_language_select">Language select</string>
+    <string name="general_about_car">about</string>
+    <string name="general_about_model">Model： %1$s</string>
+    <string name="general_about_androidVersion">android version： %1$s</string>
+    <string name="general_about_kernelVersion">Kernel version： %1$s</string>
+    <string name="general_about_Version">Version： %1$s</string>
+    <string name="general_about_mcuVersion">mcu Version： %1$s</string>
+    <string name="general_about_mcuID">mcu ID： %1$s</string>
+    <string name="general_about_dvdVersion">dvd Version： %1$s</string>
+    <string name="general_backlight">Backlight</string>
+    <string name="general_aux_port_change">Avin change</string>
+    <string name="general_aux_port_front">Front</string>
+    <string name="general_aux_port_rear">Rear</string>
+    <string name="general_backcar_mute">Backcar mute </string>
+    <string name="factory_qicaideng">Colorful light</string>
+
+    <!-- Colorful light -->
+    <string name="qicaideng_r">R</string>
+    <string name="qicaideng_g">G</string>
+    <string name="qicaideng_b">B</string>
+
+    <!-- time -->
+    <string name="general_set_time">Time setting</string>
+    <string name="general_set_timezone">Timezone setting</string>
+    <string name="general_date_gps_syc">Automatically set the time</string>
+    <string name="general_date_time_24">24 hour</string>
+
+    <!-- navigation title -->
+    <string name="nav_maps_select">Default navigation soft</string>
+    <string name="nav_volume_gis">Navigationg volume</string>
+    <string name="nav_volume_backcar">Backcar volume</string>
+    <string name="nav_volume_bt">Bluetooth phone volume</string>
+    <string name="nav_volume_media_front">Front media volume</string>
+    <string name="nav_volume_media_back">Rear media volume</string>
+    <string name="nav_gps_test">Gps test</string>
+    <string name="nav_maps_list_decription">map list</string>
+    <string name="nav_maps_list_title">Select Maps application</string>
+    <string name="nav_volume_remix">Navi Remix</string>
+    <string name="nav_volume_listen">Navi And Listen</string>
+
+    <!-- media -->
+    <string name="factory_radio_area_config">Radio area config</string>
+    <string name="factory_radio_area">Default Radio area</string>
+    <string name="media_radio_default">China</string>
+    <string name="media_tv_dvr">Switch DVR and TV</string>
+    <string name="media_tv_dvr_tv">TV</string>
+    <string name="media_tv_dvr_dvr">DVR</string>
+    <string name="media_sound_effect">Sound effect</string>
+    <string name="media_back_camera">Back camera setting</string>
+    <string name="media_back_left90">Left up</string>
+    <string name="media_back_right90">Right up</string>
+    <string name="media_back_left180">Left down</string>
+    <string name="media_back_right180">Right down</string>
+    <string name="media_ban_on_video">Ban to video while driving</string>
+    <string name="media_backcar_trace">BackCar trace</string>
+    <string name="media_backcar_mirror">BackCar mirror</string>
+    <string name="media_mirror_FLIP_NONE">normal</string>
+    <string name="media_mirror_FLIP_H">left_right mirror</string>
+    <string name="media_mirror_FLIP_V">up-down mirror</string>
+    <string name="media_mirror_FLIP_HnV">all mirror</string>
+
+    <!-- style -->
+    <string name="style_wallpaper">Wallspaper </string>
+    <string name="style_wallpaper_title">Wallspaper select</string>
+    <string name="style_display_setting">Display Setting</string>
+    <string name="style_logo_setting">Logo Setting</string>
+    <string name="style_logo_setting_bt">Setting Logo </string>
+
+    <!-- system -->
+    <string name="system_shutdown_prompt">Your tablet will shut down.</string>
+    <string name="system_Calibrate">Calibrate</string>
+    <string name="system_Learn_steer_wheel">Learning steer wheel</string>
+    <string name="system_Learn_steer_wheel_bt">Learn</string>
+    <string name="system_Select_steer_wheel">Select steer wheel</string>
+    <string name="system_ota_update">System update</string>
+    <string name="system_ota_sd">Update from Sdcard</string>
+    <string name="system_ota_udisk">Update from U disk</string>
+    <string name="system_reset">System reset</string>
+    <string name="system_application">System application</string>
+    <string name="system_wireless_setting">Wireless setting</string>
+    <string name="system_usb_model">USB model</string>    
+    <string name="system_usb_host">Host</string>
+    <string name="system_usb_device">Device</string>
+    <string name="system_usb_type">USB type</string>
+    <string name="system_usb_10">USB 1.0</string>
+    <string name="system_usb_20">USB 2.0</string>    
+    <string name="system_copyInstall_tool">Copy Install Tool</string>
+    <string name="system_factory_setting">Factory setting</string>
+    <string name="system_volume_adjust">Volume adjust</string>
+    <string name="system_mcu_upgrade">MCU upgrade</string>
+    <string name="system_factory_test">Factory Testing</string>
+    <string name="system_factory_login">Factory setting login</string>
+    <string name="system_factory_login_prompt">Please enter the password</string>
+    <string name="system_factory_login_error_prompt">incorrect password! Please re-enter your password!</string>
+    <string name="system_mcu_upgrade_error">MCU upgrade file does not exist!</string>
+    <string name="system_faw_upgrade_error">FAW Link upgrade file does not exist!</string>
+    <string name="system_mcu_upgrade_done">MCU upgrade is complete!</string>
+    <string name="system_mcu_upgrade_file_list">MCU upgrade file list</string>
+    <string name="system_mcu_upgrade_start">MCU started to upgrade</string>
+    <string name="system_mcu_upgrade_doing">MCU upgrading</string>
+    <string name="system_mcu_upgrade_end">MCU upgrade is complete</string>
+    <string name="system_mcu_upgrade_prompt">MCU ongoing upgrade, do not perform other operations or power off!</string>
+    <string name="system_mcu_description">Create a directory McuUpgrade in SDCARD1 or SDCARD2, and then copy the MCU file to the directory!</string>
+    <string name="system_usb_upgrade_error">USB upgrade file does not exist!</string>
+    <string name="system_factory_fun_config">Function configuration</string>
+    <string name="system_factory_lcd_config">Lcd configuration</string>
+
+    <!-- factory -->
+    <string name="factory_navigation_set">Navigation</string>
+    <string name="factory_backcar_set">BackCar</string>
+    <string name="factory_radio_set">Radio</string>
+    <string name="factory_bt_set">BT</string>
+    <string name="factory_other_set">Other</string>
+    <string name="factory_radio_type">Radio type</string>
+    <string name="factory_can_type">CAN factory</string>
+    <string name="factory_car_type">Car type</string>
+    <string name="factory_timezone_set">TimeZone</string>
+    <string name="factory_volume_set">Volume set</string>
+    <string name="factory_volume_media_title">music、video，game and other media</string>
+    <string name="factory_volume_media_front">front volume</string>
+    <string name="factory_volume_media_rear">rear volume</string>
+    <string name="factory_volume_gis">navigation</string>
+    <string name="factory_volume_backcar">back car</string>
+    <string name="factory_volume_bt">Bluetooth phone</string>
+    <string name="factory_video_set">Video set</string>
+    <string name="factory_backlight_set">Backlight set</string>
+    <string name="factory_backlight_def">default</string>
+    <string name="factory_backlight_low">low</string>
+    <string name="factory_backlight_mid">middle</string>
+    <string name="factory_backlight_high">hight</string>
+    <string name="factory_rgb_set">RGB set</string>
+    <string name="factory_videoset_screen">Screen</string>
+    <string name="factory_videoset_backcar">Backcar</string>
+    <string name="factory_videoset_aux">AUX</string>
+    <string name="factory_videoset_usb">SD/USB</string>
+    <string name="factory_videoset_dvd">DVD</string>
+    <string name="factory_dvr_type">DVR type</string>
+    <string name="factory_tv_type">TV type</string>
+    <string name="factory_tv_area">TV area</string>
+    <string name="factory_backcar_enable">BackCar enable</string>
+    <string name="factory_backcar_mirror">Backcar mirror</string>
+    <string name="factory_backcar_track">Backcar track</string>
+    <string name="factory_backcar_radar">Backcar radar</string>
+    <string name="factory_backcar_mute">Backcar mute</string>
+    <string name="factory_video_format">Video output format</string>
+    <string name="factory_video_NTSC">NTSC</string>
+    <string name="factory_video_PAL">PAL</string>
+    <string name="factory_time_format">Time format</string>
+    <string name="factory_cardoor_info">Car door information</string>
+    <string name="factory_brake_enable">Brake enable</string>
+    <string name="factory_bt_noice">BT noice</string>
+    <string name="factory_bt_device">BT device name</string>
+    <string name="factory_bt_pair">BT pair code</string>
+    <string name="factory_bt_auto_connect">BT auto connect</string>
+    <string name="factory_bt_auto_answer">BT auto answer</string>
+    <string name="factory_crv_audio_input">CRV audio input</string>
+    <string name="factory_mic_volume">Mic volume</string>
+    <string name="factory_dvd_area_code">DVD area code</string>
+    <string name="factory_tyre_com">Tyre serial com</string>
+    <string name="factory_outside_temp">Outside temperation</string>
+    <string name="factory_lcd_enable">LCD enable</string>
+    <string name="factory_antenna_ctrl">antenna control</string>
+    <string name="factory_fm_dx">FM DX</string>
+    <string name="factory_fm_loc">FM LOC</string>
+    <string name="factory_am_dx">AM DX</string>
+    <string name="factory_am_loc">AM LOC</string>
+    <string name="factory_oirt_dx">OIRT DX</string>
+    <string name="factory_oirt_loc">OIRT LOC</string>
+    <string name="factory_drive_record">Drive record</string>
+    <string name="factory_front_camera">front camera</string>
+    <string name="factory_gain_adjust">BT phone gain</string>
+    <string name="factory_bt_call_gain">BT phone gain</string>
+    <string name="factory_navi_gain">Navigation gain</string>
+    <string name="factory_other_gain">Other gain</string>
+    <string name="factory_aux_db">AUX_DB</string>
+    <string name="factory_a2dp_db">A2DP_DB</string>
+    <string name="factory_fm_db">FM_DB</string>
+    <string name="factory_am_db">AM_DB</string>
+    <string name="factory_tv_db">TV_DB</string>
+    <string name="factory_power_amplifier_ctrl">Amplifier control</string>
+    <string name="factory_air_temp_ctrl">Air temprature control</string>
+    <string name="factory_air_temp_together">Together</string>
+    <string name="factory_air_temp_alone">Alone</string>
+    <string name="factory_system_updata_usb">System update from USB</string>
+    <string name="factory_reset_def">Reset to default</string>
+    <string name="factory_reboot">Reboot</string>
+    <string name="factory_password">Password</string>
+    <string name="factory_save_reboot">Save and Reboot</string>
+    <string name="factory_navi_path">Navigation path select</string>
+    <string name="factory_show_dvd_eject">Show dvd eject button</string>
+    <string name="factory_navi_remix_ratio">Navi volume remix ratio</string>
+    <string name="factory_sound_effect">Sound effect set</string>
+    <string name="factory_treble">Treble</string>
+    <string name="factory_alto">Alto</string>
+    <string name="factory_bass">Bass</string>
+    <string name="factory_subwoofer_enable">Subwoofer enable</string>
+    <string name="factory_subwoofer">Subwoofer</string>
+    <string name="factory_balance">Balance</string>
+    <string name="factory_balance_fr">front rear</string>
+    <string name="factory_balance_lr">left right</string>
+    <string name="factory_loundness">Loundness</string>
+    <string name="factory_xml_export">Export xml file</string>
+    <string name="factory_storage_device_no_exist">Storage device is not exist!</string>
+    <string name="factory_xml_export_path">Export xml path:</string>
+    <string name="factory_dvd_load_pic">Dvd load picture set</string>
+    <string name="factory_tocuh_key_learn_caption">Touch button learning</string>
+
+    <!-- sleep -->
+    <string name="factory_sleep_about">Sleep about</string>
+    <string name="factory_boot_logo">Use logo picture after wakeup</string>
+    <string name="factory_sleep_power_enable">Sleep and Power</string>
+    <string name="factory_sleep_ready_time">False off to sleep time</string>
+    <string name="factory_power_off_time">Sleep time to shut down</string>
+    <string name="factory_time_unit_second">s</string>
+    <string name="factory_time_unit_minute">m</string>
+    <string name="factory_time_unit_hour">h</string>
+
+    <!-- Lcd config -->
+    <string name="factory_lcd_type">Lcd type</string>
+    <string name="factory_lcd_type_ttl">TTL</string>
+    <string name="factory_lcd_type_lvds">LVDS</string>
+    <string name="factory_lvds_bit">LVDS Bit</string>
+    <string name="factory_lvds_bit6">6</string>
+    <string name="factory_lvds_bit8">8</string>
+    <string name="factory_lcd_resolution">Lcd resolution</string>
+    <string name="factory_tft_drive_current">TFT drive current</string>
+    <string name="factory_lvds_drive_current">LVDS drive current</string>
+    <string name="factory_dithering_output">Dithering output</string>
+    
+    <!-- other -->
+    <string name="other_open_title">open</string>
+    <string name="other_close_title">close</string>
+    <string name="other_confirm">Are you sure?</string>
+    <string name="other_ok">Confirm</string>
+    <string name="other_cancel">Cancel</string>
+    <string name="other_user">Custom</string>
+    <string name="alert_set_success">oprate sucessed！</string>
+    <string name="alert_set_fail">oprate failed！</string>
+    <string name="other_show_password">Show password</string>
+
+    <!-- light -->
+    <string name="light_hue_title">Hue</string>
+    <string name="light_contrast_title">contrast</string>
+    <string name="light_saturation_title">saturation</string>
+    <string name="light_lightness_title">LightNess</string>
+    <string name="light_y_gain_title">Y Gain</string>
+    <string name="light_u_gain_title">U Gain</string>
+    <string name="light_v_gain_title">V Gain</string>
+    <string name="describe_light_left_bt">Left key</string>
+    <string name="describe_light_right_bt">Right key</string>
+    <string name="light_reset_bt">Reset</string>
+    <string name="light_userdifined">Userdefine</string>
+    <string name="light_bright">Bright</string>
+    <string name="light_soft">Software</string>
+    <string name="light_standard">Standard</string>
+    <string name="light_highlight">Highlight</string>
+    <string name="factory_sleep_time">Sleep time</string>
+    <string name="factory_mapdata_upgrade">Map data upgrade</string>
+    <string name="factory_fragment_title">Release the button, click the "start" button to learn</string>
+    <string name="factory_studying">Studing</string>
+    <string name="factory_KeyName_size_set">Size setting</string>
+    <string name="factory_KeyName_shortpress">ShortPress</string>
+    <string name="factory_KeyName_longpress">LongPress</string>
+    <string name="factory_KeyName_start">Start</string>
+    <string name="factory_KeyName_reset">Reset</string>
+    <string name="factory_KeyName_quilt">Quilt</string>
+    <string name="factory_KeyName_main_activity">MainMenu</string>
+    <string name="factory_KeyName_back">Back</string>
+    <string name="factory_KeyName_mode">Mode</string>
+    <string name="factory_KeyName_control">Control</string>
+    <string name="factory_KeyName_band">Band</string>
+    <string name="factory_KeyName_sound">Voice</string>
+    <string name="factory_KeyName_navigation">Navigation</string>
+    <string name="factory_KeyName_music">Music</string>
+    <string name="factory_KeyName_dvd">Dvd</string>
+    <string name="factory_KeyName_video">Video</string>
+    <string name="factory_KeyName_television">TV</string>
+    <string name="factory_KeyName_bluetooth_phone">Phone</string>
+    <string name="factory_KeyName_app_manager">App Manager</string>
+    <string name="factory_KeyName_power">Power</string>
+    <string name="factory_KeyName_auto_scan">Scan</string>
+    <string name="factory_KeyName_browse">Browse</string>
+    <string name="factory_KeyName_play_or_stop">Play/Stop</string>
+    <string name="factory_KeyName_decrease">Voice-</string>
+    <string name="factory_KeyName_increase">Voice+</string>
+    <string name="factory_KeyName_out">DVD out</string>
+    <string name="factory_KeyName_previous">Previous</string>
+    <string name="factory_KeyName_next">Next</string>
+    <string name="factory_KeyName_hang_up">Hang_up</string>
+    <string name="factory_KeyName_balance">Balance</string>
+    <string name="factory_KeyName_mute">Mute</string>
+    <string name="factory_KeyName_off_screen">Sleep</string>
+    <string name="factory_reset_title">Reset will clear all previous learning states？</string>
+    <string name="factory_ok">Ok</string>
+    <string name="factory_cancel">Cancel</string>
+    <string name="factory_reset_dialog_title">Reset</string>
+    <string name="factory_adjust_button_region">Adjust button area size</string>
+    <string name="factory_tocuh_key_save_info">Confirm whether the current learning data?</string>
+    <string name="factory_touch_key_learning_success">Key learning success！</string>
+    <string name="factory_tocuh_calibration_caption">Touch learning</string>
+    <string name="factory_sleep_power">Sleep and power</string>
+    <string name="factory_funs_other">Other function set</string>
+	<string name="factory_calibrate_title">Please click on the buttons in sequence!</string>
+    <string name="factory_tocuh_key_beyond">Key learning has in excess of the prescribed number, it is recommended that the learning button again</string>
+	<string name="factory_reset_def_confirm">Are you sure you want to restore the factory settings?</string>
+	<!-- tuoxian -->
+	<string name="str_cn_simplified">中文</string>
+	<string name="str_english">English</string>
+	<string name="settings_item_data_time_name">Date and Time</string>
+	<string name="settings_item_file_manager_name">File Manager</string>
+	<string name="settings_item_light_name">Brightness</string>
+	<string name="settings_item_sound_balance_name">Sound Balance</string>
+	<string name="settings_item_sound_config_name">Sound Effect</string>
+	<string name="settings_item_recover_factroy_name">Restore Factory</string>
+	<string name="settings_item_update">System Update</string>
+	<string name="settings_item_about_name">About</string>
+	<string name="settings_item_wifi_name">Network</string>
+	<string name="settings_item_language_name">Language</string>
+	<string name="settings_item_rear_mute_name">Rear Mute</string>
+	<string name="str_btn_back">Back</string>
+	
+	<string name="str_light_level_1">dark</string>
+	<string name="str_light_level_2">darker</string>
+	<string name="str_light_level_3">normal</string>
+	<string name="str_light_level_4">bright</string>
+	
+	<string name="setting_year">Year</string>
+	<string name="setting_month">Month</string>
+	<string name="setting_day">Day</string>
+	<string name="setting_hour">Hour</string>
+	<string name="setting_minute">Minute</string>
+	<string name="mcu_update">System Update</string>
+	<string name="system_update">Firmware Update</string>
+	<string name="faw_update">FAW Link Update</string>
+	<string name="show_time">Show Time</string>
+	<string name="off">Off</string>
+	<string name="on">On</string>
+	<string name="wifi_swicth">WIFI Swicth</string>
+	<string name="make_sure_insert_update">The system will restart.\r\nPlease make sure to insert the upgrade file.</string>
+</resources>

@@ -1,0 +1,182 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/fragment_padding" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- 车锁控制 -->
+
+        <TextView
+            style="@style/car_info_style1"
+            android:text="@string/str_mg_lock_ctrl" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_mg_driving_latch" />
+
+            <CheckBox
+                android:id="@+id/mg_checkbox_driving_latch"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_mg_unlock" />
+
+            <CheckBox
+                android:id="@+id/mg_checkbox_unlock"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/mg_rl_unlock_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_mg_unlock_mode" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/mg_rl_near_unlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_mg_near_unlock" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <!-- 灯光控制(伴我回家) -->
+
+        <TextView
+            style="@style/car_info_style1"
+            android:text="@string/str_mg_lights_ctrl" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_mg_revers_lights" />
+
+            <CheckBox
+                android:id="@+id/mg_checkbox_revers_lights"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_mg_near_lights" />
+
+            <CheckBox
+                android:id="@+id/mg_checkbox_near_lights"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_mg_fog_lights" />
+
+            <CheckBox
+                android:id="@+id/mg_checkbox_fog_lights"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/mg_rl_gohome_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_mg_gohome_time" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <!-- 灯光控制(寻车指示) -->
+
+        <TextView
+            style="@style/car_info_style1"
+            android:text="@string/str_mg_f_lights_ctrl" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_mg_revers_lights" />
+
+            <CheckBox
+                android:id="@+id/mg_checkbox_f_revers_lights"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_mg_near_lights" />
+
+            <CheckBox
+                android:id="@+id/mg_checkbox_f_near_lights"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_mg_fog_lights" />
+
+            <CheckBox
+                android:id="@+id/mg_checkbox_f_fog_lights"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/mg_rl_f_gohome_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_mg_f_gohome_time" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

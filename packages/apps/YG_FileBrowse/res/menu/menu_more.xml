@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_newfolder"
+        android:title="@string/menu_item_title_new_folder"/>
+    <item
+        android:id="@+id/action_sort"
+        android:title="@string/menu_item_title_sort"/>
+    <item
+        android:id="@+id/action_view"
+        android:title="@string/menu_item_title_view"/>
+
+</menu>

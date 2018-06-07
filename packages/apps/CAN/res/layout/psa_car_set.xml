@@ -1,0 +1,322 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/fragment_padding" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/psa_rl_rear_wiper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_psa_rear_wiper" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/psa_rl_driver_assist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_psa_driver_assist" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_psa_auto_door" />
+
+            <CheckBox
+                android:id="@+id/psa_checkbox_auto_door"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/psa_rl_driver_assist1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_psa_driver_assist1" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_psa_center_door" />
+
+            <CheckBox
+                android:id="@+id/psa_checkbox_center_door"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/psa_rl_trip_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:visibility="gone">
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_psa_trip_page" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <!-- 日间照明灯 -->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_psa_light_status" />
+
+            <CheckBox
+                android:id="@+id/psa_checkbox_light_status"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/psa_rl_light_delay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_psa_light_delay" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_psa_auto_run_ill" />
+
+            <CheckBox
+                android:id="@+id/psa_checkbox_auto_run_ill"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <!-- 氛围照明状态 -->
+
+        <RelativeLayout
+            android:id="@+id/psa_rl_light_atmosphere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_psa_light_atmosphere" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_psa_radar_stop" />
+
+            <CheckBox
+                android:id="@+id/psa_checkbox_radar_stop"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_psa_backcar" />
+
+            <CheckBox
+                android:id="@+id/psa_checkbox_backcar"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_psa_p_gear" />
+
+            <CheckBox
+                android:id="@+id/psa_checkbox_p_gear"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_psa_small_light" />
+
+            <CheckBox
+                android:id="@+id/psa_checkbox_small_light"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <!-- 伴我回家照明 -->
+
+        <RelativeLayout
+            android:id="@+id/psa_rl_light_go_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_psa_light_go_home" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/psa_rl_guest_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_psa_guest_light" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/psa_rl_eq_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_psa_eq_set" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/psa_rl_fuel_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_psa_fuel_unit" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <!-- 盲区探测 -->
+
+        <RelativeLayout
+            android:id="@+id/psa_rl_blind_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_psa_blind_area" />
+
+            <CheckBox
+                android:id="@+id/psa_checkbox_blind_area"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_psa_start_stop_func" />
+
+            <CheckBox
+                android:id="@+id/psa_checkbox_start_stop_func"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_psa_guest_func" />
+
+            <CheckBox
+                android:id="@+id/psa_checkbox_guest_func"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/psa_rl_doors_open_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_psa_doors_open_set" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/psa_rl_lan_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_psa_lan_set" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_psa_tire_pressure" />
+
+            <CheckBox
+                android:id="@+id/psa_checkbox_tire_pressure"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

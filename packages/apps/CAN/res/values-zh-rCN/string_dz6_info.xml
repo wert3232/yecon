@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <!-- 大众原车信息 -->
+    <string name="ci_oil_left">燃油量</string>
+    <string name="ci_outdoor_temp">室外温度</string>
+    <string name="ci_battery_voltage">电池电压</string>
+    <string name="ci_seat_belts">安全带</string>
+    <string name="ci_rear_door">尾箱门</string>
+    <string name="ci_handbrake">手刹</string>
+    <string name="ci_cleaning_fluid">清洗液</string>
+    <string name="ci_engine_speed">发动机转速</string>
+    <string name="ci_traveling_speed">瞬时速度</string>
+    <string name="ci_driven_distance">行驶里程</string>
+    <string name="ci_status_normal">正常</string>
+    <string name="ci_status_no_line">未系</string>
+    <string name="ci_status_no_release">拉起</string>
+    <string name="ci_status_no_close">未关</string>
+    <string name="ci_status_low">过低</string>
+    <string name="ci_left_front_door_open">左前门开</string>
+    <string name="ci_right_front_door_open">右前门开</string>
+    <string name="ci_left_back_door_open">左后门开</string>
+    <string name="ci_right_back_door_open">右后门开</string>
+    <string name="ci_rear_door_open">后尾箱开</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SoundView</string>
+    <string name="title_effect">"音效"</string>
+    <string name="title_balance">"平衡"</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- buttom title -->
+    <string name="title_rock">"搖滾"</string>
+    <string name="title_popu">"流行"</string>
+    <string name="title_live">"現場"</string>
+    <string name="title_dance">"舞曲"</string>
+    <string name="title_classical">"古典"</string>
+    <string name="title_soft">"柔和"</string>
+    <string name="title_self">"個性"</string>
+    <string name="title_origin">"原音"</string>
+    <!-- effect -->
+    <string name="title_value_32">32</string>
+    <string name="title_value_64">64</string>
+    <string name="title_value_150">150</string>
+    <string name="title_value_250">250</string>
+    <string name="title_value_500">500</string>
+    <string name="title_value_1k">1k</string>
+    <string name="title_value_2k">2k</string>
+    <string name="title_value_4k">4k</string>
+    <string name="title_value_8k">8k</string>
+    <string name="title_value_16k">16k</string>
+    <string name="title_value_32k">32k</string>
+    <string name="title_value_loudness">"響度"</string>
+    <!-- balance -->
+    <string name="bal_bass_title">重低音</string>
+
+    <!-- light -->
+    <string name="light_hue_title">色度</string>
+    <string name="light_contrast_title">對比度</string>
+    <string name="light_saturation_title">飽和度</string>
+    <string name="light_lightness_title">亮度</string>
+    <string name="describe_light_left_bt">左按鍵</string>
+    <string name="describe_light_right_bt">右按鍵</string>
+    <string name="light_title_reset">複位</string>
+
+    <string-array name="ReverbCoef">
+        <item>場景關閉</item>
+        <item>現場</item>
+        <item>大廳</item>
+        <item>音樂會</item>
+        <item>淍穴</item>
+        <item>浴室</item>
+        <item>競技場</item>
+    </string-array>
+
+    <!-- audio set -->
+    <string name="Treble">高音</string>
+    <string name="Bass">低音</string>
+    <string name="Alto">中音</string>
+    <string name="Subwoofer">重低音</string>
+    <string name="Balance">音場平衡</string>
+    <string name="Loundness_on">等響度開</string>
+    <string name="Loundness_off">等響度關</string>
+    <string name="Reset">複位</string>
+    <string name="analog_mode">返回</string>
+    <string name="eq_mode">均衡器</string>
+
+    <!-- balance mode -->
+    <string name="bal_mode_front">前模式</string>
+    <string name="bal_mode_rear">後模式</string>
+    <string name="bal_mode_left">左模式</string>
+    <string name="bal_mode_right">右模式</string>
+    <string name="bal_mode_fl">主駕模式</string>
+    <string name="bal_mode_fr">副駕模式</string>
+    <string name="bal_mode_rl">後左模式</string>
+    <string name="bal_mode_rr">後右模式</string>
+    <string name="bal_text_fl">前左</string>
+    <string name="bal_text_fr">前右</string>
+    <string name="bal_text_rl">後左</string>
+    <string name="bal_text_rr">後右</string>
+
+</resources>

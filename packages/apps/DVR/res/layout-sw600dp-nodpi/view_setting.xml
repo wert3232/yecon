@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#78000000" 
+	>
+<!--   -->
+	<RadioGroup 
+		android:id="@+id/Resolution"
+		android:contentDescription="@string/Resolution"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+	   android:background="#00000000"
+		>
+
+		<RadioButton 
+			android:id="@+id/R1080p"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/R1080p"
+			android:textColor="#FFFFFF" 
+	   		android:background="@null" 
+			android:button="@null" 
+			android:drawableLeft="@xml/bg_point"
+			android:saveEnabled="false"
+			/>
+
+		<RadioButton 
+			android:id="@+id/R720p"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/R720p"
+			android:textColor="#FFFFFF" 
+	   		android:background="@null" 
+			android:button="@null" 
+			android:drawableLeft="@xml/bg_point" 
+			android:saveEnabled="false"
+			/>
+
+	</RadioGroup>
+	
+	<RadioGroup 
+		android:id="@+id/Duration"
+		android:contentDescription="@string/Duration"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:background="#00000000" 
+		>
+
+		<RadioButton 
+			android:id="@+id/D10Mins"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/D10Mins"
+	   		android:textColor="#FFFFFF"
+	   		android:background="@null" 
+			android:button="@null" 
+			android:drawableLeft="@xml/bg_point" 
+			android:saveEnabled="false"
+			/>
+
+		<RadioButton
+			android:id="@+id/D5Mins"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/D5Mins"
+	   		android:textColor="#FFFFFF"
+	   		android:background="@null" 
+			android:button="@null" 
+			android:drawableLeft="@xml/bg_point" 
+			android:saveEnabled="false"
+			/>
+
+		<RadioButton 
+			android:id="@+id/D3Mins"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/D3Mins"
+	   		android:textColor="#FFFFFF"
+	   		android:background="@null" 
+			android:button="@null" 
+			android:drawableLeft="@xml/bg_point" 
+			android:saveEnabled="false"
+			/>
+	</RadioGroup>
+	
+	
+	<RadioGroup 
+		android:id="@+id/Path"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:background="#00000000" 
+		>
+
+		<RadioButton 
+			android:id="@+id/SD1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/sd1"
+	   		android:textColor="#FFFFFF"
+	   		android:background="@null" 
+			android:button="@null" 
+			android:drawableLeft="@xml/bg_point" 
+			android:saveEnabled="false"
+			android:visibility="gone"
+			/>
+
+		<RadioButton
+			android:id="@+id/SD2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/sd2"
+	   		android:textColor="#FFFFFF"
+	   		android:background="@null" 
+			android:button="@null" 
+			android:drawableLeft="@xml/bg_point" 
+			android:saveEnabled="false"
+			android:visibility="gone"
+			/>
+
+		<RadioButton 
+			android:id="@+id/USB1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/usb1"
+	   		android:textColor="#FFFFFF"
+	   		android:background="@null" 
+			android:button="@null" 
+			android:drawableLeft="@xml/bg_point" 
+			android:saveEnabled="false"
+			android:visibility="gone"
+			/>
+
+		<RadioButton 
+			android:id="@+id/USB2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/usb2"
+	   		android:textColor="#FFFFFF"
+	   		android:background="@null" 
+			android:button="@null" 
+			android:drawableLeft="@xml/bg_point" 
+			android:saveEnabled="false"
+			android:visibility="gone"
+			/>
+
+		<RadioButton 
+			android:id="@+id/USB3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/usb3"
+	   		android:textColor="#FFFFFF"
+	   		android:background="@null" 
+			android:button="@null" 
+			android:drawableLeft="@xml/bg_point" 
+			android:saveEnabled="false"
+			android:visibility="gone"
+			/>
+
+		<RadioButton 
+			android:id="@+id/USB4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/usb4"
+	   		android:textColor="#FFFFFF"
+	   		android:background="@null" 
+			android:button="@null" 
+			android:drawableLeft="@xml/bg_point" 
+			android:saveEnabled="false"
+			android:visibility="gone"
+			/>
+
+		<RadioButton 
+			android:id="@+id/USB5"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/usb5"
+	   		android:textColor="#FFFFFF"
+	   		android:background="@null" 
+			android:button="@null" 
+			android:drawableLeft="@xml/bg_point" 
+			android:saveEnabled="false"
+			android:visibility="gone"
+			/>
+	</RadioGroup>
+</LinearLayout>
+

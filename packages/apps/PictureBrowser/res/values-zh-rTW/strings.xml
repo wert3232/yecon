@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="title_media">多媒體</string>
+    <string name="app_name">圖片</string>
+
+    <string name="decode_err_msg">圖片解碼失敗!</string>
+    <string name="no_pic_msg">沒有圖片文件</string>
+    <string name="last_pic_msg">已經是最後一張圖片了!</string>
+    <string name="first_pic_msg">已經是第一張圖片了!</string>
+	<string name="scanning">圖片掃描中，請稍候......</string>
+	<string name="title_music">音樂</string>
+	<string name="title_video">視頻</string>
+	<string name="title_photo">圖片</string>
+	
+	<string name="str_btn_pre">上一个</string>
+    <string name="str_btn_play">播放</string>
+    <string name="str_btn_pause">暂停</string>
+    <string name="str_btn_next">下一个</string>
+    <string name="str_btn_zoomin">放大</string>
+    <string name="str_btn_zoomout">缩小</string>
+    <string name="str_btn_rotate">旋转</string>
+    <string name="str_btn_back">返回</string>
+</resources>

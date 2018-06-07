@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Dimens margin -->
+    <dimen name="activity_left_margin">20dp</dimen>
+    <dimen name="activity_right_margin">20dp</dimen>
+    <dimen name="bottombar_button_right_margin">75dp</dimen>
+
+    <!-- Dimens padding -->
+    <dimen name="bottombar_prompt_textview_padding">20dp</dimen>
+	<dimen name="default_textdrawable_padding">10dp</dimen>
+	
+    <!-- Dimens textsize -->
+    <dimen name="start_title_size">50sp</dimen>
+    <dimen name="default_textsize">26sp</dimen>
+    <dimen name="big_title_textsize">30sp</dimen>
+    <dimen name="link_hint_size">20sp</dimen>   	
+  
+</resources>

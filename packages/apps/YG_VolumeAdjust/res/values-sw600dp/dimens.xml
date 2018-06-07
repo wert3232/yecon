@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- margin -->
+    <dimen name="activity_default_margin">16dp</dimen>
+    <dimen name="layout_default_margin">16dp</dimen>
+    <dimen name="space_default_margin">10dp</dimen>
+    <!-- padding -->
+    <dimen name="activity_default_padding">16dp</dimen>
+    <dimen name="layout_default_padding">8dp</dimen>
+    <dimen name="space_default_padding">10dp</dimen>
+    <!-- width -->
+    <dimen name="space_default_width">30dp</dimen>
+    <dimen name="button_default_width">120dp</dimen>
+    <dimen name="spinner_default_width">160dp</dimen>
+    <dimen name="textview_default_width">200dp</dimen>
+    <!-- text size -->
+    <dimen name="spinner_item_text_size">30sp</dimen>
+    <dimen name="button_text_size">24sp</dimen>
+    <dimen name="textview_text_size">32sp</dimen>
+
+</resources>

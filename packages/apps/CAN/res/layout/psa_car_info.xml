@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/can_bg"
+    android:orientation="vertical"
+    android:padding="@dimen/fragment_padding" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/psa_relative_trip_com"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_psa_trip_com"
+                style="@style/car_info_style"
+                android:text="@string/str_psa_trip_com" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/honda_tv_padding_left"
+                android:background="@drawable/item_right_normal" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/psa_relative_car_set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_psa_car_set"
+                style="@style/car_info_style"
+                android:text="@string/str_car_set" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/honda_tv_padding_left"
+                android:background="@drawable/item_right_normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/psa_relative_warn_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tv_psa_warn_info"
+                style="@style/car_info_style"
+                android:text="@string/str_psa_warn" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/honda_tv_padding_left"
+                android:background="@drawable/item_right_normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/psa_relative_func_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tv_psa_func_info"
+                style="@style/car_info_style"
+                android:text="@string/str_psa_func" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/honda_tv_padding_left"
+                android:background="@drawable/item_right_normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/psa_relative_diog_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_psa_diog_info"
+                style="@style/car_info_style"
+                android:text="@string/str_psa_diog" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/honda_tv_padding_left"
+                android:background="@drawable/item_right_normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/psa_relative_air_set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_psa_air_set"
+                style="@style/car_info_style"
+                android:text="@string/str_air_set" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/honda_tv_padding_left"
+                android:background="@drawable/item_right_normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/psa_relative_mem_speed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_psa_mem_speed"
+                style="@style/car_info_style"
+                android:text="@string/str_psa_mem_speed_set" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/honda_tv_padding_left"
+                android:background="@drawable/item_right_normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/psa_relative_cru_speed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_psa_cru_speed"
+                style="@style/car_info_style"
+                android:text="@string/str_psa_cru_speed_set" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/honda_tv_padding_left"
+                android:background="@drawable/item_right_normal" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

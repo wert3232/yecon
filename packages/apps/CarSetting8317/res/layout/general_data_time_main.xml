@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+	<!-- <FrameLayout 
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:layout_above="@id/data_time_parent"
+	    >
+	    <TextView 
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:gravity="center"
+	        android:textColor="@color/selector_color_btn_state"
+	        android:textSize="28sp"
+	        android:text="@string/setting_year"
+	        />
+	    <TextView 
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:gravity="center"
+	        android:textColor="@color/selector_color_btn_state"
+	        android:textSize="28sp"
+	        android:text="@string/setting_month"
+	        />
+	    <TextView 
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:gravity="center"
+	        android:textColor="@color/selector_color_btn_state"
+	        android:textSize="28sp"
+	        android:text="@string/setting_day"
+	        />
+	    <TextView 
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:gravity="center"
+	        android:textColor="@color/selector_color_btn_state"
+	        android:textSize="28sp"
+	        android:text="@string/setting_hour"
+	        />
+	    <TextView 
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:gravity="center"
+	        android:textColor="@color/selector_color_btn_state"
+	        android:textSize="28sp"
+	        android:text="@string/setting_minute"
+	        />
+	</FrameLayout> -->
+    <LinearLayout
+        android:id="@+id/data_time_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <DatePicker
+            android:id="@+id/datepicker"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:calendarViewShown="false"
+            android:saveEnabled="true"
+            android:scrollbarSize="30sp" />
+
+        <TimePicker
+            android:id="@+id/timepicker"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:saveEnabled="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/time_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/data_time_parent"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <CheckBox
+            android:id="@+id/date_24_12_cb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@xml/selector_radio_time"
+            android:text="@string/general_date_time_24"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/date_time_syc_cb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@xml/selector_radio_time"
+            android:text="@string/general_date_gps_syc"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/time_yes_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time_check"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/yes"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/other_ok"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/no"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:gravity="center"
+            android:text="@string/other_cancel"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+</RelativeLayout>

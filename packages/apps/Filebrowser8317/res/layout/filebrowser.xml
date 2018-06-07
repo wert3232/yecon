@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/appbackground"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/browser_topbar_bg"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/mmp_list_filepath"
+            style="@style/mmp_listmod_text"
+            android:layout_width="819dp"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_marginBottom="@dimen/listview_layout_margin_bottom"
+        android:layout_marginLeft="@dimen/listview_layout_margin_left"
+        android:layout_marginRight="@dimen/listview_layout_margin_right"
+        android:layout_marginTop="@dimen/listview_layout_margin_top"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/filebrowser_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="@color/lucency"
+            android:divider="@null"
+            android:listSelector="@xml/selector_listview_state"
+            android:nextFocusDown="@+id/filter_allfile" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/mmp_tip_text"
+            style="@style/mmp_listmod_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:visibility="gone" />
+
+        <GridView
+            android:id="@+id/filebrowser_grid"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/showbackground"
+            android:columnWidth="160dp"
+            android:horizontalSpacing="10dp"
+            android:numColumns="auto_fit"
+            android:verticalSpacing="18dp"
+            android:visibility="gone" >
+        </GridView>
+    </LinearLayout>
+
+    <!-- show bottom -->
+
+    <LinearLayout
+        android:id="@+id/filebrowser_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bottombar_bg" >
+
+        <TextView
+            android:id="@+id/filter_allfile"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_file_bg"
+            android:text="@string/str_tab_file" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/filter_video"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_video_bg"
+            android:text="@string/str_tab_video" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/filter_music"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_music_bg"
+            android:text="@string/str_tab_music" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/filter_picture"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_image_bg"
+            android:text="@string/str_tab_image" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/filter_logo_set"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_logo_bg"
+            android:text="@string/str_tab_logo"
+            android:visibility="gone" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/filter_uplevel"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_back_bg"
+            android:text="@string/str_tab_back" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/filter_show"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_menu_list_bg"
+            android:text="@string/str_tab_menu" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

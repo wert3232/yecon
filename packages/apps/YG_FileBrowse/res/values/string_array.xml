@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fragment_info_normal_title">
+        <item>@string/fragment_info_normal_title_type</item>
+        <item>@string/fragment_info_normal_title_location</item>
+        <item>@string/fragment_info_normal_title_size</item>
+        <item>@string/fragment_info_normal_title_time</item>
+
+    </string-array>
+</resources>

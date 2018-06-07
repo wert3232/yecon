@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="0dp"
+    android:paddingTop="4dp"
+    android:orientation="vertical"
+    android:background="#0A2758" >
+
+    <!-- android:layout_weight="1" -->
+
+    <LinearLayout
+        android:id="@+id/calling_infopad"
+        android:layout_width="fill_parent"
+        android:layout_height="431dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="50dp" >
+
+            <TextView
+                android:id="@+id/bt_calling_status_tv"
+                android:layout_width="292dp"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="@string/str_out_call_status"
+                android:textSize="40sp"
+                android:paddingLeft="100dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/bk_callstate" />
+            
+            <TextView
+                android:id="@+id/bt_calling_phone_name"
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/bt_calling_phone_number"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textSize="40sp" />
+            
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+            
+            <TextView
+                android:id="@+id/bt_calling_phone_area"
+                android:layout_width="492dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="30dp"
+                android:gravity="right"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textSize="40sp" />
+            
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/line"/>
+            
+            <TextView
+                android:id="@+id/bt_calling_phone_time"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textSize="40sp" 
+                android:visibility="gone"/>
+            
+            <ProgressBar
+                android:id="@+id/bt_callout_image"
+                android:layout_width="118dp"
+                android:layout_height="88dp"
+                android:layout_marginTop="20dp"
+            	android:indeterminateDrawable="@drawable/callout_progressbar" 
+                android:visibility="gone"/>
+            
+            <ProgressBar
+                android:id="@+id/bt_callin_image"
+                android:layout_width="260dp"
+                android:layout_height="82dp"
+                android:layout_marginTop="20dp"
+            	android:indeterminateDrawable="@drawable/callin_progressbar" 
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+        <LinearLayout
+            android:id="@+id/calling_softkeypad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="218dp"
+            android:orientation="vertical"
+            android:paddingLeft="40dp"
+            android:visibility="gone"
+            android:background="@drawable/bk_keyboard" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" 
+                android:layout_marginTop="24dp"
+                android:background="@drawable/input_keyboard">
+
+                <EditText
+                    android:id="@+id/calling_input_et"
+                    android:layout_width="375dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:textColor="#ffffff"
+                    android:textSize="45sp"
+                    android:background="#00000000" />
+
+                <Button
+                    android:id="@+id/delete_calling_pad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/delete_calling_pad" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:orientation="vertical" >
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginTop="20dp">
+
+                        <Button
+                            android:id="@+id/btn_calling_one"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/numbtn_calling_pad_1" />
+
+                        <Button
+                            android:id="@+id/btn_calling_two"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="55dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/numbtn_calling_pad_2" />
+
+                        <Button
+                            android:id="@+id/btn_calling_three"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="55dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/numbtn_calling_pad_3" />
+
+                    </TableRow>
+
+                    
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginTop="12dp">
+
+                        <Button
+                            android:id="@+id/btn_calling_four"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/numbtn_calling_pad_4" />
+
+                        <Button
+                            android:id="@+id/btn_calling_five"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="55dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/numbtn_calling_pad_5" />
+
+                        <Button
+                            android:id="@+id/btn_calling_six"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="55dp"
+                            android:background="@drawable/numbtn_calling_pad_6" />
+                        
+                    </TableRow>
+                    
+                    
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_weight="1">
+
+
+                        <Button
+                            android:id="@+id/btn_calling_seven"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/numbtn_calling_pad_7" />
+
+                        <Button
+                            android:id="@+id/btn_calling_eight"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="55dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/numbtn_calling_pad_8" />
+                        
+                        <Button
+                            android:id="@+id/btn_calling_nine"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="55dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/numbtn_calling_pad_9" />
+
+                    </TableRow>
+                    
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_weight="1" >
+
+                        <Button
+                            android:id="@+id/btn_calling_asterisk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/numbtn_calling_pad_star" />
+
+                        <Button
+                            android:id="@+id/btn_calling_zero"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="55dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/numbtn_calling_pad_0" />
+
+                        <Button
+                            android:id="@+id/btn_calling_pound"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="55dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/numbtn_calling_pad_sharp" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </LinearLayout>
+        
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/below_bar">
+            
+        <CheckBox
+            android:id="@+id/btn_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@xml/switch_btn"
+            android:button="@null"
+		    android:gravity="center"/>
+        
+        
+        <CheckBox
+            android:id="@+id/cb_voiceswitch_forever"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/switchvoice_checkbox_bg"
+            android:button="@null"
+            android:gravity="center"/>
+        
+        <Button
+            android:id="@+id/btn_softkeypad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@xml/bg_call_keypad_btn"/>
+
+
+        <Button
+            android:id="@+id/btn_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@xml/bg_call_answer_btn"/>
+
+        <Button
+            android:id="@+id/btn_hangup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@xml/bg_call_hangup_btn" />
+
+    </LinearLayout>
+
+</LinearLayout>

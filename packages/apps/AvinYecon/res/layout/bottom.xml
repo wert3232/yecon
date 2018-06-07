@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_marginLeft="400dp"
+	android:layout_height="fill_parent" android:layout_gravity="bottom">
+	
+	<Button android:id="@+id/switch_front_rear"
+        android:layout_width="100dp" android:layout_height="80dp"
+        android:focusable="true"
+        android:layout_gravity="bottom" 
+        android:layout_weight="1"
+        android:text="@string/front" 
+        android:textSize="40dp"
+        android:background="@drawable/apply_button"/>
+        
+	<ImageButton android:id="@+id/select_source"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_gravity="bottom" android:src="@drawable/videosource_button"
+		android:focusable="true" android:layout_weight="1" android:background="#00000000" />
+		
+	<ImageButton android:id="@+id/pip" android:layout_width="wrap_content"
+		android:layout_gravity="bottom" android:layout_height="wrap_content"
+		android:src="@drawable/pip_button" android:focusable="true"
+		android:layout_weight="1" android:background="#00000000" />
+</LinearLayout>

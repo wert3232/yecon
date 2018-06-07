@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FreqItemButton">
+        <attr format="string" name="no"></attr>
+        <attr format="string" name="value"></attr>
+        <attr format="string" name="unit"></attr>
+    </declare-styleable>
+</resources>

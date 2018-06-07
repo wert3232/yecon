@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">圖片</string>
+    <string name="title_media">多媒體</string>
+    <string name="decode_err_msg">圖片解碼失敗!</string>
+    <string name="no_pic_msg">沒有圖片文件</string>
+    <string name="last_pic_msg">已經是最後一張圖片了!</string>
+    <string name="first_pic_msg">已經是第一張圖片了!</string>
+    <string name="scanning">圖片掃描中，請稍候......</string>
+    <string name="title_music">音樂</string>
+    <string name="title_video">視頻</string>
+    <string name="title_photo">圖片</string>
+    <string name="str_tips_setwallpaper_success">設定背景圖片成功</string>
+    <string name="str_tips_setwallpaper_failed">設定背景圖片失敗</string>
+    <string name="str_btn_pre">上一個</string>
+    <string name="str_btn_play">播放</string>
+    <string name="str_btn_pause">暫停</string>
+    <string name="str_btn_next">下一個</string>
+    <string name="str_btn_zoomin">放大</string>
+    <string name="str_btn_zoomout">縮小</string>
+    <string name="str_btn_rotate">右旋轉</string>
+    <string name="str_btn_rotate_left">左旋轉</string>
+    <string name="str_btn_setwallpaper">設為桌面</string>
+    <string name="str_btn_back">返回</string>
+    <string name="str_error_io">圖片打開失敗</string>
+    <string name="str_error_decode">圖片無法顯示</string>
+    <string name="str_error_download">網絡問題，無法下載</string>
+    <string name="str_error_toolarge">圖片太大，無法顯示</string>
+</resources>

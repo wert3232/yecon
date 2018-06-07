@@ -1,0 +1,44 @@
+<resources>
+
+    <string name="accessibility_all_apps_button">App</string>
+    <string name="accessibility_delete_button">Delete</string>
+    <string name="accessibility_search_button">Search</string>
+    <string name="all_apps_button_label">App</string>
+    <string name="all_apps_home_button_label">Home</string>
+    <string name="app_bluetooth_name">BT Phone</string>
+    <string name="app_bt_music_name">BT Music</string>
+    <string name="app_car_record_name">Driver Record</string>
+    <string name="app_music_name">Music</string>
+    <string name="app_photo_name">Picture</string>
+    <string name="app_raido_name">Radio</string>
+    <string name="app_settings_name">System Settings</string>
+    <string name="app_video_name">Video</string>
+    <string name="application_name">Launcher</string>
+    <string name="cab_menu_delete_app">Uninstall app</string>
+    <string name="cancel_action">Cancel</string>
+    <string name="cling_dismiss">Confim</string>
+    <string name="delete_zone_label_all_apps">Uninstall</string>
+    <string name="delete_zone_label_all_apps_system_app">Uninstall update</string>
+    <string name="delete_zone_label_workspace">Delete</string>
+    <string name="desktop">Desktop</string>
+    <string name="folder_name">Foler</string>
+    <string name="group_applications">App</string>
+    <string name="group_shortcuts">Shortcut</string>
+    <string name="group_wallpapers">Wallpaer</string>
+    <string name="home">Home</string>
+    <string name="main_control_btn_text_mute">Mute</string>
+    <string name="main_control_btn_text_next">Next</string>
+    <string name="main_control_btn_text_pause">Play/Pause</string>
+    <string name="main_control_btn_text_play">Play/Pause</string>
+    <string name="main_control_btn_text_prev">Prev</string>
+    <string name="market">Buy</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_manage_apps">Manage app</string>
+    <string name="menu_notifications">Notification</string>
+    <string name="menu_search">Search</string>
+    <string name="rename_action">Confim</string>
+    <string name="str_main_menu">Home</string>
+    <string name="app_car_life_name">CarLife</string>
+    <string name="app_phone_connect_name">FAW-Link</string>
+</resources>

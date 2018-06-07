@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">工厂测试模式</string>
+    <string name="label_auto">自\n\n\n\n\n\n动</string>
+    <string name="label_manual">手\n\n动</string>
+    <string name="test_prompt">自动测试开始，请不要退出应用！</string>
+    <string name="auto_test_done">自动测试完成，可以开始手动测试！</string>
+    <string name="rec_start">准备录音</string>
+    <string name="rec_stop">录音结束</string>
+    <string name="rec_prompt">正在录音</string>
+    <string name="rec_play_start">播放录音</string>
+    <string name="rec_play_stop">播放结束</string>
+    <string name="storage_type">存储类型：</string>
+    <string name="total_memory">内存大小：</string>
+    <string name="flash_memory">FLASH大小：</string>
+
+</resources>

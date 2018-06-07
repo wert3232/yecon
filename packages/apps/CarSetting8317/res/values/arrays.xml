@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="map_info">
+        <item>com.baidu.BaiduMap/com.baidu.baidumaps.WelcomeScreen</item>
+        <item>com.autonavi.minimap/com.autonavi.minimap.Splashy</item>
+        <item>cld.navi.p2397.mainframe/cld.navi.p2397.mainframe.NaviMainActivity</item>
+    </string-array>
+    <string-array name="map_title">
+        <item>baidu</item>
+        <item>GaoDe</item>
+        <item>KaiLiDe</item>
+    </string-array>
+    <!-- Used in LocalePicker -->
+    <string-array name="special_locale_codes" translatable="false">
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+        <item>en_US</item>
+    </string-array>
+    <!-- Used in LocalePicker -->
+    <string-array name="special_locale_names" translatable="false">
+        <item>中文 (简体)</item>
+        <item>中文 (繁體)</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="radio_locale_names" translatable="false">
+        <item>EUROPE</item>
+        <item>USA</item>
+        <item>OIRT</item>
+        <item>JAPAN</item>
+        <item>M_East</item>
+        <item>Latin</item>
+        <item>Australia</item>
+        <item>Asia</item>
+        <item>SAmer1</item>
+        <item>Arabia</item>
+        <item>China</item>
+        <item>SAmer2</item>
+        <item>Korea</item>
+        <item>Russian</item>
+        <item>FM</item>
+    </string-array>
+
+    <integer-array name="radio_locale_values" translatable="false" >
+        <item>0x00</item>
+        <item>0x01</item>
+        <item>0x02</item>
+        <item>0x03</item>
+        <item>0x04</item>
+        <item>0x05</item>
+        <item>0x06</item>
+        <item>0x07</item>
+        <item>0x08</item>
+        <item>0x09</item>
+        <item>0x0a</item>
+        <item>0x0b</item>
+        <item>0x0c</item>
+        <item>0x0d</item>
+        <item>0x0e</item>
+        <item>0x0f</item>
+    </integer-array>
+
+    <string-array name="mirror_flip_names">
+        <item>@string/media_mirror_FLIP_NONE</item>
+        <item>@string/media_mirror_FLIP_H</item>
+        <item>@string/media_mirror_FLIP_V</item>
+        <item>@string/media_mirror_FLIP_HnV</item>
+    </string-array>
+    <string-array name="factory_radio_type">
+        <item>4702</item>
+        <item>4730</item>
+        <item>4755</item>
+        <item>4754</item>
+        <item>6621</item>
+        <item>6851</item>
+        <item>6856</item>
+    </string-array>
+    <string-array name="aux_port">
+        <item>Off</item>
+        <item>V1</item>
+        <item>V2</item>
+        <item>V3</item>
+        <item>V4</item>
+        <item>V5</item>
+    </string-array>
+    <string-array name="can_type">
+        <item>Rui ZhiCheng</item>
+        <item>He Chi</item>
+        <item>Mi Xun</item>
+        <item>Xin Bass</item>
+        <item>Xin Pu</item>
+        <item>Vios</item>
+        <item>Shang She</item>
+        <item>Dogen</item>
+    </string-array>
+    <string-array name="dvr_type">
+        <item>Huan Xiang love</item>
+        <item>QiYuHaiChuang</item>
+    </string-array>
+    <string-array name="car_type">
+        <item>GM</item>
+        <item>DASAUTO</item>
+        <item>FORD</item>
+        <item>HONDER</item>
+        <item>PEUGEOT</item>
+        <item>HYUNDAI</item>
+    </string-array>
+    <string-array name="tv_type">
+        <item>ATV</item>
+        <item>DVB</item>
+    </string-array>
+    <string-array name="tv_area">
+        <item>USA</item>
+        <item>Europe</item>
+        <item>China</item>
+        <item>Italy</item>
+        <item>OIRT</item>
+        <item>New Zealand</item>
+        <item>South Africa</item>
+    </string-array>
+    <string-array name="navi_path">
+        <item>SDCARD</item>
+        <item>EXT_SDCARD1</item>
+        <item>EXT_SDCARD2</item>
+        <item>USB1</item>
+        <item>USB2</item>
+        <item>USB3</item>
+        <item>USB4</item>
+    </string-array>
+    <integer-array name="power_off_time">
+        <item>8</item>
+        <item>16</item>
+        <item>32</item>
+        <item>60</item>
+        <item>120</item>
+        <item>240</item>
+        <item>480</item>
+        <item>3600</item>
+        <item>7200</item>
+        <item>14400</item>
+        <item>28800</item>
+        <item>43200</item>
+        <item>86400</item>
+        <item>172800</item>
+        <item>259200</item>
+    </integer-array>
+    <integer-array name="sleep_ready_time">
+        <item>20</item>
+        <item>40</item>
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>120</item>
+        <item>140</item>
+        <item>160</item>
+        <item>180</item>
+        <item>200</item>
+        <item>220</item>
+        <item>240</item>
+    </integer-array>
+    <string-array name="weekday">
+        <item>SUN</item>
+        <item>MON</item>
+        <item>TUE</item>
+        <item>WED</item>
+        <item>THU</item>
+        <item>FRI</item>
+        <item>SAT</item>
+    </string-array>
+    <string-array name="fun_name">
+        <item>DVD</item>
+        <item>Gps</item>
+        <item>FM</item>
+        <item>AVIN1</item>
+        <item>AVIN2</item>
+        <item>TV</item>
+        <item>IPOD</item>
+        <item>Music</item>
+        <item>Video</item>
+        <item>BT</item>
+        <item>DVR(Usb)</item>
+        <item>DVR(Uart)</item>
+        <item>Micracast</item>
+        <item>Canbus</item>
+        <item>Tire Monitor</item>
+    </string-array>
+    <string-array name="light_type">
+        <item>Automatic</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Purple</item>
+        <item>Orange</item>
+        <item>Young</item>
+        <item>Yellow</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="assistive_item">
+        <item>Home</item>
+        <item>Return</item>
+        <item>Power</item>
+        <item>Screen</item>
+        <item>Mode</item>
+        <item>Navigation</item>
+        <item>Band</item>
+        <item>Play</item>
+        <item>Preview</item>
+        <item>Next</item>
+        <item>Mute</item>
+        <item>Volume add</item>
+        <item>Volume minus</item>
+        <item>Call answer</item>
+        <item>Call Hungup</item>
+    </string-array>
+    <string-array name="clock_type">
+        <item>Digtal Clock</item>
+        <item>Analog Clock</item>
+    </string-array>
+    
+    <!-- lcd分辨率 -->
+	<string-array name="Lcd_Resolution" translatable="false">
+        <item>800x480</item>
+        <item>1024x600</item>
+        <item>1024x768</item>
+        <item>1280x480</item>
+        <item>1280x720</item>
+        <item>1280x800</item>
+    </string-array>
+    
+	<!-- tft驱动电流 -->
+	<string-array name="tft_drive_current" translatable="false">
+        <item>Default</item>
+        <item>2mA</item>
+        <item>4mA</item>
+        <item>6mA</item>
+        <item>8mA</item>
+    </string-array>
+    
+	<!-- lvds驱动电流 -->
+	<string-array name="lvds_drive_current" translatable="false">
+        <item>Default</item>
+        <item>300mV</item>
+        <item>400mV</item>
+        <item>500mV</item>
+        <item>600mV</item>
+    </string-array>
+    
+	<!-- dithering 输出控制 -->
+	<string-array name="dithering_output" translatable="false">
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>close</item>
+    </string-array>
+    
+	<!-- tuoxian -->
+	<string-array name="about_list"  translatable="false">
+	    <item>	
+	       {\"name\": \"System Info\",\"content\": \"555\"}
+		</item>
+		<item>	
+	        {
+	  		\"name\": \"Core Version\",
+	  		\"content\": \" \"
+			}
+		</item>
+		 <!-- <item>	
+	        {
+	  		\"name\": \"Android\",
+	  		\"content\": \" \"
+			}
+		</item>
+		 <item>	
+	        {
+	  		\"name\": \"CPU\",
+	  		\"content\": \" \"
+			}
+		</item> -->
+		 <item>	
+	        {
+	  		\"name\": \"Total ROM\",
+	  		\"content\": \" \"
+			}
+		</item>
+		 <item>	
+	        {
+	  		\"name\": \"Available ROM\",
+	  		\"content\": \" \"
+			}
+		</item>
+		 <item>	
+	        {
+	  		\"name\": \"Device Serial\",
+	  		\"content\": \" \"
+			}
+		</item> 
+	</string-array>
+</resources>

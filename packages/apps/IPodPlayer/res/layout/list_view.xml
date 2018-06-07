@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/bt_parent"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/popu_top_bar"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/list_playlist_normal"
+            style="@style/list_bt_style"
+            android:drawableLeft="@drawable/list_playlist_normal"
+            android:text="@string/list_playlist_title" />
+
+        <TextView
+            android:id="@+id/list_song"
+            style="@style/list_bt_style"
+            android:drawableLeft="@drawable/list_song_normal"
+            android:text="@string/list_song_title" />
+
+        <TextView
+            android:id="@+id/list_performer"
+            style="@style/list_bt_style"
+            android:drawableLeft="@drawable/list_performer_normal"
+            android:text="@string/list_performer_title" />
+
+        <TextView
+            android:id="@+id/list_album"
+            style="@style/list_bt_style"
+            android:drawableLeft="@drawable/list_album_normal"
+            android:text="@string/list_album_title" />
+
+        <TextView
+            android:id="@+id/list_back"
+            style="@style/list_bt_style"
+            android:drawableLeft="@drawable/bar_back_image"
+            android:text="@string/back_img" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/music_list_select"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_bottom_margin"
+        android:paddingLeft="@dimen/activity_left_margin"
+        android:paddingRight="@dimen/activity_right_margin"
+        android:paddingTop="@dimen/activity_top_margin" 
+        android:layout_below="@+id/bt_parent"
+        android:layout_gravity="center"
+        android:divider="@null"
+        android:listSelector="@drawable/listview_item_bg"
+    	/>
+
+</RelativeLayout>

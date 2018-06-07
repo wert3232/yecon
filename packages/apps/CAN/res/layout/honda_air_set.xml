@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yeconui="http://schemas.android.com/apk/res/com.can.activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/can_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/honda_left_temp"
+            android:layout_width="@dimen/tv_honda_air_width"
+            android:layout_height="wrap_content" 
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tv_honda_air_temp"/>
+
+        <TextView
+            android:layout_width="@dimen/tv_honda_air_width"
+            android:layout_height="wrap_content" 
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/str_air_temp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tv_honda_air_temp"/>
+
+        <TextView
+            android:id="@+id/honda_right_temp"
+            android:layout_width="@dimen/tv_honda_air_width"
+            android:layout_height="wrap_content" 
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tv_honda_air_temp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="@dimen/ll_honda_air_interval"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/honda_ac_mode"
+            android:layout_width="@dimen/tv_honda_air_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" 
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tv_honda_air_textsize"
+            android:text="@string/str_air_ac_mode" />
+
+        <ImageView
+            android:id="@+id/honda_btn_ac_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/honda_air_ac_on" />
+
+        <ImageView
+            android:id="@+id/honda_btn_ac_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/honda_air_ac_off" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="@dimen/ll_honda_air_interval"
+        android:layout_gravity="center" >
+
+        <TextView
+            android:id="@+id/honda_air_win_mode"
+            android:layout_width="@dimen/tv_honda_air_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" 
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tv_honda_air_textsize"
+            android:text="@string/str_air_win_mode"/>
+
+        <ImageView
+            android:id="@+id/honda_btn_win_para"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/honda_win_par" />
+
+        <ImageView
+            android:id="@+id/honda_btn_win_para_dn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/tv_honda_air_interval"
+            android:src="@drawable/honda_win_par_dn" />
+
+        <ImageView
+            android:id="@+id/honda_btn_win_dn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/tv_honda_air_interval"
+            android:src="@drawable/honda_win_dn" />
+
+        <ImageView
+            android:id="@+id/honda_btn_win_up_dn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/tv_honda_air_interval"
+            android:src="@drawable/honda_win_up_dn" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ll_honda_air_interval"
+        android:layout_gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/honda_air_win" />
+
+        <com.can.ui.draw.FuelSeekBar
+            android:id="@+id/honda_seekbar_air_win"
+            android:layout_width="@dimen/seekbar_win_width"
+            android:layout_height="@dimen/seekbar_win_height"
+            android:progressDrawable="@drawable/honda_seekbar_win"
+            android:thumb="@null"
+            yeconui:can_move="true" />
+    </LinearLayout>
+
+</LinearLayout>

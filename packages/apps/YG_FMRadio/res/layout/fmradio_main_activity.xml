@@ -1,0 +1,421 @@
+<com.yecon.fmradio.TouchCheckLineLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appbackground"
+    android:orientation="vertical"
+    tools:context=".FMRadioMainActivity" >
+	<com.tuoxianui.view.TopBar
+		android:id="@+id/topbar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/textview_bottom_padding"
+        android:paddingLeft="@dimen/textview_left_padding"
+        android:paddingRight="@dimen/textview_right_padding"
+        android:paddingTop="@dimen/textview_top_padding" 
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/tv_freq_title1"
+            style="@style/FreqTitleTextViewTheme" />
+
+        <TextView
+            android:id="@+id/tv_freq_title2"
+            style="@style/FreqTitleTextViewTheme" />
+
+        <TextView
+            android:id="@+id/tv_freq_title3"
+            style="@style/FreqTitleTextViewTheme" />
+
+        <TextView
+            android:id="@+id/tv_freq_title4"
+            style="@style/FreqTitleTextViewTheme" />
+
+        <TextView
+            android:id="@+id/tv_freq_title5"
+            style="@style/FreqTitleTextViewTheme" />
+
+        <TextView
+            android:id="@+id/tv_freq_title6"
+            style="@style/FreqTitleTextViewTheme" />
+
+        <TextView
+            android:id="@+id/tv_freq_title7"
+            style="@style/FreqTitleTextViewTheme" />
+    </LinearLayout>
+
+    <RelativeLayout
+            android:layout_marginTop="@dimen/textview_top_padding"
+            android:paddingTop="@dimen/textview_top_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_ps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:paddingRight="@dimen/textview_right_padding"
+            android:paddingTop="@dimen/textview_top_padding"
+            android:text="@string/fmr_ps"
+            android:textColor="@color/lightblue"
+            android:textSize="@dimen/loc_textview_textsize"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tv_loc"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/fmr_loc"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/loc_textview_textsize"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/iv_freq_sub"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/fmr_sub_bg" />
+
+            <TextView
+                android:id="@+id/tv_fmr_band"
+		android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.2"
+                android:gravity="bottom|center_horizontal"
+                android:text="@string/fmr_band_fm1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/freq_unit_textview_textsize"
+                android:layout_marginBottom="@dimen/fmr_unit_margin_bottom"
+                 />
+
+            <com.yecon.fmradio.FreqNumTextView
+                android:id="@+id/view_freq_num"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal" />
+		<RelativeLayout
+		    android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+		    >
+	            <TextView
+	                android:id="@+id/tv_freq_unit"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentBottom="true"
+	                android:text="@string/fmr_unit_mhz"
+	                android:textColor="@color/white"
+	                android:textSize="@dimen/freq_unit_textview_textsize" 
+                android:layout_marginBottom="5dp"
+	                />
+	            <!-- 立体音文字 -->
+		    <TextView
+		        android:id="@+id/iv_use_st"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+	                android:text="@string/fmr_st"
+	                android:textColor="@color/st_color"
+	                android:textSize="20sp"
+	                android:visibility="invisible"
+	                />
+		</RelativeLayout>
+
+            <ImageView
+                android:id="@+id/iv_freq_add"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/fmr_add_bg" />
+			
+            <!-- 立体音图标 -->
+            
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/fmr_st"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/loc_textview_textsize"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </RelativeLayout>
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:visibility="gone"
+	    android:gravity="bottom"
+	     >
+        <TextView
+            android:id="@+id/fmr_minimum_unit"
+            android:layout_height="wrap_content"
+	    android:layout_width="0dp"
+            android:gravity="right"
+	    android:layout_weight="88"
+	    android:text="@string/fmr_minimum_unit_fm_value"
+		android:textColor="@color/white"
+            android:textSize="@dimen/freq_unit_textview_textsize" 
+	    />
+		<!-- <SeekBar
+		   android:id="@+id/sb_fmr_freq"
+		   android:layout_width="0dp"
+		   android:layout_height="wrap_content"
+		   android:paddingLeft="@dimen/seekbar_padding"
+		   android:paddingRight="@dimen/seekbar_padding"
+		   android:layout_weight="620"
+		   android:background="@drawable/fmr_freq_seekbar"
+		   android:progressDrawable="@drawable/fmr_seek_drawable"
+		   android:thumb="@drawable/fmr_seek_thumb" /> -->
+		<FrameLayout 
+	       android:layout_width="628px"
+		   android:layout_height="wrap_content"
+		    >
+            <FrameLayout
+                android:id="@+id/sb_fmr_tags_wrap"
+                android:layout_width="match_parent"
+		    android:layout_height="45dp"
+                android:background="@drawable/fmr_freq_seekbar"
+                android:layout_gravity="top"
+                >
+                <LinearLayout 
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#0fff"
+                    ></LinearLayout>
+            </FrameLayout>
+		    <SeekBar
+			   android:id="@+id/sb_fmr_freq"
+			   android:layout_width="match_parent"
+			   android:layout_height="wrap_content"
+			   android:paddingLeft="@dimen/seekbar_padding_left"
+			   android:paddingRight="@dimen/seekbar_padding_right"
+			   android:background="@drawable/fmr_freq_seekbar_transparent"
+			   android:progressDrawable="@drawable/fmr_seek_drawable"
+			   android:thumb="@drawable/fmr_seek_thumb" />
+		</FrameLayout>
+		<TextView
+		    android:id="@+id/fmr_maximum_unit"
+		    android:layout_height="wrap_content"
+		    android:layout_width="0dp"
+		    android:gravity="left"
+		    android:layout_weight="90"
+		    android:text="@string/fmr_maximum_unit_fm_value"
+			android:textColor="@color/white"
+            android:textSize="@dimen/freq_unit_textview_textsize" 
+		    />
+     </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+         />
+	 <android.support.v4.view.ViewPager
+	        android:id="@+id/viewpager"
+        android:layout_weight="3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="0dp"
+	        android:layout_gravity="center"/>
+    <LinearLayout
+    	android:layout_gravity="center"
+    	android:id="@+id/pointContainer"
+    	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+		    android:visibility="gone"
+        android:layout_marginTop="@dimen/freq_tv_wrapper_margin_top"
+        
+         >
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1"
+		    android:visibility="gone"
+		    android:orientation="horizontal"
+		    android:gravity="center_horizontal"
+		     >
+	        <!-- <TextView
+	            android:id="@+id/tv_freq1"
+	            style="@style/PreviewFreqTextViewTheme" />
+	
+	        <TextView
+	            android:id="@+id/tv_freq2"
+	            style="@style/PreviewFreqTextViewTheme"
+	            android:layout_marginLeft="@dimen/freq_text_view_margin_left"
+	            android:layout_marginRight="@dimen/freq_text_view_margin_right"
+	             />
+	
+	        <TextView
+	            android:id="@+id/tv_freq3"
+	            style="@style/PreviewFreqTextViewTheme" />
+	        <com.yecon.fmradio.FreqItemView 
+			    android:id="@+id/tv_freq1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    />
+	        <com.yecon.fmradio.FreqItemView
+	            android:id="@+id/tv_freq2"
+	            android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="@dimen/freq_text_view_margin_left"
+	            android:layout_marginRight="@dimen/freq_text_view_margin_right"
+			    />
+			<com.yecon.fmradio.FreqItemView
+			    android:id="@+id/tv_freq3"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    />
+	        <com.yecon.fmradio.FreqItemView 
+			    android:id="@+id/tv_freq4"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    /> -->
+		</LinearLayout>
+		<LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1"
+		    android:visibility="gone"
+		    android:orientation="horizontal"
+		    android:gravity="center_horizontal"
+		    android:layout_marginTop="@dimen/freq_text_view_margin_top"
+		    >
+	        <!-- <com.yecon.fmradio.FreqItemView
+	            android:id="@+id/tv_freq5"
+	            android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="@dimen/freq_text_view_margin_left"
+	            android:layout_marginRight="@dimen/freq_text_view_margin_right"
+			    />
+			<com.yecon.fmradio.FreqItemView
+			    android:id="@+id/tv_freq6"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    />-->
+        </LinearLayout>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/control_btn_wrapper_margin_bottom"
+       	android:layout_marginLeft="33dp"
+       	android:layout_marginRight="33dp"
+        >
+		<TextView
+            android:id="@+id/back"
+            style="@style/BottomBarBtnTheme"
+            android:text="@string/str_btn_back" />
+        <TextView
+            android:id="@+id/btn_op_band"
+            style="@style/BottomBarBtnTheme"
+            android:text="@string/str_btn_band" />
+		<TextView
+            android:id="@+id/btn_freq_favorite"
+            android:visibility="gone"
+            style="@style/BottomBarBtnTheme"
+            android:text="@string/str_btn_favorite" />
+		<TextView
+            android:id="@+id/btn_freq_del"
+            style="@style/BottomBarBtnTheme"
+            android:text="@string/str_btn_del"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/btn_op_loc"
+            style="@style/BottomBarBtnTheme"
+            android:text="@string/str_btn_loc" 
+            android:visibility="gone"
+            />
+	<TextView
+            android:id="@+id/btn_op_as"
+            style="@style/BottomBarBtnTheme"
+            android:visibility="gone"
+            android:text="@string/str_btn_as" />
+	<TextView
+            android:id="@+id/btn_op_list"
+            style="@style/BottomBarBtnTheme"
+            android:text="@string/str_btn_list" />
+        <TextView
+            android:id="@+id/btn_op_auto"
+            style="@style/BottomBarBtnTheme"
+            android:text="@string/str_btn_auto" 
+            />
+        <TextView
+            android:id="@+id/btn_op_manual"
+            style="@style/BottomBarBtnTheme"
+            android:text="@string/str_btn_manual" 
+            android:visibility="gone"
+            />
+	<TextView
+            android:id="@+id/btn_op_settings"
+            style="@style/BottomBarBtnTheme"
+            android:text="@string/str_btn_settings" />
+        <TextView
+            android:id="@+id/btn_op_stereo"
+            style="@style/BottomBarBtnTheme"
+            android:text="@string/str_btn_st" 
+            android:visibility="gone"
+            />
+	<FrameLayout
+        android:id="@+id/btn_mute"
+        android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:visibility="gone"
+            android:background="@drawable/selector_control_btn_bg">
+            <com.tuoxianui.view.MuteTextView
+                android:id="@+id/btn_mute_state"
+				android:layout_height="wrap_content"
+	           	android:layout_width="wrap_content"
+	           	android:layout_gravity="center"
+	           	android:gravity="center"
+	           	android:text="@string/str_btn_mute"
+	           	android:background="@drawable/selector_btn_mute_bg"
+	           	android:textColor="@color/mute_color"
+	           	android:textSize="@dimen/bottom_bar_textview_size"
+	                />
+	    </FrameLayout>
+        <TextView
+            android:id="@+id/btn_op_ps"
+            style="@style/BottomBarBtnTheme"
+            android:text="@string/str_btn_ps"
+            android:visibility="gone"
+             />
+    </LinearLayout>
+
+</com.yecon.fmradio.TouchCheckLineLayout>

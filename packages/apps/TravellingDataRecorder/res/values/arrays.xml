@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="recorder_information_list">
+	    <item>@string/authentication_code</item>
+		<item>@string/certified_product_model</item>
+		<item>@string/first_time_to_install</item>
+	</string-array>
+	
+	<string-array name="driver_information_list" >
+	    <item>@string/driver_s_license_number</item>
+	</string-array>
+	
+	<string-array name="vehicle_file_list">
+	    <item>@string/vehicle_identification_number</item>
+		<item>@string/vehicle_number</item>
+		<item>@string/number_plate_classification</item>
+	</string-array>
+	
+	<string-array name="mileage_list">
+	    <item>@string/initial_mileage</item>
+		<item>@string/accumulated_miles</item>
+	</string-array>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="file_type_entries">
+        <item>Tüm Video Dosyaları</item>
+        <item>Tüm Ses Dosyaları</item>
+        <item>Tüm Resim Dosyaları</item>
+        <item>Tüm APK Dosyaları</item>
+    </string-array>
+    
+    <string-array name="file_type_values">
+        <item>video</item>
+        <item>audio</item>
+        <item>image</item>
+        <item>apk</item>
+    </string-array>
+    
+    
+    <string-array name="file_operation_entries">
+        <item>Aç</item>
+        <item>Bir seviye yukarı</item>
+        <item>Kopyala</item>
+        <item>Kes</item>
+        <item>Yapıştır</item>
+        <item>Yeniden adlandır</item>
+        <item>Sil</item>
+        <item>Tür</item>
+        <item>Yeni</item>
+    </string-array>
+    
+    <integer-array name="file_operation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </integer-array>
+</resources>

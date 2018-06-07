@@ -1,0 +1,518 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/fragment_padding" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/car_info_style1"
+            android:text="@string/str_gm_air_set" />
+
+        <RelativeLayout
+            android:id="@+id/gm_rl_auto_wind_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_auto_wind_set" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gm_rl_air_quality_sensor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_air_quality_sensor" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gm_rl_part_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_part_temp" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_auto_defog_r" />
+
+            <CheckBox
+                android:id="@+id/gm_checkbox_auto_defog_r"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_auto_defog_f" />
+
+            <CheckBox
+                android:id="@+id/gm_checkbox_auto_defog_f"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_remote_seat_heat" />
+
+            <CheckBox
+                android:id="@+id/gm_checkbox_remote_seat_heat"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gm_rl_start_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_start_mode" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+        <!-- 车辆舒适与便利 -->
+
+        <TextView
+            style="@style/car_info_style1"
+            android:text="@string/str_gm_car_comforts" />
+
+        <RelativeLayout
+            android:id="@+id/gm_rl_waring_vol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_warning_vol" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_start_wiper_by_back" />
+
+            <CheckBox
+                android:id="@+id/gm_checkbox_start_wiper_by_back"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_auto_wiper" />
+
+            <CheckBox
+                android:id="@+id/gm_checkbox_auto_wiper"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <!-- 碰撞/检测系统 -->
+
+        <TextView
+            style="@style/car_info_style1"
+            android:text="@string/str_gm_impact_checking" />
+
+        <RelativeLayout
+            android:id="@+id/gm_rl_auto_collision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_auto_collision" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_car_state" />
+
+            <CheckBox
+                android:id="@+id/gm_checkbox_car_state"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_flank_warning" />
+
+            <CheckBox
+                android:id="@+id/gm_checkbox_flank_warning"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+                <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_radar_state" />
+
+            <CheckBox
+                android:id="@+id/gm_checkbox_radar_state"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <!-- 语言设置 -->
+
+        <TextView
+            style="@style/car_info_style1"
+            android:text="@string/str_gm_lan" />
+
+        <RelativeLayout
+            android:id="@+id/gm_rl_lan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_lan" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <!-- 灯光设置 -->
+
+        <TextView
+            style="@style/car_info_style1"
+            android:text="@string/str_gm_light_setttings" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_seek_headlight" />
+
+            <CheckBox
+                android:id="@+id/gm_checkbox_seek_headlight"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gm_rl_lock_headlight_delay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_lock_headlight_delay" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <!-- 中控门锁设置 -->
+
+        <TextView
+            style="@style/car_info_style1"
+            android:text="@string/str_gm_central_locking" />
+
+        <RelativeLayout
+            android:id="@+id/gm_rl_park_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_park_lock" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_start_lock" />
+
+            <CheckBox
+                android:id="@+id/gm_checkbox_start_lock"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_prevent_lock" />
+
+            <CheckBox
+                android:id="@+id/gm_checkbox_prevent_lock"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_delay_lock" />
+
+            <CheckBox
+                android:id="@+id/gm_checkbox_delay_lock"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <!-- 智能遥控钥匙设置 -->
+
+        <TextView
+            style="@style/car_info_style1"
+            android:text="@string/str_gm_intelligent_remote_key" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_remote_unlock" />
+
+            <CheckBox
+                android:id="@+id/gm_checkbox_remote_unlock"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gm_rl_remote_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_remote_lock" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gm_rl_remote_unlock_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_remote_unlock_set" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_remote_then_lock" />
+
+            <CheckBox
+                android:id="@+id/gm_checkbox_remote_then_lock"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_remote_start_car" />
+
+            <CheckBox
+                android:id="@+id/gm_checkbox_remote_start_car"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gm_rl_near_unlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_near_unlock" />
+
+            <TextView style="@style/car_info_right_style" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_froget_key" />
+
+            <CheckBox
+                android:id="@+id/gm_checkbox_froget_key"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_person_by_driver" />
+
+            <CheckBox
+                android:id="@+id/gm_checkbox_person_by_driver"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_auto_relock" />
+
+            <CheckBox
+                android:id="@+id/gm_checkbox_auto_relock"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gm_rl_away_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_away_lock" />
+            <TextView 
+                style="@style/car_info_right_style"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_remote_wind" />
+
+            <CheckBox
+                android:id="@+id/gm_checkbox_remote_wind"
+                style="@style/car_set_checkbox" />
+        </RelativeLayout>
+        <!-- 恢复出厂设置 -->
+
+        <TextView
+            style="@style/car_info_style1"
+            android:text="@string/str_gm_reset" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_confirm_reset" />
+
+            <TextView
+                android:id="@+id/gm_btn_reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+        		android:layout_alignParentRight="true"
+        		android:layout_centerVertical="true"
+        		android:layout_marginRight="60dp"
+                android:background="@drawable/selector_fuel_del"
+                android:gravity="center"
+                android:text="@string/str_gm_confirm"
+                android:textColor="@color/selector_color_state"
+                android:textSize="@dimen/textsize_general" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gm_rl_car_body_ctrl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_car_body_ctrl" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gm_rl_car_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" >
+
+            <TextView
+                style="@style/car_info_style"
+                android:text="@string/str_gm_car_speed" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

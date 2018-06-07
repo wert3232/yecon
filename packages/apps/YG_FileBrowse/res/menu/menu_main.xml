@@ -1,0 +1,61 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/action_left"
+        android:title="@string/action_left"
+        android:icon="@drawable/action_left"
+        android:showAsAction="always"
+        />
+
+    <item android:id="@+id/action_gridview"
+         android:title="@string/action_gridview"
+         android:icon="@drawable/action_gridview"
+         android:showAsAction="always"
+        />
+    <item android:id="@+id/action_listview"
+        android:title="@string/action_listview"
+        android:icon="@drawable/action_listview"
+        android:showAsAction="always"
+        />
+    <item android:id="@+id/action_sort"
+        android:title="sort"
+        android:icon="@drawable/action_sort"
+        android:showAsAction="always">
+        <menu>
+            <item android:id="@+id/action_sort_name"
+                  android:title="name"
+                />
+            <item android:id="@+id/action_sort_size"
+                  android:title="size"
+                />
+            <item android:id="@+id/action_sort_time"
+                android:title="time"
+                />
+            <item android:id="@+id/action_sort_kind"
+                android:title="kind"
+                />
+        </menu>
+     </item>
+
+    <item android:id="@+id/action_home"
+        android:title="home"
+        android:icon="@drawable/action_home"
+        android:showAsAction="always"
+        />
+
+    <item android:id="@+id/action_info"
+        android:title="info"
+        android:icon="@drawable/action_info"
+        android:showAsAction="always"
+        />
+
+    <item android:id="@+id/action_search"
+        android:title="search"
+        android:icon="@drawable/action_search"
+        android:showAsAction="always"
+        />
+
+
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" android:showAsAction="never" />
+</menu>

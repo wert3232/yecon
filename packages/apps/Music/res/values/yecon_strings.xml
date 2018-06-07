@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="music_no_track">The song does not exist</string>
+    <string name="music_no_file">No music</string>
+    <string name="music_sd_error">Nothing in here</string>
+    <string name="music_scanning">Track scanning, please wait!</string>
+    <string name="music_default_duration_time">00:00:00</string>
+    <string name="open">Open</string>
+    <string name="file">file</string>
+    <string name="error">error</string>
+    <string name="str_tab_folder">Folder</string>
+    <string name="str_tab_list">Playing</string>
+    <string name="str_btn_pre">Prev</string>
+    <string name="str_btn_play">Play</string>
+    <string name="str_btn_pause">Pause</string>
+    <string name="str_btn_next">Next</string>
+    <string name="str_btn_rand">Rand on</string>
+    <string name="str_btn_rand_off">Rand off</string>
+    <string name="str_btn_loop">List loop</string>
+    <string name="str_btn_loop_current">one loop</string>
+    <string name="str_btn_loop_off">Loop off</string>
+    <string name="str_btn_list">List</string>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:carsetting="http://schemas.android.com/apk/res/com.yecon.carsetting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:padding="@dimen/fragment_padding" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!--  lcd接口类型 ttl  lvds-->
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_lcd_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="4"
+            carsetting:item_subTitle="@string/factory_lcd_type"
+            carsetting:item_two_button_left="@string/factory_lcd_type_ttl"
+            carsetting:item_two_button_right="@string/factory_lcd_type_lvds" />
+        
+        <!-- lvds 数据位宽  6 或者 8-->
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_lvds_bit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="4"
+            carsetting:item_subTitle="@string/factory_lvds_bit"
+            carsetting:item_two_button_left="@string/factory_lvds_bit6"
+            carsetting:item_two_button_right="@string/factory_lvds_bit8" />
+
+        <!-- LCD分辨率 -->
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_lcd_resolution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_lcd_resolution" />
+
+        <!-- tft驱动电流 -->
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_tft_drive_current"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_tft_drive_current" />
+
+        <!-- lvds驱动电流 -->
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_lvds_drive_current"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_lvds_drive_current" />
+
+        <!--Dithering输出控制  -->
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_dithering_output"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_dithering_output" />
+    </LinearLayout>
+
+</ScrollView>

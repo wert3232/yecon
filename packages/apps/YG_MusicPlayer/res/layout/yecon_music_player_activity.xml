@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appbackground" >
+	<com.tuoxianui.view.TopBar
+		android:id="@+id/topbar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    />
+    <LinearLayout
+        android:id="@+id/layout_play"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/top_bar_height"
+        android:paddingTop="50dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_album"
+                android:layout_width="@dimen/imageview_album_width"
+                android:layout_height="@dimen/imageview_album_height"
+                android:layout_marginLeft="@dimen/imageview_album_left_margin"
+                android:layout_marginRight="@dimen/imageview_album_right_margin"
+                android:contentDescription="@string/musicbrowserlabel"
+                android:background="@drawable/albumart_mp_unknown" 
+                android:visibility="gone"
+                />
+
+            <LinearLayout
+                android:id="@+id/layout_song_info"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                
+                >
+
+                <com.yecon.media.MarqueeTextView
+                    android:id="@+id/tv_track"
+                    style="@style/TrackTextViewTheme"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginRight="130dp"
+                   	android:textSize="28sp"
+                    />
+
+                <com.yecon.media.MarqueeTextView
+                    android:id="@+id/tv_artist"
+                    style="@style/TrackTextViewTheme"
+                    android:drawableLeft="@drawable/ic_play_artist"
+                    android:visibility="gone"
+                     />
+
+                <com.yecon.media.MarqueeTextView
+                    android:id="@+id/tv_album"
+                    style="@style/TrackTextViewTheme"
+                    android:drawableLeft="@drawable/ic_play_album"
+                    android:visibility="gone"
+                     />
+                
+                
+                <LinearLayout
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center_vertical"
+		            android:layout_marginBottom="@dimen/textview_default_padding"
+		            android:gravity="center"
+		            android:orientation="vertical" >
+	
+		            <SeekBar
+		                android:id="@+id/sb_music_playback_process"
+		                android:layout_width="@dimen/seekbar_default_width"
+		                android:layout_height="wrap_content"
+		                android:maxHeight="@dimen/seekbar_default_height"
+		                android:minHeight="@dimen/seekbar_default_height"
+		                android:paddingLeft="@dimen/space_view_left_margin"
+		                android:paddingRight="@dimen/space_view_left_margin"
+		                android:progressDrawable="@xml/seekbar_img"
+		                android:thumb="@xml/thumb" />
+					<RelativeLayout
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content">
+					    <ImageView 
+					        android:id="@+id/play_mode_state"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:src="@drawable/level_play_mode"
+					        android:contentDescription="@string/str_btn_play_mode"
+					        android:layout_alignParentLeft="true"
+			                android:layout_centerVertical="true"
+					        android:layout_marginLeft="130dp"
+					        />
+					    <TextView
+			                android:id="@+id/tv_progress_time"
+			                style="@style/TimeTextViewTheme"
+			                android:layout_alignParentLeft="true"
+			                android:layout_centerVertical="true"
+			                android:layout_marginLeft="180dp"
+			                
+			                 />
+						<TextView
+			                android:id="@+id/tv_total_time"
+			                style="@style/TimeTextViewTheme"
+			                android:layout_alignParentRight="true"
+			                android:layout_centerVertical="true"
+			                android:layout_marginRight="130dp"
+			                 />   
+					</RelativeLayout>
+		        </LinearLayout>
+                
+                <LinearLayout 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal"
+                    >
+					<FrameLayout 
+					    android:layout_width="wrap_content"
+                    	android:layout_height="wrap_content"
+		                android:id="@+id/btn_op_pre"
+		                android:background="@drawable/selector_music_control_l"
+					    >
+					    <ImageView 
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:layout_gravity="center"
+					        android:src="@drawable/ic_btn_pre"
+					        android:contentDescription="@string/str_btn_pre"
+					        />
+					</FrameLayout>
+					<FrameLayout 
+					     android:layout_width="wrap_content"
+                    	android:layout_height="wrap_content"
+		                android:id="@+id/btn_op_play"
+		                android:background="@drawable/selector_music_control_c"
+					    >
+					    <ImageView 
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:layout_gravity="center"
+					        android:src="@drawable/ic_btn_play"
+					        android:contentDescription="@string/str_btn_play"
+					        />
+					</FrameLayout>
+					<FrameLayout 
+					    android:layout_width="wrap_content"
+                    	android:layout_height="wrap_content"
+		                android:id="@+id/btn_op_pause"
+		                android:background="@drawable/selector_music_control_c"
+		                android:visibility="gone" 
+					    >
+					    <ImageView 
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:layout_gravity="center"
+					        android:src="@drawable/ic_btn_pause"
+					        android:contentDescription="@string/str_btn_pause"
+					        />
+					</FrameLayout>
+					<FrameLayout 
+					    android:layout_width="wrap_content"
+                    	android:layout_height="wrap_content"
+		                android:id="@+id/btn_op_next"
+		                android:background="@drawable/selector_music_control_r"
+					    >
+					    <ImageView 
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:layout_gravity="center"
+					        android:src="@drawable/ic_btn_next"
+					        android:contentDescription="@string/str_btn_next"
+					        />
+					</FrameLayout>
+					<!-- <TextView
+	                    android:layout_width="wrap_content"
+                    	android:layout_height="wrap_content"
+		                android:id="@+id/btn_op_pre"
+		                android:text="@string/str_btn_pre"
+		                android:background=""
+		                 />
+		            <TextView
+		                android:layout_width="wrap_content"
+                    	android:layout_height="wrap_content"
+		                android:id="@+id/btn_op_play"
+		                android:text="@string/str_btn_play"
+		                android:background=""
+		                 />
+		
+					<TextView
+		                android:layout_width="wrap_content"
+                    	android:layout_height="wrap_content"
+		                android:id="@+id/btn_op_pause"
+		                android:background=""
+		                android:text="@string/str_btn_pause"  />
+		
+		            <TextView
+		                android:layout_width="wrap_content"
+                    	android:layout_height="wrap_content"
+		                android:id="@+id/btn_op_next"
+		                android:background=""
+		                android:text="@string/str_btn_next" /> -->
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_control_audio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/musicbrowserlabel"
+                android:paddingRight="@dimen/control_audio_padding"
+                android:paddingTop="@dimen/control_audio_padding"
+                android:src="@drawable/ic_audio_bg"
+                android:visibility="gone"
+                 />
+            
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_track_index"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingBottom="@dimen/space_view_top_margin"
+            android:paddingTop="@dimen/space_view_top_margin"
+            android:text="@string/musicbrowserlabel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/track_index_textview_textsize"
+            android:visibility="gone"
+             /> 
+
+        <LinearLayout
+            android:id="@+id/layout_music_op"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">	
+             <TextView
+                android:id="@+id/back"
+                style="@style/BottomBarTextStyle"
+                android:text="@string/str_btn_back" />
+             <TextView
+                android:id="@+id/btn_op_list"
+                style="@style/BottomBarTextStyle"
+                android:text="@string/str_btn_list" />
+             <TextView
+                android:id="@+id/btn_play_mode"
+                style="@style/BottomBarTextStyle"
+                android:text="@string/str_btn_play_mode" />
+             <FrameLayout
+                android:id="@+id/btn_mute"
+                android:layout_weight="1"
+	            android:layout_height="wrap_content"
+	            android:layout_width="0dp"
+	            android:background="@drawable/selector_control_btn_bg">
+	            <com.tuoxianui.view.MuteTextView
+	                android:id="@+id/btn_mute_state"
+					android:layout_height="wrap_content"
+		           	android:layout_width="wrap_content"
+		           	android:layout_gravity="center"
+		           	android:gravity="center"
+		           	android:text="@string/str_btn_mute"
+		           	android:background="@drawable/selector_btn_mute_bg"
+		           	android:textColor="@color/mute_color"
+		           	android:textSize="@dimen/default_text2_size"
+	                />
+	        </FrameLayout>
+            <TextView
+                android:id="@+id/btn_op_rand"
+                style="@style/BottomBarTextStyle"
+                android:text="@string/str_btn_rand"
+                android:visibility="gone"  />
+            
+            <TextView
+                android:id="@+id/btn_op_rand_off"
+                style="@style/BottomBarTextStyle"
+                android:text="@string/str_btn_rand_off"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/btn_op_loop"
+                style="@style/BottomBarTextStyle"
+                android:text="@string/str_btn_loop"
+                android:visibility="gone"
+                 />
+            
+            <TextView
+                android:id="@+id/btn_op_loop_single"
+                style="@style/BottomBarTextStyle"
+                android:text="@string/str_btn_loop_current"
+                android:visibility="gone" />
+            
+            <TextView
+                android:id="@+id/btn_op_loop_off"
+                style="@style/BottomBarTextStyle"
+                android:text="@string/str_btn_loop_off"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/yecon_media_loading" />
+</FrameLayout>

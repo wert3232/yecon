@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yecon.filemanager.FileFragmentViewRoot xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ViewStub
+        android:id="@+id/fragment_list_list_stub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/fragment_listview" />
+
+    <ViewStub
+        android:id="@+id/fragment_list_grid_stub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/fragment_gridview" />
+
+    <TextView
+        android:id="@+id/empty_view_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.2"
+        android:gravity="center"
+        android:text="@string/empty_view_description"
+        android:textAllCaps="true"
+        android:textSize="40sp"
+        android:visibility="gone" />
+
+</com.yecon.filemanager.FileFragmentViewRoot>

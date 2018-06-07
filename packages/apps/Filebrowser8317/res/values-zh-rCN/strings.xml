@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">文件浏览器</string>
+    <string name="no_sdcard">没有SD卡</string>
+    <string name="no_usb">没有U盘</string>
+    <string name="loading_sign">加载中...</string>
+    <string name="wait_sign">请等待...</string>
+    <string name="empty_folder">空目录</string>
+    <string name="front_is_playing_avin">"前排正在播放外部源,请关闭"</string>
+    <string name="front_is_playing_dvd">"前排正在播放DVD,请关闭"</string>
+    <string name="hint_video_is_playing">"视频正在播放,请关闭"</string>
+    <string name="hint_music_is_playing">"音乐正在播放,请关闭"</string>
+    <string name="btn_audio">音频</string>
+    <string name="btn_back">返回</string>
+    <string name="logo_set">设置Logo</string>
+    <string name="alert_set_logo">是否设置该图片为开机Logo图片?</string>
+    <string name="alert_set_success">设置成功！</string>
+    <string name="alert_set_fail">设置失败！</string>
+    <string name="alert_ok">确定</string>
+    <string name="alert_cancel">取消</string>
+    <string name="str_tab_file">文件</string>
+    <string name="str_tab_video">视频</string>
+    <string name="str_tab_music">音乐</string>
+    <string name="str_tab_image">图片</string>
+    <string name="str_tab_logo">Logo</string>
+    <string name="str_tab_back">上一级</string>
+    <string name="str_tab_menu">排列</string>
+
+</resources>

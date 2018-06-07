@@ -1,0 +1,63 @@
+<resources>
+
+    <string name="app_name">天氣</string>
+    <string name="settings_city_select">選擇城市</string>
+    <string name="current_city">當前选择城市：</string>
+    <string name="chkcurrentcity">使用當前城市</string>
+    <string name="unknown">未知</string>
+    <string name="error">網絡連接失敗！</string>
+    <string name="timeout">網絡連接超時！</string>
+    <string name="invalid_data">返回無效數據！</string>
+
+    <string-array name="yahoo_condition ">
+        <item>龍卷風</item>
+        <item>熱帶風暴</item>
+        <item>飓風</item>
+        <item>雷暴</item>
+        <item>暴雨</item>
+        <item>雨夾雪</item>
+        <item>雨夾冰雹</item>
+        <item>雨夾冰雹</item>
+        <item>凍雨</item>
+        <item>小雨</item>
+        <item>凍雨</item>
+        <item>陣雨</item>
+        <item>陣雨</item>
+        <item>陣雪</item>
+        <item>陣雪</item>
+        <item>高吹雪</item>
+        <item>雪</item>
+        <item>冰雹</item>
+        <item>雨夾雪</item>
+        <item>雾霾</item>
+        <item>雾</item>
+        <item>陰霾</item>
+        <item>霾</item>
+        <item>晴朗</item>
+        <item>晴朗</item>
+        <item>寒冷</item>
+        <item>多雲</item>
+        <item>多雲</item>
+        <item>多雲</item>
+        <item>多雲</item>
+        <item>多雲</item>
+        <item>晴朗</item>
+        <item>晴朗</item>
+        <item>晴朗</item>
+        <item>晴朗</item>
+        <item>雨和冰雹</item>
+        <item>炎熱</item>
+        <item>局部暴雨</item>
+        <item>局部雷雨</item>
+        <item>局部雷雨</item>
+        <item>陣雨</item>
+        <item>大雪</item>
+        <item>局部陣雨夾雪</item>
+        <item>大雪</item>
+        <item>少雲</item>
+        <item>雷陣雨</item>
+        <item>大雪加陣雨</item>
+        <item>局部雷陣雨</item>
+    </string-array>
+
+</resources>

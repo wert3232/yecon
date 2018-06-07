@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 大众6代原车信息 -->
+    <dimen name="layout_padding_bottom">16dp</dimen>
+    <dimen name="tx_door_padding">8dp</dimen>
+    <dimen name="tx_warn_padding_left">32dp</dimen>
+    <dimen name="tx_drawpadding">3dp</dimen>
+    <dimen name="tx_padding_top">8dp</dimen>
+    <!-- 大众7代 -->
+    <dimen name="layout_menu_height">325dp</dimen>
+    <dimen name="layout_driving_height">250dp</dimen>
+    <dimen name="layout_driving_line_height">70dp</dimen>
+
+</resources>

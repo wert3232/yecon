@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <!-- 大众原车信息 -->
+    <string name="ci_oil_left">Amount of fuel</string>
+    <string name="ci_outdoor_temp">Out temperature</string>
+    <string name="ci_battery_voltage">Battery voltage</string>
+    <string name="ci_seat_belts">Seat belts</string>
+    <string name="ci_rear_door">Tail door</string>
+    <string name="ci_handbrake">Hand brake</string>
+    <string name="ci_cleaning_fluid">Clean fluid</string>
+    <string name="ci_engine_speed">Engine speed</string>
+    <string name="ci_traveling_speed">instantaneous velocity</string>
+    <string name="ci_driven_distance">mileage</string>
+    <string name="ci_status_normal">normal</string>
+    <string name="ci_status_no_line">No department</string>
+    <string name="ci_status_no_release">Not to put</string>
+    <string name="ci_status_no_close">Not close</string>
+    <string name="ci_status_low">Too low</string>
+    <string name="ci_left_front_door_open">L-F Open</string>
+    <string name="ci_right_front_door_open">R-F Open</string>
+    <string name="ci_left_back_door_open">L-B Open</string>
+    <string name="ci_right_back_door_open">R-B Open</string>
+    <string name="ci_rear_door_open">B-B Open</string>
+</resources>

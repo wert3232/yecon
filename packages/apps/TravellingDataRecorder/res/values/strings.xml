@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">TravellingDataRecorder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+		
+    	
+    <string name="second">s</string>
+    <string name="km_h">km/h</string>
+    <string name="km">km</string>
+    <string name="kmh"><xliff:g id="speed_value">%f</xliff:g>km/h</string>
+</resources>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:background="@drawable/main_back">
+
+	   <FrameLayout
+			android:id="@+id/layout_frame"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:visibility="invisible">
+		</FrameLayout>	
+		<View
+	        android:layout_width="1dp"
+			android:layout_height="1dp"
+			android:src="@android:color/transparent"
+			/>
+	   <LinearLayout
+	      android:id="@+id/layout_ctrl"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+		  android:layout_gravity="right|center_vertical"
+	      android:orientation="vertical"
+	      android:alpha="0.7"
+	      android:background="@android:color/black"
+	      >	      
+	      <Button android:id="@+id/bt_tools"
+	          android:layout_width="wrap_content" 
+	          android:layout_height="wrap_content"
+	          android:background="@drawable/miracast_btn_tools"/>
+	      
+	      <Button android:id="@+id/bt_phone_home"
+	          android:layout_width="wrap_content" 
+	          android:layout_height="wrap_content"
+	          android:layout_marginTop="30dp"
+	          android:background="@drawable/miracast_btn_phonehome"/>
+	      
+	      <Button android:id="@+id/bt_phone_back"
+	          android:layout_width="wrap_content" 
+	          android:layout_height="wrap_content"
+	          android:layout_marginTop="30dp"
+	         android:background="@drawable/miracast_btn_phoneback"/>
+	  </LinearLayout>
+	  
+	   <LinearLayout
+	      android:id="@+id/layout_tools"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:paddingBottom="10dp"
+		  android:layout_gravity="bottom|center_horizontal"
+	      android:orientation="horizontal"
+	      android:alpha="0.7"
+	      android:background="@android:color/black"
+	      >	      
+	      <TextView android:id="@+id/bt_calibrate"
+	          android:layout_width="wrap_content" 
+	          android:layout_height="wrap_content"
+	          android:drawableTop="@drawable/miracast_btn_calibrate"
+	          android:gravity="center"
+	          android:textSize="24sp"
+	          android:textColor="@android:color/white"
+	          android:text="@string/calibrate"/>
+	      <TextView android:id="@+id/bt_home"
+	          android:layout_width="wrap_content" 
+	          android:layout_height="wrap_content"
+	          android:layout_marginLeft="30dp"
+	          android:drawableTop="@drawable/miracast_btn_home"
+	          android:gravity="center"
+	          android:textSize="24sp"
+	          android:textColor="@android:color/white"
+	          android:text="@string/home"/>
+	      <TextView android:id="@+id/bt_back"
+	          android:layout_width="wrap_content" 
+	          android:layout_height="wrap_content"
+	          android:layout_marginLeft="30dp"
+	          android:drawableTop="@drawable/miracast_btn_back"
+	          android:gravity="center"
+	          android:textSize="24sp"
+	          android:textColor="@android:color/white"
+	          android:text="@string/exit"/>
+	  </LinearLayout>
+   
+     <LinearLayout
+        android:id="@+id/layout_guide_frame"
+	   	android:layout_width="match_parent"
+	   	android:layout_height="match_parent"
+	   	android:orientation = "horizontal"
+		>    
+	    <FrameLayout
+	        android:id="@+id/layout_guide"
+		    android:layout_width="@dimen/layout_guide_width"
+		    android:layout_height="match_parent"
+		    android:layout_gravity="left|center_vertical"
+		    android:layout_marginLeft="@dimen/layout_guide_left"
+		    android:orientation="vertical" >
+		    
+		    <ImageView
+		        android:id="@+id/iv_guide"
+		        android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:src="@drawable/link_guide_1"
+					/>
+		</FrameLayout>
+		
+	    <LinearLayout
+	        android:id="@+id/layout_status"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="right|center_vertical"
+		    android:paddingRight="@dimen/layout_status_right"
+		    android:layout_weight="1"
+		    android:orientation="vertical" 
+		    >
+		    <TextView
+		       	android:id="@+id/title"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="@dimen/button_distance"
+				android:background="@drawable/link_title_back"
+				android:layout_gravity="top|center_horizontal"
+				android:gravity="center"
+				android:textColor="@android:color/white"
+				android:textSize="@dimen/big_title_textsize"
+				android:text="@string/linking"/>		    
+				
+		    <LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="0dp"
+			    android:layout_weight="1"
+			    android:layout_gravity="right|center_vertical"
+			    android:orientation="vertical" 
+			    >
+			    <FrameLayout
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal" 
+				    android:paddingLeft="@dimen/layout_step_padding_left"
+				    android:paddingRight="@dimen/layout_step_padding_right"
+				    android:background="@drawable/link_step_back">
+				    <TextView
+				       	android:id="@+id/tv_step1"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="left|center_vertical"
+						android:padding="4dp"
+						android:textColor="@android:color/white"
+						android:textSize="@dimen/link_hint_size"
+						android:text="@string/link_step1"/>
+				    <ImageView  
+				        android:id="@+id/iv_step1"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_gravity="right|center_vertical"
+			            android:src="@anim/status_wait" 
+						android:visibility= "gone"/>
+				</FrameLayout>
+			    <View 
+			        android:layout_width="match_parent"
+					android:layout_height="1dp"
+					android:background="@color/back_default"/>
+			    <FrameLayout
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginTop="@dimen/button_distance"
+				    android:paddingLeft="@dimen/layout_step_padding_left"
+				    android:paddingRight="@dimen/layout_step_padding_right"
+				    android:orientation="horizontal" 
+				    android:background="@drawable/link_step_back">
+				    <TextView
+				       	android:id="@+id/tv_step2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="left|center_vertical"
+						android:padding="4dp"
+						android:textColor="@android:color/white"
+						android:textSize="@dimen/link_hint_size"
+						android:text="@string/link_step2"/>
+				    <ImageView  
+				        android:id="@+id/iv_step2"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_gravity="right|center_vertical"
+			            android:src="@anim/status_wait" 
+						android:visibility="gone"/>
+				</FrameLayout>
+
+			    <LinearLayout
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginTop="@dimen/button_distance"
+				    android:orientation="vertical" 
+				    android:background="@drawable/link_hint_back">
+				    <TextView
+				       	android:id="@+id/tv_guide"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="20dp"
+						android:gravity="left"
+						android:textColor="@android:color/white"
+						android:textSize="@dimen/link_hint_size"
+						android:text="@string/link_guide"/>
+					    
+		    	</LinearLayout>
+		    </LinearLayout>
+		    <FrameLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginTop="@dimen/button_distance"
+			    android:orientation="horizontal" >
+			    <Button
+			        android:id="@+id/refresh"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="left"
+					android:gravity="center"
+					android:textColor="@android:color/white"
+					android:textSize="@dimen/link_btn_text_size"
+					android:background="@drawable/miracast_btn_bg"
+					android:text="@string/retry"
+					android:visibility="invisible"/>
+				    
+			   <Button
+			        android:id="@+id/btn_back"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="right"
+					android:gravity="center"
+					android:textColor="@android:color/white"
+					android:textSize="@dimen/link_btn_text_size"
+					android:background="@drawable/miracast_btn_bg"
+					android:text="@string/exit"/>
+		   </FrameLayout>
+		</LinearLayout>
+	</LinearLayout>   
+</FrameLayout>

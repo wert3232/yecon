@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">FM Radio</string>
+    <string name="fmr_default_freq">87.50</string>
+    <string name="fmr_unit_mhz">MHz</string>
+    <string name="fmr_unit_khz">KHz</string>
+    <string name="fmr_loc">LOC</string>
+    <string name="fmr_dx">DX</string>
+    <string name="fmr_ps">PS</string>
+    <string name="fmr_as">AMS</string>
+    <string name="fmr_st">ST</string>
+    <string name="fmr_band_fm1">FM1</string>
+    <string name="fmr_band_fm2">FM2</string>
+    <string name="fmr_band_fm3">FM3</string>
+    <string name="fmr_band_am1">AM1</string>
+    <string name="fmr_band_am2">AM2</string>
+    <string name="fmr_freq_num0">0</string>
+    <string name="fmr_freq_num1">1</string>
+    <string name="fmr_freq_num2">2</string>
+    <string name="fmr_freq_num3">3</string>
+    <string name="fmr_freq_num4">4</string>
+    <string name="fmr_freq_num5">5</string>
+    <string name="fmr_freq_num6">6</string>
+    <string name="fmr_freq_num7">7</string>
+    <string name="fmr_freq_num8">8</string>
+    <string name="fmr_freq_num9">9</string>
+    <string name="fmr_freq_num_point">.</string>
+    <string name="str_btn_band">Band</string>
+    <string name="str_btn_loc">LOC</string>
+    <string name="str_btn_st">ST</string>
+    <string name="str_btn_as">AS</string>
+    <string name="str_btn_ps">PS</string>
+    <string name="progress_text_as">Auto Search</string>
+    <string name="progress_text_finish">Auto Search Finish</string>
+    <string name="fmr_minimum_unit_am_value">531</string>
+	<string name="fmr_maximum_unit_am_value">1629</string>
+	<string name="fmr_minimum_unit_fm_value">87.5</string>
+	<string name="fmr_maximum_unit_fm_value">108.0</string>
+	
+	<string name="freq_mhz_value">
+             <xliff:g id="value">%1$s</xliff:g>&#160;&#160;&#160;&#160;MHz
+    </string>
+    <string name="freq_khz_value">
+             <xliff:g id="value">%1$s</xliff:g>&#160;&#160;&#160;&#160;KHz
+    </string>
+</resources>

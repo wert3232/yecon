@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 丰田原车信息 -->
+    <string name="str_btn_menu_carset">中控設置</string>
+    <string name="str_btn_menu_curfuel">實時油耗</string>
+    <string name="str_btn_menu_hisfuel">歷史油耗</string>
+    <string name="str_btn_menu_tpms">胎壓信息</string>
+    <string name="str_btn_menu_hybrid">混合動力</string>
+    <string name="str_btn_menu_dsp">功放信息</string>
+
+    <!-- 车锁设置 -->
+    <string name="str_tx_carset_lockset">車鎖設置</string>
+    <string name="str_tx_carset_lockset_speedautolock">車速感應車門自動鎖定</string>
+    <string name="str_tx_carset_lockset_linkageautolock">換擋聯動車門自動鎖定</string>
+    <string name="str_tx_carset_lockset_smartcarlock">智能車鎖和一鍵啟動</string>
+    <string name="str_tx_carset_lockset_blocklinkunlock">P檔聯動解鎖</string>
+    <string name="str_tx_carset_lockset_unlockthekey">操作鑰匙兩次時解鎖</string>
+    <string name="str_tx_carset_lockset_responselock">上/開鎖時緊急閃爍燈響應</string>
+    <string name="str_tx_carset_lockset_2presslock">操作按鈕兩次時解鎖</string>
+    <string name="str_tx_carset_lockset_drivinglinkunlock">駕駛席開門聯動解鎖</string>
+    <string name="str_tx_carset_lockset_smartdoorunlock">智能車門解鎖</string>
+    <string name="str_tx_carset_lockset_lockunlockfeedtone">鎖/解鎖反饋音量</string>
+    <string name="str_tx_carset_lockset_electricdooradjust">電動後門開度檔位調節</string>
+
+    <!-- 灯光设置 -->
+    <string name="str_tx_carset_lightset">燈光設置</string>
+    <string name="str_tx_carset_lightset_daytimelight">日間行車燈</string>
+    <string name="str_tx_carset_lightset_headlampssensitivity">自動頭燈靈敏燈</string>
+    <string name="str_tx_carset_lightset_setcarlightofftime">設定照明關閉時間</string>
+    <string name="str_tx_carset_lightset_headlampofftime">自動頭關閉時間</string>
+    <string name="str_tx_carset_lightset_outdoorlightofftime">車外照明關閉時間</string>
+
+    <!-- 空调设置 -->
+    <string name="str_tx_carset_airset">空調設置</string>
+    <string name="str_tx_carset_airset_autolinkage">空調與AUTO鍵聯動</string>
+    <string name="str_tx_carset_airset_inoutgasautolinkage">內外氣切換與AUTO鍵聯動</string>
+    <string name="str_tx_carset_airset_autorelocktime">自動重鎖時間</string>
+
+    <!-- 其他设置 -->
+    <string name="str_tx_carset_otherset">其他設置</string>
+    <string name="str_tx_carset_otherset_cameratrack">攝像頭軌跡</string>
+    <string name="str_tx_carset_otherset_radarvol">雷達音量</string>
+    <string name="str_tx_carset_otherset_radardis">雷達距離</string>
+    <string name="str_tx_carset_otherset_fueluint">油耗單位</string>
+    <string name="str_tx_carset_otherset_corlortheme">顏色主題</string>
+
+    <!-- 当前油耗 -->
+    <string name="str_tx_curfuel_averspeed">平均速度</string>
+    <string name="str_tx_curfuel_elapsedtime">行車時間</string>
+    <string name="str_tx_curfuel_cruisingrange">續航里程</string>
+    <string name="str_btn_curfuel_2his">歷史油耗</string>
+    <string name="str_btn_curfuel_clear">清除</string>
+    <string name="str_tx_hisfuel_best">Best</string>
+    <string name="str_btn_hisfuel_update">更新</string>
+    <string name="str_btn_hisfuel_clear">清除</string>
+    <string name="str_btn_hisfuel_2cur">TripInfo</string>
+    <!-- Dsp -->
+    <string name="str_tx_dsp_bass">低音</string>
+    <string name="str_tx_dsp_mid">中音</string>
+    <string name="str_tx_dsp_tre">高音</string>
+    <string name="str_tx_dsp_asl">音量跟隨</string>
+    <string name="str_tx_dsp_surround">環繞音效</string>
+
+    <!-- 车内照明关闭时间 -->
+    <string name="str_tx_setcarlightofftime_0">OFF</string>
+    <string name="str_tx_setcarlightofftime_1">7.5s</string>
+    <string name="str_tx_setcarlightofftime_2">15s</string>
+    <string name="str_tx_setcarlightofftime_3">30s</string>
+
+    <!-- 自动头灯关闭时间 -->
+    <string name="str_tx_headlampofftime_0">OFF</string>
+    <string name="str_tx_headlampofftime_1">30s</string>
+    <string name="str_tx_headlampofftime_2">60s</string>
+    <string name="str_tx_headlampofftime_3">90s</string>
+
+    <!-- 自动重锁时间 -->
+    <string name="str_tx_relocktime_0">OFF</string>
+    <string name="str_tx_relocktime_1">30s</string>
+    <string name="str_tx_relocktime_2">60s</string>
+    <string name="str_tx_relocktime_3">120s</string>
+
+    <!-- 摄像头轨迹 -->
+    <string name="str_tx_carematrack_0">顯示動態軌跡</string>
+    <string name="str_tx_carematrack_1">顯示靜態軌跡</string>
+    <string name="str_tx_carematrack_2">顯示警告縣</string>
+
+    <!-- 雷达距离 -->
+    <string name="str_tx_radardis_0">遠</string>
+    <string name="str_tx_radardis_1">近</string>
+
+    <!-- 油耗单位 -->
+    <string name="str_tx_fuelunit_mpg">MPG</string>
+    <string name="str_tx_fuelunit_kml">KM/L</string>
+    <string name="str_tx_fuelunit_l100km">L/100KM</string>
+
+    <!-- 单位1 -->
+    <string name="str_tx_unit_no">--</string>
+    <string name="str_tx_unit_mile">MILE</string>
+    <string name="str_tx_unit_KM">KM</string>
+    <string name="str_tx_unit_mileh">Mile/h</string>
+    <string name="str_tx_unit_KMh">Km/h</string>
+    <!-- min刻度 -->
+    <string name="str_tx_min_15">15min</string>
+    <string name="str_tx_min_10">10min</string>
+    <string name="str_tx_min_5">5min</string>
+    <string name="str_tx_min_0">0min</string>
+    <string name="str_tx_mation">瞬時油耗</string>
+
+    <!-- scale -->
+    <string name="str_tx_scale_a1">30</string>
+    <string name="str_tx_scale_a2">20</string>
+    <string name="str_tx_scale_a3">10</string>
+    <string name="str_tx_scale_a4">0</string>
+    <string name="str_tx_scale_b1">60</string>
+    <string name="str_tx_scale_b2">40</string>
+    <string name="str_tx_scale_b3">20</string>
+    <string name="str_tx_scale_b4">0</string>
+    <!-- his -->
+    <string name="str_tx_hisscale_t1">Trip1</string>
+    <string name="str_tx_hisscale_t2">Trip2</string>
+    <string name="str_tx_hisscale_t3">Trip3</string>
+    <string name="str_tx_hisscale_t4">Trip4</string>
+    <string name="str_tx_hisscale_t5">Trip5</string>
+    <string name="str_tx_hisscale_t6">Current</string>
+
+    <!-- Tpms -->
+    <string name="str_tx_tpms_nodev">無胎壓設備!</string>
+    <string name="str_tx_tpms_unit_bar">BAR</string>
+    <string name="str_tx_tpms_unit_psi">PSI</string>
+    <string name="str_tx_tpms_unit_kpa">KPA</string>
+
+    <!-- hybrid -->
+    <string name="str_tx_hybrid_nodev">非混合動力車型!</string>
+
+</resources>

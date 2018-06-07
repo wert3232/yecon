@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <include layout="@layout/fragment_info_two_line_list_item"
+             android:id="@+id/fragment_more_snapshot_datetaken"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+     />
+
+    <include layout="@layout/fragment_info_two_line_list_item"
+             android:id="@+id/fragment_more_snapshot_longtitude"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/fragment_more_snapshot_datetaken"
+     />
+
+    <include layout="@layout/fragment_info_two_line_list_item"
+             android:id="@+id/fragment_more_snapshot_latitude"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/fragment_more_snapshot_longtitude"
+     />
+
+</RelativeLayout>

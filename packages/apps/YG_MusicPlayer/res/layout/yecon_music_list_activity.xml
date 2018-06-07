@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appbackground" >
+	<com.tuoxianui.view.TopBar
+		android:id="@+id/topbar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout_listmain"
+        android:layout_marginTop="@dimen/top_bar_height"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent" 
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/layout_device"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/tab_bg"
+                android:orientation="horizontal" >
+		<Space 
+				    android:layout_width="0dp"
+			        android:layout_height="match_parent"
+			        android:layout_weight="0.5"/>
+				<TextView 
+				    android:id="@+id/table_mode_text"
+				    android:layout_width="match_parent"
+				    android:layout_height="50dp"
+				    android:gravity="center"
+				    android:clickable="false"
+				    android:text="@string/music_no_file"
+				    android:textColor="@color/text_normal"
+				    android:visibility="gone"
+				    />
+                <com.yecon.music.DeviceView
+                    android:id="@+id/btn_device_SD"
+				    android:layout_width="0dp"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:background="@drawable/selector_device_bg"
+			        app:icon="@drawable/selector_ic_device"
+			        app:text="@string/str_device_sdcard"
+				 />
+                <com.yecon.music.DeviceView
+                    android:id="@+id/btn_device_extsd1"
+				    android:layout_width="0dp"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:background="@drawable/selector_device_bg"
+			        app:icon="@drawable/selector_ic_sd"
+			        app:text="@string/sd"
+				 />
+				<com.yecon.music.DeviceView
+                    android:id="@+id/btn_device_extsd2"
+				    android:layout_width="0dp"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:background="@drawable/selector_device_bg"
+			        app:icon="@drawable/selector_ic_sd"
+			        app:text="@string/sd"
+				 />
+				<com.yecon.music.DeviceView
+                    android:id="@+id/btn_device_USB1"
+				    android:layout_width="0dp"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:background="@drawable/selector_device_bg"
+			        app:icon="@drawable/selector_ic_usb"
+			        app:text="@string/usb"
+				 />
+				<com.yecon.music.DeviceView
+                    android:id="@+id/btn_device_USB2"
+				    android:layout_width="0dp"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:background="@drawable/selector_device_bg"
+			        app:icon="@drawable/selector_ic_usb"
+			        app:text="@string/usb"
+				 />
+				<com.yecon.music.DeviceView
+                    android:id="@+id/btn_device_USB3"
+				    android:layout_width="0dp"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:background="@drawable/selector_device_bg"
+			        app:icon="@drawable/selector_ic_usb"
+			        app:text="@string/usb"
+				 />
+				<com.yecon.music.DeviceView
+                    android:id="@+id/btn_device_USB4"
+				    android:layout_width="0dp"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:background="@drawable/selector_device_bg"
+			        app:icon="@drawable/selector_ic_usb"
+			        app:text="@string/usb"
+				 />
+				<com.yecon.music.DeviceView
+                    android:id="@+id/btn_device_USB5"
+				    android:layout_width="0dp"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:background="@drawable/selector_device_bg"
+			        app:icon="@drawable/selector_ic_usb"
+			        app:text="@string/usb"
+				 />
+		<Space 
+				    android:layout_width="0dp"
+			        android:layout_height="match_parent"
+			        android:layout_weight="0.5"/>
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/layout_content"
+                android:layout_width="0dp"
+		android:visibility="gone"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:background="#003e63e6"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+			
+            <TextView
+                android:id="@+id/btn_tab_device"
+                style="@style/BottomBarTextStyle"
+                android:visibility="gone"
+                android:text="@string/str_tab_device" />
+            
+            <TextView android:id="@+id/back" 
+			           android:text="@string/str_btn_back" 
+			            android:contentDescription="@string/str_btn_back" 
+			            style="@style/BottomBarTextStyle" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+	    android:id="@+id/bottom_other"
+	    android:visibility="invisible"
+	    android:layout_weight="1.5">
+			<TextView
+                android:id="@+id/btn_tab_view_mode "
+                style="@style/BottomBarTextStyle"
+                android:text="@string/str_tab_view_mode" 
+                android:visibility="gone"
+                />
+            <TextView
+                android:id="@+id/btn_tab_play_view"
+                style="@style/BottomBarTextStyle"
+                android:text="@string/str_tab_play_view" />
+            <TextView
+                android:id="@+id/prev"
+                style="@style/BottomBarTextStyle"
+                android:text="@string/str_btn_pre" />
+            <TextView
+                android:id="@+id/play"
+                style="@style/BottomBarTextStyle"
+                android:text="@string/str_btn_play" />
+            <TextView
+                android:id="@+id/pause"
+                style="@style/BottomBarTextStyle"
+                android:text="@string/str_btn_pause"
+                android:visibility="gone"
+                />
+            <TextView
+                android:id="@+id/next"
+                style="@style/BottomBarTextStyle"
+                android:text="@string/str_btn_next" />
+            <TextView
+                android:id="@+id/btn_tab_rescan"
+                style="@style/BottomBarTextStyle"
+                android:text="@string/str_tab_rescan"
+                android:visibility="gone"
+                 />
+        </LinearLayout>
+          <!-- yfzhang Commented-Out Code 
+            <TextView
+                android:id="@+id/btn_tab_list"
+                style="@style/BottomBarTextStyle"
+                android:text="@string/file" />
+
+            <TextView
+                android:id="@+id/btn_tab_folder"
+                style="@style/BottomBarTextStyle"
+                android:text="@string/str_tab_folder" />
+
+            <TextView
+                android:id="@+id/btn_tab_album"
+                style="@style/BottomBarTextStyle"
+                android:text="@string/albums_title" />
+
+            <TextView
+                android:id="@+id/btn_tab_artist"
+                style="@style/BottomBarTextStyle"
+                android:text="@string/artists_title" />
+            
+            <TextView
+                android:id="@+id/btn_tab_favorite"
+                style="@style/BottomBarTextStyle"
+                android:text="@string/str_tab_favor" /> -->
+        </LinearLayout>
+    </LinearLayout>
+    
+    <include layout="@layout/yecon_media_loading"/>
+    
+</FrameLayout>

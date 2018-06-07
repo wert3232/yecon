@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sharedUserId="android.uid.system"
+    package="com.autochips.quickbootmanager" >
+    <application
+        android:label="@string/app_label"
+        android:persistent="true" >
+        <receiver
+            android:name=".QuickBootReceiver"
+            android:priority="1000">
+            <intent-filter>
+                <action android:name="autochips.intent.action.KILL_APPS" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="autochips.intent.action.RESUME_APPS" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="autochips.intent.action.TEST_APPS" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:name=".QuickBootService">
+            <intent-filter>
+                <action android:name="autochips.intent.action.QB_SERVICE" />
+            </intent-filter>
+        </service>
+    </application>
+
+    <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+</manifest>

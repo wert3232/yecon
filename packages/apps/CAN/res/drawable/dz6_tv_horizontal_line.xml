@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 顶部线条设置 -->
+    <item android:top="1dp">
+        <shape>
+            <solid android:color="#ffffff" />
+
+            <gradient
+                android:centerColor="#ffffff"
+                android:endColor="#00000000"
+                android:startColor="#00000000"
+                android:type="linear" />
+        </shape>
+    </item>
+    <!-- 底部线条设置 -->
+    <item android:bottom="1dp">
+        <shape>
+            <solid android:color="#c4c4c4" />
+
+            <gradient
+                android:centerColor="#c4c4c4"
+                android:endColor="#00000000"
+                android:startColor="#00000000"
+                android:type="linear" />
+        </shape>
+    </item>
+
+</layer-list>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DVR</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="preview" >Preview</string>
+    <string name="recorder" >Recorder</string>
+    <string name="urgent" >Urgent</string>
+    <string name="stop" >StopRecord</string>
+    <string name="atc">ATC</string>
+    <string name=":">:</string>
+    <string name="zero">00:00:00</string>
+    <string name="snapshot">Snapshot</string>
+    <string name="Resolution">Resolution</string>
+    <string name="R1080p">1920x1080</string>
+    <string name="R720p">1280x720</string>
+    <string name="Duration">Duration</string>
+    <string name="D10Mins">10 Mins</string>
+    <string name="D5Mins">5 Mins</string>
+    <string name="D3Mins">3 Mins</string>
+    <string name="Camera_Tip">Camera on USB0 Please</string>
+    <string name="mute">Mute</string>
+    <string name="sd1">sd1</string>
+    <string name="sd2">sd2</string>
+    <string name="usb1">usb1</string>
+    <string name="usb2">usb2</string>
+    <string name="usb3">usb3</string>
+    <string name="usb4">usb4</string>
+    <string name="usb5">usb5</string>
+    <string name="tip1">please insert</string>
+    <string name="tip2">，or change save path</string>
+    
+    <string name="str_tab_sd1">SD1</string>
+    <string name="str_tab_sd2">SD2</string>
+    <string name="str_tab_usb1">USB1</string>
+    <string name="str_tab_usb2">USB2</string>
+    <string name="str_tab_usb3">USB3</string>
+    <string name="str_tab_usb4">USB4</string>
+    <string name="str_tab_usb5">USB4</string>
+     <string name="str_tab_internal">Internal</string>
+     
+     <string name="sure_delete">Sure to delete?</string>
+     <string name="del_ok">OK</string>
+     <string name="del_cance">Cancel</string>
+     <string name="del_hint">Prompt</string>
+     <string name="str_list">List</string>
+     <string name="str_no_file">No file</string>
+     
+     <string name="str_cur_time">00:00:00</string>
+     <string name="str_total_time">00:00:00</string>
+     <string name="str_video_id">1.</string>
+     <string name="str_video_name">file name</string>
+     
+     
+
+</resources>

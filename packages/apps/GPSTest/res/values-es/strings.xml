@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">Probar GPS</string>
+  <string name="reset_btn">reiniciar</string>
+  <string name="back_btn">salir</string>
+  <string name="longitude">longitud:</string>
+  <string name="latitude">latitud:</string>
+  <string name="height">altura:</string>
+  <string name="speed">velocidad:</string>
+  <string name="utc">Hora:</string>
+  <string name="unit">km/h</string>
+  <string name="meter">m</string>
+  <string name="fetch_gps_data">obteniendo datos gps...</string>
+  <string name="gpstest_title">GPS</string>
+</resources>

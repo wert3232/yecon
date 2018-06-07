@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GPS</string>
+    <string name="reset_btn">复  位</string>
+    <string name="reset_time">定位时间:</string>
+    <string name="longitude">经度:</string>
+    <string name="latitude">纬度:</string>
+    <string name="height">高度:</string>
+    <string name="speed">速度:</string>
+    <string name="L_time">时间:</string>
+    <string name="UTC">UTC:</string>
+    <string name="unit">公里/小时</string>
+    <string name="meter">米</string>
+    <string name="fetch_gps_data">获取GPS数据中...</string>
+    <string name="gpstest_title">GPS 信息</string>
+    <string name="time_min">00</string>
+    <string name="time_x">:</string>
+    <string name="time_sec">00</string>
+    <string name="time_xx">:</string>
+    <string name="time_dsec">0</string>
+    <string name="open_gps_gpio_title">警告!</string>
+    <string name="open_gps_gpio_text">您的设备还没打开GPS！ \n进入设置打开GPS,否则,退出GPSTest!</string>
+    <string name="ok">设置</string>
+    <string name="cancel">取消</string>
+
+</resources>

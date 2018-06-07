@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<resources>
+    
+     <!-- Page Indicator specific attributes. These attributes are used to customize
+         the cling in XML files. -->
+         
+         <!-- 这个属性不是 PageIndicator 继承的属性值，但是可以
+          使用 xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher（R.xxx）
+          进行调用，
+  TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.Workspace, defStyle, 0);
+mDefaultScreen = a.getInt(R.styleable.Workspace_defaultScreen, 1);
+a.recycle();
+可以通过这种形式进行引用
+           -->
+           <!-- 0 only title,1 two title and up down button,3 only checkbox -->
+    <declare-styleable name="HeaderLayout">
+        <!-- Used to identify how to draw the cling bg -->
+       
+    </declare-styleable>
+    
+    
+    
+</resources>

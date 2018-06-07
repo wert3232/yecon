@@ -1,0 +1,10 @@
+<resources>
+
+    <dimen name="btn_width">150dp</dimen>
+    <dimen name="btn_height">50dp</dimen>
+    <dimen name="text_prompt_w">300dp</dimen>
+    <dimen name="textsize_l">20dp</dimen>
+    <dimen name="textsize_m">18dp</dimen>
+    <dimen name="textsize_s">16dp</dimen>
+
+</resources>

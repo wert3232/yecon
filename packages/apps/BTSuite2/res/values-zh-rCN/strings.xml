@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">蓝牙</string>
+    <string name="dial_name">蓝牙电话</string>
+    <string name="BtDialerLabel">拨号</string>
+    <string name="BtPhonebookLabel">电话簿</string>
+    <string name="BtCallHistoryLabel">通话记录</string>
+    <string name="BtSmsLabel">短信</string>
+    <string name="BtMusicLabel">蓝牙音乐</string>
+    <string name="BtSettingsLabel">蓝牙配对</string>
+    <string	name="BtReturnLabel">返回</string>
+    <string name="bt_settings_text">未连接</string>
+    <string name="open_bt_string">打开蓝牙</string>
+    <string name="close_bt_string">关闭蓝牙</string>
+    <string name="scan_btdevice_string">扫 描</string>
+    <string name="discovery_bt_string">可发现</string>
+    <string name="indiscovery_bt_string">不可发现</string>
+    <string name="trypair_bt_string">配对</string>
+    <string name="dispair_bt_string">取消配对</string>
+    <string name="connect_bt_string">连接</string>
+    <string name="disconnect_bt_string">断开</string>
+    <string name="bt_pairconnect_return">返回</string>
+    <string name="bt_status_unpair">未配对</string>
+    <string name="bt_status_paired">已配对</string>
+    <string name="bt_status_connecting">正在连接</string>
+    <string name="bt_status_connected">已连接</string>
+    <string name="autoanswer_bt_string">自动应答</string>
+    <string name="non_autoanswer_bt_string">取消自动应答</string>
+    <string name="autoconnect_bt_string">自动连接</string>
+    <string name="non_autoconnect_bt_string">取消自动连接</string>
+    <string name="edit_bt_string">设备信息</string>
+    <string name="localname_string">修改名称</string>
+    <string name="pin_string">修改密码</string>
+    <string name="received_string">已接电话</string>
+    <string name="dialed_string">已拨电话</string>
+    <string name="missed_string">未接来电</string>
+    <string name="history_all_string">所有通话记录</string>
+    <string name="speak_time">计时:<xliff:g id="total_time">%1$s</xliff:g></string>
+    <string name="str_download_history">电话本下载中... %d</string>
+    <string name="str_download_phonebook">电话本下载中... %d</string>
+    <string name="str_download_wait_history_tip">正在下载通话记录，请稍候...</string>
+    <string name="str_download_wait_phonebook_tip">正在下载电话簿，请稍候...</string>
+    <string name="str_loading_record">加载记录...</string>
+    <string name="str_call_info">未连接</string>
+    <string name="str_clear_all">清 除</string>
+    <string name="str_call">拨 打</string>
+    <string name="str_btn_recall">重 拨</string>
+    <string name="str_1">1</string>
+    <string name="str_2">2</string>
+    <string name="str_3">3</string>
+    <string name="str_4">4</string>
+    <string name="str_5">5</string>
+    <string name="str_6">6</string>
+    <string name="str_7">7</string>
+    <string name="str_8">8</string>
+    <string name="str_9">9</string>
+    <string name="str_0">0</string>
+    <string name="str_pound">#</string>
+    <string name="str_asterisk">*</string>
+    <string name="str_Enter">输入</string>
+    <string name="str_Delete">删除</string>
+    <string name="str_Return">返回</string>
+    <string name="str_volume">10</string>
+    <string name="str_title_paired">设备列表</string>
+    <string name="none_paired">设备未配对</string>
+    <string name="bt_turning_on">正在打开蓝牙</string>
+    <string name="bt_turned_on">蓝牙已打开</string>
+    <string name="bt_turning_off">正在关闭蓝牙</string>
+    <string name="bt_turned_off">蓝牙已关闭</string>
+    <string name="bt_turn_error">蓝牙打开出错</string>
+    <string name="bt_discoverable">可以检测到蓝牙设备</string>
+    <string name="bt_discoverable_false">蓝牙设备不可以检测</string>
+    <string name="bluetooth_error_title">注意</string>
+    <string name="str_bluetooth_phone_not_connected">未连接到蓝牙手机</string>
+    <string name="str_handsfree_device_connected">蓝牙已连接</string>
+	  <string name="str_handsfree_device_disconnected">蓝牙已断开</string>
+	  <string name="str_no_memory_call_record">没有历史拨号记录</string>
+	  <string name="str_call_number_is_empty">号码是空的</string>
+	  <string name="str_call_number_is_too_long"> 号码长度过长</string>
+	  <string name="str_no_mach_number">没有匹配的号码</string>
+	  
+	  <string name="str_income_call_status">来电话</string>
+	  <string name="str_out_call_status">拨号中</string>
+	  <string name="str_bt_call_active">通话中</string>
+	  <string name="str_bt_call_inactive">通话结束</string>
+	  <string name="str_bt_call_end">挂断</string>
+	  <string name="str_bt_call_softkeypad">拨号键盘</string>
+	  <string name="str_bt_call_answer">接听</string>
+	  <string name="str_bt_call_carsound">汽车声音</string>
+	  <string name="str_bt_call_phonesound">手机声音</string>
+	  <string name="str_calling_phone_number">10086</string>
+	  <string name="a2dp_status_title">A2DP</string>
+	  <string name="a2dpsink_status_connected_info">已连接</string>
+	  <string name="a2dpsink_status_notconnected_info">未连接</string>
+	  <string name="a2dpsink_status_connecting_info">连接中</string>
+	  <string name="a2dpsink_status_disconnecting_info">断开中</string>
+	  <string name="avrcp_status_title">AVRCP</string>
+	  <string name="avrcp_status_info">未连接</string>
+	  <string name="str_have_rds_can_not_play">紧急广播存在无法播放</string>
+	
+	  <string name="disconnecta2dp">断开A2DP</string>
+	  <string name="disconnectavrcp">断开AVRCP</string>
+	  <string name="avrcpct_status_connected_info">已连接</string>
+	  <string name="avrcpct_status_notconnected_info">未连接</string>
+	  <string name="avrcpct_status_connecting_info">连接中</string>
+	  <string name="avrcpct_status_disconnecting_info">正在断开连接</string>
+
+    
+    <!-- Bluetooth settings.  Message when cnonected to a device -->
+    <string name="bluetooth_connected">已连接</string>
+    <!-- Bluetooth settings.  Message when a device is disconnected -->
+    <string name="bluetooth_disconnected">已断开连接</string>
+    <!-- Bluetooth settings.  Message when disconnecting from a device -->
+    <string name="bluetooth_disconnecting">正在断开连接\u2026</string>
+    <!-- Bluetooth settings.  Message when connecting to a device -->
+    <string name="bluetooth_connecting">正在连接\u2026</string>
+    <!-- Bluetooth settings.  Message when the device state is unknown -->
+    <string name="bluetooth_unknown"></string>
+    <!--Bluetooth settings screen, summary text under individual Bluetooth devices when not paired yet -->
+    <string name="bluetooth_not_connected">与此设备配对</string>
+    <!--Bluetooth settings screen, summary text under individual Bluetooth devices when pairing -->
+    <string name="bluetooth_pairing">正在配对\u2026</string>
+    <!--Bluetooth settings screen, summary text under individual Bluetooth devices when paired with one -->
+    <string name="bluetooth_paired">已配对，未连接</string>
+    
+    
+        <!-- Bluetooth settings: The title of the preference (list item) that initiates a scan for devices -->
+    <string name="bluetooth_preference_scan_title">扫描设备</string>
+    <!-- Bluetooth settings.  Options menu item for a device.  Action will refresh profiles in the device. -->
+   	<string name="bluetooth_options_menu_refresh">刷新</string>
+    <!-- Bluetooth settings.  Context menu item for a device.  Action will rename the device. -->
+   	<string name="bluetooth_device_context_rename">重命名</string>
+   	<!-- Bluetooth settings.  Context menu item for rename a device.  Action will rename the device. -->
+   	<string name="bluetooth_device_context_rename_edittext">重命名</string>
+    <!-- Bluetooth settings.  Context menu item for a device.  Action will connect to all profiles on the device. -->
+    <string name="bluetooth_device_context_connect">连接</string>
+    <!-- Bluetooth settings.  Context menu item for a device.  Action will disconnect from all profiles on the device. -->
+    <string name="bluetooth_device_context_disconnect">断开</string>
+    <!-- Bluetooth settings.  Context menu item for a device.  Action will first pair, and then connect to all profiles on the device. -->
+    <string name="bluetooth_device_context_pair_connect">配对 连接</string>
+     <!-- Bluetooth settings.  Context menu item for a device.  Action will first pair, and then connect to HF and A2DP if supported on the device. -->
+    <string name="bluetooth_device_context_pair">配对</string>
+    <!-- Bluetooth settings.  Context menu item for a device.  Action will remove pairing with the device. -->
+    <string name="bluetooth_device_context_unpair">未配对</string>
+    <!-- Bluetooth settings.  Context menu item for a device.  Action will disconnect and remove pairing with the device. -->
+    <string name="bluetooth_device_context_disconnect_unpair">断开连接并取消配对</string>
+    <!-- Bluetooth settings.  Context menu item for a device.  Action will take the user to another screen where they can choose exactly which profiles to connect to. -->
+    <string name="bluetooth_device_context_connect_advanced">选项\u2026</string>
+    
+    
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+    
+        <!-- Message for the error dialog when BT connecting operation fails generically. -->
+    <string name="bluetooth_connecting_error_message">There was a problem connecting to <xliff:g id="device_name">%1$s</xliff:g>.</string>
+    
+        <!--Bluetooth settings screen, summary text under individual Bluetooth devices that are hands free or a headset -->
+    <string name="bluetooth_device">handsfree/headset</string>
+        <!-- Bluetooth settings.  Message for disconnecting from a bluetooth device -->
+    <string name="bluetooth_disconnect_blank"><xliff:g id="device_name">%1$s</xliff:g> will be disconnected.</string>
+    
+     <!-- Message for the error dialog when BT pairing fails generically. -->
+    <string name="bluetooth_pairing_error_message">There was a problem pairing with <xliff:g id="device_name">%1$s</xliff:g>.</string>
+    <!-- Message for the error dialog when BT pairing fails because the PIN /
+    Passkey entered is incorrect. -->
+    <string name="bluetooth_pairing_pin_error_message">There was a problem pairing with <xliff:g id="device_name">%1$s</xliff:g> because the PIN or Passkey is incorrect.</string>
+    <!-- Message for the error dialog when BT pairing fails because the other device is down. -->
+    <string name="bluetooth_pairing_device_down_error_message">Cannot establish communication with <xliff:g id="device_name">%1$s</xliff:g>.</string>
+    <!-- Message for the error dialog when BT pairing fails because the other device rejected the pairing. -->
+    <string name="bluetooth_pairing_rejected_error_message">Pairing rejected by <xliff:g id="device_name">%1$s</xliff:g>.</string>
+    
+        <!-- Generic string for remote Bluetooth device  -->
+    <string name="bluetooth_remote_device">蓝牙设备</string>
+    
+    <string name="bt_device_name_title">设备名称:</string>
+    <string name="bt_device_name_text">蓝牙</string>
+    <string name="bt_device_pin_title">配对码:</string>
+    <string name="bt_device_pin_text">1234</string>
+    <string name="bt_device_info">设备信息</string>
+    <string name="str_edit_ok">确定</string>
+    <string name="str_edit_cancel">取消</string>
+    <string name="bt_phonebook_pause_string">暂停</string>
+    <string name="bt_callhistory_pause_string">暂停</string>
+    <string name="bt_phonebook_continue_string">继续</string>
+    <string name="bt_callhistory_continue_string">继续</string>
+    <string name="bt_phonebook_syn_string">同步</string>
+    <string name="bt_callhistory_syn_string">同步</string>
+    <string name="bt_phonebook_search_hint">"总共%d位联系人"</string>
+    <string name="phonebook_unknow_name">未知</string>
+    <string name="bt_notsupport_download_phonebook">不支持电话簿同步</string>
+    <string name="bt_not_support_downlaod_callhistory">不支持通话记录同步</string>
+    
+    <string name="bluetooth_pbap_server_auth_chall_notify_ticker">"蓝牙PBAP 认证请求"</string>
+    <string name="bluetooth_pbap_server_auth_chall_notify_title">"蓝牙 PBAP 认证请求"</string>
+    <string name="bluetooth_pbap_server_auth_chall_message">"来自 %1$s 的蓝牙认证请求"</string>
+    <string name="auth_ok">确认</string>
+    <string name="auth_cancel">取消</string>
+    <string name="auth_passcode">auth passcode</string>
+    <string name="bluetooth_hf_connect_toast">请先进行蓝牙连接</string>
+    <string name="action_call_title">拨号</string>
+    <string name="bluetooth_device_info_toast">设备名称不能为空，且Pin code长度必须不小于4</string>
+    <string name="all_delete_message">确定全部删除？</string>
+    <!-- strings for bluetooth music -->
+    <string name="str_bt_not_available">蓝牙不可用</string>
+    <string name="str_connecting_a2dp_avrcp">正在连接蓝牙媒体</string>
+    <string name="str_connect_hf">未连接蓝牙电话</string>
+    <string name="str_connect_a2dp_avrcp">未连接蓝牙媒体</string>
+    <string name="str_music_title">音乐标题</string>
+    <string name="str_music_album">专辑</string>
+    <string name="str_music_artist">艺术家</string>
+    <string name="str_music_calender">03.2012</string>
+    <string name="music_playing_time">00:00:00</string>
+    <string name="music_total_time">00:03:30</string>
+    <string name="str_not_support_bt_music">对方不支持蓝牙音乐</string>
+    <string name="str_not_support_bt_music_control">对方不支持蓝牙音乐控制</string>
+    <string name="str_not_support_avrcp_get_element_attributes">对方不支持获取音乐信息</string>
+    <string name="str_not_support_avrcp_get_player_status">对方不支持获取时间信息</string>
+    <string name="str_not_support_avrcp_reg_track_changed_event">对方不支持音乐信息实时更新</string>
+    <string name="str_not_support_avrcp_reg_play_pos_changed_event">对方不支持音乐播放时间实时更新</string>
+    <string name="str_not_support_avrcp_musicinfo_and_playingtime">对方不支持音乐信息和播放时间</string>
+    <string name="str_wait_discovering_done">请等待设备搜索结束</string>
+    <!-- strings for bluetooth sms -->
+    <string name="bt_sms_unread">未读短信</string>
+    <string name="bt_sms_readed">已读短信</string>
+    <string name="bt_sms_draft">草稿</string>
+    <string name="bt_sms_sented">已发短信</string>
+    <string name="bt_sms_all">所有短信</string> 
+    <string name="cancle_download_sms">取消</string>
+    <string name="discard">丢弃</string>
+    <string name="cancle">取消</string>
+    <string name="str_download_sms">短信下载中</string>
+    <string name="str_unknow">未知</string>
+    <string name="str_hint">抱歉，不支持下载短信</string>
+    <string name="str_sms_count_zero">无法获取到短信</string>
+    <string name="str_contact">联系人: </string>
+    <string name="str_date">时间: </string>
+    <string name="str_type">短信类型: </string>
+    <string name="str_content">短信内容: </string>
+    <string name="bt_exit">退出</string>
+    <string name="BtPairedHistoryLabel">配对记录</string>
+    <string name="paired_devices_string">已配对设备</string> 
+    <string name="usable_devices_string">可用设备</string>
+    <string name="device_name_string">设备名称</string>
+    <string name="device_pin_string">配对密码</string>
+    <string name="autoanswer_string">自动接听</string>
+    <string name="autoconnect_string">自动连接</string>
+    
+    <string name="bt_status_nophone">手机音频未连接</string>
+    <string name="bt_status_nomedia">媒体音频未连接</string>
+    <string name="pls_diconnect_device">请先断开已连接设备</string>
+    <string name="pair_failed">配对出錯</string>
+    <string name="bt_phonebooksearch">搜索</string>
+    <string name="bt_phonebookrefresh">更新</string>
+    <string name="bt_closemic">关闭麦克风</string>
+    <string name="bt_openemic">开启麦克风</string>
+    <string name="bt_voicetophone">转接到手机</string>
+    <string name="bt_voicetocar">转接到车机</string>
+    <string name="downloadphonebook_message">确认要清除所有联系人，并重新更新联系人列表吗？</string>
+    <string name="downloadcallhistory_message">确定要清除所有通话记录吗？</string>
+    <string name="phonebooklistisempty">电话本列表为空!</string>
+    <string name="callhistorylistisempty">通话记录为空!</string>
+    <string name="pairedlistisempty">配对列表为空!</string>
+    <string name="clearall">清空列表</string>
+    <string name="close">关闭</string>
+    <string name="confirmclearall">确认清空全部配对列表吗？</string>
+    <string name="noresult">无结果</string>
+    <string name="btisnotconnected">蓝牙未连接，请连接设备</string>
+    <string name="localmachine">本机信息：</string>
+    <string name="unknownzone">未知归属地</string>
+    <string name="disconnectbeforedelete">无法删除已连接的设备，请先断开</string>
+    <string name="unknownname">未知联系人</string>
+    
+    <string name="back">返回</string>
+    <string name="prev_music">上一曲</string>
+    <string name="next_music">下一曲</string>
+    <string name="play">播放/暂停</string>
+    <string name="pause">播放/暂停</string>
+    
+    <string name="syn_phone_book">同步联系人</string>
+    <string name="call_log_pull_call_log">已拔</string>
+    <string name="call_log_miss_call_log">未接</string>
+    <string name="call_log_answer_call_log">已接</string>
+    <string name="test">测试</string>
+    
+    <string name="scan_bluetooth">扫描蓝牙</string>
+    <string name="conect">连接</string>
+    <string name="disconect">断开</string>
+    <string name="delete">删除</string>
+    <string name="delete_all">全部删除</string>
+    <string name="device_is_no_empty">设备名称不能为空</string>
+    <string name="pin_is_no_empty">配对码不能为空</string>
+    <string name="please_break_bluetooth_connect_before_set_device_name">请先断开蓝牙连接,再修改设备名称</string>
+    <string name="please_break_bluetooth_connect_before_set_device_pin">请先断开蓝牙连接,再修改配对码</string>
+    <string name="call_name_is_null">未知号码</string>
+    
+    <string name="connect_bluetooth">你确定与该设备要建立蓝牙连接吗？</string>
+    <string name="disconnect_bluetooth">你确定要断开蓝牙连接吗？</string>
+    
+    <string name="other_ok">确定</string>
+    <string name="other_cancel">取消</string>
+    
+    <string name="confirm_call_phone">你确定要拨打电话?</string>
+    <string name="confirm_del_one_contact">你确定要删除这个联系人?</string>
+    <string name="confirm_del_all_contact">你确定要删除全部联系人?</string>
+    <string name="confirm_del_one_calllog">你确定要删除这条通话记录?</string>
+    <string name="confirm_del_all_calllog">你确定要删除全部通话记录?</string>
+    <string name="confirm_del_one_device">你确定要删除这个设备?</string>
+    <string name="machine_name">本机名称</string>
+    <string name="str_device_name">设备 %s 已连接 !</string>
+    
+    <string name="search_contact_name">搜索联系人姓名</string>
+</resources>

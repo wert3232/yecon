@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Metazone Operate</string>
+    <string name="cb_sdcard_swap">SDCard Swap</string>
+    <string name="cb_gps_data_ext">GPS Data Ext</string>
+    <string name="cb_mcu_debug_switch">MCU Debug Switch</string>
+    <string name="btn_write_metazone_file">Write Metazone</string>
+    <string name="btn_set_system_volume">Set System Volume</string>
+    <string name="btn_set_bt_volume">Set BT Volume</string>
+    <string name="btn_save_and_reboot">Save and Reboot</string>
+    <string name="btn_reset_value">Reset value</string>
+	<string name="nothing_changed">Nothing changed,no need reboot!</string>
+	<string name="dlg_title_metazone">Write Metazone file</string>
+	<string name="dlg_msg_metazone">Please put Metazone.bin to /mnt/ext_sdcard1/ at first. Are you sure to write the metazone.bin to System？</string>
+	<string name="str_ok">OK</string>
+	<string name="str_cancel">Cancel</string>
+	<string name="str_msg_write">Total Write</string>
+	<string name="str_msg_bytes">bytes to metazone,you must be Reboot to take effect...</string>
+	<string name="str_msg_nometafile">Write Failed,metazone.bin not found in /mnt/ext_sdcard1</string>
+	<string name="btn_reboot">Reboot</string>
+</resources>

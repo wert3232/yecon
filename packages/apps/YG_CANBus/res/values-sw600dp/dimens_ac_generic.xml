@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- margin -->
+    <dimen name="ac_iv_people_margin">50dp</dimen>
+    <dimen name="ac_iv_blow_head_margin">25dp</dimen>
+    <dimen name="ac_iv_heat_seat_margin">20dp</dimen>
+    <dimen name="ac_layout_blow_margin">50dp</dimen>
+    <dimen name="ac_layout_blow_margin_top">40dp</dimen>
+        
+    <!-- padding -->
+    <dimen name="ac_tv_temp_left_padding_right">20dp</dimen>
+	<dimen name="ac_tv_temp_right_padding_left">20dp</dimen>
+	
+    <!-- width or height -->
+    <dimen name="ac_upper_part_height">96dp</dimen>
+    <dimen name="ac_below_part_height">96dp</dimen>
+    <dimen name="ac_wind_width">250dp</dimen>
+    <dimen name="ac_wind_height">20dp</dimen>
+    
+    <!-- text size -->
+    <dimen name="ac_textview_default_size">40sp</dimen>
+
+</resources>

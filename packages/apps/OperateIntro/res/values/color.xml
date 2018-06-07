@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textcolor">#FFFFFF</color>
+    <color name="textpresscolor">#00326F</color>
+    <color name="darker_gray">#aaa</color>
+    <color name="bgcolor">#0A2758</color>
+    
+</resources>

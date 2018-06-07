@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/seekbar_parent_line_gap"
+            android:src="@drawable/dotted_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/btn_favourite"
+                    style="@style/button_style"
+                    android:layout_marginBottom="20dp"
+                    android:drawableTop="@xml/selector_button_favorite"
+                    android:text="@string/title_self"
+                    android:textColor="@color/textcolor" />
+
+                <TextView
+                    android:id="@+id/btn_reset"
+                    style="@style/button_style"
+                    android:layout_marginBottom="20dp"
+                    android:drawableTop="@xml/selector_button_reset"
+                    android:text="@string/Reset" />
+
+                <TextView
+                    android:id="@+id/btn_analogmode"
+                    style="@style/button_style"
+                    android:drawableTop="@xml/selector_button_analogmode"
+                    android:text="@string/analog_mode" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/seekbar_parent"
+                android:layout_width="@dimen/seekbar_parent_width"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="visible" >
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <com.yecon.sound.setting.view.VerticalSeekBar
+                        android:id="@+id/seekbar_view_1"
+                        style="@style/seekbar_v_style" />
+
+                    <TextView
+                        style="@style/seekbar_title_style"
+                        android:layout_below="@id/seekbar_view_1"
+                        android:text="@string/title_value_32" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <com.yecon.sound.setting.view.VerticalSeekBar
+                        android:id="@+id/seekbar_view_2"
+                        style="@style/seekbar_v_style" />
+
+                    <TextView
+                        style="@style/seekbar_title_style"
+                        android:layout_below="@id/seekbar_view_2"
+                        android:text="@string/title_value_64" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <com.yecon.sound.setting.view.VerticalSeekBar
+                        android:id="@+id/seekbar_view_3"
+                        style="@style/seekbar_v_style" />
+
+                    <TextView
+                        style="@style/seekbar_title_style"
+                        android:layout_below="@id/seekbar_view_3"
+                        android:text="@string/title_value_150" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <com.yecon.sound.setting.view.VerticalSeekBar
+                        android:id="@+id/seekbar_view_4"
+                        style="@style/seekbar_v_style" />
+
+                    <TextView
+                        style="@style/seekbar_title_style"
+                        android:layout_below="@id/seekbar_view_4"
+                        android:text="@string/title_value_250" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <com.yecon.sound.setting.view.VerticalSeekBar
+                        android:id="@+id/seekbar_view_5"
+                        style="@style/seekbar_v_style" />
+
+                    <TextView
+                        style="@style/seekbar_title_style"
+                        android:layout_below="@id/seekbar_view_5"
+                        android:text="@string/title_value_500" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <com.yecon.sound.setting.view.VerticalSeekBar
+                        android:id="@+id/seekbar_view_6"
+                        style="@style/seekbar_v_style" />
+
+                    <TextView
+                        style="@style/seekbar_title_style"
+                        android:layout_below="@id/seekbar_view_6"
+                        android:text="@string/title_value_1k" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <com.yecon.sound.setting.view.VerticalSeekBar
+                        android:id="@+id/seekbar_view_7"
+                        style="@style/seekbar_v_style" />
+
+                    <TextView
+                        style="@style/seekbar_title_style"
+                        android:layout_below="@id/seekbar_view_7"
+                        android:text="@string/title_value_2k" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <com.yecon.sound.setting.view.VerticalSeekBar
+                        android:id="@+id/seekbar_view_8"
+                        style="@style/seekbar_v_style" />
+
+                    <TextView
+                        style="@style/seekbar_title_style"
+                        android:layout_below="@id/seekbar_view_8"
+                        android:text="@string/title_value_4k" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <com.yecon.sound.setting.view.VerticalSeekBar
+                        android:id="@+id/seekbar_view_9"
+                        style="@style/seekbar_v_style" />
+
+                    <TextView
+                        style="@style/seekbar_title_style"
+                        android:layout_below="@id/seekbar_view_9"
+                        android:text="@string/title_value_8k" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <com.yecon.sound.setting.view.VerticalSeekBar
+                        android:id="@+id/seekbar_view_10"
+                        style="@style/seekbar_v_style" />
+
+                    <TextView
+                        style="@style/seekbar_title_style"
+                        android:layout_below="@id/seekbar_view_10"
+                        android:text="@string/title_value_16k" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <com.yecon.sound.setting.view.VerticalSeekBar
+                        android:id="@+id/seekbar_view_11"
+                        style="@style/seekbar_v_style" />
+
+                    <TextView
+                        style="@style/seekbar_title_style"
+                        android:layout_below="@id/seekbar_view_11"
+                        android:text="@string/title_value_32k" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:visibility="gone" >
+
+                    <com.yecon.sound.setting.view.VerticalSeekBar
+                        android:id="@+id/seekbar_view_12"
+                        style="@style/seekbar_v_style"
+                        android:max="19" />
+
+                    <TextView
+                        style="@style/seekbar_title_style"
+                        android:layout_below="@id/seekbar_view_12"
+                        android:text="@string/title_value_loudness" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/tab_rg_menu"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/eq_radiogroup_bottom_gap"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/rb_rock"
+                    style="@style/title_v_style"
+                    android:text="@string/title_rock" />
+
+                <RadioButton
+                    android:id="@+id/rb_popu"
+                    style="@style/title_v_style"
+                    android:text="@string/title_popu" />
+
+                <RadioButton
+                    android:id="@+id/rb_live"
+                    style="@style/title_v_style"
+                    android:text="@string/title_live" />
+
+                <RadioButton
+                    android:id="@+id/rb_dance"
+                    style="@style/title_v_style"
+                    android:text="@string/title_dance" />
+
+                <RadioButton
+                    android:id="@+id/rb_classical"
+                    style="@style/title_v_style"
+                    android:text="@string/title_classical" />
+
+                <RadioButton
+                    android:id="@+id/rb_soft"
+                    style="@style/title_v_style"
+                    android:text="@string/title_soft" />
+
+                <RadioButton
+                    android:id="@+id/rb_origin"
+                    style="@style/title_v_style"
+                    android:text="@string/title_origin"
+                    />
+
+                <RadioButton
+                    android:id="@+id/rb_favourite"
+                    style="@style/title_v_style"
+                    android:text="@string/title_self"
+                    android:visibility="gone" />
+            </RadioGroup>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:carsetting="http://schemas.android.com/apk/res/com.yecon.carsetting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:padding="@dimen/fragment_padding" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/DVD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="2" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/Gps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="2" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/FM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="2" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/AVIN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="2" />
+        
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/AVIN2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="2" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="2" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/IPOD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="2" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/Music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="2" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/Video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="2" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/BT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="2" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/DVR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="2" />
+        
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/DVR_uart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="2" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/Micracast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="2" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/Canbus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            carsetting:item_style="2" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/Tpms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="2" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_funs_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_funs_other" />
+    </LinearLayout>
+
+</ScrollView>

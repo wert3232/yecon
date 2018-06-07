@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+	<com.yecon.avin.AVINSurfaceView
+	android:id="@+id/avin_surfaceview"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:background="@color/background"
+	android:onClick="onClick"
+	/>
+	
+	
+	<TextView
+        android:id="@+id/av_signal"
+        style="@style/TextView_style"
+        android:layout_gravity="center"
+        android:drawableTop="@drawable/nosignal"
+        android:text="@string/no_signal"
+        android:visibility="invisible" />
+
+	
+	<!-- bottom bar -->	
+	<LinearLayout
+	    	android:id="@+id/bottombar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/bg_bottom_bar" >
+
+            <ImageView
+                android:id="@+id/ivMenu"
+                style="@style/BottomBarStyle"
+                android:onClick="onClick"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/selector_bt_menu" />
+
+            <ImageView
+                android:id="@+id/ivNext"
+                style="@style/BottomBarStyle"
+                android:onClick="onClick"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/selector_bt_next" />
+
+            <ImageView
+                android:id="@+id/ivPrevious"
+                style="@style/BottomBarStyle"
+                android:onClick="onClick"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/selector_bt_previous" />
+
+            <ImageView
+                android:id="@+id/ivMode"
+                style="@style/BottomBarStyle"
+                android:onClick="onClick"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/selector_bt_mode" />
+
+            <ImageView
+                android:id="@+id/ivOk"
+                style="@style/BottomBarStyle"
+                android:onClick="onClick"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/selector_bt_ok" />
+            
+        </LinearLayout>
+	
+</FrameLayout>

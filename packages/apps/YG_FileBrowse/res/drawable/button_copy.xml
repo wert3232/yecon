@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- pressed -->
+    <item android:drawable="@drawable/ctrl_copy_p" android:state_pressed="true"/>
+    <!-- focused -->
+    <item android:drawable="@drawable/ctrl_copy_n" android:state_focused="true"/>
+    <!-- selected -->
+    <item android:drawable="@drawable/ctrl_copy_p" android:state_selected="true"/>
+    <!-- checked -->
+    <item android:drawable="@drawable/ctrl_copy_p" android:state_checked="true"/>
+    <!-- disabled -->
+    <item android:drawable="@drawable/ctrl_copy_d" android:state_enabled="false"/>
+    <!-- default -->
+    <item android:drawable="@drawable/ctrl_copy_n"/>
+
+</selector>

@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:paddingTop="24dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="@dimen/settings_btn_margin_bottom"
+    android:orientation="vertical"
+     >
+
+    <ListView
+        android:id="@+id/id_listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" 
+        android:overScrollMode="never"
+        >
+    </ListView>
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00fa76a7"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="center"
+        android:paddingTop="8dp">
+	    <TextView
+            android:id="@+id/back"
+            style="@style/BottomBarTextStyle"
+            android:contentDescription="@string/str_btn_back"
+            android:text="@string/str_btn_back" />
+	    <TextView
+	        android:layout_weight="3"
+            style="@style/BottomBarTextStyle"
+            android:contentDescription="@null"
+            android:visibility="invisible"
+             />
+	</LinearLayout>
+</LinearLayout>

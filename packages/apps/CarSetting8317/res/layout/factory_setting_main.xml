@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:carsetting="http://schemas.android.com/apk/res/com.yecon.carsetting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:padding="@dimen/fragment_padding" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_reboot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_reboot" />
+        
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="0"
+            carsetting:item_subTitle="@string/factory_password" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/system_usb_model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="4"
+            carsetting:item_subTitle="@string/system_usb_model"
+            carsetting:item_two_button_left="@string/system_usb_host"
+            carsetting:item_two_button_right="@string/system_usb_device" />
+        
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/system_usb_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="4"
+            carsetting:item_subTitle="@string/system_usb_type"
+            carsetting:item_two_button_left="@string/system_usb_10"
+            carsetting:item_two_button_right="@string/system_usb_20" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_language_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/general_language_select" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_timezone_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_timezone_set" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_radio_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_radio_set" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_navigation_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_navigation_set" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_bt_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_bt_set" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_backcar_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_backcar_set" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_gain_adjust"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_gain_adjust" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_sound_effect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_sound_effect" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_volume_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_volume_set" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_video_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_video_set" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_yuv_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_yuv_set" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/system_factory_fun_config"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/system_factory_fun_config" />
+        
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/system_factory_lcd_config"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/system_factory_lcd_config" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_other_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_other_set" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_save_reboot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_save_reboot" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_xml_export"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_xml_export" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_reset_def"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_reset_def" />
+
+
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/system_volume_adjust"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/system_volume_adjust" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/system_factory_testing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/system_factory_test" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_system_updata_usb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_system_updata_usb" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/system_mcu_upgrade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/system_mcu_upgrade" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_mapdata_upgrade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_mapdata_upgrade" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_tocuh_key_learn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_tocuh_key_learn_caption" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_tocuh_calibration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_tocuh_calibration_caption" />
+        <TextView
+            
+            android:id="@+id/factory_return"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:textColor="#fff"
+            android:textSize="22sp"
+            android:text="@string/str_btn_back" />
+    </LinearLayout>
+
+</ScrollView>

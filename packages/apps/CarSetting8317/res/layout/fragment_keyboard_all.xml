@@ -1,0 +1,228 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:carsetting="http://schemas.android.com/apk/res/com.yecon.carsetting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/keyboard_all_bk"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="center" >
+
+            <EditText
+                android:id="@+id/key_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/keyboard_all_edit_bk"
+                android:inputType="text"
+                android:paddingLeft="20dp"
+                android:maxLength="15"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@drawable/keyboard_input_lacagtion"
+                android:textSize="@dimen/keyboard_textsize" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/key_del"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@xml/keyboard_all_del_state" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/key_1"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_2"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_3"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_4"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_5"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_6"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_7"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_8"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_9"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_0"
+            style="@style/keyboard_textview_style" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/key_q"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_w"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_e"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_r"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_t"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_y"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_u"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_i"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_o"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_p"
+            style="@style/keyboard_textview_style" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/key_a"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_s"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_d"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_f"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_g"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_h"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_j"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_k"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_l"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_comma"
+            style="@style/keyboard_textview_style" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/key_capsloc"
+            style="@style/keyboard_textview_style"
+            android:background="@xml/keyboard_all_cancel_state" />
+
+        <TextView
+            android:id="@+id/key_z"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_x"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_c"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_v"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_b"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_n"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_m"
+            style="@style/keyboard_textview_style" />
+
+        <TextView
+            android:id="@+id/key_enter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@xml/keyboard_all_enter_state" />
+    </LinearLayout>
+
+</LinearLayout>

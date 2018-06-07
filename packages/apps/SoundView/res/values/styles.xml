@@ -1,0 +1,116 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="tab_rb_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/tab_selector_tv_color</item>
+        <item name="android:gravity">center_horizontal|bottom</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:background">@drawable/tab_selector_checked_bg</item>
+    </style>
+
+    <style name="seekbar_v_style">
+        <item name="android:layout_width">@dimen/seekbar_width</item>
+        <item name="android:layout_height">@dimen/seekbar_height</item>
+        <item name="android:thumb">@xml/selector_seekbar_point_state</item>
+        <item name="android:progressDrawable">@drawable/seekbar_define_style_bp</item>
+        <item name="android:max">28</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:maxHeight">@dimen/seekbar_thumb</item>
+        <item name="android:minHeight">@dimen/seekbar_thumb</item>
+        <item name="android:thumbOffset">0dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="seekbar_title_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:textSize">@dimen/prompt_textsize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="title_v_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textsize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/eq_radiobutton_gap</item>
+        <item name="android:layout_marginBottom">@dimen/eq_radiobutton_gap</item>
+        <item name="android:background">@xml/selector_button_eqmode</item>
+        <item name="android:textColor">@color/selector_buttontext_color</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:button">@null</item>
+    </style>
+	 
+    <style name="button_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">10sp</item>
+        <item name="android:textSize">@dimen/textsize</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:saveEnabled">false</item>
+        <item name="android:textColor">@color/selector_buttontext_color</item>
+        <item name="android:button">@null</item>
+    </style>
+
+    <style name="button_balance_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/textsize</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="button_balance_dict_corner_style">
+        <item name="android:layout_width">@dimen/balance_dict_corner_width</item>
+        <item name="android:layout_height">@dimen/balance_dict_corner_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/textsize</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+	<!-- tuoxian -->
+    <style name="BottomBarTextStyle">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">68px</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/selector_color_btn_state</item>
+        <item name="android:textSize">@dimen/bottom_btn_text_size</item>
+        <item name="android:background">@drawable/selector_control_btn_bg</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+    </style>
+    
+    <style name="title_v_style_new" parent="BottomBarTextStyle">
+        <item name="android:layout_marginTop">28dp</item>
+        <item name="android:layout_marginBottom">28dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:button">@null</item>
+    </style>
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Dimens margin -->
+    <dimen name="space_view_left_margin">10dp</dimen>
+    <dimen name="space_view_top_margin">10dp</dimen>
+    <dimen name="imageview_album_left_margin">40dp</dimen>
+    <dimen name="imageview_album_right_margin">20dp</dimen>
+    <dimen name="imageview_indicator_margin">30dp</dimen>
+    <dimen name="textview_left_margin">20dp</dimen>
+    <dimen name="textview_right_margin">20dp</dimen>
+    <dimen name="listview_layout_margin_top">22dp</dimen>
+    <dimen name="listview_layout_margin_bottom">21dp</dimen>
+    <dimen name="listview_layout_margin_left">28dp</dimen>
+    <dimen name="listview_layout_margin_right">28dp</dimen>
+
+    <!-- Dimens padding -->
+    <dimen name="textview_default_padding">20dp</dimen>
+    <dimen name="textview_ic_padding">23dp</dimen>
+    <dimen name="sd_error_textview_bottom_padding">30dp</dimen>
+    <dimen name="listview_layout_padding">30dp</dimen>
+    <dimen name="bottom_bar_drawable_padding">4dp</dimen>
+    <dimen name="control_audio_padding">20dp</dimen>
+    <!-- Dimens textsize -->
+    <dimen name="track_index_textview_textsize">24sp</dimen>
+    <dimen name="track_textview_textsize">30sp</dimen>
+    <dimen name="scan_textview_textsize">36sp</dimen>
+    <dimen name="time_textview_textsize">22sp</dimen>
+    <dimen name="prompt_textview_textsize">22sp</dimen>
+    <dimen name="list_item_textview_line1_size">22sp</dimen>
+    <dimen name="list_item_textview_line2_size">18sp</dimen>
+    <dimen name="bottom_bar_textview_size">18sp</dimen>
+
+    <!-- Dimens width -->
+    <dimen name="imageview_album_width">193dp</dimen>
+    <dimen name="imageview_album_height">198dp</dimen>
+    <dimen name="seekbar_default_width">582dp</dimen>
+    <dimen name="seekbar_default_height">25dp</dimen>
+    <dimen name="progress_default_width">96dp</dimen>
+    <dimen name="progress_default_height">96dp</dimen>
+
+</resources>

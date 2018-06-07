@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Dimens margin -->
+    <dimen name="freq_num_margin">5dp</dimen>
+	<dimen name="freq_text_view_margin_left">10dp</dimen>
+	<dimen name="freq_text_view_margin_right">@dimen/freq_text_view_margin_left</dimen>
+	<dimen name="freq_text_view_margin_top">20dp</dimen>
+	<dimen name="fmr_unit_margin_bottom">12dp</dimen>
+	<dimen name="freq_tv_wrapper_margin_top">40dp</dimen>
+	<dimen name="control_btn_wrapper_margin_bottom">2dp</dimen>
+    <!-- Dimens padding -->
+    <dimen name="textview_left_padding">10dp</dimen>
+    <dimen name="textview_right_padding">20dp</dimen>
+    <dimen name="textview_top_padding">20dp</dimen>
+    <dimen name="textview_bottom_padding">5dp</dimen>
+    <dimen name="seekbar_padding">20dp</dimen>
+    <dimen name="bottom_bar_drawable_padding">4dp</dimen>
+
+    <!-- Dimens textsize -->
+    <dimen name="pre_freq_textview_textsize">30sp</dimen>
+    <dimen name="loc_textview_textsize">30sp</dimen>
+    <dimen name="freq_unit_textview_textsize">40sp</dimen>
+    <dimen name="freq_num_textview_textsize">60sp</dimen>
+    <dimen name="bottom_bar_textview_size">18sp</dimen>
+
+    <!-- width -->
+    <dimen name="space_layout_height">30dp</dimen>
+
+</resources>

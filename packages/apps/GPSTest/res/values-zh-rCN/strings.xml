@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPS 信息</string>
+    <string name="reset_btn">复 位</string>
+    <string name="back_btn">退 出</string>
+    <string name="longitude">经  度:</string>
+    <string name="latitude">纬  度:</string>
+    <string name="height">高  度:</string>
+    <string name="speed">速  度:</string>
+	<string name="utc">时 间:</string> 
+	<string name="unit">公里/小时</string>
+	<string name="meter">米</string>
+	<string name="fetch_gps_data">获取GPS数据中...</string>
+	<string name="gpstest_title">GPS 信息</string>
+</resources>

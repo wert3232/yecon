@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    >
+     
+<FrameLayout
+  	android:layout_width="fill_parent"
+  	android:layout_height="0dp"
+  	android:layout_weight="1"
+    android:layout_marginTop="15dp"
+  	android:orientation="vertical">
+	<LinearLayout   
+	    android:layout_width="fill_parent"
+	  	android:layout_height="fill_parent"
+	  	android:orientation="vertical"
+		>   
+	  	<LinearLayout
+		  	android:layout_width="fill_parent"
+		  	android:layout_height="fill_parent"
+		  	android:layout_marginLeft="8dp"
+		  	android:layout_marginRight="8dp"
+		  	android:orientation="horizontal"
+		  	android:gravity="center_horizontal"
+		  	>
+            <ListView
+                android:paddingTop="3dp"
+                android:id="@+id/history_listview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+             	android:dividerHeight="0dp"
+                android:choiceMode="singleChoice"
+                android:cacheColorHint="#00000000"
+                android:divider="@drawable/list_divider"
+                >
+            </ListView>
+
+	      <FrameLayout
+		  	android:layout_width="wrap_content"
+		  	android:layout_height="wrap_content"
+    		android:layout_marginTop="3dp"
+		  	android:visibility="gone"
+	          >
+	  	<LinearLayout
+	  	    android:id="@+id/callhistory_rightbar2"
+		  	android:layout_width="wrap_content"
+		  	android:layout_height="wrap_content"
+		  	android:orientation="vertical"
+		  	android:layout_marginTop="0dp"
+		  	android:layout_marginLeft="5dp"
+		  	android:visibility="gone"
+		  	>
+		   	<Button android:id="@+id/bt_callhistory_delete2"
+		  		android:layout_width="wrap_content"
+		  		android:layout_height="wrap_content"
+	  		android:layout_marginTop="0dp"
+	  		android:paddingLeft="10dp"
+	  		android:paddingRight="10dp"
+  			android:background="@xml/bt_callhistory_rightbar"
+		  		android:layout_gravity="center"
+		  		android:gravity="center"
+		  		android:text="@string/clearall"
+		  		android:textSize="26sp"
+		  		android:textColor="@color/btn_clearall"
+		  		android:singleLine="false"
+	  		/>
+		  	</LinearLayout>
+	      
+	  	<LinearLayout
+	  	    android:id="@+id/callhistory_rightbar"
+		  	android:layout_width="wrap_content"
+		  	android:layout_height="wrap_content"
+		  	android:orientation="vertical"
+		  	android:layout_marginTop="0dp"
+		  	android:layout_marginLeft="5dp"
+		  	android:visibility="gone"
+		  	>
+		  	<Button android:id="@+id/btn_received"
+		  		android:layout_width="60dp"
+		  		android:layout_height="60dp"
+		      android:background="@xml/bg_callhistory_callin_btn"
+		  		android:layout_marginLeft="0dp"
+		  		android:layout_gravity="center"
+		  		android:visibility="gone"
+		  		/>
+		  	<Button android:id="@+id/btn_dialed"
+		  		android:layout_width="60dp"
+		  		android:layout_height="60dp"
+		  		android:background="@xml/bg_callhistory_callout_btn"
+		  		android:layout_marginTop="-2dp"
+		  		android:layout_marginLeft="0dp"
+		  		android:layout_gravity="center"
+		  		android:visibility="gone"
+		  		/>
+		  	<Button android:id="@+id/btn_missed"
+		  		android:layout_width="60dp"
+		  		android:layout_height="60dp"
+		  		android:background="@xml/bg_callhistory_misscall_btn"
+		  		android:layout_marginTop="-2dp"
+		  		android:layout_marginLeft="0dp"
+		  		android:layout_gravity="center"
+		  		android:visibility="gone"
+		  		/>
+		  	
+		   <Button android:id="@+id/bt_callhistory_syn"
+		  		android:layout_width="60dp"
+		  		android:layout_height="60dp"
+	  		android:background="@drawable/callhistory_sync_btn"
+	  		android:layout_marginTop="-2dp"
+		  	android:layout_marginLeft="0dp"
+		  		android:layout_gravity="center"
+		  		android:visibility="gone"
+	  		/>
+		   
+        
+		   	<Button android:id="@+id/bt_callhistory_delete"
+		  		android:layout_width="wrap_content"
+		  		android:layout_height="wrap_content"
+	  		android:background="@drawable/callhistory_delete_btn"
+		  		android:layout_gravity="center"
+	  		/>
+		  		  	
+		  	<Button android:id="@+id/btn_history_all"
+		  		android:layout_width="wrap_content"
+		  		android:layout_height="wrap_content"
+		  		android:background="@xml/bg_callhistory_allcall_btn"
+		  		android:layout_marginTop="10dp"
+		  		android:layout_marginLeft="10dp"
+		  		android:visibility="gone"
+            />
+            </LinearLayout>
+            
+	  	
+	      </FrameLayout>
+	  	
+	  	
+	  	
+		 
+            
+        </LinearLayout>
+        
+	  
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="598dp"
+            android:layout_marginTop="110dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone"
+        >
+	  	<Button android:id="@+id/bt_callhistory_call"
+	  		android:layout_width="wrap_content"
+	  		android:layout_height="wrap_content"
+	  		android:background="@drawable/callhistory_call_btn"
+	  		android:layout_marginTop="10dp"
+	  		
+	  		/>
+	  	
+
+	  	<Button android:id="@+id/bt_callhistory_pause"
+	  		android:layout_width="wrap_content"
+	  		android:layout_height="wrap_content"
+	  		android:background="@drawable/callhistory_pause_btn"
+	  		android:layout_marginTop="20dp"
+	  		/>
+  	  </LinearLayout>
+	    
+	</LinearLayout>
+	
+	
+ 	 	<LinearLayout 
+  	      android:id="@+id/download_callhistory_layout"
+	      android:layout_width="fill_parent"
+	      android:layout_height="fill_parent"
+	      android:orientation="horizontal"
+	      android:layout_marginLeft="150dp"
+  	      android:layout_marginTop="150dp"
+	      android:visibility="gone"
+	      >
+	        <ProgressBar 
+		        android:id="@+id/progressbar_download_callhistory"
+		        android:indeterminateDrawable="@drawable/blue_progressbar"
+		        android:layout_width="144dp"
+		        android:layout_height="144dp"
+	        />
+	        <TextView 
+	            android:id="@+id/tv_download_callhistory_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:textSize="26sp"
+                android:textColor="#ff00ff00"
+	            android:text="@string/str_download_history"/>
+  		</LinearLayout>
+  		
+  	<TextView
+	    android:id="@+id/callhistoryisempty"
+  	    android:layout_width="fill_parent"
+  	    android:layout_height="wrap_content"
+  	    android:layout_gravity="center_vertical" 
+  	    android:gravity="center" 
+  	    android:text="@string/callhistorylistisempty"
+  	    android:textSize="26sp"
+  	    />
+</FrameLayout>
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_gravity="bottom"
+	    >
+        <TextView
+            android:id="@+id/btn_call_log_back"
+	        style="@style/BottomBarTextStyle"
+	        android:text="@string/back"
+	        />
+        <TextView 
+	        android:id="@+id/btn_pull_call_log"
+	        style="@style/BottomBarTextStyle"
+	        android:text="@string/call_log_pull_call_log"
+	        android:enabled="true"
+	        />
+	    <TextView 
+	        android:id="@+id/btn_miss_call_log"
+	        style="@style/BottomBarTextStyle"
+	        android:text="@string/call_log_miss_call_log"
+	        android:enabled="true"
+	        />
+	    <TextView 
+	        android:id="@+id/btn_answer_call_log"
+	        style="@style/BottomBarTextStyle"
+	        android:text="@string/call_log_answer_call_log"
+	        android:enabled="true"
+	        />
+	    <TextView 
+	        android:id="@+id/btn_test"
+	        style="@style/BottomBarTextStyle"
+	        android:text="@string/test"
+	        android:enabled="true"
+	        android:visibility="gone"
+	        />
+	    <TextView 
+	        android:id="@+id/btn_test_2"
+	        style="@style/BottomBarTextStyle"
+	        android:text="@string/test"
+	        android:enabled="true"
+	        android:visibility="gone"
+	        />
+	    <TextView
+		        android:id="@+id/delete"
+		        android:layout_weight="1"
+		        style="@style/BottomBarTextStyle"
+		        android:text="@string/delete"
+		        />
+	    <TextView
+	         android:id="@+id/delete_all"
+	        android:layout_weight="1"
+	        style="@style/BottomBarTextStyle"
+	        android:text="@string/delete_all"
+	        />
+	</LinearLayout>
+</LinearLayout>

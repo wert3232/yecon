@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appbackground"
+        android:orientation="vertical"
+    >
+	<com.tuoxianui.view.TopBar
+		android:id="@+id/list_topbar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    />
+    	
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+		android:id="@+id/list_bottom"
+	       	android:layout_marginLeft="33dp"
+	       	android:layout_marginRight="33dp"
+        	android:layout_marginBottom="@dimen/control_btn_wrapper_margin_bottom"
+	        android:background="#00fa76a7"
+		android:layout_alignParentBottom="true"
+	        android:orientation="horizontal"
+	         >
+		    <TextView
+	            android:id="@+id/list_back"
+	            style="@style/BottomBarBtnTheme"
+	            android:contentDescription="@string/str_btn_back"
+	            android:text="@string/str_btn_back" />
+		    <TextView
+	            android:id="@+id/list_as"
+	            style="@style/BottomBarBtnTheme"
+	            android:contentDescription="@string/str_btn_as"
+	            android:text="@string/str_btn_as" />
+		    <TextView
+		        android:layout_weight="3"
+	            style="@style/BottomBarBtnTheme"
+	            android:contentDescription="@null"
+	            android:text="@string/str_btn_back"
+	            android:visibility="invisible"
+	             />
+		   
+		</LinearLayout>
+    <ImageView
+	android:layout_marginRight="43px"
+        android:layout_marginTop="@dimen/space_layout_height"
+	android:layout_above="@id/list_bottom"
+	android:layout_below="@id/list_topbar"
+        android:layout_width="wrap_content"
+    	android:layout_alignParentRight="true"
+        android:layout_height="40px"
+	android:background="@drawable/scroll_track"	/>
+    <ListView
+	android:layout_above="@id/list_bottom"
+	android:layout_below="@id/list_topbar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+	android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/space_layout_height"
+	android:layout_gravity="center_horizontal"
+	android:gravity="center_horizontal"
+	android:id="@+id/listview"
+        android:listSelector="@color/transparent"
+	android:divider="@drawable/divider"
+	android:layout_marginLeft="86px"
+	android:paddingRight="50px"
+	android:scrollbarStyle="outsideOverlay"
+	android:fastScrollEnabled="true"
+	android:choiceMode="singleChoice"
+    />
+</RelativeLayout>

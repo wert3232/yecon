@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/iv_imageview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/freq_num_0"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/iv_imageview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/freq_num_margin"
+        android:layout_toRightOf="@id/iv_imageview1"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/freq_num_0" />
+
+    <ImageView
+        android:id="@+id/iv_imageview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/freq_num_margin"
+        android:layout_toRightOf="@id/iv_imageview2"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/freq_num_0" />
+
+    <ImageView
+        android:id="@+id/iv_imageview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/freq_num_margin"
+        android:layout_toRightOf="@id/iv_imageview3"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/freq_num_piont" />
+
+    <ImageView
+        android:id="@+id/iv_imageview5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/freq_num_margin"
+        android:layout_toRightOf="@id/iv_imageview4"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/freq_num_0" />
+
+    <ImageView
+        android:id="@+id/iv_imageview6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/freq_num_margin"
+        android:layout_toRightOf="@id/iv_imageview5"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/freq_num_0" />
+
+</RelativeLayout>

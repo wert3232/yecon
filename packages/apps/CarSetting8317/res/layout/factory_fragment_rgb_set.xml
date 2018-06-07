@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:carsetting="http://schemas.android.com/apk/res/com.yecon.carsetting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:padding="@dimen/fragment_padding" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/RadioGroup_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:background="@drawable/factory_list_bg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp" >
+
+            <RadioButton
+                android:id="@+id/Radio_style_0"
+                style="@style/radio_tab_style"
+                android:visibility="gone"
+                android:text="@string/factory_videoset_screen"
+                android:textSize="@dimen/textsize_general" />
+
+            <RadioButton
+                android:id="@+id/Radio_style_1"
+                style="@style/radio_tab_style"
+                android:text="@string/factory_videoset_aux"
+                android:textSize="@dimen/textsize_general" />
+
+            <RadioButton
+                android:id="@+id/Radio_style_2"
+                style="@style/radio_tab_style"
+                android:visibility="gone"
+                android:text="@string/factory_videoset_backcar"
+                android:textSize="@dimen/textsize_general" />
+
+            <RadioButton
+                android:id="@+id/Radio_style_3"
+                style="@style/radio_tab_style"
+                android:text="@string/factory_videoset_usb"
+                android:textSize="@dimen/textsize_general" />
+
+            <RadioButton
+                android:id="@+id/Radio_style_4"
+                style="@style/radio_tab_style"
+                android:text="@string/factory_videoset_dvd"
+                android:textSize="@dimen/textsize_general" />
+        </RadioGroup>
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/seekBar_bright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_seekbarMax="100"
+            carsetting:item_seekbarPos="40"
+            carsetting:item_style="6"
+            carsetting:item_subTitle="@string/light_lightness_title" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/seekBar_contrast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_seekbarMax="100"
+            carsetting:item_seekbarPos="40"
+            carsetting:item_style="6"
+            carsetting:item_subTitle="@string/light_contrast_title" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/seekBar_hue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_seekbarMax="100"
+            carsetting:item_seekbarPos="40"
+            carsetting:item_style="6"
+            carsetting:item_subTitle="@string/light_hue_title" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/seekBar_saturation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_seekbarMax="100"
+            carsetting:item_seekbarPos="40"
+            carsetting:item_style="6"
+            carsetting:item_subTitle="@string/light_saturation_title" />
+    </LinearLayout>
+
+</ScrollView>

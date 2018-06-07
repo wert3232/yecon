@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+	<com.yecon.avin.AVINSurfaceView
+	android:id="@+id/avin_surfaceview"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:background="@color/background"
+	android:onClick="onClick"
+	/>
+	
+	 <!-- tool bar  -->
+	 <RelativeLayout
+	     android:layout_width="wrap_content"
+	     android:layout_height="match_parent"
+	     android:layout_gravity="right"
+
+	     android:layout_marginRight="10dp"
+	      >
+	      <LinearLayout
+		    	android:id="@+id/toolbar_content"
+			    android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:visibility="visible">
+	            <GridLayout 
+				     	android:id="@+id/toolbar_setting"
+					    android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:columnCount="3"
+			             android:visibility="visible"
+			            >
+			            <ImageView
+			                android:id="@+id/ivGreen"
+			                style="@style/BottomBarStyle"
+			                android:onClick="onClick"
+			                android:src="@drawable/selector_bt_green" />
+			            <ImageView
+			                android:id="@+id/ivBlue"
+			                style="@style/BottomBarStyle"
+			                android:onClick="onClick"
+			                android:src="@drawable/selector_bt_blue" />
+				    	<ImageView
+			                android:id="@+id/ivYellow"
+			                style="@style/BottomBarStyle"
+			                android:onClick="onClick"
+			                android:src="@drawable/selector_bt_yellow" />
+				    	<ImageView
+			                android:id="@+id/ivRed"
+			                style="@style/BottomBarStyle"
+			                android:onClick="onClick"
+			                android:src="@drawable/selector_bt_red"/>
+				    	<ImageView
+			                android:id="@+id/ivTtx"
+			                style="@style/BottomBarStyle"
+			                android:onClick="onClick"
+			                android:src="@drawable/selector_bt_ttx"/>
+				    	<ImageView
+			                android:id="@+id/ivRec"
+			                style="@style/BottomBarStyle"
+			                android:onClick="onClick"
+			                android:src="@drawable/selector_bt_rec"/>
+				    	<ImageView
+			                android:id="@+id/ivEpg"
+			                style="@style/BottomBarStyle"
+			                android:onClick="onClick"
+			                android:src="@drawable/selector_bt_epg"/>
+				    	<Space/>
+				</GridLayout>
+	            <GridLayout 
+				     	android:id="@+id/toolbar_orientation"
+					    android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:columnCount="3"
+			             android:visibility="gone"
+			            >
+			            <Space/>
+			            <ImageView
+			                android:id="@+id/ivUp"
+			                style="@style/BottomBarStyle"
+			                android:onClick="onClick"
+			                android:src="@drawable/selector_bt_up" />
+			            <Space/>
+			            <ImageView
+			                android:id="@+id/ivLeft"
+			                style="@style/BottomBarStyle"
+			                android:onClick="onClick"
+			                android:src="@drawable/selector_bt_left" />
+				    	<ImageView
+			                android:id="@+id/ivOk"
+			                style="@style/BottomBarStyle"
+			                android:onClick="onClick"
+			                android:src="@drawable/selector_bt_num_ok" />
+				    	<ImageView
+			                android:id="@+id/ivRight"
+			                style="@style/BottomBarStyle"
+			                android:onClick="onClick"
+			                android:src="@drawable/selector_bt_right"/>
+				    	<Space/>
+				    	<ImageView
+			                android:id="@+id/ivDown"
+			                style="@style/BottomBarStyle"
+			                android:onClick="onClick"
+			                android:src="@drawable/selector_bt_down"/>
+				    	<Space/>
+				</GridLayout>
+				<GridLayout 
+				     	android:id="@+id/toolbar_channel"
+					    android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:columnCount="3"
+			            android:visibility="gone"
+			            >
+				    	<ImageView
+			                android:id="@+id/iv1"
+			                style="@style/BottomBarStyle"
+			                android:onClick="onClick"
+			                android:src="@drawable/selector_bt_1" />
+				    	<ImageView
+			                android:id="@+id/iv2"
+			                style="@style/BottomBarStyle"
+			                android:onClick="onClick"
+			                android:src="@drawable/selector_bt_2" />
+				    	<ImageView
+			                android:id="@+id/iv3"
+			                style="@style/BottomBarStyle"
+			                android:onClick="onClick"
+			                android:src="@drawable/selector_bt_3" />
+				    	<ImageView
+			                android:id="@+id/iv4"
+			                style="@style/BottomBarStyle"
+			                android:onClick="onClick"
+			                android:src="@drawable/selector_bt_4" />
+				    	<ImageView
+			                android:id="@+id/iv5"
+			                style="@style/BottomBarStyle"
+			                android:onClick="onClick"
+			                android:src="@drawable/selector_bt_5" />
+				    	<ImageView
+			                android:id="@+id/iv6"
+			                style="@style/BottomBarStyle"
+			                android:onClick="onClick"
+			                android:src="@drawable/selector_bt_6" />
+				    <ImageView
+			                android:id="@+id/iv7"
+			                style="@style/BottomBarStyle"
+			                android:onClick="onClick"
+			                android:src="@drawable/selector_bt_7" />
+				    	<ImageView
+			                android:id="@+id/iv8"
+			                style="@style/BottomBarStyle"
+			                android:onClick="onClick"
+			                android:src="@drawable/selector_bt_8" />
+				    	<ImageView
+			                android:id="@+id/iv9"
+			                style="@style/BottomBarStyle"
+			                android:onClick="onClick"
+			                android:src="@drawable/selector_bt_9" />
+				    	<ImageView
+			                android:id="@+id/iv0"
+			                style="@style/BottomBarStyle"
+			                android:onClick="onClick"
+			                android:src="@drawable/selector_bt_0" />
+				    	<ImageView
+			                android:id="@+id/ivOk"
+			                style="@style/BottomBarStyle"
+			                android:onClick="onClick"
+			                android:src="@drawable/selector_bt_num_ok" />
+				</GridLayout>
+		</LinearLayout>
+		<LinearLayout 
+			    android:id="@+id/toolbar"
+			    android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+	            android:layout_centerVertical="true"
+	            android:layout_toLeftOf="@id/toolbar_content"
+		    >
+		    <ImageView
+	                android:id="@+id/ivSetting"
+	                style="@style/BottomBarStyle"
+	                android:onClick="onClick"
+	                android:contentDescription="@string/app_name"
+	                android:src="@drawable/selector_bt_setting" />
+		    <ImageView
+	                android:id="@+id/ivOrientation"
+	                style="@style/BottomBarStyle"
+	                android:onClick="onClick"
+	                android:contentDescription="@string/app_name"
+	                android:src="@drawable/selector_bt_orientation" />
+		    <ImageView
+	                android:id="@+id/ivChannel"
+	                style="@style/BottomBarStyle"
+	                android:onClick="onClick"
+	                android:contentDescription="@string/app_name"
+	                android:src="@drawable/selector_bt_channel" />
+		</LinearLayout>
+		
+	</RelativeLayout>
+	
+	 <TextView
+        android:id="@+id/av_signal"
+        style="@style/TextView_style"
+        android:layout_gravity="center"
+        android:drawableTop="@drawable/nosignal"
+        android:text="@string/no_tv_signal"
+        android:visibility="invisible" />
+	 
+	<!-- bottom bar -->	
+	<LinearLayout
+	    	android:id="@+id/bottombar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/bg_bottom_bar" >
+
+            <ImageView
+                android:id="@+id/ivMenu"
+                style="@style/BottomBarStyle"
+                android:onClick="onClick"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/selector_bt_menu" />
+
+            <ImageView
+                android:id="@+id/ivNext"
+                style="@style/BottomBarStyle"
+                android:onClick="onClick"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/selector_bt_next" />
+
+            <ImageView
+                android:id="@+id/ivPrevious"
+                style="@style/BottomBarStyle"
+                android:onClick="onClick"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/selector_bt_previous" />
+
+            <ImageView
+                android:id="@+id/ivFavorite"
+                style="@style/BottomBarStyle"
+                android:onClick="onClick"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/selector_bt_favorite" />
+
+            <ImageView
+                android:id="@+id/ivSearch"
+                style="@style/BottomBarStyle"
+                android:onClick="onClick"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/selector_bt_search" />
+            
+        </LinearLayout>
+	
+</FrameLayout>

@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="fragment_width">1024dp</dimen>
+    <dimen name="fragment_height">435dp</dimen>
+    
+    <!-- item -->
+    <dimen name="item_hight">80dp</dimen>
+    
+    <!-- Dimens margin -->
+    <dimen name="activity_left_margin">20dp</dimen>
+    <dimen name="activity_right_margin">20dp</dimen>
+    <dimen name="bottombar_button_right_margin">75dp</dimen>
+
+    <!-- Dimens padding -->
+    <dimen name="tab_button_padding">75dp</dimen>
+    <dimen name="band_textview_top_padding">30dp</dimen>
+    <dimen name="bottombar_prompt_textview_padding">26dp</dimen>
+
+    <!-- Dimens textsize -->
+    <dimen name="tab_item_textview_textsize">26sp</dimen>
+    <dimen name="band_textview_textsize">32sp</dimen>
+    <dimen name="listview_item_content_textview_textsize">26sp</dimen>
+    <dimen name="listview_item_unit_textview_textsize">24sp</dimen>
+    <dimen name="bottombar_textview_textsize">24sp</dimen>
+
+    <!-- Dimens space -->
+    <dimen name="layout_default_space">5dp</dimen>
+</resources>

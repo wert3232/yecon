@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appbackground"
+    android:orientation="horizontal"
+    android:padding="@dimen/content_default_padding" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/layout_default_margin"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <com.yecon.gpstest.GPSEarthView
+            android:id="@+id/gps_earth_view"
+            android:layout_width="@dimen/earth_view_width"
+            android:layout_height="@dimen/earth_view_width"
+            android:background="@drawable/satellites_location" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_default_margin"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/ResetTime"
+                android:maxWidth="130dp"
+                android:text="@string/reset_time" />
+
+            <TextView
+                android:id="@+id/minView"
+                style="@style/ResetTime"
+                android:layout_marginLeft="5dp"
+                android:text="@string/time_min" />
+
+            <TextView
+                android:id="@+id/sepView2"
+                style="@style/ResetTime"
+                android:text="@string/time_x" />
+
+            <TextView
+                android:id="@+id/secondsView"
+                style="@style/ResetTime"
+                android:text="@string/time_sec" />
+
+            <TextView
+                android:id="@+id/sepView1"
+                style="@style/ResetTime"
+                android:text="@string/time_xx" />
+
+            <TextView
+                android:id="@+id/dsecondsView"
+                style="@style/ResetTime"
+                android:text="@string/time_dsec" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/restart_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_default_margin"
+            android:background="@drawable/btn_reset_bg"
+            android:gravity="center"
+            android:text="@string/reset_btn"
+            android:textColor="@color/tv_press_color"
+            android:textSize="@dimen/btn_default_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/layout_default_margin"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1" >
+
+            <TableRow>
+
+                <TextView
+                    style="@style/InfoText"
+                    android:text="@string/latitude" />
+
+                <TextView
+                    android:id="@+id/latitude_tv"
+                    style="@style/InfoText"
+                    android:paddingLeft="@dimen/layout_default_padding" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/InfoText"
+                    android:text="@string/longitude" />
+
+                <TextView
+                    android:id="@+id/longitude_tv"
+                    style="@style/InfoText"
+                    android:paddingLeft="@dimen/layout_default_padding" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/InfoText"
+                    android:text="@string/height" />
+
+                <TextView
+                    android:id="@+id/height_tv"
+                    style="@style/InfoText"
+                    android:paddingLeft="@dimen/layout_default_padding" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/InfoText"
+                    android:text="@string/speed" />
+
+                <TextView
+                    android:id="@+id/speed_tv"
+                    style="@style/InfoText"
+                    android:paddingLeft="@dimen/layout_default_padding" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/InfoText"
+                    android:text="@string/UTC" />
+
+                <TextView
+                    android:id="@+id/UTC_tv"
+                    style="@style/InfoText"
+                    android:paddingLeft="@dimen/layout_default_padding" />
+            </TableRow>
+        </TableLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <com.yecon.gpstest.GPSSnrPrnView
+            android:id="@+id/gps_snr_prn_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/snr_prn_view_height" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

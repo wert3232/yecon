@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_default"
+    android:orientation="vertical" >
+
+    <include layout="@layout/list_error" />
+
+    <FrameLayout
+        android:id="@+id/laytou_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_bottom_margin"
+        android:paddingLeft="@dimen/activity_left_margin"
+        android:paddingRight="@dimen/activity_right_margin"
+        android:paddingTop="@dimen/activity_top_margin" >
+
+        <!--
+	    <SurfaceView 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" />
+        -->
+
+        <GridView
+            android:id="@+id/theThumbnails"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:horizontalSpacing="4dp"
+            android:numColumns="4"
+            android:verticalSpacing="4dp" >
+        </GridView>
+    </FrameLayout>
+    <!-- <include layout="@layout/geely_bottombar" /> -->
+
+</FrameLayout>

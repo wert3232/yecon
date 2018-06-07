@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="@dimen/dsp_balance_width"
+            android:layout_height="@dimen/dsp_balance_height" >
+
+            <com.can.ui.draw.DspBalance
+                android:id="@+id/dsp_balance"
+                android:layout_width="@dimen/dsp_balance_view_width"
+                android:layout_height="@dimen/dsp_balance_view_height"
+                android:layout_gravity="center"
+                android:background="@drawable/toyota_balance_sound_view" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="0dp" >
+
+                <ImageView
+                    android:id="@+id/im_add_front"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/toyota_dsp_btn_addf" />
+
+                <ImageView
+                    android:id="@+id/im_add_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/toyota_dsp_btn_addl" />
+
+                <ImageView
+                    android:id="@+id/im_add_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/toyota_dsp_btn_addri" />
+
+                <ImageView
+                    android:id="@+id/im_add_rear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/toyota_dsp_btn_addr" />
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tx_curfuel_trip_padding2"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_tx_dsp_bass"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_curfuel_size" />
+
+            <SeekBar
+                android:id="@+id/toyota_dsp_bass"
+                android:layout_width="@dimen/dsp_seekbar_width"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dsp_seekbar_margintop"
+                android:paddingLeft="@dimen/tx_curfuel_trip_padding"
+                android:progressDrawable="@drawable/toyota_dsp_seekbar" />
+
+            <TextView
+                android:id="@+id/toyota_dsp_bass_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/tx_curfuel_trip_padding"
+                android:text="@string/str_tx_dsp_bass"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tx_curfuel_trip_padding1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_tx_dsp_mid"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_curfuel_size" />
+
+            <SeekBar
+                android:id="@+id/toyota_dsp_mid"
+                android:layout_width="@dimen/dsp_seekbar_width"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dsp_seekbar_margintop"
+                android:paddingLeft="@dimen/tx_curfuel_trip_padding"
+                android:progressDrawable="@drawable/toyota_dsp_seekbar" />
+
+            <TextView
+                android:id="@+id/toyota_dsp_mid_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/tx_curfuel_trip_padding"
+                android:text="@string/str_tx_dsp_mid"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tx_curfuel_trip_padding1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_tx_dsp_tre"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_curfuel_size" />
+
+            <SeekBar
+                android:id="@+id/toyota_dsp_tre"
+                android:layout_width="@dimen/dsp_seekbar_width"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dsp_seekbar_margintop"
+                android:paddingLeft="@dimen/tx_curfuel_trip_padding"
+                android:progressDrawable="@drawable/toyota_dsp_seekbar" />
+
+            <TextView
+                android:id="@+id/toyota_dsp_tre_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/tx_curfuel_trip_padding"
+                android:text="@string/str_tx_dsp_tre"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/toyota_dsp_aseq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tx_curfuel_trip_padding1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/toyota_btn_asl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/str_tx_dsp_asl"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+
+            <SeekBar
+                android:id="@+id/dsp_check_asl"
+                android:layout_width="@dimen/dsp_balance_view_width"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dsp_seekbar_margintop"
+                android:paddingLeft="@dimen/tx_curfuel_trip_padding"
+                android:progressDrawable="@drawable/toyota_dsp_seekbar" />
+
+            <TextView
+                android:id="@+id/tx_dsp_asl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/tx_curfuel_trip_padding"
+                android:text="@string/str_tx_dsp_tre"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/tx_curfuel_trip_padding1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/toyota_btn_surround"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/str_tx_dsp_surround"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+
+            <CheckBox
+                android:id="@+id/dsp_check_surround"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/tx_curfuel_progress_width" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

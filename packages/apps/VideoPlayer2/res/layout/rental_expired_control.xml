@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:id="@+id/rental_expired_control">
+
+
+    <LinearLayout android:id="@+id/rental_expired_view" android:orientation="vertical"
+                  android:layout_width="wrap_content" android:layout_height="wrap_content">
+                  
+          <TextView android:id="@+id/rental_expired_info1" 
+                    android:layout_width="500dp"    
+                    android:layout_marginTop="20dp"       
+                    android:layout_height="wrap_content" 
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp"
+                    android:gravity="center"/>
+
+          <TextView android:id="@+id/rental_expired_info2"
+                    android:layout_width="500dp" 
+                    android:layout_marginTop="20dp" 
+                    android:layout_height="wrap_content"               
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp"
+                    android:gravity="center"/>
+                            
+          <Button android:id="@+id/rental_expired_ok" 
+                  android:layout_marginTop="20dp" 
+                  android:layout_marginBottom="20dp"                    
+                  android:text="@string/OK"
+                  android:textSize="25dp" 
+                  android:layout_width="150dp"
+                  android:layout_height="60dp"
+                  android:layout_centerHorizontal="true"
+                  android:layout_gravity="center_horizontal"
+                  android:gravity="center"/>
+       
+    </LinearLayout>
+                     
+</RelativeLayout>

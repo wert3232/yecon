@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<LinearLayout
+        android:id="@+id/layout_car_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/layout_padding_bottom"
+        android:paddingTop="@dimen/layout_padding_bottom" >
+
+        <LinearLayout
+            android:layout_width="@dimen/tx_def_width"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_oil_left"
+                style="@style/dz_warn_TextViewTheme"
+                android:drawableTop="@drawable/dz6_tv_oil_info_"
+                android:text="@string/ci_oil_left" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/dz6_tv_horizontal_line" />
+
+            <TextView
+                android:id="@+id/tv_outdoor_temp"
+                style="@style/dz_warn_TextViewTheme"
+                android:drawableTop="@drawable/ci_outdoor_temp"
+                android:text="@string/ci_outdoor_temp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/dz6_tv_horizontal_line" />
+
+            <TextView
+                android:id="@+id/tv_battery_voltage"
+                style="@style/dz_warn_TextViewTheme"
+                android:drawableTop="@drawable/dz6_tv_battery_vol"
+                android:text="@string/ci_battery_voltage" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/dz6_tv_vertical_line" />
+
+        <LinearLayout
+            android:layout_width="@dimen/tx_def_width"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_seat_belts"
+                style="@style/dz_warn_TextViewTheme"
+                android:drawableLeft="@drawable/dz6_tv_seat_belts"
+                android:text="@string/ci_seat_belts" />
+
+            <TextView
+                android:id="@+id/tv_rear_door_open"
+                style="@style/dz_warn_TextViewTheme"
+                android:drawableLeft="@drawable/ci_rear_door_no_close"
+                android:drawablePadding="@dimen/tx_door_padding"
+                android:text="@string/ci_rear_door" />
+
+            <TextView
+                android:id="@+id/tv_handbrake"
+                style="@style/dz_warn_TextViewTheme"
+                android:drawableLeft="@drawable/dz6_tv_handbrake"
+                android:drawablePadding="@dimen/tx_door_padding"
+                android:text="@string/ci_handbrake" />
+
+            <TextView
+                android:id="@+id/tv_cleaning_fluid"
+                style="@style/dz_warn_TextViewTheme"
+                android:drawableLeft="@drawable/dz6_tv_clean_fluid"
+                android:drawablePadding="@dimen/tx_door_padding"
+                android:text="@string/ci_cleaning_fluid" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/dz6_tv_vertical_line" />
+
+        <LinearLayout
+            android:layout_width="@dimen/tx_def_width"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_engine_speed"
+                style="@style/dz_warn_TextViewTheme"
+                android:drawableTop="@drawable/ci_engine_speed"
+                android:text="@string/ci_engine_speed" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/dz6_tv_horizontal_line" />
+
+            <TextView
+                android:id="@+id/tv_traveling_speed"
+                style="@style/dz_warn_TextViewTheme"
+                android:drawableTop="@drawable/ci_traveling_speed"
+                android:text="@string/ci_traveling_speed" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/dz6_tv_horizontal_line" />
+
+            <TextView
+                android:id="@+id/tv_driven_distance"
+                style="@style/dz_warn_TextViewTheme"
+                android:drawableTop="@drawable/ci_driven_distance"
+                android:text="@string/ci_driven_distance" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/dz6_tv_vertical_line" />
+
+        <LinearLayout
+            android:layout_width="@dimen/tx_def_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tx_def_width"
+                android:layout_weight="1" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ci_car" />
+
+                <ImageView
+                    android:id="@+id/iv_left_front_door"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ci_left_front_door"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/iv_right_front_door"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|top"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ci_right_front_door"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/iv_left_back_door"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|bottom"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ci_left_back_door"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/iv_right_back_door"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|bottom"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ci_right_back_door"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/iv_fueling"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ci_fueling"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/iv_front_cover_open"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ci_front_cover_open"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/iv_rear_door_open"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ci_rear_door_open"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tx_def_width"
+                android:layout_weight="2" />
+
+            <TextView
+                android:id="@+id/tv_door_open_warning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:background="@drawable/ci_warning_bg"
+                android:gravity="center"
+                android:paddingLeft="@dimen/tx_warn_padding_left"
+                android:text="@string/ci_left_back_door_open"
+                android:textColor="@color/white"
+                android:textSize="@dimen/tx_default_size" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tx_def_width"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

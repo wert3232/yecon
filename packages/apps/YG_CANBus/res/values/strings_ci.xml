@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="car_info_app_name">Driving computer</string>
+    <string name="ci_oil_left">Amount of fuel</string>
+    <string name="ci_outdoor_temp">Outdoor temperature</string>
+    <string name="ci_battery_voltage">Battery voltage</string>
+    <string name="ci_seat_belts">Seat belts</string>
+    <string name="ci_rear_door">Rear door</string>
+    <string name="ci_handbrake">Handbrake</string>
+    <string name="ci_cleaning_fluid">Cleaning fluid</string>
+    <string name="ci_engine_speed">Engine speed</string>
+    <string name="ci_traveling_speed">Traveling speed</string>
+    <string name="ci_driven_distance">Driven distance</string>
+    <string name="ci_status_normal">Normal</string>
+    <string name="ci_status_no_line">No line</string>
+    <string name="ci_status_no_release">No release</string>
+    <string name="ci_status_no_close">No close</string>
+    <string name="ci_status_low">Low</string>
+    <string name="ci_left_front_door_open">Left front door open</string>
+    <string name="ci_right_front_door_open">Right front door open</string>
+    <string name="ci_left_back_door_open">Left back door open</string>
+    <string name="ci_right_back_door_open">Right back door open</string>
+
+</resources>

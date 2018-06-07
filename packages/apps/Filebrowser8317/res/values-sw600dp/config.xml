@@ -1,0 +1,4 @@
+<resources>
+    <integer name="listfile_size">33</integer>
+    <integer name="gridfile_size">22</integer>    
+</resources>

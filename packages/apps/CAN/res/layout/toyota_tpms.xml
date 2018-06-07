@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/layout_tpms_dev"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/tx_tpms_dev_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_tx_tpms_nodev"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tx_curfuel_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_tpms_car"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/toyota_tpms_bg" />
+
+        <ImageView
+            android:id="@+id/imageViewLF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginTop="55dp"
+            android:layout_toLeftOf="@+id/imageView1"
+            android:src="@drawable/toyota_tpms_trice" />
+
+        <ImageView
+            android:id="@+id/ImageViewRF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageViewLF"
+            android:layout_toRightOf="@+id/imageView1"
+            android:src="@drawable/toyota_tpms_trice" />
+
+        <ImageView
+            android:id="@+id/ImageViewLR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/ImageViewRR"
+            android:layout_toLeftOf="@+id/imageView1"
+            android:src="@drawable/toyota_tpms_trice" />
+
+        <ImageView
+            android:id="@+id/ImageViewRR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView1"
+            android:layout_marginBottom="43dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:src="@drawable/toyota_tpms_trice" />
+
+        <TextView
+            android:id="@+id/tx_toyota_tpms_lf_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageViewLF"
+            android:layout_marginRight="@dimen/tx_curfuel_trip_padding"
+            android:layout_toLeftOf="@+id/imageViewLF"
+            android:textSize="@dimen/tx_default_size" />
+
+        <TextView
+            android:id="@+id/tx_toyota_tpms_rf_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tx_toyota_tpms_lf_val"
+            android:layout_alignTop="@+id/tx_toyota_tpms_lf_val"
+            android:layout_marginLeft="@dimen/tx_curfuel_trip_padding"
+            android:layout_toRightOf="@+id/ImageViewRF"
+            android:textSize="@dimen/tx_default_size" />
+
+        <TextView
+            android:id="@+id/tx_toyota_tpms_lr_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tx_toyota_tpms_lf_val"
+            android:layout_alignTop="@+id/ImageViewLR"
+            android:textSize="@dimen/tx_default_size" />
+
+        <TextView
+            android:id="@+id/tx_toyota_tpms_rr_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tx_toyota_tpms_rf_val"
+            android:layout_alignTop="@+id/ImageViewRR"
+            android:textSize="@dimen/tx_default_size" />
+
+        <TextView
+            android:id="@+id/tx_toyota_tpms_br_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView1"
+            android:layout_marginLeft="@dimen/tx_hisfuel_progress_height"
+            android:textSize="@dimen/tx_default_size" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_tpms_line"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_toyota_tpms_tr1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/car_tire"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+
+            <Button
+                android:id="@+id/btn_toyota_tpms_tr2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/car_tire"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+
+            <Button
+                android:id="@+id/btn_toyota_tpms_tr3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/car_tire"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+
+            <Button
+                android:id="@+id/btn_toyota_tpms_tr4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/car_tire"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+
+            <Button
+                android:id="@+id/btn_toyota_tpms_tr5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/car_tire"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

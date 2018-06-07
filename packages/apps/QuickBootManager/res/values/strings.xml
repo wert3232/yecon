@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_label">QuickBootManager</string>
+    <string name="set">StartGLBenchmark</string>
+    <string name="loop_interval">Loop Interval(s)</string>
+
+    <string-array name="app_whitelist" translatable="false">
+        <item>android</item>
+        <item>com.ac83xx.android</item>
+        <item>com.android.calendar</item>
+        <item>com.android.calculator2</item>
+        <item>com.android.defcontainer</item>
+        <item>com.android.gallery3d</item>
+        <item>com.android.inputmethod.latin</item>
+        <item>com.android.keychain</item>
+        <item>com.android.launcher</item>
+        <item>com.android.location.fused</item>
+        <item>com.android.musicfx</item>
+        <item>com.android.music</item>
+        <item>com.android.phone</item>
+        <item>com.android.providers.applications</item>
+        <item>com.android.providers.calendar</item>
+        <item>com.android.providers.downloads</item>
+        <item>com.android.providers.downloads.ui</item>
+        <item>com.android.providers.drm</item>
+        <item>com.android.providers.media</item>
+        <item>com.android.providers.settings</item>
+        <item>com.android.providers.telephony</item>
+        <item>com.android.providers.userdictionary</item>
+        <item>com.android.quicksearchbox</item>
+        <item>com.android.settings</item>
+        <item>com.android.smspush</item>
+        <item>com.android.speechrecorder</item>
+        <item>com.android.systemui</item>
+        <item>com.android.videoeditor</item>
+        <item>com.android.voicedialer</item>
+        <item>com.autochips.ATCSetting</item>
+        <item>com.autochips.avin</item>
+        <item>com.autochips.AVInput</item>
+        <item>com.autochips.backcarapp</item>
+        <item>com.autochips.bluetooth</item>
+        <item>com.autochips.btsuite</item>
+        <item>com.autochips.dvdplayer</item>
+        <item>com.autochips.filebrowser</item>
+        <item>com.autochips.HDMI</item>
+        <item>com.autochips.ipodplayer</item>
+        <item>com.autochips.miracast</item>
+        <item>com.autochips.music2</item>
+        <item>com.autochips.picturebrowser</item>
+        <item>com.autochips.StorageTest</item>
+        <item>com.autochips.videoplayer</item>
+        <item>com.autochips.videoplayer2</item>
+        <item>com.autochips.gpsquickboot</item>
+        <item>com.example.logosetter</item>
+        <item>com.svox.pico</item>
+        <item>com.autochips.weather</item>
+        <item>com.yecon.videoplayer</item>
+        <item>com.yecon.videoplayer2</item>
+	<item>com.yecon.video</item>
+        <item>com.yecon.fmradio</item>
+        <item>com.yecon.carsetting</item>
+        <item>com.yecon.dvdplayer</item>
+        <item>com.yecon.music</item>
+        <item>com.yecon.avin</item>
+        <item>com.yecon.ipodplayer</item>
+        <item>com.yecon.sound.setting</item>
+        <item>com.yecon.swc</item>
+        <item>com.yecon.backcar</item>
+        <item>com.yecon.canbus</item>
+        <item>com.android.yecon.copyInstall</item>
+        <item>com.autochips.dvr</item>
+	<item>com.yecon.imagebrowser</item>
+		<item>com.yecon.tpms</item>
+		<item>com.yecon.floatball</item>
+		<item>com.yecon.sourcemanager</item>
+		<item>com.android.contacts</item>
+		<item>com.android.providers.contacts</item>
+		<item>com.yecon.yeconmediaprovider</item>
+		<item>com.android.deskclock</item>
+    </string-array>
+    <string-array name="app_yellowlist" translatable="false">
+        <item>com.autonavi.xmgd.navigator.toc</item>
+        <item>com.ifeng.news2</item>
+        <item>com.pplive.androidphone</item>
+        <item>com.qiyi.video</item>
+    </string-array>
+
+</resources>

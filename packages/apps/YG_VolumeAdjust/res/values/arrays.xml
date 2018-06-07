@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="VolumeStreamType">
+        <item>@string/stream_music</item>
+        <item>@string/stream_avin</item>
+        <item>@string/stream_bt</item>
+    </string-array>
+
+</resources>

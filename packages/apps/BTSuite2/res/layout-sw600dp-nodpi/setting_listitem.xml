@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+	>
+
+  	
+  	<TextView
+            android:id="@+id/item_text"
+            android:layout_width="160dp"
+            android:layout_height="87dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textSize="26dp" />
+
+        <Button
+            android:id="@+id/switch_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="800dp"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btnicon_switch_off" />
+
+        <ImageButton
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="800dp"
+            android:layout_marginTop="15dp"
+            android:background="#00000000"
+            android:src="@xml/bt_setting_setting" />
+
+
+</FrameLayout>

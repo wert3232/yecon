@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, APKTools!</string>
+    <string name="app_name">File Explorer</string>
+    <string name="data_load">Scan dati</string>
+    <string name="data_load_msg">Scan..attendere</string>
+    <string name="file_name">Nome file</string>
+    <string name="file_property">Proprietà file</string>
+    <string name="file_path">Percorso file</string>
+    <string name="file_date">Imposta tempo</string>
+    <string name="help">Istruzioni:</string>
+    <string name="help_home">Directory Home</string>
+    <string name="help_search">Cerca</string>
+    <string name="help_uplevel">Livello superiore</string>
+    <string name="help_help">Supporto</string>
+    <string name="help_list">Modalità Lista</string>
+    <string name="help_grid">Modalità Icona</string>
+    <string name="help_operation">Modalità Operazione</string>
+    <string name="help_choose">Scegli</string>
+    <string name="help_copy">Copia</string>
+    <string name="help_cut">Taglia</string>
+    <string name="help_paste">Incolla</string>
+    <string name="help_delete">Cancella</string>
+    <string name="help_close">Esci</string>
+    <string name="search_specify_hint">Cerca file per nome</string>
+    <string name="search_type_example">Può essere ogni parte del nome del file. Esempio: inserisci "test" o "pdf" o "doc"</string>
+    <string name="menu_bt_scan">Cerca</string>
+    <string name="search_path">Percorso</string>
+    <string name="search_type">Tipo</string>
+    <string name="search_keyworld">Parola chiave</string>
+    <string name="search_keyworld_checkbox">Cerca file per nome</string>
+    <string name="search_keyworld_error">Inserire la parola chiave</string>
+    <string name="operation">Operazione</string>
+    <string name="str_copy">Copia</string>
+    <string name="str_new">Nuovo</string>
+    <string name="str_rename">Rinomina</string>
+    <string name="str_new_file">File</string>
+    <string name="str_new_folder">Cartella</string>
+    <string name="msg_error_rename">Nome file già usato da altro file, specificare un altro nome!</string>
+    <string name="msg_error_error">Errore!</string>
+    <string name="msg_error_faild">Operazione fallita!</string>
+    <string name="msg_error_childpath">Non possibile tagliare una sottodirectory dentro una directory</string>
+    <string name="msg_error_nocontent">Nessun oggetto da incollare</string>
+    <string name="msg_error_noobject">Nessun oggetto selezionato</string>
+    <string name="operation_prepare">Preparazione….</string>
+    <string name="operation_copy">Copiando:</string>
+    <string name="operation_delete">Cancellando:</string>
+     <string name="confirm_delete_title">Eliminare conferma</string>
+    <string name="confirm_delete_msg">Sei sicuro di voler cancellare questo?</string>
+    <string name="str_ok">OK</string>
+	<string name="str_cancel">Annulla</string>
+	
+	
+	<string name="mode">Mode</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CANBusWindLevelView">
+        <!-- 最大风量 -->
+        <attr name="MaxLevel" format="integer" />
+        <!-- 普通状态 -->
+        <attr name="BmpNormal" format="reference" />
+        <!-- 高亮状态 -->
+        <attr name="BmpSelect" format="reference" />
+        <!-- 每隔之间的间距 -->
+        <attr name="Spacing" format="integer" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="fontStyle01">
+        <item name="android:textSize">@dimen/weather_line1_textsize</item>
+        <item name="android:textColor">#ffffff</item>
+        <!-- <item name="android:textStyle">bold</item> -->
+    </style>
+
+    <style name="fontStyle02">
+        <item name="android:textSize">@dimen/weather_line2_textsize</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+</resources>

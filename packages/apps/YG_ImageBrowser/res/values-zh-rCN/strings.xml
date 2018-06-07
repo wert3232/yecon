@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">图 片</string>
+    <string name="title_media">多媒体</string>
+    <string name="decode_err_msg">图片解码失败!</string>
+    <string name="no_pic_msg">没有图片文件</string>
+    <string name="last_pic_msg">已经是最后一张图片了!</string>
+    <string name="first_pic_msg">已经是第一张图片了!</string>
+    <string name="scanning">图片扫描中，请稍候......</string>
+    <string name="title_music">音乐</string>
+    <string name="title_video">视频</string>
+    <string name="title_photo">图片</string>
+    <string name="str_tips_setwallpaper_success">设置背景图片成功</string>
+    <string name="str_tips_setwallpaper_failed">设置背景图片失败</string>
+    <string name="str_btn_pre">上一个</string>
+    <string name="str_btn_play">播放</string>
+    <string name="str_btn_pause">暂停</string>
+    <string name="str_btn_next">下一个</string>
+    <string name="str_btn_zoomin">放大</string>
+    <string name="str_btn_zoomout">缩小</string>
+    <string name="str_btn_rotate">右旋转</string>
+    <string name="str_btn_rotate_left">左旋转</string>
+    <string name="str_btn_setwallpaper">设为壁纸</string>
+    <string name="str_btn_back">返回</string>
+    <string name="str_error_io">图片打开失败</string>
+    <string name="str_error_decode">图片无法显示</string>
+    <string name="str_error_download">网络问题,无法下载</string>
+    <string name="str_error_toolarge">图片太大,无法显示</string>
+    <string name="usb">U盘</string>
+    <string name="sd">SD卡</string>
+</resources>

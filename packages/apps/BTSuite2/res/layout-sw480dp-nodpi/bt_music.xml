@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	
+    
+    <LinearLayout 
+    	android:id="@+id/music_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/tuoxian_bt_music_bg"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="46dp" 
+            android:layout_marginTop="46dp"
+            android:visibility="invisible"
+            android:src="@drawable/bt_music_view"/>
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+		    android:visibility="gone"
+                    android:layout_marginLeft="25dp"
+                    android:src="@drawable/music_icon" />
+
+                <com.autochips.bluetooth.view.MarqueeText
+                    android:id="@+id/tv_music_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="30dp"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:text="@string/str_music_title"
+                    android:textColor="#ffffffff"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/iv_music_icon_artist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+		    android:visibility="gone"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/music_icon_artist" />
+
+                <com.autochips.bluetooth.view.MarqueeText
+                    android:id="@+id/tv_music_icon_artist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="12dp"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:text="@string/str_music_artist"
+                    android:textColor="#ffffffff"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/iv_music_icon_album"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+		    android:visibility="gone"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/music_icon_album" />
+
+                <com.autochips.bluetooth.view.MarqueeText
+                    android:id="@+id/tv_music_icon_album"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="12dp"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:text="@string/str_music_album"
+                    android:textColor="#ffffffff"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tv_a2dp_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/a2dp_status_title"
+                        android:textColor="#ffffffff"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/tv_A2DP_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="23dp"
+                        android:textColor="#ffffffff"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/tv_avrcp_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/avrcp_status_title"
+                        android:textColor="#ffffffff"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/tv_AVRCP_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#ffffffff"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </LinearLayout>
+	      </LinearLayout>
+        
+	      <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="54dp"
+	        android:orientation="horizontal" >
+	        <!-- <ImageButton
+	            android:id="@+id/btn_music_prev"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="0dp"
+	            android:background="@xml/bt_music_prev" />
+	        <ImageButton
+	            android:id="@+id/btn_music_pause"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="19dp"
+	            android:background="@xml/bt_music_pause" />
+	        <ImageButton
+	            android:id="@+id/btn_music_play"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="19dp"
+	            android:background="@xml/bt_music_play"
+	            android:visibility="gone" />
+	        <ImageButton
+	            android:id="@+id/btn_music_next"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="19dp"
+	            android:background="@xml/bt_music_next" />-->
+	        <ImageButton
+	            android:id="@+id/btn_music_stop"
+	            android:layout_width="129dp"
+	            android:layout_height="100dp"
+	            android:layout_marginLeft="30dp"
+	            android:layout_marginTop="30dp"
+	            android:background="#00000000"
+	            android:src="@xml/bt_music_stop" 
+	            android:visibility="gone"/>
+	    </LinearLayout>
+	</LinearLayout>
+    <!-- Middle -->
+
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        >
+        <TextView
+            android:id="@+id/tv_music_play_time"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical"
+            android:text="@string/music_playing_time"
+            android:textSize="25sp" />
+        <!-- 
+		<ProgressBar
+            android:id="@+id/tv_music_playing_progress"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="720dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp" 
+            android:layout_marginTop="9dp" /> -->
+		
+            <SeekBar
+                android:id="@+id/tv_music_playing_progress"
+                android:layout_width="584dp"
+                android:layout_height="25dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingBottom="2dp"
+                android:minHeight="25dp" 
+                android:maxHeight="25dp"
+                android:layout_marginTop="6dp"
+                android:progressDrawable="@xml/seekbar_img"
+                android:thumb="@xml/thumb" />
+            
+         <TextView
+            android:id="@+id/tv_music_total_time"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:text="@string/music_total_time"
+            android:textSize="25sp" />
+    </LinearLayout>
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+		<LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:layout_gravity="bottom"
+		    >
+	        <TextView
+	            android:id="@+id/btn_music_back"
+		        style="@style/BottomBarTextStyle"
+		        android:text="@string/back"
+		        />
+		    <TextView 
+		        android:id="@+id/btn_music_prev"
+		        style="@style/BottomBarTextStyle"
+		        android:text="@string/prev_music"
+		        />
+		    <TextView 
+		        android:id="@+id/btn_music_play"
+		        style="@style/BottomBarTextStyle"
+		        android:text="@string/play"
+		        />
+		    <TextView 
+		        android:id="@+id/btn_music_pause"
+		        style="@style/BottomBarTextStyle"
+		        android:text="@string/pause"
+		        android:visibility="gone"
+		        />
+		    <TextView 
+		        android:id="@+id/btn_music_next"
+		        style="@style/BottomBarTextStyle"
+		        android:text="@string/next_music"
+		        />
+		    <FrameLayout
+                android:id="@+id/btn_mute"
+                android:layout_weight="1"
+	            android:layout_height="wrap_content"
+	            android:layout_width="0dp"
+	            android:visibility="gone"
+	            >
+	            <com.tuoxianui.view.MuteTextView
+	                android:id="@+id/btn_mute_state"
+					android:layout_height="wrap_content"
+		           	android:layout_width="wrap_content"
+		           	android:layout_gravity="center"
+		           	android:gravity="center"
+	                />
+	    	</FrameLayout>
+		</LinearLayout>
+	</FrameLayout>
+
+</LinearLayout>

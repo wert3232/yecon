@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, VideoPlayerActivity!</string>
+    <string name="app_name">AVIN1</string>
+    <string name="app_name2">AVIN2</string>
+    <string name="path">/sdcard/test0.mp4</string>
+    <string name="error_title">错误</string>
+    <string name="error_message">文件播放错误</string>
+    <string name="OK">确定</string>
+    <string name="time_escaped">"00:00:00/"</string>
+    <string name="time_all">"00:00:00"</string>
+    <string name="selectdlg">视频选择</string>
+
+    <string-array name="selectstr">
+        <item>视频 1</item>
+        <item>视频 2</item>
+        <item>视频 3</item>
+        <item>视频 4</item>
+        <item>视频 5</item>
+    </string-array>
+
+    <string name="avin1">视频1</string>
+    <string name="avin2">视频2</string>
+    <string name="avin3">视频3</string>
+    <string name="avin4">视频4</string>
+    <string name="avin5">视频5</string>
+    <string name="select_source">选择源</string>
+    <string name="pip">画中画</string>
+    <string name="switch_front_rear">Switch Front Rear</string>
+    <string name="auto">自动</string>
+    <string name="apply">确定</string>
+    <string name="audio_source">音频源</string>
+    <string name="audio_on">开</string>
+    <string name="audio_off">关</string>
+    <string name="audioin1">音频1</string>
+    <string name="audioin2">音频2</string>
+    <string name="audioin3">音频3</string>
+    <string name="audioin4">音频4</string>
+    <string name="audioin5">音频5</string>
+    <string name="audio_autodetect">自动</string>
+    <string name="video_source">视频源</string>
+    <string name="video_on">开</string>
+    <string name="video_off">关</string>
+    <string name="videoin1">视频1</string>
+    <string name="videoin2">视频2</string>
+    <string name="videoin3">视频3</string>
+    <string name="videoin4">视频4</string>
+    <string name="videoin5">视频5</string>
+    <string name="video_autodetect">自动</string>
+
+    <!-- Begin : Added by yongwu.zhou 2012/06/06 -->
+    <string name="no_signal">无信号</string>
+    <!-- End : Added by yongwu.zhou 2012/06/06 -->
+    <string name="front">front</string>
+    <!-- main info -->
+    <string name="avin_sound_title">音频</string>
+    <string name="avin_light_title">显示参数</string>
+    <string name="avin_switch_title">切换</string>
+    <string name="avin_close_title">关闭</string>
+    <string name="avin_back_title">返回</string>
+    <string name="avin_default_title">默认</string>
+    <string name="avin_switch_back">后avin</string>
+    <string name="avin_switch_front">前avin</string>
+    <string name="parking_prompt_title">温馨提示 \n</string>
+    <string name="parking_prompt_contents">为了行驶安全，请注意驾驶！</string>
+	
+    <string name="no_tv_signal">无电视信号</string>
+    <string name="save_browse">存台/浏览</string>
+    <string name="ty_format">制式</string>
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 丰田原车信息 -->
+    <string name="str_btn_menu_carset">car set</string>
+    <string name="str_btn_menu_curfuel">current fuel</string>
+    <string name="str_btn_menu_hisfuel">histroy fuel</string>
+    <string name="str_btn_menu_tpms">tpms</string>
+    <string name="str_btn_menu_hybrid">hybrid</string>
+    <string name="str_btn_menu_dsp">dsp</string>
+
+    <!-- 设置 -->
+    <string name="str_tx_carset_lockset">Car lock set</string>
+    <string name="str_tx_carset_lockset_speedautolock">Automatic lock for vehicle speed sensor</string>
+    <string name="str_tx_carset_lockset_linkageautolock">Shift linkage door automatic lock</string>
+    <string name="str_tx_carset_lockset_smartcarlock">Smart car lock and a button to start</string>
+    <string name="str_tx_carset_lockset_blocklinkunlock">P block linkage unlock</string>
+    <string name="str_tx_carset_lockset_unlockthekey">Two times to unlock the key</string>
+    <string name="str_tx_carset_lockset_responselock">Flash light response on top / lock</string>
+    <string name="str_tx_carset_lockset_2presslock">Remote 2-press lock</string>
+    <string name="str_tx_carset_lockset_drivinglinkunlock">Driving seat open door linkage unlock</string>
+    <string name="str_tx_carset_lockset_smartdoorunlock">Smart door unlock</string>
+    <string name="str_tx_carset_lockset_lockunlockfeedtone">Lock / unlock feedback sound</string>
+    <string name="str_tx_carset_lockset_electricdooradjust">Electric back door opening position adjustment</string>
+
+    <!-- 灯光设置 -->
+    <string name="str_tx_carset_lightset">Light set</string>
+    <string name="str_tx_carset_lightset_daytimelight">Daytime running light</string>
+    <string name="str_tx_carset_lightset_headlampssensitivity">Adjust the sensitivity of automatic headlights</string>
+    <string name="str_tx_carset_lightset_setcarlightofftime">Set car lighting off time</string>
+    <string name="str_tx_carset_lightset_headlampofftime">Headlight auto off timer</string>
+    <string name="str_tx_carset_lightset_outdoorlightofftime">out door light off timer</string>
+
+    <!-- 空调设置 -->
+    <string name="str_tx_carset_airset">Air set</string>
+    <string name="str_tx_carset_airset_autolinkage">Air conditioning and AUTO linkage</string>
+    <string name="str_tx_carset_airset_inoutgasautolinkage">Internal and external gas switch and AUTO linkage</string>
+    <string name="str_tx_carset_airset_autorelocktime">Auto relock timer</string>
+
+    <!-- 其他设置 -->
+    <string name="str_tx_carset_otherset">Other set</string>
+    <string name="str_tx_carset_otherset_cameratrack">Carma track</string>
+    <string name="str_tx_carset_otherset_radarvol">Radar volome</string>
+    <string name="str_tx_carset_otherset_radardis">Radar Distance</string>
+    <string name="str_tx_carset_otherset_fueluint">Fuel Unit</string>
+    <string name="str_tx_carset_otherset_corlortheme">Corlor Theme</string>
+
+    <!-- 当前油耗 -->
+    <string name="str_tx_curfuel_averspeed">Average Speed</string>
+    <string name="str_tx_curfuel_elapsedtime">Elapsed Time</string>
+    <string name="str_tx_curfuel_cruisingrange">Cruising Range</string>
+    <string name="str_btn_curfuel_2his">History</string>
+    <string name="str_btn_curfuel_clear">Clear</string>
+    <string name="str_tx_hisfuel_best">Best</string>
+    <string name="str_btn_hisfuel_update">Update</string>
+    <string name="str_btn_hisfuel_clear">Clear</string>
+    <string name="str_btn_hisfuel_2cur">TripInfo</string>
+
+    <!-- Dsp -->
+    <string name="str_tx_dsp_bass">Bass</string>
+    <string name="str_tx_dsp_mid">Mid</string>
+    <string name="str_tx_dsp_tre">Tre</string>
+    <string name="str_tx_dsp_asl">ASL</string>
+    <string name="str_tx_dsp_surround">Surround</string>
+
+    <!-- 车内照明关闭时间 -->
+    <string name="str_tx_setcarlightofftime_0">OFF</string>
+    <string name="str_tx_setcarlightofftime_1">7.5s</string>
+    <string name="str_tx_setcarlightofftime_2">15s</string>
+    <string name="str_tx_setcarlightofftime_3">30s</string>
+
+    <!-- 自动头灯关闭时间 -->
+    <string name="str_tx_headlampofftime_0">OFF</string>
+    <string name="str_tx_headlampofftime_1">30s</string>
+    <string name="str_tx_headlampofftime_2">60s</string>
+    <string name="str_tx_headlampofftime_3">90s</string>
+
+    <!-- 自动重锁时间 -->
+    <string name="str_tx_relocktime_0">OFF</string>
+    <string name="str_tx_relocktime_1">30s</string>
+    <string name="str_tx_relocktime_2">60s</string>
+    <string name="str_tx_relocktime_3">120s</string>
+
+    <!-- 摄像头轨迹 -->
+    <string name="str_tx_carematrack_0">Show Dymaic Track</string>
+    <string name="str_tx_carematrack_1">Show Static Track</string>
+    <string name="str_tx_carematrack_2">Show Warn Line</string>
+
+    <!-- 雷达距离 -->
+    <string name="str_tx_radardis_0">far</string>
+    <string name="str_tx_radardis_1">near</string>
+
+    <!-- 油耗单位 -->
+    <string name="str_tx_fuelunit_mpg">MPG</string>
+    <string name="str_tx_fuelunit_kml">KM/L</string>
+    <string name="str_tx_fuelunit_l100km">L/100KM</string>
+
+    <!-- 单位1 -->
+    <string name="str_tx_unit_no">--</string>
+    <string name="str_tx_unit_mile">MILE</string>
+    <string name="str_tx_unit_KM">KM</string>
+    <string name="str_tx_unit_mileh">Mile/h</string>
+    <string name="str_tx_unit_KMh">Km/h</string>
+
+    <!-- min刻度 -->
+    <string name="str_tx_min_15">15min</string>
+    <string name="str_tx_min_10">10min</string>
+    <string name="str_tx_min_5">5min</string>
+    <string name="str_tx_min_0">0min</string>
+    <string name="str_tx_mation">Current</string>
+
+    <!-- scale -->
+    <string name="str_tx_scale_a1">30</string>
+    <string name="str_tx_scale_a2">20</string>
+    <string name="str_tx_scale_a3">10</string>
+    <string name="str_tx_scale_a4">0</string>
+    <string name="str_tx_scale_b1">60</string>
+    <string name="str_tx_scale_b2">40</string>
+    <string name="str_tx_scale_b3">20</string>
+    <string name="str_tx_scale_b4">0</string>
+
+    <!-- his -->
+    <string name="str_tx_hisscale_t1">Trip1</string>
+    <string name="str_tx_hisscale_t2">Trip2</string>
+    <string name="str_tx_hisscale_t3">Trip3</string>
+    <string name="str_tx_hisscale_t4">Trip4</string>
+    <string name="str_tx_hisscale_t5">Trip5</string>
+    <string name="str_tx_hisscale_t6">Current</string>
+
+    <!-- tpms -->
+    <string name="str_tx_tpms_nodev">No Tpms Devices!</string>
+    <string name="str_tx_tpms_unit_bar">BAR</string>
+    <string name="str_tx_tpms_unit_psi">PSI</string>
+    <string name="str_tx_tpms_unit_kpa">KPA</string>
+
+    <!-- hybrid -->
+    <string name="str_tx_hybrid_nodev">Is not HybridCar!</string>
+
+</resources>

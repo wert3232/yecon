@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yecon.music"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:sharedUserId="android.uid.system" 
+     >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+	<uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.RESTART_PACKAGES" />
+	
+    <!-- 
+    	android:persistent="true"
+     -->
+    <application 
+        android:label="@string/musicbrowserlabel"
+        android:allowTaskReparenting="true">
+        <!-- 音频 -->
+        <activity
+            android:name="com.yecon.music.MusicPlaybackMainActivity"
+	    	android:launchMode="singleTask"
+	    	android:exported="true"
+        	android:label="@string/musicbrowserlabel"
+        	android:icon="@drawable/ic_launcher_music"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name="com.yecon.music.MusicListActivity"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen" >
+        </activity>
+        
+        <activity
+            android:name="com.yecon.music.AudioPreview"
+            android:clearTaskOnLaunch="true"
+            android:excludeFromRecents="false"
+            android:exported="true"
+            android:taskAffinity="com.yecon.music.AudioPreview"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="file" />
+                <data android:mimeType="audio/*" />
+                <data android:mimeType="application/ogg" />
+                <data android:mimeType="application/x-ogg" />
+                <data android:mimeType="application/itunes" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+                <data android:mimeType="audio/*" />
+                <data android:mimeType="application/ogg" />
+                <data android:mimeType="application/x-ogg" />
+                <data android:mimeType="application/itunes" />
+            </intent-filter>
+            <intent-filter android:priority="-1" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="content" />
+                <data android:mimeType="audio/*" />
+                <data android:mimeType="application/ogg" />
+                <data android:mimeType="application/x-ogg" />
+                <data android:mimeType="application/itunes" />
+            </intent-filter>
+        </activity>
+        
+        <service 
+            android:name="com.yecon.mediaservice.MediaPlayerServiceProxy">
+            <intent-filter >
+                <action android:name="com.yecon.musicservice.MediaPlayerServiceProxy"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="device">
+        <attr format="reference" name="icon"></attr>
+        <attr format="string" name="text"></attr>
+    </declare-styleable>
+</resources>

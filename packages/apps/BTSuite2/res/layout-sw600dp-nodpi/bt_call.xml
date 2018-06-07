@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:orientation="vertical"
+    android:paddingTop="14dp"
+  	>
+
+ 	<TextView
+	  	android:id="@+id/text_call_info"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:layout_gravity="center_horizontal"
+	  	android:background="@drawable/inputline"
+	  	android:singleLine="true"
+	  	android:typeface="normal"
+	  	android:textSize="45sp"
+	  	android:textColor="#ffffff"
+	  	android:gravity="center"
+	  	/>
+	
+	<LinearLayout
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:orientation="horizontal"
+	  	android:layout_gravity="center_horizontal"
+	  	>
+ 	<TableLayout
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		>
+  		<TableRow
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_weight="1"
+  			android:gravity="center_vertical"
+  			>
+  		  	
+  			<ImageButton
+  				android:id="@+id/btn_call_one"
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:background="@drawable/bg_dialpad_btn_1_back"
+  				android:layout_weight="1"
+  				/>
+  		  	<ImageButton
+  				android:id="@+id/btn_call_two"
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:background="@drawable/bg_dialpad_btn_2_back"
+  				android:layout_weight="1"
+  				/>	
+  		  	<ImageButton
+  				android:id="@+id/btn_call_three"
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:background="@drawable/bg_dialpad_btn_3_back"
+  				
+  				android:layout_weight="1"
+  				/>  
+  				<!--  
+		    
+  			-->
+  		</TableRow>
+  		<TableRow
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_weight="1"
+  			android:gravity="center_vertical"
+  			android:shrinkColumns="3"
+  			>
+  			
+  			<ImageButton
+  				android:id="@+id/btn_call_four"
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:background="@drawable/bg_dialpad_btn_4_back"
+  				
+  				android:layout_weight="1"
+  				/>
+  		  	<ImageButton
+  				android:id="@+id/btn_call_five"
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:background="@drawable/bg_dialpad_btn_5_back"
+  				
+  				android:layout_weight="1"
+  				/>	
+  		  	<ImageButton
+  				android:id="@+id/btn_call_six"
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:background="@drawable/bg_dialpad_btn_6_back"
+  				
+  				android:layout_weight="1"
+  				/>  
+  		  	
+  		</TableRow>
+  		
+  		<TableRow
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_weight="1"
+  			>
+    		
+  			<ImageButton
+  				android:id="@+id/btn_call_seven"
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:background="@drawable/bg_dialpad_btn_7_back"
+  				
+  				android:layout_weight="1"
+  				/>
+  		  	<ImageButton
+  				android:id="@+id/btn_call_eight"
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:background="@drawable/bg_dialpad_btn_8_back"
+  				
+  				android:layout_weight="1"
+  				/>	
+  		  	<ImageButton
+  				android:id="@+id/btn_call_nine"
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:background="@drawable/bg_dialpad_btn_9_back"
+  				
+  				android:layout_weight="1"
+  				/>  	 	
+  			
+  		</TableRow>
+  		
+  		<TableRow
+  			android:layout_width="fill_parent"
+  			android:layout_height="fill_parent"
+  			android:layout_weight="1"
+  			>
+  		    <ImageButton
+  				android:id="@+id/btn_call_asterisk"
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:background="@drawable/bg_dialpad_btn_star_back"
+  				
+  				android:layout_weight="1"
+  				/> 
+  		    <ImageButton
+  				android:id="@+id/btn_call_zero"
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:background="@drawable/bg_dialpad_btn_0_back"
+  				
+  				android:layout_weight="1"
+  				/>  
+  		  	<ImageButton
+  				android:id="@+id/btn_call_pound"
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:background="@drawable/bg_dialpad_btn_sharp_back"
+  				
+  				android:layout_weight="1"
+  				/> 
+  		</TableRow>
+
+  	</TableLayout>
+	
+		<LinearLayout
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:orientation="vertical"
+	  	>
+		
+		<ImageButton android:id="@+id/btn_del_num"
+  				android:background="@drawable/bg_dialpad_backspace_back"
+		  		android:layout_width="wrap_content"
+		  		android:layout_height="wrap_content"
+		  		/>	
+		<ImageButton android:id="@+id/btn_add"
+  				android:background="@drawable/bg_dialpad_add_back"
+		  		android:layout_width="wrap_content"
+		  		android:layout_height="wrap_content"
+		  		/>	
+	  	<ImageButton android:id="@+id/btn_call"
+		  		android:layout_width="wrap_content"
+		  		android:layout_height="wrap_content"
+	  		android:background="@drawable/dialpad_call_btn_back"
+	  		/>
+	</LinearLayout>
+
+	</LinearLayout>
+</LinearLayout>

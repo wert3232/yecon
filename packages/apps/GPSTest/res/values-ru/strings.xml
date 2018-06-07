@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">Информация GPS</string>
+  <string name="reset_btn">сбросить</string>
+  <string name="back_btn">выход</string>
+  <string name="longitude">Долгота:</string>
+  <string name="latitude">Широта:</string>
+  <string name="height">высота:</string>
+  <string name="speed">Скорость:</string>
+  <string name="utc">Время:</string>
+  <string name="unit">км/ч</string>
+  <string name="meter">мин</string>
+  <string name="fetch_gps_data">Получение данных gps</string>
+  <string name="gpstest_title">GPS</string>
+</resources>

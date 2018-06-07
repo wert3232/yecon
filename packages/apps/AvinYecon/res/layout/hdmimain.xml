@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <com.yecon.avin.AVINSurfaceView
+        android:id="@+id/avin_surfaceview"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:background="@color/background"
+    />
+    
+  <LinearLayout android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:background="@color/background">
+    
+    <TextView android:id="@+id/av_info" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_gravity="left"
+        android:text="@string/hdmi_app_name" />
+  
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="0dip" android:layout_weight="1" />
+      
+    <LinearLayout android:id="@+id/bottom_img"
+        android:orientation="horizontal" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:layout_gravity="bottom"
+        android:gravity="right" android:background="@drawable/mm_playcontrlbar_bg">     
+
+      <Button android:id="@+id/switch_front_rear"
+          android:layout_width="100dp" android:layout_height="80dp"
+          android:focusable="true"
+          android:text="@string/front"
+          android:textSize="40dp"
+          android:background="@drawable/apply_button"
+          android:layout_marginRight="30dip"/>
+        
+      <Button android:id="@+id/RCP"
+          android:layout_width="100dp" android:layout_height="80dp"
+          android:focusable="true"
+          android:text="@string/rcp"
+          android:textSize="40dp"
+          android:background="@drawable/apply_button"
+          android:layout_marginRight="30dip"/>
+      <!--<ImageButton android:id="@+id/select_source"
+          android:layout_width="wrap_content" android:layout_height="wrap_content"
+          android:background="@drawable/videosource_button" android:focusable="true"
+          android:layout_marginRight="30dip" />-->
+        
+      <!--<ImageButton android:id="@+id/pip" android:layout_width="wrap_content"
+          android:layout_height="wrap_content" android:background="@drawable/pip_button"
+          android:focusable="true" />-->
+    </LinearLayout>
+  
+  </LinearLayout>
+  
+  <TextView android:id="@+id/av_signal" android:layout_width="wrap_content"
+      android:layout_height="wrap_content" android:layout_gravity="center"
+      android:gravity="center" android:textSize="24sp"
+      android:text="@string/no_signal" />
+  
+</FrameLayout>

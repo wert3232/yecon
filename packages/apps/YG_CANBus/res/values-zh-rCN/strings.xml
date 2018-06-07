@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CANBus</string>
+    <string name="canbus_type_camry">丰田Camry</string>
+    <string name="canbus_type_gc7">吉利GC7</string>
+    <string name="canbus_type_vw">大众</string>
+    <string name="btn_back">返回</string>
+    <string name="switcher_on">开</string>
+    <string name="switcher_off">关</string>
+    <string name="item_air_conditioner">空调</string>
+    <string name="ac_temp_unit_c"> ℃</string>
+    <string name="ac_temp_unit_f"> ℉</string>
+    <string name="ac_ac">AC</string>
+    <string name="ac_auto_wind">Auto</string>
+    <string name="ac_dual">Dual</string>
+    <string name="ac_temp_lo">LO</string>
+    <string name="ac_temp_hi">HI</string>
+
+</resources>

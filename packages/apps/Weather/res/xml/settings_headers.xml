@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Preference
+        android:key="select_city"
+        android:summary="@string/current_city"
+        android:title="@string/settings_city_select" >
+        <intent
+            android:targetClass="com.autochips.weather.CitySelectActivity"
+            android:targetPackage="com.autochips.weather" />
+    </Preference>
+
+</PreferenceScreen>

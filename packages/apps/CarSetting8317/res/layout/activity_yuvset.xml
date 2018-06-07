@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_set_bk" >
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/factory_yuv_set"
+        android:textColor="@color/textcolor"
+        android:textSize="@dimen/textsize_general" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_title"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/light_y_gain_title"
+                android:textColor="@color/textcolor"
+                android:textSize="@dimen/textsize_general" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ygain_minus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_dialog_left" />
+
+                <SeekBar
+                    android:id="@+id/seekBar_ygain"
+                    android:layout_width="@dimen/dialog_seekbar_width"
+                    android:layout_height="@dimen/dialog_seekbar_height"
+                    android:layout_marginLeft="20dp"
+                    android:max="511"
+                    android:maxHeight="@dimen/dialog_seekbar_height"
+                    android:minHeight="@dimen/dialog_seekbar_height"
+                    android:progressDrawable="@xml/seekbar_dialog_style"
+                    android:thumb="@xml/selector_seekbar_yuv_point_state"
+                    android:thumbOffset="0px" />
+
+                <TextView
+                    android:id="@+id/text_ygain_value"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="left"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/textsize_general" />
+
+                <ImageView
+                    android:id="@+id/ygain_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_dialog_right" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/light_u_gain_title"
+                android:textColor="@color/textcolor"
+                android:textSize="@dimen/textsize_general" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ugain_minus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_dialog_left" />
+
+                <SeekBar
+                    android:id="@+id/seekBar_ugain"
+                    android:layout_width="@dimen/dialog_seekbar_width"
+                    android:layout_height="@dimen/dialog_seekbar_height"
+                    android:layout_marginLeft="20dp"
+                    android:max="511"
+                    android:maxHeight="@dimen/dialog_seekbar_height"
+                    android:minHeight="@dimen/dialog_seekbar_height"
+                    android:progressDrawable="@xml/seekbar_dialog_style"
+                    android:thumb="@xml/selector_seekbar_yuv_point_state"
+                    android:thumbOffset="0px" />
+
+                <TextView
+                    android:id="@+id/text_ugain_value"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="left"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/textsize_general" />
+
+                <ImageView
+                    android:id="@+id/ugain_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_dialog_right" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/light_v_gain_title"
+                android:textColor="@color/textcolor"
+                android:textSize="@dimen/textsize_general" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/vgain_minus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_dialog_left" />
+
+                <SeekBar
+                    android:id="@+id/seekBar_vgain"
+                    android:layout_width="@dimen/dialog_seekbar_width"
+                    android:layout_height="@dimen/dialog_seekbar_height"
+                    android:layout_marginLeft="20dp"
+                    android:max="511"
+                    android:maxHeight="@dimen/dialog_seekbar_height"
+                    android:minHeight="@dimen/dialog_seekbar_height"
+                    android:progressDrawable="@xml/seekbar_dialog_style"
+                    android:thumb="@xml/selector_seekbar_yuv_point_state"
+                    android:thumbOffset="0px" />
+
+                <TextView
+                    android:id="@+id/text_vgain_value"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="left"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/textsize_general" />
+
+                <ImageView
+                    android:id="@+id/vgain_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_dialog_right" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

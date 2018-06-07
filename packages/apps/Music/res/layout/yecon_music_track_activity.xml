@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appbackground"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottombar_bg" >
+
+        <TextView
+            android:id="@+id/btn_tab_list"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_list_bg"
+            android:text="@string/str_tab_list" />
+
+        <TextView
+            android:id="@+id/btn_tab_folder"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_folder_bg"
+            android:text="@string/str_tab_folder" />
+
+        <TextView
+            android:id="@+id/btn_tab_album"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_album_bg"
+            android:text="@string/albums_title" />
+
+        <TextView
+            android:id="@+id/btn_tab_artist"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/tab_artist_bg"
+            android:text="@string/artists_title" />
+    </LinearLayout>
+
+</LinearLayout>

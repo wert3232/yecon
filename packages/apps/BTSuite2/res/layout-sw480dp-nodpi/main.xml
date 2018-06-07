@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    >
+    <com.tuoxianui.view.TopBar
+	    android:id="@+id/topbar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    app:top_title="@string/app_name"
+	    />
+	<FrameLayout
+	        android:orientation="vertical"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="0dp"
+	    	android:layout_weight="1"
+	    	>	
+	    <FrameLayout
+	        android:id="@+id/layout_content"
+	        android:layout_width="@dimen/fragment_width"
+	        android:layout_height="match_parent" />
+	        
+	    <RadioGroup
+	        android:id="@+id/tab_List"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+    	    android:layout_gravity="top"
+	        android:gravity="center"
+	        android:orientation="horizontal"
+	        android:soundEffectsEnabled="true"
+	        android:visibility="gone"
+	        >
+	
+	        <RadioButton
+	            android:id="@+id/tab_dial"
+	            android:checked="false"
+	            android:button="@null"
+	            style="@style/BottomBarTextStyle"
+	            android:text="@string/BtDialerLabel" />
+	
+	        <RadioButton
+	            android:id="@+id/tab_callhistory"
+	            android:checked="false"
+	            android:button="@null"
+	            style="@style/BottomBarTextStyle"
+	            android:text="@string/BtCallHistoryLabel" />
+	
+	        <RadioButton
+	            android:id="@+id/tab_phonebook"
+	            android:checked="false"
+	            android:button="@null"
+	            style="@style/BottomBarTextStyle"
+	            android:text="@string/BtPhonebookLabel" />
+	
+	        <RadioButton
+	            android:id="@+id/tab_setting"
+	            android:checked="false"
+	            android:button="@null"
+	            style="@style/BottomBarTextStyle"
+	            android:text="@string/BtSettingsLabel" />
+	
+	        <RadioButton
+	            android:id="@+id/tab_music"
+	            android:checked="false"
+	            android:button="@null"
+	            style="@style/BottomBarTextStyle"
+	            android:text="@string/BtMusicLabel" />
+	    </RadioGroup>
+	</FrameLayout>	
+</LinearLayout>

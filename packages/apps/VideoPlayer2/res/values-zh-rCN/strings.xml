@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">欢迎进入视频播放器！</string>
+    <string name="app_name">视频</string>
+    <string name="sdcard_missing_message">"没有可以播放的视频文件！"</string>
+    <string name="path">/sdcard/test0.mp4</string>
+    <string name="error_title">错误</string>
+    <string name="error_message">"抱歉，播放器不支持该视频文件！"</string>
+    <string name="data_error">"视频数据错误"</string>
+    <string name="not_support_audio">未知错误导致音频流不支持!</string>
+    <string name="not_support_audio_codec">音频编码格式不支持！</string>
+    <string name="not_support_audio_bitrate">音频流比特率不支持！</string>
+    <string name="not_support_audio_samplingrate">音频采样率不支持！</string>
+    <string name="not_support_audio_profilelevel">音频编码规范级别不支持！</string>
+    <string name="not_support_video">未知错误导致视频流不支持！</string>
+    <string name="not_support_video_codec">视频编码格式不支持！</string>
+    <string name="not_support_video_bitrate">视频流比特率不支持！</string>
+    <string name="not_support_video_framerate">视频桢率不支持！</string>
+    <string name="not_support_video_profilelevel">视频编码规范级别不支持！</string>
+    <string name="not_support_video_resolution">视频解析度不支持！</string>
+    <string name="not_support_menu">"Divx Menu不支持!</string>
+    <string name="not_support_ff">"抱歉，此文件不支持快进操作！"</string>
+    <string name="not_support_rw">"抱歉，此文件不支持快退操作！"</string>
+    <string name="not_support_seek">"抱歉，此文件不支持SEEK操作！"</string>
+    <string name="authorization_error">本设备没有播放此DivX视频保护文件的权限！</string>
+    <string name="rental_has_used">已經播放过</string>
+    <string name="rental_tip_mid">次，最多可播放</string>
+    <string name="rental_tip_suffix"> 次。</string>
+    <string name="rental_has_expired">已达到最大播放次数！</string>
+    <string name="rental_continue">继续?</string>
+    <string name="OK">确认</string>
+    <string name="Cancel">取消</string>
+    <string name="attention">"注意"</string>
+    <string name="scan">"正在读取数据……"</string>
+    <string name="time_escaped">"00:00:00"</string>
+    <string name="time_all">"00:00:00"</string>
+    <string name="timegohome">"已切换至后排，前排将回到主界面，点击屏幕取消"</string>
+    <string name="time_remain">"剩余"</string>
+    <string name="time_second">"秒"</string>
+    <string name="time_milisecond">"毫秒"</string>
+    <string name="repeat_current_notif">重复播放当前视频！</string>
+    <string name="random_all_notif">随机播放所有视频！</string>
+    <string name="repeat_off_notif">重复播放所有视频！</string>
+
+</resources>

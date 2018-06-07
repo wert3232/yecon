@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">ГПС Информације</string>
+  <string name="reset_btn">поново постави</string>
+  <string name="back_btn">Изађи</string>
+  <string name="longitude">Географска дужина:</string>
+  <string name="latitude">Географска ширина:</string>
+  <string name="height">висина:</string>
+  <string name="speed">Брзина:</string>
+  <string name="utc">Време:</string>
+  <string name="unit">км/с</string>
+  <string name="meter">мин</string>
+  <string name="fetch_gps_data">добијање гпс података...</string>
+  <string name="gpstest_title">ГПС</string>
+</resources>

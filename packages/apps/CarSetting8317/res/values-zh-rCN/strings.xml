@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">车辆设置</string>
+    <string name="action_settings">Settings</string>
+    <string name="source_navi">导航</string>
+    <string name="settings">系统设置</string>
+    <!-- set  main -->
+    <string name="set_general">通用</string>
+    <string name="set_datetime">时间与日期</string>
+    <string name="set_wallpaper">墙纸</string>
+    <string name="set_navigation">导航</string>
+    <string name="set_video">视频</string>
+    <string name="set_swc">方向盘控制</string>
+    <string name="set_factory">工厂设置</string>
+    <string name="set_sound_effect">音效</string>
+    <string name="set_calibration">触屏校准</string>
+    <string name="set_radio_frequency">收音频率</string>
+    <string name="set_bt">蓝牙</string>
+    <string name="set_gps_info">Gps信息</string>
+    <string name="set_carcorder">行车记录</string>
+    <string name="set_wifi">Wi-Fi</string>
+
+    <!-- wifi -->
+    <string name="wifi_ssid">SSID:</string>
+    <string name="wifi_enc">ENC:</string>
+    <string name="wifi_password">密码:</string>
+    <string name="wifi_connect">连接</string>
+    <string name="wifi_disconnect">断开</string>
+    <string name="wifi_forget">取消保存</string>
+    <string name="wifi_WLAN_Unprotected">未受保护网络</string>
+    <string name="wifi_WLAN_UNKNOWN">WLAN UNKNOWN</string>
+    <string name="wifi_WPA_Usable">(WPS可用)</string>
+    <string name="wifi_UNABLECONNECT">无法连接</string>
+    <string name="wifi_state_SCANNING">正在扫描...</string>
+    <string name="wifi_state_AUTHENTICATING">正在验证...</string>
+    <string name="wifi_state_OBTAINING_IPADDR">正在获取ip...</string>
+    <string name="wifi_state_CONNECTING">正在连接...</string>
+    <string name="wifi_state_CONNECTED">已连接</string>
+    <string name="wifi_state_DISCONNECTING">正在断开...</string>
+    <string name="wifi_state_DISCONNECTED">已断开</string>
+
+    <!-- set  genenal -->
+    <string name="set_language">语言</string>
+    <string name="set_buzzer">蜂鸣器</string>
+    <string name="set_lighting_detect">大灯检测</string>
+    <string name="set_screensaver">屏幕保护</string>
+    <string name="set_reset">恢复出厂设置</string>
+    <string name="set_about">关于本机</string>
+    <string name="set_assistive_touch">悬浮按钮</string>
+    <string name="set_voice_button">声控按钮</string>
+    <string name="set_wakeup_button">语音唤醒</string>
+
+    <!-- set  time -->
+    <string name="set_datetime_clock">时钟</string>
+    <string name="set_datetime_24hours">24小时制</string>
+    <string name="set_datetime_gps_syc">自动设置</string>
+    <string name="set_datetime_zone">时区</string>
+
+    <!-- set  bt -->
+    <string name="set_bt_device">蓝牙设备名称</string>
+    <string name="set_bt_pair">蓝牙配对码</string>
+    <string name="set_bt_auto_connect">蓝牙自动连接</string>
+    <string name="set_bt_auto_answer">蓝牙自动接听</string>
+
+    <!-- set navigation -->
+    <string name="set_nav_maps_select">默认导航软件</string>
+    <string name="set_nav_maps_prompt">请安装导航软件!</string>
+    <string name="set_nav_volume_gis">导航音量</string>
+    <string name="set_nav_volume_backcar">倒车音量</string>
+    <string name="set_nav_volume_bt">蓝牙通话音量</string>
+    <string name="set_nav_volume_media_front">前排多媒体音量</string>
+    <string name="set_nav_volume_media_back">后排多媒体音量</string>
+    <string name="set_nav_gps_test">导航信号检测</string>
+    <string name="set_nav_maps_list_decription">地图列表</string>
+    <string name="set_nav_maps_list">选择地图应用</string>
+    <string name="set_nav_volume_remix">导航混音</string>
+    <string name="set_nav_volume_listen">导航兼听</string>
+
+    <!-- set video -->
+    <string name="set_backcar_mirror">后视镜头镜像</string>
+    <string name="set_parking">行车禁止视频</string>
+    <string name="set_screen_bright">亮度</string>
+    <string name="set_screen_contast">对比度</string>
+    <string name="set_screen_hue">色度</string>
+    <string name="set_screen_saturation">饱和度</string>
+    <string name="set_screen_colorful">明亮</string>
+    <string name="set_screen_soft">柔和</string>
+    <string name="set_screen_reset">恢复缺省值</string>
+    <string name="set_backlight">背光亮度</string>
+
+    <!-- general -->
+    <string name="general_backcar_record">倒车录像视频</string>
+    <string name="general_key_light">版面按键灯亮度</string>
+    <string name="general_car_battery_protect">车机电瓶保护</string>
+    <string name="general_car_battery_protect_m">中</string>
+    <string name="general_open_sound">开机音量</string>
+    <string name="general_buzzer">按键音</string>
+    <string name="general_cvbs">背枕屏视频</string>
+    <string name="general_headlight_detection">大灯检测</string>
+    <string name="general_parking_detection">行车时禁止视频</string>
+    <string name="general_language_select">语言选择</string>
+    <string name="general_about_car">版本信息</string>
+    <string name="general_about_model">型号： %1$s</string>
+    <string name="general_about_androidVersion">android版本： %1$s</string>
+    <string name="general_about_kernelVersion">内核版本： %1$s</string>
+    <string name="general_about_Version">版本号： %1$s</string>
+    <string name="general_about_mcuVersion">mcu版本： %1$s</string>
+    <string name="general_about_mcuID">mcu序列号： %1$s</string>
+    <string name="general_about_dvdVersion">dvd版本： %1$s</string>
+    <string name="general_backlight">背光亮度</string>
+    <string name="general_aux_port_change">Avin 切换 </string>
+    <string name="general_aux_port_front">前 </string>
+    <string name="general_aux_port_rear">后 </string>
+    <string name="general_backcar_mute">倒车静音 </string>
+    <string name="factory_qicaideng">七彩灯</string>
+
+    <!-- 七彩灯 -->
+    <string name="qicaideng_r">R</string>
+    <string name="qicaideng_g">G</string>
+    <string name="qicaideng_b">B</string>
+
+    <!-- time -->
+    <string name="general_set_time">时间日期设置</string>
+    <string name="general_set_timezone">时区设置</string>
+    <string name="general_date_gps_syc">自动设置时间与日期</string>
+    <string name="general_date_time_24">24小时格式</string>
+
+    <!-- navigation title -->
+    <string name="nav_maps_select">默认导航软件</string>
+    <string name="nav_volume_gis">导航音量</string>
+    <string name="nav_volume_backcar">倒车音量</string>
+    <string name="nav_volume_bt">蓝牙通话音量</string>
+    <string name="nav_volume_media_front">前排多媒体音量</string>
+    <string name="nav_volume_media_back">后排多媒体音量</string>
+    <string name="nav_gps_test">导航信号检测</string>
+    <string name="nav_maps_list_decription">地图列表</string>
+    <string name="nav_maps_list_title">选择地图应用</string>
+    <string name="nav_volume_remix">导航混音</string>
+    <string name="nav_volume_listen">导航兼听</string>
+
+    <!-- media -->
+    <string name="factory_radio_area_config">收音区域配置</string>
+    <string name="factory_radio_area">默认收音区域</string>
+    <string name="media_radio_default">中国</string>
+    <string name="media_tv_dvr">电视与行车记录仪切换</string>
+    <string name="media_tv_dvr_tv">电视</string>
+    <string name="media_tv_dvr_dvr">行车记录仪</string>
+    <string name="media_sound_effect">媒体音频</string>
+    <string name="media_back_camera">后视镜头设置</string>
+    <string name="media_back_left90">左上</string>
+    <string name="media_back_right90">右上</string>
+    <string name="media_back_left180">左下</string>
+    <string name="media_back_right180">右下</string>
+    <string name="media_ban_on_video">行车禁止视频</string>
+    <string name="media_backcar_trace">倒车轨迹</string>
+    <string name="media_backcar_mirror">倒车镜像</string>
+    <string name="media_mirror_FLIP_NONE">正常</string>
+    <string name="media_mirror_FLIP_H">左右镜像</string>
+    <string name="media_mirror_FLIP_V">上下镜像</string>
+    <string name="media_mirror_FLIP_HnV">全镜像</string>
+
+    <!-- style -->
+    <string name="style_wallpaper">壁纸设置</string>
+    <string name="style_wallpaper_title">选择壁纸</string>
+    <string name="style_display_setting">显示参数设置</string>
+    <string name="style_logo_setting">开机logo设置</string>
+    <string name="style_logo_setting_bt">设置logo</string>
+
+    <!-- system -->
+    <string name="system_shutdown_prompt">您的车载电脑会关闭.</string>
+    <string name="system_Calibrate">屏幕校准</string>
+    <string name="system_Learn_steer_wheel">方向盘学习</string>
+    <string name="system_Learn_steer_wheel_bt">学习</string>
+    <string name="system_Select_steer_wheel">方向盘选择</string>
+    <string name="system_ota_update">系统升级</string>
+    <string name="system_ota_sd">从sdcard升级</string>
+    <string name="system_ota_udisk">从U盘升级</string>
+    <string name="system_reset">系统复位</string>
+    <string name="system_application">系统应用</string>
+    <string name="system_wireless_setting">无线网络设置</string>
+    <string name="system_usb_model">usb 模式切换</string>
+    <string name="system_usb_host">主机</string>
+    <string name="system_usb_device">从机</string>
+    <string name="system_usb_type">USB 类型切换</string>
+    <string name="system_usb_10">USB 1.0</string>
+    <string name="system_usb_20">USB 2.0</string>
+    <string name="system_copyInstall_tool">批量拷贝安装工具</string>
+    <string name="system_factory_setting">工厂设置</string>
+    <string name="system_volume_adjust">音量调节</string>
+    <string name="system_mcu_upgrade">MCU升级</string>
+    <string name="system_factory_test">工厂测试</string>
+    <string name="system_factory_login">工厂设置登录</string>
+    <string name="system_factory_login_prompt">请输入登录密码</string>
+    <string name="system_factory_login_error_prompt">密码错误！请重新输入密码！</string>
+    <string name="system_mcu_upgrade_error">MCU升级文件不存在！</string>
+    <string name="system_faw_upgrade_error">FAWLink升级文件不存在！</string>
+    <string name="system_mcu_upgrade_done">MCU升级完成！</string>
+    <string name="system_mcu_upgrade_file_list">MCU升级文件列表</string>
+    <string name="system_mcu_upgrade_start">MCU升级开始</string>
+    <string name="system_mcu_upgrade_doing">MCU升级进行中</string>
+    <string name="system_mcu_upgrade_end">MCU升级结束</string>
+    <string name="system_mcu_upgrade_prompt">正在进行MCU升级，请勿进行其他操作或断电！</string>
+    <string name="system_mcu_description">请在SDCARD1或者SDCARD2中创建目录McuUpgrade，然后把MCU升级文件拷贝到该目录中！</string>
+    <string name="system_usb_upgrade_error">USB系统升级文件不存在！</string>
+    <string name="system_factory_fun_config">功能配置</string>
+    <string name="system_factory_lcd_config">Lcd配置</string>
+
+    <!-- factory -->
+    <string name="factory_navigation_set">导航设置</string>
+    <string name="factory_radio_set">收音机设置</string>
+    <string name="factory_backcar_set">倒车设置</string>
+    <string name="factory_bt_set">蓝牙设置</string>
+    <string name="factory_other_set">其它设置</string>
+    <string name="factory_radio_type">收音机类型</string>
+    <string name="factory_can_type">CAN厂家</string>
+    <string name="factory_car_type">车型</string>
+    <string name="factory_timezone_set">时区</string>
+    <string name="factory_volume_set">音量设置</string>
+    <string name="factory_volume_media_title">音乐、视频，游戏和其它媒体</string>
+    <string name="factory_volume_media_front">前排音量</string>
+    <string name="factory_volume_media_rear">后排音量</string>
+    <string name="factory_volume_gis">导航</string>
+    <string name="factory_volume_backcar">倒车</string>
+    <string name="factory_volume_bt">蓝牙通话</string>
+    <string name="factory_video_set">视频设置</string>
+    <string name="factory_backlight_set">背光设置</string>
+    <string name="factory_backlight_def">默认</string>
+    <string name="factory_backlight_low">低</string>
+    <string name="factory_backlight_mid">中</string>
+    <string name="factory_backlight_high">高</string>
+    <string name="factory_rgb_set">屏幕色彩设置</string>
+    <string name="factory_yuv_set">YUV设置</string>
+    <string name="factory_videoset_screen">屏幕</string>
+    <string name="factory_videoset_backcar">倒车</string>
+    <string name="factory_videoset_aux">AUX</string>
+    <string name="factory_videoset_usb">SD/USB</string>
+    <string name="factory_videoset_dvd">DVD</string>
+    <string name="factory_dvr_type">DVR类型</string>
+    <string name="factory_tv_type">电视类型</string>
+    <string name="factory_tv_area">电视区域</string>
+    <string name="factory_backcar_enable">倒车使能</string>
+    <string name="factory_backcar_mirror">倒车镜像</string>
+    <string name="factory_backcar_track">倒车轨迹</string>
+    <string name="factory_backcar_radar">倒车雷达</string>
+    <string name="factory_backcar_mute">倒车静音</string>
+    <string name="factory_video_format">视频输出制式</string>
+    <string name="factory_video_NTSC">NTSC</string>
+    <string name="factory_video_PAL">PAL</string>
+    <string name="factory_time_format">时间制式</string>
+    <string name="factory_cardoor_info">车门信息</string>
+    <string name="factory_brake_enable">刹车默认</string>
+    <string name="factory_bt_noice">蓝牙噪音使能</string>
+    <string name="factory_bt_device">蓝牙设备名称</string>
+    <string name="factory_bt_pair">蓝牙配对码</string>
+    <string name="factory_bt_auto_connect">蓝牙自动连接</string>
+    <string name="factory_bt_auto_answer">蓝牙自动接听</string>
+    <string name="factory_crv_audio_input">CRV原车音频输入</string>
+    <string name="factory_mic_volume">麦音量</string>
+    <string name="factory_dvd_area_code">DVD地区编码</string>
+    <string name="factory_tyre_com">胎压监测串口选择</string>
+    <string name="factory_outside_temp">外温测试</string>
+    <string name="factory_lcd_enable">LCD使能</string>
+    <string name="factory_antenna_ctrl">有源天线控制</string>
+    <string name="factory_fm_dx">FM DX</string>
+    <string name="factory_fm_loc">FM LOC</string>
+    <string name="factory_am_dx">AM DX</string>
+    <string name="factory_am_loc">AM LOC</string>
+    <string name="factory_oirt_dx">OIRT DX</string>
+    <string name="factory_oirt_loc">OIRT LOC</string>
+    <string name="factory_drive_record">行车记录仪</string>
+    <string name="factory_front_camera">前视</string>
+    <string name="factory_gain_adjust">增益调节</string>
+    <string name="factory_bt_call_gain">蓝牙通话增益</string>
+    <string name="factory_navi_gain">导航增益</string>
+    <string name="factory_other_gain">其它增益</string>
+    <string name="factory_aux_db">AUX_DB</string>
+    <string name="factory_a2dp_db">A2DP_DB</string>
+    <string name="factory_fm_db">FM_DB</string>
+    <string name="factory_am_db">AM_DB</string>
+    <string name="factory_tv_db">TV_DB</string>
+    <string name="factory_power_amplifier_ctrl">功放控制</string>
+    <string name="factory_air_temp_ctrl">空调温度控制</string>
+    <string name="factory_air_temp_together">同时</string>
+    <string name="factory_air_temp_alone">独立</string>
+    <string name="factory_system_updata_usb">USB升级系统</string>
+    <string name="factory_reset_def">恢复出厂设置</string>
+    <string name="factory_reset_def_confirm">你确定要开始恢复出厂设置吗?</string>
+    <string name="factory_save_reboot">保存并重启系统</string>
+    <string name="factory_reboot">重启系统</string>
+    <string name="factory_password">密码</string>
+    <string name="factory_navi_path">导航路径选择</string>
+    <string name="factory_show_dvd_eject">显示出碟按钮</string>
+    <string name="factory_navi_remix_ratio">导航混音比例</string>
+    <string name="factory_sound_effect">音效设置</string>
+    <string name="factory_treble">高音</string>
+    <string name="factory_alto">中音</string>
+    <string name="factory_bass">低音</string>
+    <string name="factory_subwoofer">重低音</string>
+    <string name="factory_subwoofer_enable">重低音使能</string>
+    <string name="factory_balance">音场平衡</string>
+    <string name="factory_balance_fr">前后平衡</string>
+    <string name="factory_balance_lr">左右平衡</string>
+    <string name="factory_loundness">响度</string>
+    <string name="factory_xml_export">导出配置文件</string>
+    <string name="factory_storage_device_no_exist">存储设备不存在!</string>
+    <string name="factory_xml_export_path">导出配置文件路径:</string>
+    <string name="factory_dvd_load_pic">Dvd载入图片设置</string>
+    <string name="factory_tocuh_key_learn_caption">触摸按键学习</string>
+    
+    <!-- sleep   -->
+    <string name="factory_sleep_about">休眠相关</string>
+    <string name="factory_boot_logo">休眠唤醒后是否启用logo图片</string>
+    <string name="factory_sleep_power_enable">休眠后断电</string>
+    <string name="factory_sleep_ready_time">假关机到休眠时间</string>
+    <string name="factory_power_off_time">休眠到关机时间</string>
+    <string name="factory_time_unit_second">秒</string>
+    <string name="factory_time_unit_minute">分钟</string>
+    <string name="factory_time_unit_hour">小时</string>
+
+    <!-- Lcd config -->
+    <string name="factory_lcd_type">Lcd接口类型</string>
+    <string name="factory_lcd_type_ttl">TTL</string>
+    <string name="factory_lcd_type_lvds">LVDS</string>
+    <string name="factory_lvds_bit">LVDS数据位宽</string>
+    <string name="factory_lvds_bit6">6</string>
+    <string name="factory_lvds_bit8">8</string>
+    <string name="factory_lcd_resolution">Lcd分辨率</string>
+    <string name="factory_tft_drive_current">TFT驱动电流</string>
+    <string name="factory_lvds_drive_current">LVDS驱动电流</string>
+    <string name="factory_dithering_output">Dithering输出控制</string>
+    
+    <!-- other -->
+    <string name="other_open_title">开</string>
+    <string name="other_close_title">关</string>
+    <string name="other_confirm">确定吗?</string>
+    <string name="other_ok">确定</string>
+    <string name="other_cancel">取消</string>
+    <string name="other_user">自定义</string>
+    <string name="alert_set_success">设置成功！</string>
+    <string name="alert_set_fail">设置失败！</string>
+    <string name="other_show_password">显示密码</string>
+
+    <!-- light -->
+    <string name="light_hue_title">色度</string>
+    <string name="light_contrast_title">对比度</string>
+    <string name="light_saturation_title">饱和度</string>
+    <string name="light_lightness_title">亮度</string>
+    <string name="describe_light_left_bt">左按键</string>
+    <string name="describe_light_right_bt">右按键</string>
+    <string name="light_reset_bt">复位</string>
+    <string name="light_userdifined">自定义</string>
+    <string name="light_bright">明亮</string>
+    <string name="light_soft">柔和</string>
+    <string name="light_standard">标准</string>
+    <string name="light_highlight">高亮</string>
+    <string name="factory_sleep_time">休眠时间</string>
+    <string name="factory_mapdata_upgrade">地图数据升级</string>
+    <string name="factory_fragment_title">释放按钮，点击[开始]按钮进行学习</string>
+    <string name="factory_studying">学习中</string>
+    <string name="factory_KeyName_size_set">大小设置</string>
+    <string name="factory_KeyName_shortpress">短按</string>
+    <string name="factory_KeyName_longpress">长按</string>
+    <string name="factory_KeyName_start">开始</string>
+    <string name="factory_KeyName_reset">复位</string>
+    <string name="factory_KeyName_quilt">退出</string>
+    <string name="factory_KeyName_main_activity">主界面</string>
+    <string name="factory_KeyName_back">返回</string>
+    <string name="factory_KeyName_mode">模式</string>
+    <string name="factory_KeyName_control">操控</string>
+    <string name="factory_KeyName_band">波段</string>
+    <string name="factory_KeyName_sound">语音</string>
+    <string name="factory_KeyName_navigation">导航</string>
+    <string name="factory_KeyName_music">音乐</string>
+    <string name="factory_KeyName_dvd">碟片</string>
+    <string name="factory_KeyName_video">视频</string>
+    <string name="factory_KeyName_television">电视</string>
+    <string name="factory_KeyName_bluetooth_phone">蓝牙电话</string>
+    <string name="factory_KeyName_power">电源</string>
+    <string name="factory_KeyName_auto_scan">自动搜台</string>
+    <string name="factory_KeyName_browse">浏览</string>
+    <string name="factory_KeyName_play_or_stop">播放/暂停</string>
+    <string name="factory_KeyName_decrease">音量-</string>
+    <string name="factory_KeyName_increase">音量+</string>
+    <string name="factory_KeyName_out">退碟</string>
+    <string name="factory_KeyName_previous">上一项</string>
+    <string name="factory_KeyName_next">下一项</string>
+    <string name="factory_KeyName_hang_up">挂断</string>
+    <string name="factory_KeyName_balance">均衡</string>
+    <string name="factory_KeyName_mute">静音</string>
+    <string name="factory_KeyName_off_screen">关屏</string>
+    <string name="factory_reset_title">复位将清除以前所有的学习状态？</string>
+    <string name="factory_ok">确定</string>
+    <string name="factory_cancel">取消</string>
+    <string name="factory_reset_dialog_title">复位</string>
+    <string name="factory_adjust_button_region">调整按键区域大小</string>
+    <string name="factory_tocuh_key_save_info">确认是否保存当前学习数据？</string>
+    <string name="factory_touch_key_learning_success">按键学习成功！</string>
+    <string name="factory_tocuh_calibration_caption">触摸学习</string>
+    <string name="factory_sleep_power">休眠断电</string>
+    <string name="factory_funs_other">其它功能设置</string>
+	<string name="factory_calibrate_title">请按顺序准确点击按钮!</string>
+	<string name="factory_KeyName_app_manager">应用管理</string>
+	<string name="factory_tocuh_key_beyond">按键学习已经超过规定个数，建议重新学习按键</string>
+	
+	<!-- tuoxian -->
+	<string name="settings_item_data_time_name">日期时间</string>
+	<string name="settings_item_file_manager_name">文件管理</string>
+	<string name="settings_item_light_name">亮度设置</string>
+	<string name="settings_item_sound_balance_name">音效平衡</string>
+	<string name="settings_item_sound_config_name">音效配置</string>
+	<string name="settings_item_recover_factroy_name">恢复出厂设置</string>
+	<string name="settings_item_update">系统升级</string>
+	<string name="settings_item_about_name">关于本机</string>
+	<string name="settings_item_wifi_name">网络连接</string>
+	<string name="settings_item_language_name">语言切换</string>
+	<string name="settings_item_rear_mute_name">后排静音</string>
+	<string name="str_btn_back">返回</string>
+	<string name="mcu_update">系统升级</string>
+	<string name="system_update">固件升级</string>
+	<string name="faw_update">FAWLink升级</string>
+	
+	<string name="str_light_level_1">暗</string>
+	<string name="str_light_level_2">较暗</string>
+	<string name="str_light_level_3">正常</string>
+	<string name="str_light_level_4">明亮</string>
+	
+	<string name="setting_year">年</string>
+	<string name="setting_month">月</string>
+	<string name="setting_day">日</string>
+	<string name="setting_hour">时</string>
+	<string name="setting_minute">分</string>
+	
+	<string name="show_time">显示时间</string>
+	<string name="off">关</string>
+	<string name="on">开</string>
+	<string name="wifi_swicth">WIFI开关</string>
+	<string name="make_sure_insert_update">系统将重启\r\n请确保插入升级文件</string>
+</resources>

@@ -1,0 +1,296 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- 温度显示风格 -->
+    <style name="temp_TextViewTheme">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/tx_temp_def_size</item>
+    </style>
+
+    <!-- 大众原车信息警告分格 -->
+    <style name="dz_warn_TextViewTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawablePadding">@dimen/tx_drawpadding</item>
+        <item name="android:paddingTop">@dimen/tx_padding_top</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/warn_text_color</item>
+        <item name="android:textSize">@dimen/tx_default_size</item>
+    </style>
+
+    <!-- 空调显示dialog显示风格 -->
+    <style name="dialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否悬浮在activity上 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowFullscreen">false</item>
+        <!-- 窗口全屏 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 是否模糊 -->
+
+    </style>
+
+    <!-- 车门显示风格 -->
+    <style name="car_dialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否悬浮在activity上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowFullscreen">true</item>
+        <!-- 窗口全屏 -->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <!-- 车型选择界面显示风格1 -->
+    <style name="can_choose_viewtheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/tx_can_type_name_margin_left</item>
+        <item name="android:layout_marginTop">@dimen/tx_can_type_name_margin_top</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/can_choose_marquee</item>
+    </style>
+    <!-- 车型选择界面显示风格2 -->
+    <style name="can_choose_Btntheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/tx_default_size</item>
+        <item name="android:layout_marginTop">@dimen/tx_default_size</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- 车型选择界面显示风格3 -->
+    <style name="can_choose_type_textviewtheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/tx_can_type_margin</item>
+        <item name="android:layout_marginTop">@dimen/tx_can_type_margin</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <!-- 弹出式选择对话框 -->
+    <style name="popdialogtheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!-- 雷达显示风格 -->
+    <style name="radar_dialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+ 		<!-- 背景颜色及透明程度 -->
+        <item name="android:windowNoTitle">true</item>
+ 		<!-- 是否有标题 -->
+        <item name="android:windowIsFloating">true</item>
+ 		<!-- 是否浮现在activity之上 -->
+        <item name="android:backgroundDimEnabled">false</item>
+ 		<!-- 是否模糊 -->
+    </style>
+
+    <!-- 原车信息显示 -->
+    <style name="car_info_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/selector_listview_state</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingLeft">60dp</item>
+        <item name="android:textColor">@color/selector_color_state</item>
+        <item name="android:textSize">@dimen/textsize_general</item>
+    </style>
+    
+    <!-- 原车信息箭头图标 -->
+    <style name="car_info_right_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/item_right_normal</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">60dp</item>
+    </style>
+
+    <!-- 原车信息显示2 -->
+    <style name="car_info_style1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/selector_listview_state</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingLeft">40dp</item>
+        <item name="android:textColor">@color/selector_color_state</item>
+        <item name="android:textSize">@dimen/textsize_general_b</item>
+    </style>
+
+    <!-- 原车设置左边设置按钮 -->
+    <style name="car_set_left_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/left_btn_marginLeft</item>
+        <item name="android:background">@drawable/selector_left_btn</item>
+    </style>
+
+    <!-- 原车设置字体显示 -->
+    <style name="car_set_text_style">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">700dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/selector_color_state</item>
+        <item name="android:textSize">@dimen/textsize_general</item>
+    </style>
+
+    <!-- 原车设置右边设置按钮 -->
+    <style name="car_set_right_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">@dimen/right_btn_marginright</item>
+        <item name="android:background">@drawable/selector_right_btn</item>
+    </style>
+    
+        <!-- 原车设置右边设置按钮 -->
+    <style name="car_set_right_style1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">@dimen/checkbox_right_marginright</item>
+        <item name="android:background">@drawable/selector_right_btn</item>
+    </style>
+
+    <style name="car_set_right_style2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginTop">@dimen/dsp_seekbar_margintop</item>
+        <item name="android:layout_marginRight">@dimen/checkbox_right_marginright</item>
+        <item name="android:background">@drawable/radar_rbtn_show</item>
+    </style>
+
+    <!-- checkbox开关 -->
+    <style name="car_set_checkbox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/checkbox_on_off</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">60dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+    </style>
+
+    <style name="fuel_average_value">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">@dimen/textsize_general</item>
+        <item name="android:textColor">@color/selector_color_state</item>
+    </style>
+    
+    <style name="fuel_value_common">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">right</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/textsize_general</item>
+        <item name="android:textColor">@color/selector_color_state</item>
+    </style>
+
+    <style name="fuel_tv_common">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textsize_general</item>
+        <item name="android:textColor">@color/selector_color_state</item>
+    </style>
+	<!-- 油耗进度条 -->
+    <style name="fuel_average_seekbar">
+        <item name="android:layout_width">305dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">55dp</item>
+        <item name="android:progressDrawable">@drawable/fuel_seekbar_img</item>
+        <item name="com.can.activity:can_move">false</item>
+        <item name="android:thumb">@null</item>
+    </style>
+    
+    <!-- 指南针文字样式-->
+    <style name="compass_tv_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textsize_general</item>
+        <item name="android:textColor">@color/selector_color_state</item>
+    </style>
+    
+    <!-- CRV音乐时间 -->
+    <style name="usb_ipod_time">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/time_textview_textsize</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <!-- CRV音乐按钮背景 -->
+    <style name="usb_ipod_btn_bg">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/selector_color_state</item>
+        <item name="android:textSize">@dimen/usbipod_btm_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/usb_ipod_sel_btn_bg</item>
+        <!-- <item name="android:drawablePadding">@dimen/usbipod_btn_pading</item> -->
+    </style>
+    
+    <!-- Psa行车电脑文字样式-->
+    <style name="psa_trip_tv_style">
+        <item name="android:layout_width">@dimen/dsp_psa_trip_tv_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/tv_psa_trip_size</item>
+        <item name="android:textColor">@color/selector_color_state</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+</resources>

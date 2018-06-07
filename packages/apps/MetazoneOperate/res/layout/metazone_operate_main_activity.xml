@@ -1,0 +1,158 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MetazoneOperateMainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lucencygrey" >
+
+            <CheckBox
+                android:id="@+id/cb_sdcard_swap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="6dp"
+                android:button="@drawable/my_checkbox"
+                android:drawablePadding="6dp"
+                android:text="@string/cb_sdcard_swap"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/cb_gps_data_ext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cb_sdcard_swap"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="6dp"
+                android:button="@drawable/my_checkbox"
+                android:drawablePadding="6dp"
+                android:text="@string/cb_gps_data_ext"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/cb_mcu_debug_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cb_gps_data_ext"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="6dp"
+                android:button="@drawable/my_checkbox"
+                android:drawablePadding="6dp"
+                android:text="@string/cb_mcu_debug_switch"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn_save_and_reboot"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="@string/btn_save_and_reboot"
+                android:textColor="@color/black"
+                android:layout_marginBottom="16dp"
+                android:textSize="20sp" />
+            
+             <Button
+                 android:id="@+id/btn_reset_value"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/btn_save_and_reboot"
+                android:text="@string/btn_reset_value"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/horizontal_seperator_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lucencygrey"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/btn_write_metazone_file"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_write_metazone_file"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/btn_set_system_volume"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_set_system_volume"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/btn_set_bt_volume"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_set_bt_volume"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+                                  
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/btn_reboot_system"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_reboot"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+                                  
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

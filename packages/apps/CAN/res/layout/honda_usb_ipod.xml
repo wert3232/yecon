@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yeconui="http://schemas.android.com/apk/res/com.can.activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/can_bg" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="370dp" >
+
+        <TextView
+            android:id="@+id/usb_ipod_tv_usb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/usb" 
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/usb_ipod_tv_ipod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ipod"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/usb_ipod_ll_btm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/usb_ipod_bottom" >
+
+        <TextView
+            android:id="@+id/usb_ipod_btn_pre"
+            style="@style/usb_ipod_btn_bg"
+            android:drawableTop="@drawable/usb_ipod_pre"
+            android:text="@string/str_usbipod_pre" />
+
+        <TextView
+            android:id="@+id/usb_ipod_btn_play"
+            style="@style/usb_ipod_btn_bg"
+            android:drawableTop="@drawable/usb_ipod_play"
+            android:text="@string/str_usbipod_play" />
+
+        <TextView
+            android:id="@+id/usb_ipod_btn_pause"
+            style="@style/usb_ipod_btn_bg"
+            android:drawableTop="@drawable/usb_ipod_pause"
+            android:text="@string/str_usbipod_pause"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/usb_ipod_btn_next"
+            style="@style/usb_ipod_btn_bg"
+            android:drawableTop="@drawable/usb_ipod_next"
+            android:text="@string/str_usbipod_next" />
+
+        <TextView
+            android:id="@+id/usb_ipod_btn_f_pre"
+            style="@style/usb_ipod_btn_bg"
+            android:drawableTop="@drawable/usb_ipod_f_pre"
+            android:text="@string/str_usbipod_f_pre" />
+
+        <TextView
+            android:id="@+id/usb_ipod_btn_f_next"
+            style="@style/usb_ipod_btn_bg"
+            android:drawableTop="@drawable/usb_ipod_f_next"
+            android:text="@string/str_usbipod_f_next" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/usb_ipod_ll_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/usb_ipod_ll_btm"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/usb_ipod_track"
+            style="@style/usb_ipod_time"
+            android:text="@string/str_usbipod_tarck" />
+
+        <com.can.ui.draw.FuelSeekBar
+            android:id="@+id/usb_ipod_process"
+            android:layout_width="@dimen/seekbar_default_width"
+            android:layout_height="wrap_content"
+            android:maxHeight="@dimen/seekbar_default_height"
+            android:minHeight="@dimen/seekbar_default_height"
+            android:paddingLeft="@dimen/space_view_left_margin"
+            android:paddingRight="@dimen/space_view_left_margin"
+            android:progressDrawable="@drawable/honda_music_seekbar"
+            android:thumb="@drawable/honda_music_thumb"
+            yeconui:can_move="false" />
+
+        <TextView
+            android:id="@+id/usb_ipod_cur_time"
+            style="@style/usb_ipod_time"
+            android:text="@string/str_usbipod_time" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/usb_ipod_folder_index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/usb_ipod_ll_progress"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/time_textview_textsize" 
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/usb_ipod_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/usb_ipod_ll_progress"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/time_textview_textsize" />
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_bottom_control"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_track_index"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="@dimen/space_view_top_margin"
+        android:paddingTop="@dimen/space_view_top_margin"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/track_index_textview_textsize" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/textview_default_padding"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_progress_time"
+            style="@style/TimeTextViewTheme" />
+
+        <SeekBar
+            android:id="@+id/sb_playback_process"
+            android:layout_width="@dimen/seekbar_default_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:max="1000"
+            android:maxHeight="@dimen/seekbar_default_height"
+            android:minHeight="@dimen/seekbar_default_height"
+            android:paddingLeft="@dimen/space_view_left_margin"
+            android:paddingRight="@dimen/space_view_left_margin"
+            android:progress="0"
+            android:progressDrawable="@xml/seekbar_img"
+            android:thumb="@xml/thumb" >
+        </SeekBar>
+
+        <TextView
+            android:id="@+id/tv_total_time"
+            style="@style/TimeTextViewTheme" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bottombar_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/btn_op_pre"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/btn_pre_bg"
+            android:text="@string/str_btn_pre" />
+
+        <TextView
+            android:id="@+id/btn_op_play"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/btn_play_bg"
+            android:text="@string/str_btn_play" />
+
+        <TextView
+            android:id="@+id/btn_op_next"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/btn_next_bg"
+            android:text="@string/str_btn_next" />
+
+        <TextView
+            android:id="@+id/btn_op_rand"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/btn_rand_bg"
+            android:text="@string/str_btn_rand" />
+
+        <TextView
+            android:id="@+id/btn_op_loop"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/btn_loop_bg"
+            android:text="@string/str_btn_loop" />
+
+        <TextView
+            android:id="@+id/btn_op_list"
+            style="@style/BottomBarBtnTheme"
+            android:drawableTop="@drawable/btn_list_bg"
+            android:text="@string/str_btn_list" />
+    </LinearLayout>
+
+</LinearLayout>

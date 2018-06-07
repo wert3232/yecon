@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/fragment_padding" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/logo_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@xml/dialog_button_state"
+            android:gravity="center"
+            android:text="@string/other_ok"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textsize_general" />
+
+        <TextView
+            android:id="@+id/logo_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@xml/dialog_button_state"
+            android:gravity="center"
+            android:text="@string/other_cancel"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textsize_general" />
+
+        <TextView
+            android:id="@+id/logo_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@xml/dialog_button_state"
+            android:gravity="center"
+            android:text="@string/other_user"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textsize_general" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/GridView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:columnWidth="220dp"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="auto_fit"
+        android:padding="30dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="30dp" >
+    </GridView>
+
+</LinearLayout>

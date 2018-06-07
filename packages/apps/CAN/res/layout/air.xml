@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:windlevel="http://schemas.android.com/apk/res/com.can.activity"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/ac_air_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_upper_part_height"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/tv_ac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/gc7_a_c" />
+
+        <ImageView
+            android:id="@+id/iv_inner_loop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ac_inner_loop" />
+
+        <ImageView
+            android:id="@+id/iv_inner_aqs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ac_aqs" />
+
+        <ImageView
+            android:id="@+id/iv_front_glass"
+            android:layout_width="@dimen/tx_def_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ac_front_glass" />
+
+        <ImageView
+            android:id="@+id/tv_dual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ac_dual" />
+
+        <ImageView
+            android:id="@+id/iv_rear_glass"
+            android:layout_width="@dimen/tx_def_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ac_blow_head_l" />
+
+        <ImageView
+            android:id="@+id/iv_ac_max"
+            android:layout_width="@dimen/tx_def_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/gc7_a_c_max" />
+
+        <ImageView
+            android:id="@+id/iv_rear_lock"
+            android:layout_width="@dimen/tx_def_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ac_state_rear_lock" />
+
+        <ImageView
+            android:id="@+id/tv_auto_wind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ac_autosmallwind" />
+
+        <ImageView
+            android:id="@+id/iv_max_front"
+            android:layout_width="@dimen/tx_def_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/gc7_front_glass_max" />
+
+        <TextView
+            android:id="@+id/tx_air_eco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ac_eco"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tx_curfuel_size" />
+
+        <TextView
+            android:id="@+id/tx_air_sync"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ac_sync"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tx_curfuel_size" />
+
+        <Space
+            android:layout_width="@dimen/tx_def_width"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tx_def_width"
+        android:layout_weight="1"
+        android:gravity="center_vertical" >
+
+        <FrameLayout
+            android:layout_width="@dimen/tx_def_width"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/iv_people_l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/iv_people_margin"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ac_people_l" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="@dimen/iv_blow_margin"
+                android:layout_marginTop="@dimen/iv_blow_margin_top"
+                android:gravity="left"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/iv_blow_head_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/iv_blow_head_margin"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ac_blow_head_r" />
+
+                <ImageView
+                    android:id="@+id/iv_blow_hands_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ac_blow_hands_l" />
+
+                <ImageView
+                    android:id="@+id/iv_blow_feet_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ac_blow_feet_l" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_heat_seat_l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:layout_marginBottom="@dimen/iv_heat_seat_margin"
+                android:layout_marginRight="@dimen/iv_heat_seat_margin"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ac_heat_seat_l1" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="@dimen/tx_def_width"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/iv_people_r"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/iv_people_margin"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ac_people_r" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/iv_blow_margin"
+                android:layout_marginTop="@dimen/iv_blow_margin_top"
+                android:gravity="right"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/iv_blow_head_r"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/iv_blow_head_margin"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ac_blow_head_r" />
+
+                <ImageView
+                    android:id="@+id/iv_blow_hands_r"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ac_blow_hands_r" />
+
+                <ImageView
+                    android:id="@+id/iv_blow_feet_r"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ac_blow_feet_r" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_heat_seat_r"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|bottom"
+                android:layout_marginBottom="@dimen/iv_heat_seat_margin"
+                android:layout_marginLeft="@dimen/iv_heat_seat_margin"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ac_heat_seat_r1" />
+
+            <TextView
+                android:id="@+id/tx_air_outtemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:layout_marginBottom="@dimen/iv_heat_seat_margin"
+                android:layout_marginRight="@dimen/iv_heat_seat_margin"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/iv_below_part_height"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tv_temp_l"
+            style="@style/temp_TextViewTheme"
+            android:layout_width="@dimen/tx_def_width"
+            android:layout_weight="2"
+            android:paddingRight="@dimen/tx_temp_padding_right"
+            android:text="@string/ac_temp_lo" />
+
+        <ImageView
+            android:id="@+id/iv_wind_l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ac_wind_l" />
+
+        <com.can.ui.draw.Windlv
+            android:id="@+id/iv_wind_lv"
+            android:layout_width="@dimen/tx_hisfuel_progress_width"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/tx_temp_padding_right"
+            windlevel:BmpNormal="@drawable/ac_wind_normal"
+            windlevel:BmpSelect="@drawable/ac_wind_sel"
+            windlevel:MaxLevel="7"
+            windlevel:Spacing="5" />
+
+        <ImageView
+            android:id="@+id/iv_wind_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ac_wind_r" />
+
+        <TextView
+            android:id="@+id/tv_temp_r"
+            style="@style/temp_TextViewTheme"
+            android:layout_width="@dimen/tx_def_width"
+            android:layout_weight="2"
+            android:paddingLeft="@dimen/tx_temp_padding_right"
+            android:text="@string/ac_temp_lo" />
+    </LinearLayout>
+
+</LinearLayout>

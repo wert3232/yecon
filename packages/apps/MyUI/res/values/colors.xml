@@ -1,0 +1,12 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <!-- <color name="text_color">#ff000000</color> -->
+    <!-- <color name="bg_color">#ff388E8E</color> -->
+    <color name="bg_color">#ffffffff</color>
+    <color name="text_color">#ffffffff</color>
+    <color name="default_edgeeffect_color">#ffae01</color>
+    <color name="white">#ffffffff</color>
+     <color name="red">#ffff0000</color>
+	<color name="yellow">#88ffff00</color>
+</resources>

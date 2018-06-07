@@ -1,0 +1,156 @@
+<resources>
+
+    <dimen name="fragment_padding">37dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- 空调信息 -->
+    <dimen name="air_width">200dp</dimen>
+    <dimen name="air_height">200dp</dimen>
+    <dimen name="tx_def_width">0dp</dimen>
+    <dimen name="iv_people_margin">40dp</dimen>
+    <dimen name="iv_blow_margin">40dp</dimen>
+    <dimen name="iv_blow_margin_top">32dp</dimen>
+    <dimen name="iv_blow_head_margin">20dp</dimen>
+    <dimen name="iv_heat_seat_margin">16dp</dimen>
+    <dimen name="iv_below_part_height">76dp</dimen>
+    <dimen name="tx_temp_padding_right">16dp</dimen>
+    <dimen name="tx_temp_def_size">32dp</dimen>
+    <dimen name="layout_upper_part_height">76dp</dimen>
+
+    <!-- 车门信息 -->
+    <dimen name="door_width">768dp</dimen>
+    <dimen name="door_height">187dp</dimen>
+
+    <!-- 雷达信息 -->
+    <dimen name="radar_width">600dp</dimen>
+    <dimen name="radar_height">460dp</dimen>
+    <dimen name="big_radar_fl_x">274dp</dimen>
+    <dimen name="big_radar_fl_y">262dp</dimen>
+    <dimen name="big_radar_flc_x">181dp</dimen>
+    <dimen name="big_radar_flc_y">231dp</dimen>
+    <dimen name="big_radar_frc_x">181dp</dimen>
+    <dimen name="big_radar_frc_y">144dp</dimen>
+    <dimen name="big_radar_fr_x">274dp</dimen>
+    <dimen name="big_radar_fr_y">110dp</dimen>
+    <dimen name="big_radar_bl_x">620dp</dimen>
+    <dimen name="big_radar_bl_y">262dp</dimen>
+    <dimen name="big_radar_blc_x">640dp</dimen>
+    <dimen name="big_radar_blc_y">231dp</dimen>
+    <dimen name="big_radar_brc_x">640dp</dimen>
+    <dimen name="big_radar_brc_y">144dp</dimen>
+    <dimen name="big_radar_br_x">620dp</dimen>
+    <dimen name="big_radar_br_y">110dp</dimen>
+    <dimen name="big_radar_ul_x">317dp</dimen>
+    <dimen name="big_radar_ul_y">73dp</dimen>
+    <dimen name="big_radar_ulc_x">414dp</dimen>
+    <dimen name="big_radar_ulc_y">68dp</dimen>
+    <dimen name="big_radar_urc_x">510dp</dimen>
+    <dimen name="big_radar_urc_y">68dp</dimen>
+    <dimen name="big_radar_ur_x">557dp</dimen>
+    <dimen name="big_radar_ur_y">73dp</dimen>
+    <dimen name="big_radar_dl_x">317dp</dimen>
+    <dimen name="big_radar_dl_y">287dp</dimen>
+    <dimen name="big_radar_dlc_x">414dp</dimen>
+    <dimen name="big_radar_dlc_y">300dp</dimen>
+    <dimen name="big_radar_drc_x">510dp</dimen>
+    <dimen name="big_radar_drc_y">300dp</dimen>
+    <dimen name="big_radar_dr_x">557dp</dimen>
+    <dimen name="big_radar_dr_y">287dp</dimen>
+
+    <!-- 车型选择 -->
+    <dimen name="btn_can_choose_padding">50dp</dimen>
+    <dimen name="btn_can_list_margin">220dp</dimen>
+    <dimen name="btn_can_list_sure">20dp</dimen>
+    <dimen name="can_choose_marquee">20sp</dimen>
+    <dimen name="tx_can_box_marquee">80dp</dimen>
+    <dimen name="tx_can_type_margin">30dp</dimen>
+    <dimen name="tx_can_type_name_margin_left">100dp</dimen>
+    <dimen name="tx_can_type_name_margin_top">30dp</dimen>
+    <dimen name="tx_default_size">20sp</dimen>
+    <dimen name="list_default_width">400dp</dimen>
+    <dimen name="list_default_height">260dp</dimen>
+    <dimen name="popwind_marginBottom">30dp</dimen>
+
+    <!-- 本田 -->
+    <dimen name="honda_tv_padding_left">850dp</dimen>
+    <dimen name="textsize_general">22sp</dimen>
+    <dimen name="honda_fuel_trip_right">660dp</dimen>
+    <dimen name="honda_fuel_average_right">100dp</dimen>
+    <dimen name="textsize_general_b">35sp</dimen>
+    <dimen name="left_btn_marginLeft">670dp</dimen>
+    <dimen name="right_btn_marginright">50dp</dimen>
+    <dimen name="checkbox_right_marginright">90dp</dimen>
+    <dimen name="seekbar_win_width">643dp</dimen>
+    <dimen name="seekbar_win_height">130dp</dimen>
+    <dimen name="tv_honda_air_width">100dp</dimen>
+    <dimen name="tv_honda_air_textsize">35sp</dimen>
+    <dimen name="tv_honda_air_interval">14dp</dimen>
+    <dimen name="ll_honda_air_interval">40dp</dimen>
+    <dimen name="tv_honda_air_temp">28sp</dimen>
+    <dimen name="seekbar_default_width">738dp</dimen>
+    <dimen name="seekbar_default_height">30dp</dimen>
+    <dimen name="space_view_left_margin">10dp</dimen>
+    <dimen name="space_view_top_margin">10dp</dimen>
+    <dimen name="time_textview_textsize">24sp</dimen>
+    <dimen name="ll_pading_left">100dp</dimen>
+    <dimen name="compass_ll_left">300dp</dimen>
+    <dimen name="compass_ll_top">140dp</dimen>
+    <dimen name="compass_auto_text_width">209dp</dimen>
+    <dimen name="compass_skbar_width">354dp</dimen>
+    <dimen name="fuel_ll_left">80dp</dimen>
+    <dimen name="fuel_txt_width">100dp</dimen>
+    <dimen name="usbipod_btm_text_size">22sp</dimen>
+    <dimen name="usbipod_btn_pading">47dp</dimen>
+    <dimen name="usbipod_btm_height">98dp</dimen>
+    <!-- 丰田 -->
+    <dimen name="tx_curfuel_size">30sp</dimen>
+    <dimen name="tx_curfuel_trip_padding">30dp</dimen>
+    <dimen name="tx_curfuel_trip_padding1">50dp</dimen>
+    <dimen name="tx_curfuel_trip_padding2">65dp</dimen>
+    <dimen name="tx_curfuel_trip_padding3">75dp</dimen>
+    <dimen name="tx_curfuel_progress_height">290dp</dimen>
+    <dimen name="tx_curfuel_progress_space">3dp</dimen>
+    <dimen name="tx_curfuel_progress_width">20dp</dimen>
+    <dimen name="tx_curfuel_progress_width1">28dp</dimen>
+    <dimen name="tx_hisfuel_progress_width">200dp</dimen>
+    <dimen name="tx_hisfuel_progress_height">350dp</dimen>
+    <dimen name="tx_hisfuel_progress_width1">100dp</dimen>
+    <dimen name="tx_hisfuel_progress_width2">105dp</dimen>
+    <dimen name="tx_tpms_width">450dp</dimen>
+    <dimen name="dsp_balance_width">350dp</dimen>
+    <dimen name="dsp_balance_height">350dp</dimen>
+    <dimen name="dsp_balance_view_width">225dp</dimen>
+    <dimen name="dsp_balance_view_height">225dp</dimen>
+    <dimen name="dsp_seekbar_width">400dp</dimen>
+    <dimen name="dsp_seekbar_margintop">5dp</dimen>
+    <dimen name="progress_curfuel_marginbottom">40dp</dimen>
+
+    <!-- 通用 -->
+    <dimen name="dps_phone_txt_width">807dp</dimen>
+    <dimen name="tx_air_info_size">40sp</dimen>
+    <dimen name="dsp_air_margintop">40dp</dimen>
+    <dimen name="dsp_air_wind_height">115dp</dimen>
+    <dimen name="dsp_air_auto_width">149dp</dimen>
+    <dimen name="dsp_air_seekbar_width">300dp</dimen>
+    <dimen name="dsp_air_seekbar_height">15dp</dimen>
+    <dimen name="dsp_air_marginleft_wind">20dp</dimen>
+    <dimen name="dsp_air_temp_width">172dp</dimen>
+    <dimen name="dsp_air_ctrl_width">936dp</dimen>
+    <dimen name="dsp_air_ctrl_height">345dp</dimen>
+
+    <!-- PSA -->
+    <dimen name="dsp_psa_trip_heigth">380dp</dimen>
+    <dimen name="dsp_psa_trip_tv_width">220dp</dimen>
+    <dimen name="tv_psa_trip_size">30sp</dimen>
+    <dimen name="dps_psa_trip_left">100dp</dimen>
+    <dimen name="dps_psa_trip_value_left">420dp</dimen>
+    <dimen name="dps_psa_warn_width">700dp</dimen>
+    <dimen name="dps_psa_margintop">30dp</dimen>
+    <dimen name="dps_psa_marginleft">150dp</dimen>
+    <dimen name="dps_psa_speed_width">100dp</dimen>
+    <dimen name="dps_psa_speed_value_width">130dp</dimen>
+    <dimen name="dps_psa_speed_space">50dp</dimen>
+    <!-- 东南 -->
+    <dimen name="tv_tpms_size">32sp</dimen>
+
+</resources>

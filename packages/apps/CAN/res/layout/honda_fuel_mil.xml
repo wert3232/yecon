@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/can_bg"
+    android:paddingTop="@dimen/fragment_padding" >
+
+    <LinearLayout
+        android:id="@+id/ll_cur_driving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/fuel_part1_bg"
+            android:paddingLeft="@dimen/fuel_ll_left" >
+
+            <TextView
+                style="@style/fuel_tv_common"
+                android:layout_gravity="center_vertical"
+                android:text="@string/str_instant_fuel" />
+
+            <com.can.ui.draw.FuelSeekBar
+                android:id="@+id/skbar_fuel_instance"
+                style="@style/fuel_average_seekbar"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="175dp" />
+
+            <com.can.ui.draw.AutoText
+                android:id="@+id/tv_honda_fuel_instance"
+                style="@style/fuel_value_common"
+                android:layout_gravity="center_vertical"
+                android:text="@string/str_invalid" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/fuel_part2_bg"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/fuel_ll_left" >
+
+            <TextView
+                style="@style/fuel_tv_common"
+                android:layout_gravity="center"
+                android:text="@string/str_average_fuel" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        style="@style/fuel_tv_common"
+                        android:layout_width="@dimen/fuel_txt_width"
+                        android:layout_gravity="center"
+                        android:text="@string/str_this_time" />
+
+                    <com.can.ui.draw.FuelSeekBar
+                        android:id="@+id/skbar_fuel_cur"
+                        style="@style/fuel_average_seekbar"
+                        android:layout_gravity="center_vertical" />
+
+                    <com.can.ui.draw.AutoText
+                        android:id="@+id/tv_honda_fuel_cur"
+                        style="@style/fuel_value_common"
+                        android:layout_gravity="center"
+                        android:text="@string/str_invalid" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        style="@style/fuel_tv_common"
+                        android:layout_width="@dimen/fuel_txt_width"
+                        android:layout_gravity="center"
+                        android:text="@string/str_last_time" />
+
+                    <com.can.ui.draw.FuelSeekBar
+                        android:id="@+id/skbar_fuel_last"
+                        style="@style/fuel_average_seekbar"
+                        android:layout_gravity="center_vertical" />
+
+                    <com.can.ui.draw.AutoText
+                        android:id="@+id/tv_honda_fuel_last"
+                        style="@style/fuel_value_common"
+                        android:layout_gravity="center"
+                        android:text="@string/str_invalid" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="145dp" >
+
+            <TextView
+                android:id="@+id/tv_cur_driving_range"
+                style="@style/fuel_tv_common"
+                android:layout_gravity="center"
+                android:text="@string/str_driving_range" />
+
+            <TextView
+                android:id="@+id/tv_honda_fuel_cur_driving_range"
+                style="@style/fuel_tv_common"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="@string/str_invalid" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_resume_driving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/fuel_part1_bg"
+            android:paddingLeft="@dimen/fuel_ll_left" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/tv_honda_this_time"
+                    style="@style/fuel_tv_common"
+                    android:layout_width="@dimen/fuel_txt_width"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:text="@string/str_this_time" />
+
+                <TextView
+                    android:id="@+id/tv_honda_hisfuel_cur_trip"
+                    style="@style/fuel_value_common"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/honda_fuel_trip_marg_left"
+                    android:layout_toRightOf="@id/tv_honda_this_time"
+                    android:text="@string/str_invalid" />
+
+                <com.can.ui.draw.FuelSeekBar
+                    android:id="@+id/skbar_fuel_his_average"
+                    style="@style/fuel_average_seekbar"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/tv_honda_hisfuel_cur_trip" />
+
+                <TextView
+                    android:id="@+id/tv_honda_hisfuel_average"
+                    style="@style/fuel_value_common"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/honda_fuel_average_marg_left"
+                    android:layout_toRightOf="@id/skbar_fuel_his_average"
+                    android:text="@string/str_invalid" />
+
+                <TextView
+                    style="@style/fuel_value_common"
+                    android:layout_marginLeft="@dimen/honda_fuel_trip_marg_left"
+                    android:layout_toRightOf="@id/tv_honda_this_time"
+                    android:text="@string/str_trip_a" />
+
+                <TextView
+                    style="@style/fuel_value_common"
+                    android:layout_marginLeft="@dimen/honda_fuel_average_marg_left"
+                    android:layout_toRightOf="@id/skbar_fuel_his_average"
+                    android:text="@string/str_average_fuel" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/fuel_part2_bg"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/fuel_ll_left" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2" >
+
+                <TextView
+                    style="@style/fuel_tv_common"
+                    android:layout_width="@dimen/fuel_txt_width"
+                    android:layout_gravity="center"
+                    android:text="@string/str_first_time" />
+
+                <TextView
+                    android:id="@+id/tv_honda_hisfuel_first_trip"
+                    style="@style/fuel_value_common"
+                    android:layout_marginLeft="@dimen/honda_fuel_trip_marg_left"
+                    android:text="@string/str_invalid" />
+
+
+                <com.can.ui.draw.FuelSeekBar
+                    android:id="@+id/skbar_fuel_his_first"
+                    style="@style/fuel_average_seekbar" />
+
+                <TextView
+                    android:id="@+id/tv_honda_hisfuel_first_average"
+                    style="@style/fuel_value_common"
+                    android:layout_marginLeft="@dimen/honda_fuel_average_marg_left"
+                    android:text="@string/str_invalid" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2" >
+
+                <com.can.ui.draw.AutoText
+                    style="@style/fuel_tv_common"
+                    android:layout_width="@dimen/fuel_txt_width"
+                    android:layout_gravity="center"
+                    android:text="@string/str_second_time" />
+
+                <com.can.ui.draw.AutoText
+                    android:id="@+id/tv_honda_hisfuel_second_trip"
+                    style="@style/fuel_value_common"
+                    android:layout_marginLeft="@dimen/honda_fuel_trip_marg_left"
+                    android:text="@string/str_invalid" />
+
+                <com.can.ui.draw.FuelSeekBar
+                    android:id="@+id/skbar_fuel_his_second"
+                    style="@style/fuel_average_seekbar" />
+
+                <com.can.ui.draw.AutoText
+                    android:id="@+id/tv_honda_hisfuel_second_average"
+                    style="@style/fuel_value_common"
+                    android:layout_marginLeft="@dimen/honda_fuel_average_marg_left"
+                    android:text="@string/str_invalid" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2" >
+
+                <com.can.ui.draw.AutoText
+                    style="@style/fuel_tv_common"
+                    android:layout_width="@dimen/fuel_txt_width"
+                    android:layout_gravity="center"
+                    android:text="@string/str_third_time" />
+
+                <com.can.ui.draw.AutoText
+                    android:id="@+id/tv_honda_hisfuel_third_trip"
+                    style="@style/fuel_value_common"
+                    android:layout_marginLeft="@dimen/honda_fuel_trip_marg_left"
+                    android:text="@string/str_invalid" />
+
+                <com.can.ui.draw.FuelSeekBar
+                    android:id="@+id/skbar_fuel_his_third"
+                    style="@style/fuel_average_seekbar" />
+
+                <com.can.ui.draw.AutoText
+                    android:id="@+id/tv_honda_hisfuel_third_average"
+                    style="@style/fuel_value_common"
+                    android:layout_marginLeft="@dimen/honda_fuel_average_marg_left"
+                    android:text="@string/str_invalid" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tv_driving_range"
+                style="@style/fuel_tv_common"
+                android:layout_gravity="center"
+                android:paddingLeft="145dp"
+                android:text="@string/str_driving_range" />
+
+            <TextView
+                android:id="@+id/tv_honda_hisfuel_driving_range"
+                style="@style/fuel_tv_common"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="@string/str_invalid" />
+
+            <TextView
+                android:id="@+id/btn_delete_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="400dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector_fuel_del"
+                android:gravity="center"
+                android:text="@string/str_delete_record"
+                android:textColor="@color/selector_color_state"
+                android:textSize="@dimen/textsize_general" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/fuel_bottom_bg"
+        android:orientation="horizontal" >
+        
+        <TextView
+            android:id="@+id/btn_honda_cur_driving"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_fuel_driving"
+            android:gravity="center"
+            android:text="@string/str_the_driving_conditions"
+            android:textSize="@dimen/textsize_general" />
+        
+        <TextView
+            android:id="@+id/btn_honda_resume_driving"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_fuel_driving"
+            android:gravity="center"
+            android:text="@string/str_resume_driving_conditions"
+            android:textSize="@dimen/textsize_general" />
+
+    </LinearLayout>
+
+</FrameLayout>

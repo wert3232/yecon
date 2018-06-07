@@ -1,0 +1,64 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="button_style">
+        <item name="android:textSize">27.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/color_btn_state</item>
+        <item name="android:gravity">bottom|left|center</item>
+        <item name="android:paddingLeft">50dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="BottomBarTextViewTheme">
+        <item name="android:textSize">@dimen/bottombar_textview_textsize</item>
+        <item name="android:textColor">@color/color_btn_state</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+
+    <style name="BottomBarTextStyle">
+        <item name="android:textSize">@dimen/default_text2_size</item>
+        <item name="android:textColor">@color/color_btn_state</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/selector_control_btn_bg</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">68.0px</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:drawablePadding">@dimen/bottom_bar_drawable_padding</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="LeftBarDeviceBtnTheme">
+        <item name="android:textSize">@dimen/track_textview_textsize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+</resources>

@@ -1,0 +1,45 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/bgcolor"
+    android:padding="@dimen/fragment_padding" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/about_model"
+            style="@style/textview_style_about" />
+
+        <TextView
+            android:id="@+id/about_androidVersion"
+            style="@style/textview_style_about" />
+
+        <TextView
+            android:id="@+id/about_mcuVersion"
+            style="@style/textview_style_about" />
+
+        <TextView
+            android:id="@+id/about_mcuID"
+            style="@style/textview_style_about" 
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/about_dvdVersion"
+            style="@style/textview_style_about" />
+
+        <TextView
+            android:id="@+id/about_kernelVersion"
+            style="@style/textview_style_about" />
+
+        <TextView
+            android:id="@+id/about_Version"
+            style="@style/textview_style_about" />
+    </LinearLayout>
+
+</ScrollView>

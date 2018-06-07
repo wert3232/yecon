@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">复制安装APK</string>
+    <string name="Map_data_upgrade">地图数据升级</string>
+    <string name="nand_sd_in_shared">NandFlash或者存储设备正在共享状态，请断开共享状态进行复制安装.</string>
+    <string name="sdcard_dirs_not_exit">外部存储器不存在所需复制的目录，请插入外部存储器并创建此目录.</string>
+    <string name="prepare_sd">正在准备外部存储器.</string>
+    <string name="sdcard_eject">外部存储器被移除，复制操作已中断.</string>
+    <string name="low_memory_title">警告.</string>
+    <string name="low_memory_message">内存不足.</string>
+    <!-- No SD card -->
+    <string name="already_install_message">APK已经安装.\n如果您想再次安装,请恢复出厂设置.</string>
+    <string name="already_install_title">APK已经安装完成</string>
+    <!-- Scanning Dialog -->
+    <string name="scanning_title">扫描</string>
+
+    <!-- No apk file -->
+    <string name="no_apk_title">扫描apk文件</string>
+    <string name="no_apk_message">文件夹中没有APK文件</string>
+
+    <!-- Notification AlertDialog -->
+    <string name="alert_title">提示.</string>
+    <string name="alert_message">文件夹中有  <xliff:g id="apkfile">%1d</xliff:g> 个APK文件.\n您想安装它们吗?</string>
+    <string name="scanning_message">正在扫描APK文件...</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+    <!-- Installing Dialog -->
+    <string name="installing_title">安装</string>
+    <string name="installing_message">正在安装APK,请不要中断此操作...</string>
+
+    <!-- Finish install apk -->
+    <string name="finish_install_apk_title">提示.</string>
+    <string name="finish_install_apk_message">APK已安装完毕.</string>
+    <string name="yes_exit">退出</string>
+    <string name="path_title">apk 安装路径</string>
+    <string name="path_message">apk 安装路径为空 或者存储区没有挂载完全,请检查您的设备...</string>
+    <string name="install_finish">安装成功.</string>
+    <string name="copy_finish">复制成功,数据无丢失现象</string>
+    <string name="copying_title">正在复制中\u2026</string>
+    <string name="not_enough_space">没有足够的空间或者存储卡没准备好.</string>
+    <string name="copy_text_defalut">复制文件中\u2026</string>
+    <string name="copy_file_fail">拷贝的文件中\n有损坏的文件.\n请重新插入存储设备\n或重启设备</string>
+    <string name="install_again">再次安装不成功的apk</string>
+    <string name="version_id">full_m805_892x_evm</string>
+    <string name="no_permission">此软件不适用于此机器.</string>
+    <string name="copy_data">复制数据</string>
+    <string name="install_apk">安装APK</string>
+    <string name="activation_key">地图激活</string>
+    <string name="activation_key_success">激活成功！</string>
+    <string name="activation_key_failure">激活失败！</string>
+    <string name="no_files">目录没有复制文件.</string>
+    <string name="install_text_defalut">APK安装中...</string>
+    <string name="copy_fail">nand 与存储设备 比较，nand数据在拷贝过程中有丢失，请检查!!!</string>
+    <string name="copy_source_path">源路径</string>
+    <string name="copy_target_path">目的路径</string>
+    <string name="sn_source_path">SN源文件</string>
+    <string name="sn_target_path">SN目的路径</string>
+    <string name="apk_path">APK路径</string>
+    <string name="up_one_level" msgid="6731231425810196216">.返回上一级目录</string>
+    <string name="current_dir" msgid="7847265875578739287">.刷新</string>
+
+</resources>

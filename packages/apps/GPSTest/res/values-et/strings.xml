@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">GPS Teave</string>
+  <string name="reset_btn">lähtesta</string>
+  <string name="back_btn">välju</string>
+  <string name="longitude">pikkuskraad:</string>
+  <string name="latitude">laiuskraad:</string>
+  <string name="height">kõrgus:</string>
+  <string name="speed">kiirus:</string>
+  <string name="utc">Aeg:</string>
+  <string name="unit">km/h</string>
+  <string name="meter">m</string>
+  <string name="fetch_gps_data">gps-i andmete hankimine...</string>
+  <string name="gpstest_title">GPS</string>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    
+    <dimen name="text_size_1">28sp</dimen>
+    <dimen name="text_size_3">18sp</dimen>
+    <dimen name="text_size_4">24sp</dimen>
+    
+    <dimen name="top_bar_height">67dp</dimen>
+    
+    <dimen name="top_ic_margin_right">12dp</dimen>
+    
+    <dimen name="list_head_text_size_1">18sp</dimen>
+    <dimen name="list_item_text_size_1">18sp</dimen> 
+    <dimen name="dialog_auto_dismiss_title_text_size">24sp</dimen>
+</resources>

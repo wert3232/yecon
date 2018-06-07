@@ -1,0 +1,46 @@
+    Android QuickBootManager apk
+
+These are release note for QuickBootManager, explain the functions
+it supports and the flow it runs.
+
+WHAT IS QuickBootManager?
+
+    QuickBootManager is mainly a broadcast receiver, when
+    autochips.intent.action.QB_POWEROFF and autochips.intent.action.QB_POWERON
+    are send, it would be triggered. The autochips.intent.action.QB_POWEROFF
+    would kill the apps which NOT in whitelist, then the
+    autochips.intent.action.QB_POWERON maybe restart the 3rd party app if it
+    is top task when poweroff(this feature could be controlled by property).
+
+BROADCAST REGISTER PATTERNS:
+
+  - static register
+    This pattern uses staticrecv/AndroidManifest.xml and
+    src/com/autochips/staticrecv/Config.java files when compile.
+
+  or
+
+  - dynamic register
+    This pattern uses dynamicrecv/AndroidManifest.xml and
+    src/com/autochips/dynamicrecv/Config.java files when compile. It would add
+    a service process to do register movement.
+
+  Above could refer to Android.mk, the USE_STATIC_BROADCAST_RECV could control.
+
+WHITELIST:
+
+    List in res/values/strings.xml. The listed package names would NOT be killed
+    when poweroff. Users could modify it, then recompile.
+
+START APP ONRESUME PROPERTY:
+
+    The 3rd party app if it is top task when poweroff would be restart on poweron.
+    The ro.qb.startapp_onresume=1 could enable this feature, otherwise disabled.
+
+SUMMARY:
+
+    Configurable variables:
+
+    - USE_STATIC_BROADCAST_RECV in Android.mk
+    - whitelist in res/values/strings.xml
+    - ro.qb.startapp_onresume in init.rc or console set

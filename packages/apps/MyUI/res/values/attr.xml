@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PercentLayout_Layout">
+	<attr format="string" name="layout_widthPercent"/>
+	<attr format="string" name="layout_heightPercent"/>
+	<attr format="string" name="layout_marginPercent"/>
+	<attr format="string" name="layout_marginLeftPercent"/>
+	<attr format="string" name="layout_marginTopPercent"/>
+	<attr format="string" name="layout_marginRightPercent"/>
+	<attr format="string" name="layout_marginBottomPercent"/>
+	<attr format="string" name="layout_marginStartPercent"/>
+	<attr format="string" name="layout_marginEndPercent"/>
+	<attr format="string" name="layout_textSizePercent"/>
+	<attr format="string" name="layout_maxWidthPercent"/>
+	<attr format="string" name="layout_maxHeightPercent"/>
+	<attr format="string" name="layout_minWidthPercent"/>
+	<attr format="string" name="layout_minHeightPercent"/>
+	<attr format="string" name="layout_paddingPercent"/>
+	<attr format="string" name="layout_paddingTopPercent"/>
+	<attr format="string" name="layout_paddingBottomPercent"/>
+	<attr format="string" name="layout_paddingLeftPercent"/>
+	<attr format="string" name="layout_paddingRightPercent"/>
+	</declare-styleable>
+	
+    
+    <!-- jazzy ViewPager -->
+    <item name="jazzy_key" type="id"/>
+    <color name="holo_blue">#FF33E5B5</color>
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+    <declare-styleable name="Jazzy">
+        <attr name="effectStyle">
+            <enum name="standard" value="0" />
+            <enum name="tablet" value="1" />
+            <enum name="cubein" value="2" />
+            <enum name="cubeout" value="3" />
+            <enum name="flipvertical" value="4" />
+            <enum name="fliphorizontal" value="5" />
+            <enum name="stack" value="6" />
+            <enum name="zoomin" value="7" />
+            <enum name="zoomout" value="8" />
+            <enum name="rotateup" value="9" />
+            <enum name="rotatedown" value="10" />
+            <enum name="accordion" value="11" />
+        </attr>
+        <attr name="fadeEnabled" format="boolean" />
+        <attr name="outlineEnabled" format="boolean" />
+        <attr name="outlineColor" format="color|reference" />
+        <attr name="edgeEffectColor" format="color|reference" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Transparent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="CustomWindowTitle">
+        <item name="android:textSize">25sp</item>
+        <item name="android:background">@android:color/background_dark</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:shadowColor">#BB000000</item>
+        <item name="android:shadowRadius">0</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="CustomWindowTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowTitleStyle">@style/CustomWindowTitle</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="wallpaper_defined">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

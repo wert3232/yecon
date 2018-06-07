@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:gravity="center" >
+
+    <ImageView
+        android:id="@+id/app_icon_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/nav_maps_list_decription"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/app_info_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"  />
+
+    <CheckBox
+        android:id="@+id/app_info_ck"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:button="@drawable/checkbox_bg"
+        android:gravity="center" />
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="str_ford_menu_sync">Sync</string>
+    <string name="str_ford_menu_carset">Car Set</string>
+
+    <!-- 福特中控设置 -->
+    <string name="str_tx_ford_carset">Car set</string>
+    <string name="str_tx_ford_carset_state">State</string>
+    <string name="str_tx_ford_carset_eco">ECO</string>
+    <string name="str_tx_ford_carset_enginehotper">EnginehotperSet</string>
+    <string name="str_tx_ford_carset_other">Other</string>
+    <string name="str_ford_carset_tractionctrl">Traction Contrl</string>
+    <string name="str_ford_carset_trunLightonce">TrunLightOnce</string>
+    <string name="str_ford_carset_msgtoneon">MsgToneOn</string>
+    <string name="str_ford_carset_warntoneon">WarnToneOn</string>
+    <string name="str_ford_carset_tonetype">ToneType</string>
+    <string name="str_ford_carset_mileunit">MileUnit</string>
+    <string name="str_ford_carset_travelplan">TravelPlan</string>
+    <string name="str_ford_carset_travelspeed">Speed</string>
+    <string name="str_ford_carset_autobright">AutoBright</string>
+    <string name="str_ford_carset_enginehotper">EngineHotPer</string>
+    <string name="str_ford_carset_showenginehot">ShowEngineHot</string>
+    <string name="str_ford_carset_rainsensor">RainSensor</string>
+    <string name="str_ford_carset_interiorlight">Interiorlight</string>
+    <string name="str_ford_carset_parklockctrl">ParklockCtrl</string>
+    <string name="str_ford_attr_trunLightonce1">Once</string>
+    <string name="str_ford_attr_trunLightonce2">There</string>
+    <string name="str_ford_attr_tonetype1">OFF</string>
+    <string name="str_ford_attr_tonetype2">Slow</string>
+    <string name="str_ford_attr_tonetype3">Medium</string>
+    <string name="str_ford_attr_tonetype4">Heated</string>
+    <string name="str_ford_attr_tonetype5">Auto</string>
+    <string name="str_ford_attr_autobright1">Manual</string>
+    <string name="str_ford_attr_autobright2">Auto</string>
+    <string name="str_ford_attr_showenginehot1">Hide</string>
+    <string name="str_ford_attr_showenginehot2">Show</string>
+
+    <!-- sync -->
+    <string name="str_ford_sync_speech">Speech</string>
+    <string name="str_ford_sync_phone">Phone</string>
+    <string name="str_ford_sync_last">Last</string>
+    <string name="str_ford_sync_next">Next</string>
+    <string name="str_ford_sync_swicth">Swicth</string>
+    <string name="str_ford_sync_huang">Huang</string>
+    <string name="str_ford_sync_up">Up</string>
+    <string name="str_ford_sync_dn">Down</string>
+    <string name="str_ford_sync_left">Left</string>
+    <string name="str_ford_sync_right">Right</string>
+    <string name="str_ford_sync_ok">Ok</string>
+
+</resources>

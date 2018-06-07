@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+	<com.tuoxianui.view.TopBar
+	    android:id="@+id/topbar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    app:top_title="@string/settings_item_update"
+	    />
+	<FrameLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:background="@color/black"
+	    android:paddingTop="10dp"
+	    android:paddingLeft="16dp"
+	    android:paddingRight="16dp"
+	    android:paddingBottom="@dimen/settings_btn_margin_bottom"
+	    >
+	    <LinearLayout
+	    	android:layout_width="match_parent"
+	    	android:layout_height="match_parent">
+	    <TextView
+	       android:drawableTop="@drawable/selector_settings_item_update_mcu"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	       android:textColor="@color/white"
+	       android:layout_gravity="center"
+           android:id="@+id/mcu_update"
+           android:gravity="center"
+           android:textSize="24sp"
+           android:text="@string/mcu_update" />
+	    <TextView
+	       android:drawableTop="@drawable/selector_settings_item_update_system"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	       android:textColor="@color/white"
+	       android:layout_gravity="center"
+           android:id="@+id/system_update"
+           android:gravity="center"
+           android:textSize="24sp"
+           android:text="@string/system_update" />
+	    <TextView
+	       android:drawableTop="@drawable/selector_settings_item_update_faw"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	       android:textColor="@color/white"
+	       android:layout_gravity="center"
+           android:id="@+id/faw_update"
+           android:gravity="center"
+           android:textSize="24sp"
+           android:text="@string/faw_update" />
+	   </LinearLayout>
+	</FrameLayout>
+		<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="#00fa76a7"
+	        android:orientation="horizontal"
+	        android:layout_gravity="bottom|center_horizontal"
+	        android:gravity="center"
+	         >
+		    <TextView
+	            android:id="@+id/back"
+	            style="@style/BottomBarTextStyle"
+	            android:contentDescription="@string/str_btn_back"
+	            android:text="@string/str_btn_back" />
+		    <TextView
+		        android:layout_weight="3"
+	            style="@style/BottomBarTextStyle"
+	            android:contentDescription="@null"
+	            android:text="@string/str_btn_back"
+	            android:visibility="invisible"
+	             />
+		</LinearLayout>
+</LinearLayout>

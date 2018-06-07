@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">说明书</string>
+    <string name="catalogue">目录</string>
+
+    <string-array name="Contents">
+        <item>安全注意事项</item>
+        <item>主页</item>
+        <item>收音机2</item>
+        <item>蓝牙</item>
+        <item>DVD</item>
+        <item>USB/SD</item>
+        <item>AUX</item>
+        <item>CMMB</item>
+        <item>IPOD</item>
+        <item>导航</item>
+        <item>设置</item>
+        <item>GPS信息</item>
+        <item>DVR</item>
+        <item>胎压检测</item>
+    </string-array>
+    <string-array name="directory">
+        <item>1-5 页</item>
+        <item>6-7 页</item>
+        <item>8 页</item>
+        <item>9-13 页</item>
+        <item>14-15 页</item>
+        <item>16-19 页</item>
+        <item>20 页</item>
+        <item>21 页</item>
+        <item>22 页</item>
+        <item>23 页</item>
+        <item>24-40 页</item>
+        <item>41 页</item>
+        <item>42 页</item>
+        <item>43-44 页</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/can_bg"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/fuel_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/psa_ll_page0"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dsp_psa_trip_heigth"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    style="@style/psa_trip_tv_style"
+                    android:layout_marginLeft="@dimen/dps_psa_trip_left"
+                    android:text="@string/str_psa_fuel_consumption" />
+
+                <TextView
+                    android:id="@+id/psa_tv_fuel_consumption"
+                    style="@style/psa_trip_tv_style"
+                    android:layout_marginLeft="@dimen/dps_psa_trip_value_left"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    style="@style/psa_trip_tv_style"
+                    android:layout_marginLeft="@dimen/dps_psa_trip_left"
+                    android:text="@string/str_psa_recharge_mileage" />
+
+                <TextView
+                    android:id="@+id/psa_tv_recharge_mileage"
+                    style="@style/psa_trip_tv_style"
+                    android:layout_marginLeft="@dimen/dps_psa_trip_value_left" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    style="@style/psa_trip_tv_style"
+                    android:layout_marginLeft="@dimen/dps_psa_trip_left"
+                    android:text="@string/str_psa_destination_miles" />
+
+                <TextView
+                    android:id="@+id/psa_tv_destination_miles"
+                    style="@style/psa_trip_tv_style"
+                    android:layout_marginLeft="@dimen/dps_psa_trip_value_left" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    style="@style/psa_trip_tv_style"
+                    android:layout_marginLeft="@dimen/dps_psa_trip_left"
+                    android:text="@string/str_psa_start_stop_timing" />
+
+                <TextView
+                    android:id="@+id/psa_tv_start_stop_timing"
+                    style="@style/psa_trip_tv_style"
+                    android:layout_marginLeft="@dimen/dps_psa_trip_value_left"/>
+            </RelativeLayout>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/psa_ll_page1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dsp_psa_trip_heigth"
+            android:orientation="vertical" 
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    style="@style/psa_trip_tv_style"
+                    android:layout_marginLeft="@dimen/dps_psa_trip_left"
+                    android:text="@string/str_psa_fuel_average" />
+
+                <TextView
+                    android:id="@+id/psa_tv_fuel_average"
+                    style="@style/psa_trip_tv_style"
+                    android:layout_marginLeft="@dimen/dps_psa_trip_value_left" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    style="@style/psa_trip_tv_style"
+                    android:layout_marginLeft="@dimen/dps_psa_trip_left"
+                    android:text="@string/str_psa_speed_average" />
+
+                <TextView
+                    android:id="@+id/psa_tv_speed_average"
+                    style="@style/psa_trip_tv_style"
+                    android:layout_marginLeft="@dimen/dps_psa_trip_value_left" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    style="@style/psa_trip_tv_style"
+                    android:layout_marginLeft="@dimen/dps_psa_trip_left"
+                    android:text="@string/str_psa_accumulated_miles" />
+
+                <TextView
+                    android:id="@+id/psa_tv_accumulated_miles"
+                    style="@style/psa_trip_tv_style"
+                    android:layout_marginLeft="@dimen/dps_psa_trip_value_left" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/psa_tv_page0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/choose_dialog_button"
+                    android:gravity="center"
+                    android:text="@string/str_psa_page0"
+                    android:textSize="@dimen/tv_psa_trip_size" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/psa_tv_page1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/choose_dialog_button"
+                    android:gravity="center"
+                    android:text="@string/str_psa_page1"
+                    android:textSize="@dimen/tv_psa_trip_size" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/psa_tv_page2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/choose_dialog_button"
+                    android:gravity="center"
+                    android:text="@string/str_psa_page2"
+                    android:textSize="@dimen/tv_psa_trip_size" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/psa_tv_other"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/choose_dialog_button"
+                    android:gravity="center"
+                    android:text="@string/str_psa_other"
+                    android:textSize="@dimen/tv_psa_trip_size" />
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

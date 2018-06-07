@@ -1,0 +1,28 @@
+<resources>
+
+    <dimen name="textsize">22sp</dimen>
+    <dimen name="prompt_textsize">24sp</dimen>
+    <dimen name="balance_prompt_textsize">30sp</dimen>
+    <!-- pan view -->
+    <dimen name="PanView_top_gap">20dp</dimen>
+    <dimen name="PanView_width">195dp</dimen>
+    <dimen name="PanView_height">195dp</dimen>
+    <!-- balance view -->
+    <dimen name="balance_parant_width">310dp</dimen>
+    <dimen name="balance_parent_height">310dp</dimen>
+    
+    <dimen name="balance_dict_corner_width">57.5dp</dimen>
+    <dimen name="balance_dict_corner_height">57.5dp</dimen>
+    
+    <dimen name="balance_view_width">195dp</dimen>
+    <dimen name="balance_view_height">195dp</dimen>
+    <!-- eq -->
+    <dimen name="seekbar_parent_width">550dp</dimen>
+    <dimen name="seekbar_parent_line_gap">10dp</dimen>
+    <dimen name="eq_radiobutton_gap">8dp</dimen>
+    <dimen name="eq_radiogroup_bottom_gap">0dp</dimen>
+    <dimen name="seekbar_width">22dp</dimen>
+    <dimen name="seekbar_height">311dp</dimen>
+    <dimen name="seekbar_thumb">22dp</dimen>
+	<dimen name="bottom_btn_text_size">28sp</dimen>
+</resources>

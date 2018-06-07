@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.yecon.avin.AVINSurfaceView
+        android:id="@+id/avin_surfaceview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/background" />
+
+    <LinearLayout
+        android:id="@+id/layout_parking"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@android:color/black"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/parking_prompt_title"
+            android:textColor="@color/red"
+            android:textSize="36sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/parking_prompt_contents"
+            android:textColor="@color/red"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+    
+    <!--
+         <ImageView
+        android:id="@+id/av_signal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/no_signal"
+        android:scaleType="centerCrop"
+        android:src="@drawable/aux_bg"
+        android:visibility="invisible" />
+    -->
+
+    <TextView
+        android:id="@+id/av_signal"
+        style="@style/TextView_style"
+        android:layout_gravity="center"
+        android:drawableTop="@drawable/nosignal"
+        android:text="@string/no_signal"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/top_img"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center|top"
+        android:background="@drawable/top_bar"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/avin_light_view"
+            style="@style/AVIN_bt_style"
+            android:drawableLeft="@drawable/avin_light_bt"
+            android:text="@string/avin_light_title" />
+
+        <TextView
+            android:id="@+id/avin_sound_view"
+            style="@style/AVIN_bt_style"
+            android:drawableLeft="@drawable/avin_sound_bt"
+            android:text="@string/avin_sound_title" />
+
+        <TextView
+            android:id="@+id/avin_switch_view"
+            style="@style/AVIN_bt_style"
+            android:drawableLeft="@drawable/avin_switch_bt"
+            android:text="@string/avin_switch_back" />
+
+        <TextView
+            android:id="@+id/avin_close_view"
+            style="@style/AVIN_bt_style"
+            android:drawableLeft="@drawable/bar_back_close"
+            android:text="@string/avin_close_title"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/avin_back_view"
+            style="@style/AVIN_bt_style"
+            android:drawableLeft="@drawable/avin_back_bt"
+            android:text="@string/avin_back_title" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- padding -->
+    <dimen name="ci_textview_padding_top">8dp</dimen>
+    <dimen name="ci_textview_padding">8dp</dimen>
+    <dimen name="ci_textview_drawpadding">3dp</dimen>
+    <dimen name="ci_textview_warning_padding_left">32dp</dimen>
+
+    <!-- text size -->
+    <dimen name="ci_textview_default_size">19sp</dimen>
+
+</resources>

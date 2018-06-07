@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.yecon.avin.AVINSurfaceView
+        android:id="@+id/avin_surfaceview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/background" />
+
+    <TextView
+        android:id="@+id/av_signal"
+        style="@style/TextView_style"
+        android:layout_gravity="center"
+        android:drawableTop="@drawable/nosignal"
+        android:text="@string/no_signal"
+        android:visibility="invisible" />
+
+</FrameLayout>

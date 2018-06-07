@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SoundView</string>
+    <string name="title_effect">"effect"</string>
+    <string name="title_balance">"balance"</string>
+    <string name="title_back">"Back"</string>
+    <string name="action_settings">settings</string>
+
+    <!-- buttom title -->
+    <string name="title_rock">Rock</string>
+    <string name="title_popu">Popular</string>
+    <string name="title_live">Live</string>
+    <string name="title_dance">Dance</string>
+    <string name="title_classical">Classical</string>
+    <string name="title_soft">Soft</string>
+    <string name="title_self">Favourite</string>
+    <string name="title_origin">Origin</string>
+    <string name="title_jazz">"Jazz"</string>
+    <string name="title_hiphop">Hiphop</string>
+    <!-- effect -->
+    <string name="title_value_32">32</string>
+    <string name="title_value_64">64</string>
+    <string name="title_value_150">150</string>
+    <string name="title_value_250">250</string>
+    <string name="title_value_500">500</string>
+    <string name="title_value_1k">1k</string>
+    <string name="title_value_2k">2k</string>
+    <string name="title_value_4k">4k</string>
+    <string name="title_value_8k">8k</string>
+    <string name="title_value_16k">16k</string>
+    <string name="title_value_32k">32k</string>
+    <string name="title_value_loudness">Loudness</string>
+    <!-- balance -->
+    <string name="bal_bass_title">Bass</string>
+    <string name="bal_front_rear_name">Front Rear:</string>
+    <string name="bal_left_right_name">Left Right:</string>
+    <string name="bal_front_rear_value">F: "%1$s"</string>
+    <string name="bal_left_right_value">L: "%1$s"</string>
+    <!-- light -->
+    <string name="light_hue_title">Hue</string>
+    <string name="light_contrast_title">contrast</string>
+    <string name="light_saturation_title">saturation</string>
+    <string name="light_lightness_title">LightNess</string>
+    <string name="describe_light_left_bt">Left key</string>
+    <string name="describe_light_right_bt">Right key</string>
+    <string name="light_title_reset">Reset</string>
+
+    <string-array name="ReverbCoef">
+        <item>scene off</item>
+        <item>live</item>
+        <item>hall</item>
+        <item>concert</item>
+        <item>cave</item>
+        <item>bathroom</item>
+        <item>arena</item>
+    </string-array>
+
+    <!-- audio set -->
+    <string name="Treble">treble</string>
+    <string name="Bass">bass</string>
+    <string name="Alto">alto</string>
+    <string name="Subwoofer">sub-woofer</string>
+    <string name="Balance">balance</string>
+    <string name="Loundness">loundness</string>
+    <string name="Loundness_on">loundness on</string>
+    <string name="Loundness_off">loundness off</string>
+    <string name="Reset">Reset</string>
+    <string name="analog_mode">Back</string>
+    <string name="eq_mode">equalizer</string>
+
+    <!-- balance mode -->
+    <string name="bal_mode_front">Front Mode</string>
+    <string name="bal_mode_rear">Rear Mode</string>
+    <string name="bal_mode_left">Left Mode</string>
+    <string name="bal_mode_right">Right Mode</string>
+    <string name="bal_mode_fl">Main Mode</string>
+    <string name="bal_mode_fr">A Mode</string>
+    <string name="bal_mode_rl">RL Mode</string>
+    <string name="bal_mode_rr">RR Mode</string>
+    <string name="bal_text_fl">Front Left</string>
+    <string name="bal_text_fr">Front Right</string>
+    <string name="bal_text_rl">Rear Left</string>
+    <string name="bal_text_rr">Rear Right</string>
+	
+    <string name="tuoxian_title_effect">Sound Effect</string>
+    <string name="tuoxian_title_balance">Sound Balance</string>
+</resources>

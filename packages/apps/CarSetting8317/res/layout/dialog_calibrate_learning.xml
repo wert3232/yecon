@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_namepin_ll"
+    android:layout_width="500dp"
+    android:layout_height="200dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dialog_caption"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/factory_calibrate_title"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_180_50_bg"
+            android:text="@string/factory_ok"
+            android:textColor="@color/selector_color_keylearn_text_state"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</LinearLayout>

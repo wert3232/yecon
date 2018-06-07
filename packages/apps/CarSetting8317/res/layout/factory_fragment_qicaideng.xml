@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/Linear_customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_left" />
+
+        <TextView
+            android:id="@+id/light_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/qicaideng_seekbar_width_gap"
+            android:background="@drawable/disp_bg"
+            android:gravity="center"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/btn_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/qicaideng_seekbar_width_gap"
+            android:background="@drawable/btn_right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linear_R"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/qicaideng_seekbar_height_gap"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/text_r"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/qicaideng_r"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/textsize_general" />
+
+        <SeekBar
+            android:id="@+id/r_progress"
+            android:layout_width="@dimen/qicaideng_seekbar_width"
+            android:layout_height="@dimen/qicaideng_seekbar_height"
+            android:layout_marginLeft="@dimen/qicaideng_seekbar_width_gap"
+            android:layout_marginRight="@dimen/qicaideng_seekbar_width_gap"
+            android:maxHeight="@dimen/qicaideng_seekbar_height"
+            android:minHeight="@dimen/qicaideng_seekbar_height"
+            android:progressDrawable="@xml/seekbar_color_red"
+            android:thumb="@xml/seekbar_color_thumb"
+            android:thumbOffset="0px" />
+
+        <TextView
+            android:id="@+id/text_r_val"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/textsize_general" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linear_G"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/qicaideng_seekbar_height_gap"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/text_g"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/qicaideng_g"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/textsize_general" />
+
+        <SeekBar
+            android:id="@+id/g_progress"
+            android:layout_width="@dimen/qicaideng_seekbar_width"
+            android:layout_height="@dimen/qicaideng_seekbar_height"
+            android:layout_marginLeft="@dimen/qicaideng_seekbar_width_gap"
+            android:layout_marginRight="@dimen/qicaideng_seekbar_width_gap"
+            android:maxHeight="@dimen/qicaideng_seekbar_height"
+            android:minHeight="@dimen/qicaideng_seekbar_height"
+            android:progressDrawable="@xml/seekbar_color_green"
+            android:thumb="@xml/seekbar_color_thumb"
+            android:thumbOffset="0px" />
+
+        <TextView
+            android:id="@+id/text_g_val"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/textsize_general" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linear_B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/qicaideng_seekbar_height_gap"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/text_b"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/qicaideng_b"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/textsize_general" />
+
+        <SeekBar
+            android:id="@+id/b_progress"
+            android:layout_width="@dimen/qicaideng_seekbar_width"
+            android:layout_height="@dimen/qicaideng_seekbar_height"
+            android:layout_marginLeft="@dimen/qicaideng_seekbar_width_gap"
+            android:layout_marginRight="@dimen/qicaideng_seekbar_width_gap"
+            android:maxHeight="@dimen/qicaideng_seekbar_height"
+            android:minHeight="@dimen/qicaideng_seekbar_height"
+            android:progressDrawable="@xml/seekbar_color_blue"
+            android:thumb="@xml/seekbar_color_thumb"
+            android:thumbOffset="0px" />
+
+        <TextView
+            android:id="@+id/text_b_val"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/textsize_general" />
+    </LinearLayout>
+
+</LinearLayout>

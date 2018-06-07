@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fuel_bg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/tx_curfuel_trip_padding2"
+    android:paddingLeft="@dimen/tx_hisfuel_progress_width1"
+    android:paddingRight="@dimen/tx_hisfuel_progress_width1"
+    android:paddingTop="@dimen/tx_curfuel_trip_padding2" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_dz7_serives_vehicleno"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tx_curfuel_size" />
+
+        <TextView
+            android:id="@+id/tx_dz7_services_vehivcenum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/tx_curfuel_trip_padding1"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tx_curfuel_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tx_curfuel_trip_padding1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_dz7_serives_days"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tx_curfuel_size" />
+
+        <TextView
+            android:id="@+id/tx_dz7_services_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/tx_curfuel_trip_padding1"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tx_curfuel_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tx_curfuel_trip_padding1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_dz7_serives_volksdis"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tx_curfuel_size" />
+
+        <TextView
+            android:id="@+id/tx_dz7_services_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/tx_curfuel_trip_padding1"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tx_curfuel_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tx_curfuel_trip_padding1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_dz7_serives_oilchangedays"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tx_curfuel_size" />
+
+        <TextView
+            android:id="@+id/tx_dz7_services_oilchangeday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/tx_curfuel_trip_padding1"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tx_curfuel_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tx_curfuel_trip_padding1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_dz7_serives_oilchangedis"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tx_curfuel_size" />
+
+        <TextView
+            android:id="@+id/tx_dz7_services_oilchangedis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/tx_curfuel_trip_padding1"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tx_curfuel_size" />
+    </LinearLayout>
+
+</LinearLayout>

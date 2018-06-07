@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="map_info">
+        <item>com.baidu.BaiduMap/com.baidu.baidumaps.WelcomeScreen</item>
+        <item>com.autonavi.minimap/com.autonavi.minimap.Splashy</item>
+        <item>cld.navi.p2397.mainframe/cld.navi.p2397.mainframe.NaviMainActivity</item>
+    </string-array>
+    <string-array name="map_title">
+        <item>百度地圖</item>
+        <item>高德地圖</item>
+        <item>凱立德地圖</item>
+    </string-array>
+    <string-array name="radio_locale_names" translatable="false">
+        <item>歐洲</item>
+        <item>美國</item>
+        <item>國際廣播電視組織</item>
+        <item>日本</item>
+        <item>中東</item>
+        <item>拉丁美洲</item>
+        <item>澳大利亞</item>
+        <item>亞洲</item>
+        <item>SAmer1</item>
+        <item>阿拉伯</item>
+        <item>中國</item>
+        <item>SAmer2</item>
+        <item>韓國</item>
+        <item>俄羅斯</item>
+        <item>FM</item>
+    </string-array>
+    <string-array name="can_type">
+        <item>睿志誠</item>
+        <item>和馳</item>
+        <item>密訊</item>
+        <item>鑫巴斯</item>
+        <item>欣樸</item>
+        <item>威馳</item>
+        <item>尚摄</item>
+        <item>道骏</item>
+    </string-array>
+    <string-array name="car_type">
+        <item>通用機</item>
+        <item>大衆</item>
+        <item>福特</item>
+        <item>本田豐田日産</item>
+        <item>标志</item>
+        <item>現代</item>
+    </string-array>
+    <string-array name="tv_type">
+        <item>模擬電視</item>
+        <item>外掛DVB</item>
+    </string-array>
+    <string-array name="tv_area">
+        <item>美國</item>
+        <item>歐洲</item>
+        <item>中國</item>
+        <item>意大利</item>
+        <item>OIRT</item>
+        <item>新西蘭</item>
+        <item>南非</item>
+    </string-array>
+    <string-array name="dvr_type">
+        <item>環宇所愛</item>
+        <item>汽宇海創</item>
+    </string-array>
+    <string-array name="aux_port">
+        <item>關閉</item>
+        <item>V1</item>
+        <item>V2</item>
+        <item>V3</item>
+        <item>V4</item>
+        <item>V5</item>
+    </string-array>
+    <string-array name="mirror_type">
+        <item>正常</item>
+        <item>左右鏡像</item>
+        <item>上下鏡像</item>
+        <item>全鏡像</item>
+    </string-array>
+    <string-array name="navi_path">
+        <item>SDCARD</item>
+        <item>EXT_SDCARD1</item>
+        <item>EXT_SDCARD2</item>
+        <item>USB1</item>
+        <item>USB2</item>
+        <item>USB3</item>
+        <item>USB4</item>
+    </string-array>
+    <string-array name="weekday">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+    <string-array name="fun_name">
+        <item>碟 片</item>
+        <item>導 航</item>
+        <item>收 音</item>
+        <item>AVIN1</item>
+        <item>AVIN2</item>
+        <item>電 視</item>
+        <item>IPOD</item>
+        <item>音 樂</item>
+        <item>視 頻</item>
+        <item>藍 牙</item>
+        <item>行車記錄儀 USB</item>
+        <item>行車記錄儀 串口</item>
+        <item>手機互聯</item>
+        <item>原車信息</item>
+        <item>胎壓檢測</item>
+    </string-array>
+    <string-array name="assistive_item">
+        <item>主界面</item>
+        <item>返回</item>
+        <item>電源</item>
+        <item>關屏</item>
+        <item>源切換</item>
+        <item>導航</item>
+        <item>波段</item>
+        <item>播 放</item>
+        <item>上一項</item>
+        <item>下一項</item>
+        <item>靜音</item>
+        <item>音量加</item>
+        <item>音量減</item>
+        <item>接電話</item>
+        <item>挂電話</item>
+    </string-array>
+    <string-array name="clock_type">
+        <item>數字時鍾</item>
+        <item>模擬時鍾</item>
+    </string-array>
+    
+    <!-- lcd分辨率 -->
+	<string-array name="Lcd_Resolution" translatable="false">
+        <item>800x480</item>
+        <item>1024x600</item>
+        <item>1024x768</item>
+        <item>1280x480</item>
+        <item>1280x720</item>
+        <item>1280x800</item>
+    </string-array>
+    
+	<!-- tft驱动电流 -->
+	<string-array name="tft_drive_current" translatable="false">
+        <item>默認</item>
+        <item>2mA</item>
+        <item>4mA</item>
+        <item>6mA</item>
+        <item>8mA</item>
+    </string-array>
+    
+	<!-- lvds驱动电流 -->
+	<string-array name="lvds_drive_current" translatable="false">
+        <item>默認</item>
+        <item>300mV</item>
+        <item>400mV</item>
+        <item>500mV</item>
+        <item>600mV</item>
+    </string-array>
+    
+	<!-- dithering 输出控制 -->
+	<string-array name="dithering_output" translatable="false">
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>關閉</item>
+    </string-array>
+
+</resources>

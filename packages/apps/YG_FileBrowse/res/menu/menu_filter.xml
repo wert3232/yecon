@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+    <item android:id="@+id/menu_filter_all"
+        android:title="all"
+        />
+    -->
+    <item android:id="@+id/menu_filter_mp3"
+          android:title=".mp3"
+    />
+    <item android:id="@+id/menu_filter_mp4"
+        android:title=".mp4"
+        />
+    <item android:id="@+id/menu_filter_flac"
+        android:title=".flac"
+        />
+    <item android:id="@+id/menu_filter_wav"
+        android:title=".wav"
+        />
+    <item android:id="@+id/menu_filter_aac"
+        android:title=".aac"
+        />
+    <item android:id="@+id/menu_filter_avi"
+        android:title=".avi"
+        />
+    <item android:id="@+id/menu_filter_png"
+        android:title=".png"
+        />
+    <item android:id="@+id/menu_filter_jpg"
+        android:title=".jpg"
+        />
+    <item android:id="@+id/menu_filter_mov"
+        android:title=".mov"
+        />
+    <item android:id="@+id/menu_filter_txt"
+        android:title=".txt"
+        />
+    <item android:id="@+id/menu_filter_mid"
+        android:title=".mid"
+        />
+    <item android:id="@+id/menu_filter_flash"
+        android:title=".flash"
+        />
+    <item android:id="@+id/menu_filter_pdf"
+        android:title=".pdf"
+        />
+    <item android:id="@+id/menu_filter_apk"
+          android:title=".apk"
+        />
+    <!--
+    <item android:id="@+id/menu_filter_folder"
+        android:title="folder"
+        />
+    -->
+</menu>

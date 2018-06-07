@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  	<item android:state_activated="true" android:drawable="@drawable/usb_p" />
+    <item android:state_selected="true" android:drawable="@drawable/usb_p" />
+    <item android:drawable="@drawable/usb_n" />
+</selector> -->
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/usb_n" android:maxLevel="0"></item>
+    <item android:drawable="@drawable/usb_bad" android:maxLevel="1"></item>
+    <item android:drawable="@drawable/usb_p" android:maxLevel="2"></item>
+    <item android:drawable="@drawable/usb_p" android:maxLevel="3"></item>
+</level-list>

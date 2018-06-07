@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Проводник</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Установки</string>
+    <string name="file_name">Имя</string>
+    <string name="file_modifiedtime">Дата изменения</string>
+    <string name="file_size">Размер</string>
+    <string name="file_kind">Тип</string>
+
+    <!-- popup menu -->
+    <string name="popup_menu_rename">Переимен.</string>
+    <string name="popup_menu_info">Инфо</string>
+
+    <!-- button operation -->
+
+    <string name="action_check_all">Выбрать все</string>
+    <string name="action_rename">Переимен.</string>
+    <string name="action_copy">Скопировать</string>
+    <string name="action_paste">Вставить</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_uncheck_all">Отменить все</string>
+    <string name="action_cut">Вырезать</string>
+
+    <!-- action bar -->
+    <string name="action_gridview">Решётка</string>
+    <string name="action_listview">Лист</string>
+    <string name="action_left">Left</string>
+
+    <!-- mime option dialog -->
+    <string name="dialog_select_type">Тип файла не извест.</string>
+    <string name="dialog_type_text">Текст</string>
+    <string name="dialog_type_video">Видео</string>
+    <string name="dialog_type_audio">Аудио</string>
+    <string name="dialog_type_image">Фото</string>
+
+    <!-- input dialog activity -->
+    <string name="activity_input_confirm">Да</string>
+    <string name="activity_input_cancel">Отмена</string>
+    <string name="activity_title_new_folder">Новон имя папки</string>
+
+    <!-- alert dialog -->
+    <string name="alert_rename">Переименов.</string>
+    <string name="alert_back">Выход</string>
+    <string name="alert_invaild_name">Неправильное имя</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dialog_delete_warning">Удалить этот файл?</string>
+    <string name="dialog_progress_delete">Удаление</string>
+    <string name="dialog_progress_paste">Вставка</string>
+    <string name="dialog_progress_load">Загрузка</string>
+    <string name="dialog_progress_search">Поиск</string>
+    <string name="dialog_error_title">Ошибка</string>
+    <string name="load_error">Невозможно загрузить</string>
+     <string name="dialog_paste_error_notwritable">Невозможно написать</string>
+    <string name="dialog_paste_error_contained">Нельзя вставить в ту же папку</string>
+    <string name="dialog_paste_error_nospace">Не хватает мета</string>
+    <string name="dialog_paste_error_androidsecure">Включая Android_secure папку </string>
+    <string name="dialog_delete_error">Не могу удалить</string>
+    <string name="dialog_delete_abort">Отмена удаления</string>
+    <string name="dialog_caculating">Подсчет</string>
+
+    <!--file category fragment -->
+    <string name="usb1">USB1</string>
+    <string name="usb2">USB2</string>
+    <string name="usb3">USB3</string>
+    <string name="usb4">USB4</string>
+    <string name="usb5">USB5</string>
+    <string name="sd1">SD1</string>
+    <string name="sd2">SD2</string>
+    <string name="internal">Flash</string>
+
+    <!-- test -->
+    <string name="test">test</string>
+
+    <string name="empty_view_description">Пустая папка</string>
+
+    <!-- fragment normal info -->
+    <string name="fragment_info_normal_title_name">Имя</string>
+    <string name="fragment_info_normal_title_type">Тип</string>
+    <string name="fragment_info_normal_title_location">Путь</string>
+    <string name="fragment_info_normal_title_size">Размер</string>
+    <string name="fragment_info_normal_title_time">РазмерДата изменения</string>
+    <string name="fragment_info_normal_title_read">Читаемый</string>
+    <string name="fragment_info_normal_title_write">Записываемый</string>
+    <string name="fragment_info_normal_title_exe">Исполняемый</string>
+    <string name="fragment_info_normal_title_permission">Разрешение</string>
+
+    <!-- file type -->
+    <string name="file_type_folder">Папка</string>
+    <string name="file_type_audio">Аудио</string>
+    <string name="file_type_video">Видео</string>
+    <string name="file_type_image">Фото</string>
+    <string name="file_type_other">Другие</string>
+
+    <string name="menu_item_title_new_folder">Новая папка</string>
+    <string name="menu_item_title_sort">Сортировать</string>
+    <string name="menu_item_title_view">Вид</string>
+
+    <string name="search_hint">Поиск</string>
+    <string name="search_fail">Файл не найден</string>
+
+    <string name="indicator_file_normal">Нормальный</string>
+    <string name="indicator_file_more">Больше</string>
+    <string name="tab">tab</string>
+
+    <string name="resolution">Разрешение</string>
+    <string name="dateTaken">Короткое время</string>
+    <string name="longtitude">Долгота</string>
+    <string name="latitude">Широта</string>
+
+    <string name="duration">Длина</string>
+    <string name="artist">Исполнитель</string>
+    <string name="album">Альбом</string>
+    
+    <string name="storage_total">Всего</string>
+    <string name="storage_free">Присутсвует </string>
+    
+	<string name="no_support_apk">Не могу открыть файл</string>
+</resources>

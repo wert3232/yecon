@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.PopupMenu" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@color/bgcolor</item>
+    </style>
+    
+
+    <style name="ThemeMainActivity" parent="android:Theme.Holo.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/NoAnimActivity</item>
+        <item name="android:popupMenuStyle">@style/Theme.PopupMenu</item>
+    </style>
+
+    <style name="NoAnimActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+    </style>
+
+    <style name="MyInfoActivity" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <style name="favourite_btn_style">
+        <item name="android:layout_width">205dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/button_bg_pub</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:padding">0px</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">0.6</item>
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/btn_text_color</item>
+    </style>
+
+</resources>

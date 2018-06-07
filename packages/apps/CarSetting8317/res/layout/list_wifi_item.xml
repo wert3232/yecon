@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_wifi_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@xml/selector_listview_state"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/item_content_width_gap"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:padding="0dp" >
+
+        <TextView
+            android:id="@+id/list_wifi_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/selector_color_state"
+            android:textSize="@dimen/textsize_general" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/list_wifi_connect_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/list_wifi_name"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/textsize_item_prompt2" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/list_wifi_describes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/list_wifi_name"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/selector_color_state"
+            android:textSize="@dimen/textsize_general"
+            android:visibility="gone" >
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/item_content_width_gap"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/list_wifi_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/wifi_signal_3" />
+    </RelativeLayout>
+
+</LinearLayout>

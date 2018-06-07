@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- <string name="hello">Hello World, APKTools!</string>
+    <string name="app_name">Explorador de archivos</string>
+    <string name="data_load">Data Scan</string>
+    <string name="data_load_msg">Escaneando…Espere</string>
+    <string name="file_name">Nombre del archivo</string>
+    <string name="file_property">Propiedades del archivo</string>
+    <string name="file_path">Ruta del archivo</string>
+    <string name="file_date">Editar hora</string>
+    <string name="help">Ayuda</string>
+    <string name="help_home">Menú principal</string>
+    <string name="help_search">Buscar</string>
+    <string name="help_uplevel">Subir</string>
+    <string name="help_help">Soporte</string>
+    <string name="help_list">Lista</string>
+    <string name="help_grid">Iconos</string>
+    <string name="help_operation">Modo de operación</string>
+    <string name="help_choose">Elegir</string>
+    <string name="help_copy">Copiar</string>
+    <string name="help_cut">Cortar</string>
+    <string name="help_paste">Pegar</string>
+    <string name="help_delete">Borrar</string>
+    <string name="help_close">Salir</string>
+    <string name="search_specify_hint">Buscar por nombre</string>
+    <string name="search_type_example">Búscar por parte del nombre del archivo. Ej: ingrese "test" or "pdf" o "doc"</string>
+    <string name="menu_bt_scan">Buscar</string>
+    <string name="search_path">Ruta</string>
+    <string name="search_type">Tipo</string>
+    <string name="search_keyworld">Palabra Clave</string>
+    <string name="search_keyworld_checkbox">Buscar por nombre</string>
+    <string name="search_keyworld_error">Debe ingresar una palabra clave</string>
+    <string name="operation">Operación</string>
+    <string name="str_copy">Copiar</string>
+    <string name="str_new">Nuevo</string>
+    <string name="str_rename">Renombrar</string>
+    <string name="str_new_file">Archivo</string>
+    <string name="str_new_folder">Carpeta</string>
+    <string name="msg_error_rename">El nombre del archivo ya existe. Ingrese otro nombre</string>
+    <string name="msg_error_error">Error</string>
+    <string name="msg_error_faild">Operación fallida</string>
+    <string name="msg_error_childpath">No puede ser copiado como subdirectorio</string>
+    <string name="msg_error_nocontent">Portapapeles vacio</string>
+    <string name="msg_error_noobject">No ha seleccionado ningún objeto</string>
+    <string name="operation_prepare">Preparando…</string>
+    <string name="operation_copy">Copiando…</string>
+    <string name="operation_delete">Borrando…</string>
+    <string name="confirm_delete_title">Delete Confirmation</string>
+    <string name="confirm_delete_msg">Are you sure you want to delete?</string>
+    <string name="str_ok">OK</string>
+	<string name="str_cancel">Cancel</string>
+	<string name="mode">Mode</string>
+	
+   	 提示视频不能播放
+	<string name="canotplayvedio"> The FileExplorer does not provide the function of playing, please use video app to play.</string>
+   	 提示不能播放音乐
+     <string name="fileExceplorerCanotPlay">The FileExplorer does not support the playing of the format.Please play the music player.</string>
+     损坏
+     <string name="file_isnot_complete">The file has been damaged and can not open.</string> -->
+     
+     
+     
+     
+     
+     
+     
+     
+     <string name="hello">Hello World, APKTools!</string>
+    <string name="fujian">copia</string>
+    <string name="app_name">explorador de archivos</string>
+    <string name="system_prompt ">System_Prompt</string>
+    <string name="data_load">escaneo de Datos</string>
+    <string name="data_quxiao">Buscar cancle</string>
+    <string name="data_load_msg">Scaning ... Un momento!</string>
+    <string name="data_load_msg2">Ocupado .... Por favor espere</string>
+    <string name="file_name">Nombre Del Archivo</string>
+    <string name="file_property">Ficha del inmueble</string>
+    <string name="file_path">Ruta De Archivo</string>
+    <string name="file_date">Tiempo de redacción</string>
+    <string name="help">Instrucciones:</string>
+    <string name="help_home">Directorio principal</string>
+    <string name="help_search">búsqueda</string>
+    <string name="help_uplevel">Hasta un nivel</string>
+    <string name="help_help">ayuda</string>
+    <string name="help_list">Modo Lista</string>
+    <string name="help_grid">Icono Modo</string>
+    <string name="help_operation">Modo De Operación</string>
+    <string name="help_choose">escoger</string>
+    <string name="help_copy">copia</string>
+    <string name="help_cut">cortar</string>
+    <string name="help_paste">pegar</string>
+    <string name="help_delete">borrar</string>
+    <string name="help_close">salida</string>
+    <string name="search_specify_hint">Busca cualquier archivo por Nombre</string>
+    <string name="search_type_example">Puede ser cualquier parte del nombre de archivo. Ejemplo: Entrada de "prueba" o "pdf" o "doc"</string>
+    <string name="menu_bt_scan">búsqueda</string>
+    <string name="search_path">camino</string>
+    <string name="search_type">tipo</string>
+    <string name="search_keyworld">Palabra clave</string>
+    <string name="search_keyworld_checkbox">Busca cualquier archivo por Nombre</string>
+    <string name="search_keyworld_error">Debe introducir la palabra clave!</string>
+    <string name="operation">operación</string>
+    <string name="str_copy">copia</string>
+    <string name="str_new">nuevo</string>
+    <string name="str_rename">rebautizar</string>
+    <string name="str_new_file">archivo</string>
+    <string name="str_new_folder">carpeta</string>
+    <string name="msg_error_rename">Archivo existente con el mismo nombre que el nombre del archivo, especifique otro nombre!</string>
+    <string name="nofile">No hay archivo!</string>
+    <string name="msg_error_error">Error!</string>
+    <string name="msg_error_faild">Operación fallida!</string>
+    <string name="msg_error_childpath">No se puede reducir a un subdirectorio bajo el directorio!</string>
+    <string name="msg_error_nocontent">Pegado a bordo ningún contenido!</string>
+    <string name="msg_error_noobject">No ha seleccionado ningún objeto!</string>
+    <string name="operation_prepare">Preparación ...</string>
+    <string name="operation_copy">Copiado:</string>
+    <string name="operation_delete">Eliminación:</string>
+    <string name="confirm_delete_title">Eliminar confirmación</string>
+    <string name="confirm_delete_msg">Estas seguro que quieres borrarlo?</string>
+    <string name="str_ok">OK</string>
+	<string name="str_cancel">cancelar</string>
+	
+	<!-- hoseat txetView text -->
+	<string name="mode">modo</string>
+    <string name="video">vídeo</string>
+    <string name="select_equipment">dispositivo</string>
+    <string name="music">música</string>
+    <string name="image">imagen</string>
+    <string name="apk">APK</string>
+	
+     <!-- 未翻译 -->
+	<!-- 提示视频不能播放 -->
+	<string name="canotplayvedio"> O explorador de arquivos não suporta a função de reprodução, utilize um app de vídeo para reproduz-lo.</string>
+   <!-- 提示不能播放音乐 -->
+     <string name="fileExceplorerCanotPlay">O explorador de arquivos não suporta o formato deste vídeo. </string>
+     <!-- 损坏 -->
+     <string name="file_isnot_complete">O arquivo está danificado e não pode ser aberto.</string>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+</resources>

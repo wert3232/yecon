@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">方向盤學習</string>
+    <string name="btn_pre">上一項</string>
+    <string name="btn_next">下一項</string>
+    <string name="btn_volume_up">音量加</string>
+    <string name="btn_power">關機</string>
+    <string name="btn_volume_down">音量减</string>
+    <string name="btn_volume_mute">靜音</string>
+    <string name="btn_phone_on">接電話</string>
+    <string name="btn_phone_off">掛電話</string>
+    <string name="btn_src">源切換</string>
+    <string name="btn_navi">導航</string>
+    <string name="btn_radio">波段</string>
+    <string name="btn_media">播放</string>
+    <string name="btn_reset">重置</string>
+    <string name="swc_prompt">方向盤學習開始，請按住方向盤按鍵，再按界面按鍵。</string>
+    <string name="swc_warning">方向盤上當前按鍵已學習，請選擇其他按鍵。</string>
+	
+    <string name="btn_home">主頁</string>
+    <string name="btn_return">返回</string>
+    <string name="btn_rand">隨機</string>
+    <string name="btn_eq">EQ</string>
+    <string name="btn_loud">Loud</string>
+    <string name="btn_voice">語音</string>
+    <string name="not_support_key">此键暂不支持</string>
+    
+</resources>

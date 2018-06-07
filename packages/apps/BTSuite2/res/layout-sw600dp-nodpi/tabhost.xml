@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+    	android:layout_width="800dp"
+    	android:layout_height="wrap_content"
+    	android:background="#0A2758"
+    	>
+<!-- android:background="@drawable/bottom_bar"
+                android:background="@drawable/bottom_bar" 
+                android:layout_marginBottom="183dp"-->
+<com.autochips.bluetooth.MyTabHost 
+	android:id="@+id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_height="347dp"
+                android:layout_width="fill_parent">
+            </FrameLayout>
+            <com.autochips.bluetooth.VerticalTabWidget
+                android:id="@android:id/tabs"
+                android:layout_height="79dp"
+                android:layout_width="fill_parent"
+                android:background="@drawable/below_bar"
+                 />
+
+        </LinearLayout>
+        
+</com.autochips.bluetooth.MyTabHost>
+</LinearLayout>	

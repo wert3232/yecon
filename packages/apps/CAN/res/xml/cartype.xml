@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CANTABLE>
+
+    <Field>      
+        <Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">0</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">0</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+        <Item Caption="Series"    Format="Str">通用机</Item>
+        <Item Caption="SeriesId"  Format="Int">0</Item>
+        <Item Caption="Type"      Format="Str">通用机</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="box"       Format="Str">通用机</Item>
+    </Field>
+    
+    <Field>
+        <Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.dz.ReMQB6Parser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.dz.ReMQB6Protocol</Item>
+        <Item Caption="Series"    Format="Str">大众</Item>
+        <Item Caption="SeriesId"  Format="Int">1</Item>
+        <Item Caption="Type"      Format="Str">迈腾/帕萨特/昊锐/途观/高尔夫6/CC...</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.dz.CanDz6CarInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+    </Field>
+    
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.dz.ReMQB7Parser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.dz.ReMQB7Protocol</Item>
+        <Item Caption="Series"    Format="Str">大众</Item>
+        <Item Caption="SeriesId"  Format="Int">1</Item>
+        <Item Caption="Type"      Format="Str">高尔夫7/新明锐/凌度/新速派...</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.dz.CanDz7CarInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.nissan.ReNissanParser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.nissan.ReNissanProtocol</Item>
+        <Item Caption="Series"    Format="Str">日产</Item>
+        <Item Caption="SeriesId"  Format="Int">2</Item>
+        <Item Caption="Type"      Format="Str">天籁/奇骏/T70/15楼兰/蓝鸟/逍客</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field>
+
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.honda.ReHondaParser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.honda.ReHondaProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">凌派/杰德/歌诗图/缤智/思域/飞度/奥德赛/15锋范/16凌派、XRV/15CRV高配</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field>  
+	  
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.honda.Re12CrvParser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.honda.Re12CrvProtocol</Item>
+        <Item Caption="Series"    Format="Str">本田</Item>
+        <Item Caption="SeriesId"  Format="Int">3</Item>
+        <Item Caption="Type"      Format="Str">12CRV/15CRV低中配</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.honda.CanHondaCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.honda.CanCrvUsbIpod</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field>  
+    
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.toyota.ReToyotaParser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.toyota.ReToyotaProtocol</Item>
+        <Item Caption="Series"    Format="Str">丰田</Item>
+        <Item Caption="SeriesId"  Format="Int">4</Item>
+        <Item Caption="Type"      Format="Str">凯美瑞/RAV4/卡罗拉/新汉兰达/新皇冠...</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.toyota.CanToyotaInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">19200</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.korea.ReKoreaParser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.korea.ReKoreaProtocol</Item>
+        <Item Caption="Series"    Format="Str">韩系</Item>
+        <Item Caption="SeriesId"  Format="Int">5</Item>
+        <Item Caption="Type"      Format="Str">Ix35/Ix45/索兰托/索8/索9/起亚k5/k3/现代名图/领动</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.korea.CanKoreaDspInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field> 
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.gm.ReGmParser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.gm.ReGmProtocol</Item>
+        <Item Caption="Series"    Format="Str">通用</Item>
+        <Item Caption="SeriesId"  Format="Int">6</Item>
+        <Item Caption="Type"      Format="Str">科鲁兹/英朗/威朗/迈锐宝/创酷/赛欧/乐风RV</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.gm.CanGmCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.gm.CanGmOnStar</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field> 
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.gm.ReGmParser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.gm.ReGmProtocol</Item>
+        <Item Caption="Series"    Format="Str">通用</Item>
+        <Item Caption="SeriesId"  Format="Int">6</Item>
+        <Item Caption="Type"      Format="Str">昂克拉</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.gm.CanGmCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.gm.CanGmOnStar</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field> 
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.gm.ReGmParser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.gm.ReGmProtocol</Item>
+        <Item Caption="Series"    Format="Str">通用</Item>
+        <Item Caption="SeriesId"  Format="Int">6</Item>
+        <Item Caption="Type"      Format="Str">GL8</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.gm.CanGmCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.gm.CanGmOnStar</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field> 
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.ford.ReFordParser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.ford.ReFordProtocol</Item>
+        <Item Caption="Series"    Format="Str">福特</Item>
+        <Item Caption="SeriesId"  Format="Int">7</Item>
+        <Item Caption="Type"      Format="Str">福克斯/翼虎/翼博/嘉年华/锐界</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.ford.CanFordCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.ford.CanFordSync</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field> 
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.jeep.ReJeepParser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.jeep.ReJeepProtocol</Item>
+        <Item Caption="Series"    Format="Str">Jeep</Item>
+        <Item Caption="SeriesId"  Format="Int">8</Item>
+        <Item Caption="Type"      Format="Str">Jeep自由光</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.jeep.CanJeepCarInfo</Item>
+        <Item Caption="AudClass"  Format="Str">com.can.ui.jeep.CanJeepCDInfo</Item>
+        <Item Caption="AudioPort" Format="Int">3</Item>        
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.mazda.ReMazdaParser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.mazda.ReMazdaProtocol</Item>
+        <Item Caption="Series"    Format="Str">马自达系列</Item>
+        <Item Caption="SeriesId"  Format="Int">9</Item>
+        <Item Caption="Type"      Format="Str">马自达3/马自达5/马自达6(老马6)/睿翼/CX-7/奔腾B50/B70/X80/奇瑞A3/海马福美来/M3/s7/吉利GC7/比亚迪F3速锐/传祺GA3/中华H530/V5</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.mazda.CanMazdaCarInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field> 
+
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.psa.RePsaParser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.psa.RePsaProtocol</Item>
+        <Item Caption="Series"    Format="Str">标致雪铁龙</Item>
+        <Item Caption="SeriesId"  Format="Int">10</Item>
+        <Item Caption="Type"      Format="Str">标致301/408/2008/3008/雪铁龙世嘉/爱丽舍/C4L/C5/C3-XR/DS5/DS6</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.psa.CanPsaCarInfo</Item>
+        <Item Caption="PopClass"  Format="Str">com.can.ui.psa.CanPsaTripCom</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field> 
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.domestic.ReBaojunParser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.domestic.ReBaojunProtol</Item>
+        <Item Caption="Series"    Format="Str">国产</Item>
+        <Item Caption="SeriesId"  Format="Int">11</Item>
+        <Item Caption="Type"      Format="Str">宝骏730/宝骏560</Item>
+        <Item Caption="TypeId"    Format="Int">0</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field> 
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.domestic.ReDFParser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.domestic.ReDFProtol</Item>
+        <Item Caption="Series"    Format="Str">国产</Item>
+        <Item Caption="SeriesId"  Format="Int">11</Item>
+        <Item Caption="Type"      Format="Str">风神AX7/风光360</Item>
+        <Item Caption="TypeId"    Format="Int">1</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.domestic.ReBrillianceV3Parser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.domestic.ReBrillianceV3Protocol</Item>
+        <Item Caption="Series"    Format="Str">国产</Item>
+        <Item Caption="SeriesId"  Format="Int">11</Item>
+        <Item Caption="Type"      Format="Str">中华V3</Item>
+        <Item Caption="TypeId"    Format="Int">2</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field> 
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.domestic.ReChanaCs75Parser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.domestic.ReChanaCs75Protocol</Item>
+        <Item Caption="Series"    Format="Str">国产</Item>
+        <Item Caption="SeriesId"  Format="Int">11</Item>
+        <Item Caption="Type"      Format="Str">长安CS75</Item>
+        <Item Caption="TypeId"    Format="Int">3</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field>
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.domestic.ReChanaV7Parser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.domestic.ReChanaV7Protocol</Item>
+        <Item Caption="Series"    Format="Str">国产</Item>
+        <Item Caption="SeriesId"  Format="Int">11</Item>
+        <Item Caption="Type"      Format="Str">长安锐翔V7</Item>
+        <Item Caption="TypeId"    Format="Int">4</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field> 	
+	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.domestic.ReGeelyEc7Parser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.domestic.ReGeelyEc7Protocol</Item>
+        <Item Caption="Series"    Format="Str">国产</Item>
+        <Item Caption="SeriesId"  Format="Int">11</Item>
+        <Item Caption="Type"      Format="Str">吉利帝豪14EC7</Item>
+        <Item Caption="TypeId"    Format="Int">5</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field> 	
+    
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.domestic.ReGreatWallC30Parser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.domestic.ReGreatWallC30Protocol</Item>
+        <Item Caption="Series"    Format="Str">国产</Item>
+        <Item Caption="SeriesId"  Format="Int">11</Item>
+        <Item Caption="Type"      Format="Str">长城C30</Item>
+        <Item Caption="TypeId"    Format="Int">6</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field>
+    
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.domestic.ReGreatWallH2Parser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.domestic.ReGreatWallH2Protocol</Item>
+        <Item Caption="Series"    Format="Str">国产</Item>
+        <Item Caption="SeriesId"  Format="Int">11</Item>
+        <Item Caption="Type"      Format="Str">长城哈弗H2</Item>
+        <Item Caption="TypeId"    Format="Int">7</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field> 	    	 	
+    
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.domestic.ReGreatWallW6Parser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.domestic.ReGreatWallW6Protocol</Item>
+        <Item Caption="Series"    Format="Str">国产</Item>
+        <Item Caption="SeriesId"  Format="Int">11</Item>
+        <Item Caption="Type"      Format="Str">长城风骏6</Item>
+        <Item Caption="TypeId"    Format="Int">8</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field>
+	 	    	 	
+    <Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.domestic.ReBQParser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.domestic.ReBQProtol</Item>
+        <Item Caption="Series"    Format="Str">国产</Item>
+        <Item Caption="SeriesId"  Format="Int">11</Item>
+        <Item Caption="Type"      Format="Str">北汽绅宝D60</Item>
+        <Item Caption="TypeId"    Format="Int">9</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field>
+	 	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.domestic.ReBQParser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.domestic.ReBQProtol</Item>
+        <Item Caption="Series"    Format="Str">国产</Item>
+        <Item Caption="SeriesId"  Format="Int">11</Item>
+        <Item Caption="Type"      Format="Str">北汽绅宝X55</Item>
+        <Item Caption="TypeId"    Format="Int">10</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field> 	
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.domestic.ReCQParser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.domestic.ReCQProtol</Item>
+        <Item Caption="Series"    Format="Str">国产</Item>
+        <Item Caption="SeriesId"  Format="Int">11</Item>
+        <Item Caption="Type"      Format="Str">传祺GA3/传祺GA3S/传祺GS5/传祺GS5速博/传祺GA6/传祺GS4/广汽吉奥星朗</Item>
+        <Item Caption="TypeId"    Format="Int">11</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanCQCarSet</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field> 	    	 	
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.domestic.ReHimaM5Parser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.domestic.ReHimaM5Protocol</Item>
+        <Item Caption="Series"    Format="Str">国产</Item>
+        <Item Caption="SeriesId"  Format="Int">11</Item>
+        <Item Caption="Type"      Format="Str">14海马M5/16海马M3/16海马V70</Item>
+        <Item Caption="TypeId"    Format="Int">12</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field> 	    	 	
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.domestic.ReHimaM8Parser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.domestic.ReHimaM8Protocol</Item>
+        <Item Caption="Series"    Format="Str">国产</Item>
+        <Item Caption="SeriesId"  Format="Int">11</Item>
+        <Item Caption="Type"      Format="Str">海马M8</Item>
+        <Item Caption="TypeId"    Format="Int">13</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field> 	    	 	
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.domestic.ReJacRefineS3Parser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.domestic.ReJacRefineS3Protocol</Item>
+        <Item Caption="Series"    Format="Str">国产</Item>
+        <Item Caption="SeriesId"  Format="Int">11</Item>
+        <Item Caption="Type"      Format="Str">江淮瑞风S2/S3</Item>
+        <Item Caption="TypeId"    Format="Int">14</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanJacTpmsInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field> 	    	 	
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">0</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.domestic.ReLiFanParser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.domestic.ReLiFanProtocol</Item>
+        <Item Caption="Series"    Format="Str">国产</Item>
+        <Item Caption="SeriesId"  Format="Int">11</Item>
+        <Item Caption="Type"      Format="Str">力帆720/820</Item>
+        <Item Caption="TypeId"    Format="Int">15</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field> 	    	 	
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.domestic.ReZotyeT600Parser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.domestic.ReZotyeT600Protocol</Item>
+        <Item Caption="Series"    Format="Str">国产</Item>
+        <Item Caption="SeriesId"  Format="Int">11</Item>
+        <Item Caption="Type"      Format="Str">众泰T600/大迈X5</Item>
+        <Item Caption="TypeId"    Format="Int">16</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanZotyeTpmsInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field> 	    	 	
+<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.domestic.ReMGParser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.domestic.ReMGProtol</Item>
+        <Item Caption="Series"    Format="Str">国产</Item>
+        <Item Caption="SeriesId"  Format="Int">11</Item>
+        <Item Caption="Type"      Format="Str">名爵锐腾</Item>
+        <Item Caption="TypeId"    Format="Int">17</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanMGCarInfo</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field> 	
+	
+	<Field>
+       	<Item Caption="Baud"      Format="Int">38400</Item>
+        <Item Caption="BoxId"     Format="Int">1</Item>
+        <Item Caption="Cfg"       Format="Str">高配</Item>
+		<Item Caption="CfgId"     Format="Int">2</Item>
+		<Item Caption="NeedIcon"  Format="Int">1</Item>
+		<Item Caption="PserClass" Format="Str">com.can.parser.raise.domestic.ReSouAstParser</Item>
+        <Item Caption="ProlClass" Format="Str">com.can.parser.raise.domestic.ReSouAstProtol</Item>
+        <Item Caption="Series"    Format="Str">国产</Item>
+        <Item Caption="SeriesId"  Format="Int">11</Item>
+        <Item Caption="Type"      Format="Str">东南DX7</Item>
+        <Item Caption="TypeId"    Format="Int">18</Item>
+        <Item Caption="UIClass"   Format="Str">com.can.ui.domestic.CanSouAstTpms</Item>
+        <Item Caption="box"       Format="Str">睿志诚</Item>
+	</Field> 						 	    	 	
+</CANTABLE>

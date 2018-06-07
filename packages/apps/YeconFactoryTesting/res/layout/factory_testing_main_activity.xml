@@ -1,0 +1,514 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".FactoryTestingMainActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/TextViewLabelTheme"
+            android:layout_weight="3"
+            android:text="@string/label_auto" />
+
+        <TextView
+            style="@style/TextViewLabelTheme"
+            android:layout_weight="1"
+            android:text="@string/label_manual" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_sd1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_sd1" />
+
+                <ImageView
+                    android:id="@+id/iv_sd1"
+                    style="@style/ImageViewTopRightTheme" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/layout_sd2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_sd2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_sd2" />
+
+                <ImageView
+                    android:id="@+id/iv_sd2"
+                    style="@style/ImageViewTopRightTheme" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_usb0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_usb0" />
+
+                <ImageView
+                    android:id="@+id/iv_usb0"
+                    style="@style/ImageViewTopRightTheme" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/layout_usb1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_usb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_usb1" />
+
+                <ImageView
+                    android:id="@+id/iv_usb1"
+                    style="@style/ImageViewTopRightTheme" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/layout_carlife"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_carlife"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/textview_carlife_bg"
+                    android:clickable="true" />
+
+                <TextView
+                    android:id="@+id/tv_carlife_cover"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lucencygrey" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_com"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_com" />
+
+                <ImageView
+                    android:id="@+id/iv_com6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|left"
+                    android:layout_marginTop="@dimen/imageview_default_margin_top"
+                    android:contentDescription="@string/app_name" />
+
+                <ImageView
+                    android:id="@+id/iv_com4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_marginTop="@dimen/imageview_default_margin_top"
+                    android:contentDescription="@string/app_name" />
+
+                <ImageView
+                    android:id="@+id/iv_com3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|right"
+                    android:layout_marginTop="@dimen/imageview_default_margin_top"
+                    android:contentDescription="@string/app_name" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/layout_wifi"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_wifi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_wifi" />
+
+                <ImageView
+                    android:id="@+id/iv_wifi"
+                    style="@style/ImageViewTopRightTheme" />
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_aux1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_aux1" />
+
+                <ImageView
+                    android:id="@+id/iv_aux1_left"
+                    style="@style/ImageViewTopLeftTheme" />
+
+                <ImageView
+                    android:id="@+id/iv_aux1_right"
+                    style="@style/ImageViewBottomLeftTheme" />
+
+                <ImageView
+                    android:id="@+id/iv_aux1_video"
+                    style="@style/ImageViewTopRightTheme" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_aux2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_aux2" />
+
+                <ImageView
+                    android:id="@+id/iv_aux2_left"
+                    style="@style/ImageViewTopLeftTheme" />
+
+                <ImageView
+                    android:id="@+id/iv_aux2_right"
+                    style="@style/ImageViewBottomLeftTheme" />
+
+                <ImageView
+                    android:id="@+id/iv_aux2_video"
+                    style="@style/ImageViewTopRightTheme" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_aux3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_aux3" />
+
+                <ImageView
+                    android:id="@+id/iv_aux3_left"
+                    style="@style/ImageViewTopLeftTheme" />
+
+                <ImageView
+                    android:id="@+id/iv_aux3_right"
+                    style="@style/ImageViewBottomLeftTheme" />
+
+                <ImageView
+                    android:id="@+id/iv_aux3_video"
+                    style="@style/ImageViewTopRightTheme" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_aux4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_aux4" />
+
+                <ImageView
+                    android:id="@+id/iv_aux4_left"
+                    style="@style/ImageViewTopLeftTheme" />
+
+                <ImageView
+                    android:id="@+id/iv_aux4_right"
+                    style="@style/ImageViewBottomLeftTheme" />
+
+                <ImageView
+                    android:id="@+id/iv_aux4_video"
+                    style="@style/ImageViewTopRightTheme" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_aux5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_aux5" />
+
+                <ImageView
+                    android:id="@+id/iv_aux5_left"
+                    style="@style/ImageViewTopLeftTheme" />
+
+                <ImageView
+                    android:id="@+id/iv_aux5_right"
+                    style="@style/ImageViewBottomLeftTheme" />
+
+                <ImageView
+                    android:id="@+id/iv_aux5_video"
+                    style="@style/ImageViewTopRightTheme" />
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_dvd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_dvd" />
+
+                <ImageView
+                    android:id="@+id/iv_dvd"
+                    style="@style/ImageViewTopRightTheme" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_version"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/textview_default_padding_left"
+                android:text="@string/app_name"
+                android:textColor="@color/cyan"
+                android:textSize="@dimen/textview_version_size" />
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_storage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/textview_default_padding_left"
+                    android:textColor="@color/cyan"
+                    android:textSize="@dimen/textview_storage_size" />
+
+                <ImageView
+                    android:id="@+id/iv_storage"
+                    style="@style/ImageViewTopRightTheme" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_prompt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="@dimen/textview_default_padding_left"
+                android:text="@string/test_prompt"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/textview_prompt_size"
+                android:textStyle="bold" >
+            </TextView>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_rec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/textview_rec_bg"
+                    android:gravity="center_horizontal"
+                    android:text="@string/rec_start"
+                    android:textColor="@color/orange"
+                    android:textSize="@dimen/textview_rec_size"
+                    android:textStyle="bold" />
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_navi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/textview_navi_bg"
+                    android:clickable="true" />
+
+                <ImageView
+                    android:id="@+id/iv_navi"
+                    style="@style/ImageViewTopRightTheme" />
+
+                <TextView
+                    android:id="@+id/tv_navi_cover"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lucencygrey" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_bt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_bt" />
+
+                <ImageView
+                    android:id="@+id/iv_bt"
+                    style="@style/ImageViewTopRightTheme"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_bt_cover"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lucencygrey" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/textview_light_bg"
+                    android:clickable="true"
+                    android:gravity="bottom"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/textview_default_size" />
+
+                <TextView
+                    android:id="@+id/tv_light_cover"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lucencygrey" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_video"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/textview_video_bg"
+                    android:clickable="true" />
+
+                <TextView
+                    android:id="@+id/tv_video_cover"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lucencygrey" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/textview_back_bg"
+                    android:clickable="true" />
+
+                <TextView
+                    android:id="@+id/tv_back_cover"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lucencygrey" />
+            </FrameLayout>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

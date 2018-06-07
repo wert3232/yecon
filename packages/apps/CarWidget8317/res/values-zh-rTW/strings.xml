@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CarWidget8317</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="dtv_name">數字電視</string>
+    <string name="atv_name">模擬電視</string>
+    <string name="avin_name">AVIN</string>
+    <string name="video_name">視頻</string>
+    <string name="unknow_name">未知</string>
+
+</resources>

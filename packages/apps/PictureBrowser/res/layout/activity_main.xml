@@ -1,0 +1,399 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.autochips.picturebrowser.ShowImgActivity" >
+
+    <!--
+	    <SurfaceView 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" />
+    -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.autochips.picturebrowser.ui.ZoomRotateImageView
+            android:id="@+id/prev_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/prev_image"
+            android:scaleType="centerInside"
+            android:visibility="gone" />
+
+        <com.autochips.picturebrowser.ui.ZoomRotateImageView
+            android:id="@+id/cur_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:contentDescription="@string/cur_image"
+            android:scaleType="matrix" />
+
+        <com.autochips.picturebrowser.ui.ZoomRotateImageView
+            android:id="@+id/next_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/next_image"
+            android:scaleType="centerInside"
+            android:visibility="gone" />
+    </FrameLayout>
+    <!--
+    android:layout_gravity="top|center"
+	android:padding="@dimen/filename_padding"
+    -->
+
+    <LinearLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@drawable/top_bar_bg"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <TextView
+            android:id="@+id/fileName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/default_text_size" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/pageNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/default_text_size" >
+        </TextView>
+    </LinearLayout>
+
+    <com.autochips.picturebrowser.ui.CurtainView
+        android:id="@+id/curtain_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:alpha="1.0" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/bottom_bar_bg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <!--
+	            <FrameLayout
+	                android:layout_weight="1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" >
+	                <ImageView
+	                    android:id="@+id/zoom_out"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:src="@drawable/zoom_out"
+	                    android:scaleType="centerInside"
+	                    android:contentDescription="@string/zoom_out" />
+	                <ImageView
+	                    android:id="@+id/zoom_out_fg"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:src="@drawable/btn_press"
+	                    android:scaleType="fitXY"
+	                    android:visibility="invisible"
+	                    android:alpha="0.2"
+	                    android:contentDescription="@string/zoom_out" />
+	            </FrameLayout>
+	            <ImageView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:src="@drawable/split"
+	                    android:contentDescription="@string/zoom_out" />
+	            <FrameLayout
+	                android:layout_weight="1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" >
+	                <ImageView
+	                    android:id="@+id/zoom_in"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:src="@drawable/zoom_in"
+	                    android:scaleType="centerInside"
+	                    android:contentDescription="@string/zoom_in" />
+	                <ImageView
+	                    android:id="@+id/zoom_in_fg"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:src="@drawable/btn_press"
+	                    android:scaleType="fitXY"
+	                    android:visibility="invisible"
+	                    android:alpha="0.2"
+	                    android:contentDescription="@string/zoom_in" />
+	            </FrameLayout>
+	            <ImageView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:src="@drawable/split"
+	                    android:contentDescription="@string/zoom_out" />
+	            <FrameLayout
+	                android:layout_weight="1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" >
+	                <ImageView
+	                    android:id="@+id/rotate_left"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:src="@drawable/rotate_left"
+	                    android:scaleType="centerInside"
+	                    android:contentDescription="@string/rotate_left" />
+	                <ImageView
+	                    android:id="@+id/rotate_left_fg"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:src="@drawable/btn_press"
+	                    android:scaleType="fitXY"
+	                    android:visibility="invisible"
+	                    android:alpha="0.2"
+	                    android:contentDescription="@string/rotate_left" />
+	            </FrameLayout>
+	            <ImageView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:src="@drawable/split"
+	                    android:contentDescription="@string/zoom_out" />
+	            <FrameLayout
+	                android:layout_weight="1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" >
+	                <ImageView
+	                    android:id="@+id/rotate_right"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:src="@drawable/rotate_right"
+	                    android:scaleType="centerInside"
+	                    android:contentDescription="@string/rotate_right" />
+	                <ImageView
+	                    android:id="@+id/rotate_right_fg"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:src="@drawable/btn_press"
+	                    android:scaleType="fitXY"
+	                    android:visibility="invisible"
+	                    android:alpha="0.2"
+	                    android:contentDescription="@string/rotate_right" />
+	            </FrameLayout>
+	            <ImageView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:src="@drawable/split"
+	                    android:contentDescription="@string/zoom_out" />
+	            <FrameLayout
+	                android:layout_weight="1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" >
+	                <ImageView
+	                    android:id="@+id/prev"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:src="@drawable/prev"
+	                    android:scaleType="centerInside"
+	                    android:contentDescription="@string/prev" />
+	                <ImageView
+	                    android:id="@+id/prev_fg"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:src="@drawable/btn_press"
+	                    android:scaleType="fitXY"
+	                    android:visibility="invisible"
+	                    android:alpha="0.2"
+	                    android:contentDescription="@string/prev" />
+	            </FrameLayout>
+	            <ImageView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:src="@drawable/split"
+	                    android:contentDescription="@string/zoom_out" />
+	            <FrameLayout
+	                android:layout_weight="1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" >
+	                <ImageView
+	                    android:id="@+id/next"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:src="@drawable/next"
+	                    android:scaleType="centerInside"
+	                    android:contentDescription="@string/next" />
+	                <ImageView
+	                    android:id="@+id/next_fg"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:src="@drawable/btn_press"
+	                    android:scaleType="fitXY"
+	                    android:visibility="invisible"
+	                    android:alpha="0.2"
+	                    android:contentDescription="@string/next" />
+	            </FrameLayout>
+	            <ImageView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:src="@drawable/split"
+	                    android:contentDescription="@string/zoom_out" />
+	            <FrameLayout
+	                android:layout_weight="1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" >
+	                <ImageView
+	                    android:id="@+id/cicle"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:src="@drawable/play_all"
+	                    android:scaleType="centerInside"
+	                    android:contentDescription="@string/play_all" />
+	                <ImageView
+	                    android:id="@+id/cicle_fg"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:src="@drawable/btn_press"
+	                    android:scaleType="fitXY"
+	                    android:visibility="invisible"
+	                    android:alpha="0.2"
+	                    android:contentDescription="@string/play_all" />
+	            </FrameLayout>
+	            <ImageView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:src="@drawable/split"
+	                    android:contentDescription="@string/zoom_out" />
+	            <FrameLayout
+	                android:layout_weight="1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" >
+	                <ImageView
+	                    android:id="@+id/shuffle"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:src="@drawable/shuffle_no"
+	                    android:scaleType="centerInside"
+	                    android:contentDescription="@string/shuffle" />
+	                <ImageView
+	                    android:id="@+id/shuffle_fg"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:src="@drawable/btn_press"
+	                    android:scaleType="fitXY"
+	                    android:visibility="invisible"
+	                    android:alpha="0.2"
+	                    android:contentDescription="@string/shuffle" />
+	            </FrameLayout>
+	            <ImageView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:src="@drawable/split"
+	                    android:contentDescription="@string/zoom_out" />
+	            <FrameLayout
+	                android:layout_weight="1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" >
+	                <ImageView
+	                    android:id="@+id/play"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:src="@drawable/play"
+	                    android:scaleType="centerInside"
+	                    android:contentDescription="@string/play" />
+	                <ImageView
+	                    android:id="@+id/play_fg"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:src="@drawable/btn_press"
+	                    android:scaleType="fitXY"
+	                    android:visibility="invisible"
+	                    android:alpha="0.2"
+	                    android:contentDescription="@string/play" />
+	            </FrameLayout>
+	            <ImageView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:src="@drawable/split"
+	                    android:contentDescription="@string/zoom_out" />
+	            <FrameLayout
+	                android:layout_weight="1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" >
+	                <ImageView
+	                    android:id="@+id/grid"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:src="@drawable/grid"
+	                    android:scaleType="centerInside"
+	                    android:contentDescription="@string/play" />
+	                <ImageView
+	                    android:id="@+id/grid_fg"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:src="@drawable/btn_press"
+	                    android:scaleType="fitXY"
+	                    android:visibility="invisible"
+	                    android:alpha="0.2"
+	                    android:contentDescription="@string/play" />
+	            </FrameLayout>
+            -->
+
+            <TextView
+                android:id="@+id/rotate_right"
+                style="@style/BottomBarTextStyle"
+                android:background="@drawable/selector_bottom_btn_bg"
+                android:contentDescription="@string/str_btn_rotate"
+                android:drawableTop="@drawable/main_rotate"
+                android:text="@string/str_btn_rotate" />
+
+            <TextView
+                android:id="@+id/prev"
+                style="@style/BottomBarTextStyle"
+                android:background="@drawable/selector_bottom_btn_bg"
+                android:contentDescription="@string/str_btn_pre"
+                android:drawableTop="@drawable/main_previous"
+                android:text="@string/str_btn_pre" />
+
+            <TextView
+                android:id="@+id/play"
+                style="@style/BottomBarTextStyle"
+                android:background="@drawable/selector_bottom_btn_bg"
+                android:contentDescription="@string/str_btn_play"
+                android:drawableTop="@drawable/main_play"
+                android:text="@string/str_btn_play" />
+
+            <TextView
+                android:id="@+id/next"
+                style="@style/BottomBarTextStyle"
+                android:background="@drawable/selector_bottom_btn_bg"
+                android:contentDescription="@string/str_btn_next"
+                android:drawableTop="@drawable/main_next"
+                android:text="@string/str_btn_next" />
+
+            <TextView
+                android:id="@+id/back"
+                style="@style/BottomBarTextStyle"
+                android:background="@drawable/selector_bottom_btn_bg"
+                android:contentDescription="@string/str_btn_back"
+                android:drawableTop="@drawable/main_return"
+                android:text="@string/str_btn_back" />
+        </LinearLayout>
+    </com.autochips.picturebrowser.ui.CurtainView>
+
+</FrameLayout>

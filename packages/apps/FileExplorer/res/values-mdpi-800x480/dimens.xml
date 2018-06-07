@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="popuwindow_height">20dp</dimen>
+    <!-- 选择sd和内部存储 -->
+    <dimen name="task_paddingleft">6dp</dimen>
+    <dimen name="task_paddingbottom">12dp</dimen>
+    <!-- 图片浏览top textView-->
+    <dimen name="photoback">15sp</dimen>
+    <!-- 弹出新建 -->
+    <dimen name="newalertwith">190dp</dimen>
+     <!-- 切换为列表模式时文件名TextView长度 -->
+    <dimen name="fntv">300dp</dimen>
+</resources>

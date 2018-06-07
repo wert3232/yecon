@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/btn_can_choose_padding" >
+
+        <TextView
+            android:id="@+id/tx_can_choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/tx_default_size"
+            android:text="@string/tx_can_show"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tx_default_size" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tx_can_box"
+                style="@style/can_choose_type_textviewtheme"
+                android:text="@string/bt_can_box" />
+
+            <Button
+                android:id="@+id/btn_can_box"
+                style="@style/can_choose_Btntheme"
+                android:background="@drawable/choose_btn" />
+
+            <com.can.ui.draw.AutoText
+                android:id="@+id/tx_can_box_name"
+                style="@style/can_choose_viewtheme" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tx_can_line"
+                style="@style/can_choose_type_textviewtheme"
+                android:text="@string/bt_can_line" />
+
+            <Button
+                android:id="@+id/btn_can_line"
+                style="@style/can_choose_Btntheme"
+                android:background="@drawable/choose_btn" />
+
+            <com.can.ui.draw.AutoText
+                android:id="@+id/tx_can_line_name"
+                style="@style/can_choose_viewtheme" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tx_can_type"
+                style="@style/can_choose_type_textviewtheme"
+                android:text="@string/bt_can_type" />
+
+            <Button
+                android:id="@+id/btn_can_type"
+                style="@style/can_choose_Btntheme"
+                android:background="@drawable/choose_btn" />
+
+            <com.can.ui.draw.AutoText
+                android:id="@+id/tx_can_type_name"
+                style="@style/can_choose_viewtheme" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tx_can_cfg"
+                style="@style/can_choose_type_textviewtheme"
+                android:text="@string/bt_can_cfg" />
+
+            <Button
+                android:id="@+id/btn_can_cfg"
+                style="@style/can_choose_Btntheme"
+                android:background="@drawable/choose_btn" />
+
+            <com.can.ui.draw.AutoText
+                android:id="@+id/tx_can_cfg_name"
+                style="@style/can_choose_viewtheme" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/btn_can_list_margin"
+        android:layout_marginTop="@dimen/btn_can_choose_padding"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/list_can_info"
+            android:layout_width="@dimen/list_default_width"
+            android:layout_height="@dimen/list_default_height"
+            android:drawSelectorOnTop="false"
+            android:listSelector="@drawable/choose_list_info"
+            android:visibility="visible" >
+        </ListView>
+
+        <Button
+            android:id="@+id/btn_can_sure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/btn_can_list_margin"
+            android:layout_marginTop="@dimen/btn_can_list_sure"
+            android:background="@drawable/choose_btn"
+            android:gravity="center"
+            android:text="@string/bt_can_sure"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tx_default_size" />
+    </LinearLayout>
+
+</LinearLayout>

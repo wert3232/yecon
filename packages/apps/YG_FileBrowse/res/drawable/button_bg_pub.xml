@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- pressed -->
+    <item android:drawable="@drawable/bottom_btn_down" android:state_pressed="true"/>
+    <!-- focused -->
+    <item android:drawable="@drawable/bottom_btn_down" android:state_focused="true"/>
+    <!-- selected -->
+    <item android:drawable="@drawable/bottom_btn_down" android:state_selected="true"/>
+    <!-- checked -->
+    <item android:drawable="@drawable/bottom_btn_down" android:state_checked="true"/>
+    <!-- default -->
+    <item android:drawable="@android:color/transparent"/>
+
+</selector>

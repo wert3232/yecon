@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">CopyInstall</string>
+    <string name="Map_data_upgrade">Map data upgrade</string>
+    <string name="nand_sd_in_shared">The NandFlash or external storage is int sharing state, disconnect the shared state to copy and install operation.</string>
+    <string name="sdcard_dirs_not_exit">The copy directory NaviOne is not exit int external storage, please insert external storage and create this directory.</string>
+    <string name="prepare_sd">Preparing external storage\u2026</string>
+    <string name="sdcard_eject">external storage is removed, the copy operation has been interrupted.</string>
+    <string name="low_memory_title">Install Memory...</string>
+    <string name="low_memory_message">The installation of memory  is low</string>
+    <!-- No external storage -->
+    <string name="already_install_message">Already installed APK.\nIf you want to install it again,factory data reset please.</string>
+    <string name="already_install_title">APK is already install</string>
+    <!-- Scanning Dialog -->
+    <string name="scanning_title">Scanning</string>
+
+    <!-- No apk file -->
+    <string name="no_apk_title">Scanning apk file</string>
+    <string name="no_apk_message">There is no APK in the folder.</string>
+
+    <!-- Notification AlertDialog -->
+    <string name="alert_title">NOTIFICATION.</string>
+    <string name="alert_message">There are <xliff:g id="apkfile">%1d</xliff:g> APK files in the folder!\nDo you want to install?</string>
+    <string name="scanning_message">Scanning APK files...</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Installing Dialog -->
+    <string name="installing_title">INSTALLING.</string>
+    <string name="installing_message">Installing APK files,Please do not interrupt this operation...</string>
+
+    <!-- Finish install apk -->
+    <string name="finish_install_apk_title">NOTIFICATION.</string>
+    <string name="finish_install_apk_message">Finish installed APK.</string>
+    <string name="yes_exit">Exit</string>
+    <string name="path_title"> Apk Storage path </string>
+    <string name="path_message">Apk Storage path is empty or the Store does not mount completely,Please check your equipment ...</string>
+    <string name="install_finish">Install finish.</string>
+    <string name="copy_finish">Copy finish,these is no data losing</string>
+    <string name="copying_title">Copying\u2026</string>
+    <string name="not_enough_space">Not enough space to copy or storage not ready.</string>
+    <string name="copy_text_defalut">Files copying...</string>
+    <string name="copy_file_fail">Corrupted files in \n the copy of the file \ n Please re-insert the external storage \n or restart device</string>
+    <string name="version_id">full_m805_892x_evm</string>
+    <string name="no_permission">This software is not available for this machine.</string>
+    <string name="copy_data">Copy</string>
+    <string name="install_apk">Install APK</string>
+    <string name="activation_key">activation</string>
+    <string name="activation_key_success">activation is succeed！</string>
+    <string name="activation_key_failure">activation is failure！</string>
+    <string name="no_files">No files in the directory.</string>
+    <string name="install_text_defalut">APK installing...</string>
+    <string name="install_again">Installation unsuccessful apk again</string>
+    <string name="copy_fail">Comparing date from nand and external storage, nand had losted some date,please check!</string>
+    <string name="close">close</string>
+    <string name="copy_source_path">Source path</string>
+    <string name="copy_target_path">Target path</string>
+    <string name="sn_source_path">SN File</string>
+    <string name="sn_target_path">SN Target path</string>
+    <string name="apk_path">Target path</string>
+    <string name="up_one_level">.Back to the Top List</string>
+    <string name="current_dir">.Refresh</string>
+
+</resources>

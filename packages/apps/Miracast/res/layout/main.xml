@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"	
+    >
+    <FrameLayout
+        android:id="@+id/layout_start"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/main_back"
+	    android:visibility="visible"
+	    >
+	    <TextView
+	       	android:id="@+id/tvStart"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginBottom="@dimen/start_title_marginBottom"
+			android:textColor="@android:color/white"
+			android:textSize="@dimen/start_title_size"
+			android:text="@string/start_title"/>
+	    <ImageView
+	       	android:id="@+id/ivStart"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:scaleType="fitXY"
+			android:layout_gravity="bottom"
+			android:layout_marginBottom="@dimen/start_logo_marginBottom"
+			android:src="@drawable/start_logo"/>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/layout_main"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/main_back"
+	    android:visibility="gone"
+	    >
+	    <LinearLayout 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:orientation="vertical">
+			
+		    <TextView
+		       	android:id="@+id/title"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:textColor="@android:color/white"
+				android:textSize="@dimen/big_title_textsize"
+				android:background="@drawable/main_title_back"
+				android:text="@string/choose_way_connect"/>
+		    	
+			<LinearLayout 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/button_distance"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:orientation="horizontal">
+				<TextView 
+				    android:id="@+id/tvUsb"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:background="@drawable/main_usb"
+					android:gravity="bottom|center_horizontal"
+					android:textSize="@dimen/default_textsize"
+					android:textColor="@color/text_normal"
+					android:paddingBottom="@dimen/main_text_paddingBottom"
+					android:text="@string/android_usb"
+				    />
+				<TextView 
+				    android:layout_marginLeft="@dimen/button_distance"
+				    android:id="@+id/tvWifi"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:background="@drawable/main_wifi"
+					android:gravity="bottom|center_horizontal"
+					android:textSize="@dimen/default_textsize"
+					android:textColor="@color/text_normal"
+					android:paddingBottom="@dimen/main_text_paddingBottom"
+					android:text="@string/android_wifi"
+				    />
+				<TextView 
+				    android:layout_marginLeft="@dimen/button_distance"
+				    android:id="@+id/tvIphone"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:background="@drawable/main_iphone_wifi"
+					android:gravity="bottom|center_horizontal"
+					android:textSize="@dimen/default_textsize"
+					android:textColor="@color/text_normal"
+					android:paddingBottom="@dimen/main_text_paddingBottom"
+					android:text="@string/iphone_wifi"
+				    />
+			</LinearLayout>
+		</LinearLayout>
+		<include layout="@layout/geely_bottombar"/>
+	</FrameLayout>
+</FrameLayout>

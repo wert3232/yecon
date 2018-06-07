@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CarWidget8317</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="dtv_name">DTV</string>
+    <string name="atv_name">ATV</string>
+    <string name="avin_name">AVIN</string>
+    <string name="video_name">Video</string>
+    <string name="unknow_name">unknow</string>
+
+
+</resources>

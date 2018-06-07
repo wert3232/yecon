@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 透明色 -->
+    <color name="lucency">#00000000</color>
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <!-- 红色 -->
+    <color name="red">#FF0000</color>
+    <!-- 绿色 -->
+    <color name="green">#00FF00</color>
+    <!-- 透明绿色 -->
+    <color name="lucencygreen">#8000FF00</color>
+    <!-- 蓝色 -->
+    <color name="blue">#0000FF</color>
+    <!-- 透明蓝色 -->
+    <color name="lucencyblue">#800000FF</color>
+    <!-- 橙色 -->
+    <color name="orange">#FFA500</color>
+    <!-- 透明橙色 -->
+    <color name="lucencyorange">#80FFA500</color>
+    <!-- 灰色 -->
+    <color name="grey">#808080</color>
+    <!-- 透明灰色 -->
+    <color name="lucencygrey">#80808080</color>
+    <!-- 黄色 -->
+    <color name="yellow">#FFFF00</color>
+    <!-- 淡黄色 -->
+    <color name="lightyellow">#F6FFAC</color>
+    <!-- 保护眼睛色 -->
+    <color name="protecteye">#C7EDCC</color>
+    <!-- 米黄色 -->
+    <color name="mihuangse">#EDEBE3</color>
+    <!-- 浅白色 -->
+    <color name="qianbase">#F8F7F6</color>
+    <!-- 青色 -->
+    <color name="qingse">#1EA883</color>
+    <!-- 青色 -->
+    <color name="cyan">#00FFFF</color>
+    <!-- 棕黄色 -->
+    <color name="zonghuangse">#D37F2F</color>
+    <!-- 紫色 -->
+    <color name="purple">#800080</color>
+    <!-- 金色 -->
+    <color name="gold">#FFD700</color>
+    <!-- 褐色 -->
+    <color name="brown">#A52A2A</color>
+
+</resources>

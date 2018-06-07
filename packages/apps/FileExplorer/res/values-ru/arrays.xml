@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="file_type_entries">
+        <item>Все видеофайлы</item>
+        <item>Все аудиофайлы</item>
+        <item>Все изображения</item>
+        <item>Все APK файлы</item>
+    </string-array>
+    
+    <string-array name="file_type_values">
+        <item>video</item>
+        <item>audio</item>
+        <item>image</item>
+        <item>apk</item>
+    </string-array>
+    
+    
+    <string-array name="file_operation_entries">
+        <item>Открыть</item>
+        <item>Вверх</item>
+        <item>Копировать</item>
+        <item>Вырезать</item>
+        <item>Вставить</item>
+        <item>Переименовать</item>
+        <item>Удалить</item>
+        <item>Собственность</item>
+        <item>Новый</item>
+    </string-array>
+    
+    <integer-array name="file_operation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </integer-array>
+</resources>

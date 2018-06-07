@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="416dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/img_ford_sync_mode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ford_mode_sync" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_ford_sync_solftk"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_ford_sync_solft1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ford_sync_solftk"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/tx_default_size" />
+
+                <Button
+                    android:id="@+id/btn_ford_sync_solft2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ford_sync_solftk"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/tx_default_size" />
+
+                <Button
+                    android:id="@+id/btn_ford_sync_solft3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ford_sync_solftk"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/tx_default_size" />
+
+                <Button
+                    android:id="@+id/btn_ford_sync_solft4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ford_sync_solftk"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/tx_default_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="600dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ford_list_bk"
+                android:orientation="vertical" >
+
+                <ListView
+                    android:id="@+id/list_ford_sync_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@null"
+                    android:drawSelectorOnTop="false"
+                    android:listSelector="@android:color/transparent" >
+                </ListView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_sync_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tx_sync_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_ford_sync_dnbar_dn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|bottom"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ford_sync_dnbar"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/img_ford_sync_sigflip1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ford_sigflip_0" />
+
+                <ImageView
+                    android:id="@+id/img_ford_sync_batteryflip1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ford_sync_batteryflip_0" />
+
+                <ImageView
+                    android:id="@+id/img_ford_sync_btcallsts1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ford_dail_1" />
+
+                <ImageView
+                    android:id="@+id/img_ford_sync_msgsts1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ford_msg_0" />
+
+                <ImageView
+                    android:id="@+id/img_ford_sync_btconsts1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ford_sync_bt" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_ford_sync_keybroad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|bottom"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/btn_ford_sync_dnbar_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ford_sync_dnbar"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/img_ford_sync_sigflip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ford_sigflip_0" />
+
+            <ImageView
+                android:id="@+id/img_ford_sync_batteryflip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ford_sync_batteryflip_0" />
+
+            <ImageView
+                android:id="@+id/img_ford_sync_btcallsts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ford_dail_1" />
+
+            <ImageView
+                android:id="@+id/img_ford_sync_msgsts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ford_msg_0" />
+
+            <ImageView
+                android:id="@+id/img_ford_sync_btconsts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ford_sync_bt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ford_kb"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_ford_sync_kb_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ford_sync_btn_k1" />
+
+                    <Button
+                        android:id="@+id/btn_ford_sync_kb_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ford_sync_btn_k2" />
+
+                    <Button
+                        android:id="@+id/btn_ford_sync_kb_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ford_sync_btn_k3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_ford_sync_kb_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ford_sync_btn_k4" />
+
+                    <Button
+                        android:id="@+id/btn_ford_sync_kb_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ford_sync_btn_k5" />
+
+                    <Button
+                        android:id="@+id/btn_ford_sync_kb_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ford_sync_btn_k6" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_ford_sync_kb_speech"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ford_sync_btn_pulic"
+                        android:text="@string/str_ford_sync_speech"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/tx_default_size" />
+
+                    <Button
+                        android:id="@+id/btn_ford_sync_kb_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ford_sync_btn_pulic"
+                        android:text="@string/str_ford_sync_phone"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/tx_default_size" />
+
+                    <Button
+                        android:id="@+id/btn_ford_sync_kb_last"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ford_sync_btn_pulic"
+                        android:text="@string/str_ford_sync_last"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/tx_default_size" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_ford_sync_up"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ford_sync_btn_p2"
+                        android:text="@string/str_ford_sync_up"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/tx_default_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_ford_sync_left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ford_sync_btn_p2"
+                        android:text="@string/str_ford_sync_left"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/tx_default_size" />
+
+                    <Button
+                        android:id="@+id/btn_ford_sync_ok"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ford_sync_btn_p2"
+                        android:text="@string/str_ford_sync_ok"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/tx_default_size" />
+
+                    <Button
+                        android:id="@+id/btn_ford_sync_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ford_sync_btn_p2"
+                        android:text="@string/str_ford_sync_right"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/tx_default_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_ford_sync_dn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ford_sync_btn_p2"
+                        android:text="@string/str_ford_sync_dn"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/tx_default_size" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_ford_sync_kb_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ford_sync_btn_k7" />
+
+                    <Button
+                        android:id="@+id/btn_ford_sync_kb_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ford_sync_btn_k8" />
+
+                    <Button
+                        android:id="@+id/btn_ford_sync_kb_9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ford_sync_btn_k9" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_ford_sync_kb_a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ford_sync_btn_ka" />
+
+                    <Button
+                        android:id="@+id/btn_ford_sync_kb_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ford_sync_btn_k0" />
+
+                    <Button
+                        android:id="@+id/btn_ford_sync_kb_b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ford_sync_btn_kb" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_ford_sync_kb_next"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ford_sync_btn_pulic"
+                        android:text="@string/str_ford_sync_next"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/tx_default_size" />
+
+                    <Button
+                        android:id="@+id/btn_ford_sync_kb_swicth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ford_sync_btn_pulic"
+                        android:text="@string/str_ford_sync_swicth"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/tx_default_size" />
+
+                    <Button
+                        android:id="@+id/btn_ford_sync_kb_huang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ford_sync_btn_pulic"
+                        android:text="@string/str_ford_sync_huang"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/tx_default_size" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

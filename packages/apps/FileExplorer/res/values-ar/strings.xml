@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">المجلدات</string>
+    <string name="fujian">copy</string>
+    <string name="system_prompt ">system_prompt</string>
+    <string name="hello">Hello World, APKTools!</string>
+    <string name="data_load">Data Scan</string>
+    <string name="data_quxiao">Search Cancle</string>
+    <string name="data_load_msg">Scaning...Please wait!</string>
+    <string name="data_load_msg2">Busy....Please wait</string>
+    <string name="file_name">File Name</string>
+    <string name="file_property">File Property</string>
+    <string name="file_path">File Path</string>
+    <string name="file_date">Edit Time</string>
+    <string name="help">Help</string>
+    <string name="help_home">Home Directory</string>
+    <string name="help_search">Search</string>
+    <string name="help_uplevel">Up a level</string>
+    <string name="help_help">Help</string>
+    <string name="help_list">List Mode</string>
+    <string name="help_grid">Icon Mode</string>
+    <string name="help_operation">Operation Mode</string>
+    <string name="help_choose">Choose</string>
+    <string name="mode">Mode</string>
+    <string name="help_copy">Copy</string>
+    <string name="help_cut">Cut</string>
+    <string name="help_paste">Paste</string>
+    <string name="help_delete">Delete</string>
+    <string name="help_close">Exit</string>
+    <string name="search_specify_hint">Search any file by Name</string>
+    <string name="search_type_example">Can be any part of the filename. Example:input "test" or "pdf" or "doc"</string>
+    <string name="menu_bt_scan">Search</string>
+    <string name="search_path">Path</string>
+    <string name="search_type">Type</string>
+    <string name="search_keyworld">Key Word</string>
+    <string name="search_keyworld_checkbox">Search any file by Name</string>
+    <string name="search_keyworld_error">Must input the keyword!</string>
+    <string name="operation">Operation</string>
+    <string name="str_copy">Copy</string>
+    <string name="str_new">New</string>
+    <string name="str_rename">Rename</string>
+    <string name="str_new_file">File</string>
+    <string name="str_new_folder">Folder</string>
+    <string name="msg_error_rename">Existing file with same name as the file name, specify another name!</string>
+    <string name="msg_error_error">Error!</string>
+    <string name="msg_error_faild">Operation failed!</string>
+    <string name="msg_error_childpath">Can not be cut to a subdirectory under the directory!</string>
+    <string name="msg_error_nocontent">Paste-board no content!</string>
+    <string name="msg_error_noobject">You did not select any object!</string>
+    <string name="operation_prepare">Preparing ...</string>
+    <string name="operation_copy">Copying:</string>
+    <string name="operation_delete">Deleting:</string>
+    <string name="confirm_delete_title">Delete Confirmation</string>
+    <string name="confirm_delete_msg">Are you sure you want to delete?</string>
+    <string name="str_ok">OK</string>
+    <string name="str_cancel">Cancel</string>
+
+    <!-- clock -->
+    <string name="default_date">00:00</string>
+    <string name="twenty_four_hour_time_format">HH:mm</string>
+    <string name="twelve_hour_time_format">h:mm</string>
+    <!-- hoseat txetView text -->
+    <string name="video">Video</string>
+    <string name="select_equipment">Device</string>
+    <string name="music">Music</string>
+    <string name="image">Image</string>
+    <string name="apk">APK</string>
+    <string name="nofile">There is no file.</string>
+    <string name="title_activity_photo">PhotoActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<!-- 提示视频不能播放 -->
+	<string name="canotplayvedio"> The FileExplorer does not provide the function of playing, please use video app to play.</string>
+   <!-- 提示不能播放音乐 -->
+     <string name="fileExceplorerCanotPlay">The FileExplorer does not support the playing of the format.Please play the music player.</string>
+     <!-- 损坏 -->
+     <string name="file_isnot_complete">The file has been damaged and can not open.</string>
+</resources>

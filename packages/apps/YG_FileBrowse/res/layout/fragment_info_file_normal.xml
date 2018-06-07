@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/h_divider"
+    android:orientation="vertical"
+    android:showDividers="middle" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/fragment_info_normal_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:id="@+id/fragment_info_normal_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_toRightOf="@id/fragment_info_normal_icon"
+            android:maxLines="3"
+            android:scrollHorizontally="true"
+            android:scrollbars="horizontal"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <include
+            android:id="@+id/fragment_info_normal_location"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            layout="@layout/fragment_info_two_line_list_item" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5" >
+
+        <include
+            android:id="@+id/fragment_info_normal_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            layout="@layout/fragment_info_two_line_list_item" />
+
+        <include
+            android:id="@+id/fragment_info_normal_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            layout="@layout/fragment_info_two_line_list_item" />
+
+        <include
+            android:id="@+id/fragment_info_normal_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            layout="@layout/fragment_info_two_line_list_item" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical"
+            android:text="@string/fragment_info_normal_title_permission"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4" >
+
+            <CheckBox
+                android:id="@+id/fragment_info_normal_permission_read"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="false"
+                android:clickable="false"
+                android:text="@string/fragment_info_normal_title_read" />
+
+            <CheckBox
+                android:id="@+id/fragment_info_normal_permission_write"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="false"
+                android:clickable="false"
+                android:text="@string/fragment_info_normal_title_write" />
+
+            <CheckBox
+                android:id="@+id/fragment_info_normal_permission_exe"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="false"
+                android:clickable="false"
+                android:text="@string/fragment_info_normal_title_exe" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

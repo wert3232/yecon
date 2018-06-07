@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPS Info</string>
+    <string name="reset_btn">reset</string>
+    <string name="back_btn">exit</string>
+    <string name="longitude">longitude:</string>
+    <string name="latitude">latitude:</string>
+    <string name="height">height:</string>
+    <string name="speed">speed:</string>
+	<string name="utc">Time:</string> 
+	<string name="unit">km/h</string>
+	<string name="meter">m</string>
+	<string name="fetch_gps_data">getting gps data...</string>
+	<string name="gpstest_title">GPS</string>
+</resources>

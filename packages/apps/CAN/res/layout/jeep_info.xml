@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_jeep_menu_carset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/toyota_btn_menu_carset"
+                android:text="@string/str_tx_jeep_menu_carset"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+
+            <Button
+                android:id="@+id/btn_jeep_menu_cdinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/toyota_btn_menu_dsp"
+                android:text="@string/str_tx_jeep_menu_cdinfo"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_jeep_menu_compass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/toyota_btn_menu_curfuel"
+                android:text="@string/str_tx_jeep_menu_compass"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+
+            <Button
+                android:id="@+id/btn_jeep_menu_airset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/jeep_btn_menu_carinfo"
+                android:text="@string/str_tx_jeep_menu_airset"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+
+            <Button
+                android:id="@+id/btn_menu_dsp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/toyota_btn_menu_dsp"
+                android:text="@string/str_tx_jeep_menu_dspinfo"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tx_default_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

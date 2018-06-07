@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:carsetting="http://schemas.android.com/apk/res/com.yecon.carsetting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:padding="@dimen/fragment_padding" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/seekBar_treble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_seekbarMax="28"
+            carsetting:item_seekbarPos="14"
+            carsetting:item_style="6"
+            carsetting:item_subTitle="@string/factory_treble" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/seekBar_alto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_seekbarMax="28"
+            carsetting:item_seekbarPos="14"
+            carsetting:item_style="6"
+            carsetting:item_subTitle="@string/factory_alto" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/seekBar_bass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_seekbarMax="28"
+            carsetting:item_seekbarPos="14"
+            carsetting:item_style="6"
+            carsetting:item_subTitle="@string/factory_bass" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/seekBar_subwoofer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_seekbarMax="40"
+            carsetting:item_seekbarPos="0"
+            carsetting:item_style="6"
+            carsetting:item_subTitle="@string/factory_subwoofer" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/seekBar_loundness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_seekbarMax="19"
+            carsetting:item_seekbarPos="15"
+            carsetting:item_style="6"
+            carsetting:item_subTitle="@string/factory_loundness" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/seekBar_balance_fr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_seekbarMax="40"
+            carsetting:item_seekbarPos="20"
+            carsetting:item_style="6"
+            carsetting:item_subTitle="@string/factory_balance_fr" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/seekBar_balance_lr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_seekbarMax="40"
+            carsetting:item_seekbarPos="20"
+            carsetting:item_style="6"
+            carsetting:item_subTitle="@string/factory_balance_lr" />
+    </LinearLayout>
+
+</ScrollView>

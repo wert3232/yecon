@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GPS</string>
+    <string name="reset_btn">Reset</string>
+    <string name="reset_time">Located Time:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="latitude">Latitude:</string>
+    <string name="height">Height:</string>
+    <string name="speed">Velocity:</string>
+    <string name="L_time">Time:</string>
+    <string name="UTC">U T C:</string>
+    <string name="unit">km/h</string>
+    <string name="meter">M</string>
+    <string name="fetch_gps_data">Getting GPS data...</string>
+    <string name="gpstest_title">GPS Information</string>
+    <string name="time_min">00</string>
+    <string name="time_x">:</string>
+    <string name="time_sec">00</string>
+    <string name="time_xx">:</string>
+    <string name="time_dsec">0</string>
+    <string name="open_gps_gpio_title">WARNING!</string>
+    <string name="open_gps_gpio_text">Your equipment did not open GPS yet! \nSelect Settings and open GPS, otherwise,exit GPSTest!</string>
+    <string name="ok">Settings</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

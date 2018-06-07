@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bluetooth="http://schemas.android.com/apk/res/com.autochips.bluetooth"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	
+  	>
+  	
+  	<LinearLayout
+        android:id="@+id/device_activity"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+<FrameLayout
+  	android:layout_width="607dp"
+  	android:layout_height="fill_parent"
+  	android:layout_marginLeft="12dp"
+  	android:layout_marginRight="3dp"
+  	android:layout_marginTop="8dp"
+  	android:background="@drawable/listview_bg">
+        <ListView
+			android:paddingTop="3dp"
+            android:id="@+id/bluetooth_paired_devices"
+            android:choiceMode="singleChoice"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="#ff000000"
+            android:dividerHeight="1dp"
+            android:cacheColorHint="#00000000"
+            android:drawSelectorOnTop="false"
+            android:listSelector="@xml/setting_device_list_status" >
+        </ListView>
+  	<TextView
+	    android:id="@+id/pairedisempty"
+  	    android:layout_width="fill_parent"
+  	    android:layout_height="wrap_content"
+  	    android:layout_gravity="center_vertical" 
+  	    android:gravity="center" 
+  	    android:text="@string/pairedlistisempty"
+  	    android:textSize="26sp"
+  	    />
+        </FrameLayout>
+        
+        <LinearLayout
+            android:id="@+id/pairedlist_rightbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bk_setting">
+		   	
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="67dp" 
+			    android:text="@string/bt_device_name_title"
+			    android:textColor="@color/white"
+			    android:textSize="26sp"
+			    android:gravity="center_vertical"
+			    android:paddingLeft="40dp"
+			    />
+			
+			<TextView
+                android:id="@+id/txt_devicename"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content" 
+			    android:textColor="@color/white"
+			    android:textSize="26sp"
+			    android:paddingLeft="5dp"
+			    android:background="@drawable/txtbackground_setting"
+			    android:layout_marginLeft="40dp"
+			    />
+			
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="84dp" 
+			    android:text="@string/bt_device_pin_title"
+			    android:textColor="@color/white"
+			    android:textSize="26sp"
+				android:paddingTop="30dp"
+			    android:paddingLeft="40dp"
+			    />
+			
+			<TextView
+                android:id="@+id/txt_devicepin"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content" 
+			    android:textColor="@color/white"
+			    android:textSize="26sp"
+			    android:paddingLeft="5dp"
+			    android:background="@drawable/txtbackground_setting"
+			    android:layout_marginLeft="40dp"
+			    />
+    		
+			 	<TableLayout
+		  		android:layout_width="wrap_content"
+		  		android:layout_height="wrap_content"
+            	android:paddingTop="35dp">
+			  		<TableRow
+			  			android:layout_width="wrap_content"
+			  			android:layout_height="wrap_content"
+			  			android:layout_weight="1"
+			  			>
+						<ImageButton
+						android:id="@+id/btn_connect_setting"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:background="@drawable/btn_connect"
+						android:layout_weight="1"
+						android:layout_marginLeft="47dp"/>
+						<ImageButton
+						android:id="@+id/btn_disconnect_setting"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:background="@drawable/btn_disconnect"
+						android:layout_weight="1"
+						android:layout_marginLeft="23dp"/>
+			  		</TableRow>
+			  		<TableRow
+			  			android:layout_width="wrap_content"
+			  			android:layout_height="wrap_content"
+			  			android:layout_weight="1"
+			  			>
+						<ImageButton
+						android:id="@+id/btn_search_setting"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:background="@drawable/btn_search"
+						android:layout_weight="1"
+						android:layout_marginLeft="47dp"
+						android:layout_marginTop="12dp"/>
+						<ImageButton
+						android:id="@+id/btn_delete_setting"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:background="@drawable/btn_delete"
+						android:layout_weight="1"
+						android:layout_marginLeft="23dp"
+						android:layout_marginTop="12dp"/>
+			  		</TableRow>
+  				</TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/scan_device_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="170dp"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/progressbar_scan_device"
+            android:layout_width="119dp"
+            android:layout_height="119dp"
+            android:indeterminateDrawable="@drawable/blue_progressbar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/str_download_phonebook"
+            android:visibility="gone" />
+    </LinearLayout>
+</FrameLayout>

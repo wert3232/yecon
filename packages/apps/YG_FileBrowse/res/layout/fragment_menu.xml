@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fragment_menu_bkg">
+
+        <SearchView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight ="430"
+            >
+        </SearchView>
+
+        <ImageButton
+            android:id="@+id/action_listview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight ="99"
+            android:src="@drawable/menu_listview"
+            android:background="@null"
+            android:onClick="onClick"
+            />
+        <ImageButton
+            android:id="@+id/action_gridview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight ="99"
+            android:src="@drawable/menu_gridview"
+            android:background="@null"
+            android:onClick="onClick"
+            />
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight ="99"
+            android:src="@drawable/menu_sort"
+            android:id="@+id/action_sort"
+            android:background="@null"
+            android:onClick="onClick"
+            />
+        <ImageButton
+            android:id="@+id/action_newfolder"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight ="99"
+            android:src="@drawable/menu_newfolder"
+            android:background="@null"
+            android:onClick="onClick"
+            />
+        <ImageButton
+            android:id="@+id/action_info"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight ="99"
+            android:src="@drawable/menu_info"
+            android:background="@null"
+            android:onClick="onClick"
+            android:enabled = "false"
+            />
+        <ImageButton
+            android:id="@+id/action_filter"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight ="99"
+            android:src="@drawable/menu_filter"
+            android:background="@null"
+            android:onClick="onClick"
+            />
+
+</LinearLayout>

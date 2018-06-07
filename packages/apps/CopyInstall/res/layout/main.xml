@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bgcolor"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/message_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="@dimen/textsize_s" />
+
+    <TextView
+        android:id="@+id/copy_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message_text"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:textSize="@dimen/textsize_s" />
+
+    <TextView
+        android:id="@+id/install_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/copy_text"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:textSize="@dimen/textsize_s" />
+
+    <LinearLayout
+        android:id="@+id/layout_parent_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@android:color/black"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_source_path"
+                    android:layout_width="@dimen/btn_width"
+                    android:layout_height="@dimen/btn_height"
+                    android:text="@string/copy_source_path"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/textsize_l" />
+
+                <TextView
+                    android:id="@+id/text_source_path"
+                    android:layout_width="@dimen/text_prompt_w"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/copy_source_path"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/textsize_l" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_target_path"
+                    android:layout_width="@dimen/btn_width"
+                    android:layout_height="@dimen/btn_height"
+                    android:text="@string/copy_target_path"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/textsize_l" />
+
+                <TextView
+                    android:id="@+id/text_target_path"
+                    android:layout_width="@dimen/text_prompt_w"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/copy_target_path"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/textsize_m" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/copy"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/copy_data"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textsize_l" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_parent_sn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_parent_data"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/black"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_snsource_path"
+                    android:layout_width="@dimen/btn_width"
+                    android:layout_height="@dimen/btn_height"
+                    android:text="@string/sn_source_path"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/textsize_l" />
+
+                <TextView
+                    android:id="@+id/text_snsource_path"
+                    android:layout_width="@dimen/text_prompt_w"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/sn_source_path"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/textsize_m" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_sntarget_path"
+                    android:layout_width="@dimen/btn_width"
+                    android:layout_height="@dimen/btn_height"
+                    android:text="@string/sn_target_path"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/textsize_l" />
+
+                <TextView
+                    android:id="@+id/text_sntarget_path"
+                    android:layout_width="@dimen/text_prompt_w"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/sn_target_path"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/textsize_m" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/activation_key"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/activation_key"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textsize_l" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_parent_apk_path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_parent_sn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/black"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/btn_apk_path"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/apk_path"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textsize_l" />
+
+        <TextView
+            android:id="@+id/text_apk_path"
+            android:layout_width="@dimen/text_prompt_w"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/apk_path"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textsize_m" />
+
+        <Button
+            android:id="@+id/install"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:layout_centerHorizontal="true"
+            android:text="@string/install_apk"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textsize_l" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_below="@+id/activation_key"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/close"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textsize_l"
+        android:visibility="gone" />
+
+</RelativeLayout>

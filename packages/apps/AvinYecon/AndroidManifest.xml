@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yecon.avin"
+    android:sharedUserId="android.uid.system" >
+
+    <application
+        android:name="com.yecon.avin.AVINApp"
+        android:icon="@drawable/aux1_icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.yecon.avin.AVInActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:icon="@drawable/aux1_icon"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:process="android.process.avin"
+            android:screenOrientation="landscape"
+            android:taskAffinity="android.task.avin"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yecon.avin.AVInExtActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:icon="@drawable/aux1_icon"
+            android:label="@string/app_name2"
+            android:launchMode="singleTask"
+            android:process="android.process.avin"
+            android:screenOrientation="landscape"
+            android:taskAffinity="android.task.avin"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yecon.avin.DvrActivity"
+            android:configChanges="keyboardHidden|orientation"
+             android:launchMode="singleTask"
+             android:label="@string/dvr"
+            android:process="android.process.avin.dvr"
+            android:screenOrientation="landscape"
+            android:taskAffinity="android.task.avin.dvr"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <!-- 
+                <action android:name="android.intent.action.VIEW" />
+                 -->
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yecon.avin.TvActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:icon="@drawable/aux1_icon"
+            android:label="@string/source_tv"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yecon.avin.ATvActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:process="android.process.avin.atv"
+            android:screenOrientation="landscape"
+            android:taskAffinity="android.task.avin.atv"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yecon.avin.DTvActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:process="android.process.avin.dtv"
+            android:screenOrientation="landscape"
+            android:taskAffinity="android.task.avin.dtv"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES" />
+    <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <!-- 获取按键权限 -->
+    <uses-permission android:name="android.permission.INJECT_EVENTS" />
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true" >
+    </supports-screens>
+
+</manifest>

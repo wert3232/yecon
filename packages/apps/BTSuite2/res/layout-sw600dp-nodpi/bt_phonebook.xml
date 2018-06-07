@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+
+            <!-- list -->
+
+            <LinearLayout
+                android:layout_width="469dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/search_phonebook_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="62dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/search_edit"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <EditText
+                        android:id="@+id/search_edittext"
+                        android:layout_width="fill_parent"
+                        android:layout_height="62dp"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginRight="50dp"
+                        android:background="#00000000"
+                        android:imeOptions="actionDone|flagNoExtractUi"
+                        android:singleLine="true"
+                        android:textColor="#ffffff"
+                        android:textSize="32dp" />
+                </LinearLayout>
+
+                <ListView
+                    android:background="@drawable/listview_bg"
+                    android:paddingTop="3dp"
+                    android:id="@+id/phonebook_listview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:cacheColorHint="#00000000"
+                    android:choiceMode="singleChoice"
+                    android:divider="#ff000000"
+                    android:dividerHeight="1dp" >
+                </ListView>
+            </LinearLayout>
+		
+    <GridLayout 
+	    	android:layout_marginTop="13dp"
+        	android:id="@+id/search_keyboard"
+		    android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="7"
+            android:background="@drawable/bk_phonebook"
+            >
+            <TextView
+                android:id="@+id/search_input_pannel"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+           		android:gravity="center"
+           		android:layout_columnSpan="5"
+                style="@style/panel_input_text"
+                android:background="@drawable/search_bg4"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"/>
+            <ImageButton
+                android:id="@+id/search_backspace"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+           		android:layout_columnSpan="2"
+                android:background="@drawable/search_backspace"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"/>
+            <ImageButton
+                android:id="@+id/search_a"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_a"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:src="@drawable/a_phonebook"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="15dp"/>
+           <ImageButton
+                android:id="@+id/search_b"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_b"
+                android:src="@drawable/b_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="2dp"/>
+          <ImageButton
+                android:id="@+id/search_c"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_c"
+                android:src="@drawable/c_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="2dp"/>
+          <ImageButton
+                android:id="@+id/search_d"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_d"
+                android:src="@drawable/d_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="2dp"/>
+          <ImageButton
+                android:id="@+id/search_e"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_e"
+                android:src="@drawable/e_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="2dp"/>
+          <ImageButton
+                android:id="@+id/search_f"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_f"
+                android:src="@drawable/f_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="2dp"/>
+	    <ImageButton
+                android:id="@+id/search_g"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_g"
+                android:src="@drawable/g_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="2dp"/>
+	    
+	    	<ImageButton
+                android:id="@+id/search_h"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_h"
+                android:src="@drawable/h_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="15dp"/>
+           <ImageButton
+                android:id="@+id/search_i"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_i"
+                android:src="@drawable/i_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="2dp"/>
+          <ImageButton
+                android:id="@+id/search_j"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_j"
+                android:src="@drawable/j_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="2dp"/>
+          <ImageButton
+                android:id="@+id/search_k"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_k"
+                android:src="@drawable/k_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="2dp"/>
+          <ImageButton
+                android:id="@+id/search_l"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_l"
+                android:src="@drawable/l_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="2dp"/>
+          <ImageButton
+                android:id="@+id/search_m"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_m"
+                android:src="@drawable/m_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="2dp"/>
+		<ImageButton
+                android:id="@+id/search_n"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_n"
+                android:src="@drawable/n_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="2dp"/>
+	    
+	    	<ImageButton
+                android:id="@+id/search_o"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_o"
+                android:src="@drawable/o_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="15dp"/>
+           <ImageButton
+                android:id="@+id/search_p"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_p"
+                android:src="@drawable/p_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="2dp"/>
+          <ImageButton
+                android:id="@+id/search_q"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_q"
+                android:src="@drawable/q_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="2dp"/>
+          <ImageButton
+                android:id="@+id/search_r"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_r"
+                android:src="@drawable/r_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="2dp"/>
+          <ImageButton
+                android:id="@+id/search_s"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_s"
+                android:src="@drawable/s_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="2dp"/>
+          <ImageButton
+                android:id="@+id/search_t"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_t"
+                android:src="@drawable/t_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="2dp"/>
+	    <ImageButton
+                android:id="@+id/search_u"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_u"
+                android:src="@drawable/u_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="2dp"/>
+	    <ImageButton
+                android:id="@+id/search_v"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_v"
+                android:src="@drawable/v_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="15dp"/>
+          <ImageButton
+                android:id="@+id/search_w"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_w"
+                android:src="@drawable/w_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="2dp"/>
+          <ImageButton
+                android:id="@+id/search_x"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_x"
+                android:src="@drawable/x_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="2dp"/>
+		<ImageButton
+                android:id="@+id/search_y"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_y"
+                android:src="@drawable/y_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="2dp"/>
+		<ImageButton
+                android:id="@+id/search_z"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_z"
+                android:src="@drawable/z_phonebook"
+                android:contentDescription="@string/bt_phonebooksearch"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="2dp"/>
+		<ImageButton
+                android:id="@+id/search_syn"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:background="@drawable/search_syn"
+           		android:layout_columnSpan="2"
+                android:contentDescription="@string/bt_phonebooksearch"
+				android:layout_gravity="center_horizontal"
+                android:layout_marginTop="29dp"/>
+		<TextView
+                android:id="@+id/search_exit"
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+           		android:gravity="center"
+           		android:layout_columnSpan="2"
+                style="@style/panel_button_text"
+                android:text="@string/close"
+                android:background="@drawable/search_bg2"
+                android:layout_marginRight="5dp"
+                android:visibility="gone"/>
+	</GridLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:visibility="gone" >
+            <LinearLayout
+                android:id="@+id/phonebook_rightbar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="0dp"
+                android:gravity="top"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <Button
+                    android:id="@+id/bt_phonebook_syn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@xml/bt_download_bg"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="false"
+                    android:text="@string/bt_phonebook_syn_string"
+		  			android:textColor="@color/btn_clearall"
+                    android:textSize="26sp" />
+
+                <Button
+                    android:id="@+id/bt_phonebook_search2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@xml/bt_search_bg"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="false"
+                    android:text="@string/bt_phonebooksearch"
+		  		android:textColor="@color/btn_clearall"
+                    android:textSize="26sp" />
+            </LinearLayout>
+            <!-- button -->
+
+            <LinearLayout
+                android:id="@+id/phonebook_rightbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="0dp"
+                android:gravity="top"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/bt_phonebook_syn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/phonebook_sync_btn" />
+                
+                <Button
+                    android:id="@+id/bt_phonebook_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:background="@xml/bt_pairedhistory_scan"/>
+
+                
+                
+                
+                <Button
+                    android:id="@+id/bt_phonebook_call"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/phonebook_call_btn"
+                    android:visibility="gone" />
+
+
+                <Button
+                    android:id="@+id/bt_phonebook_pause"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/phonebook_pause_btn"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/bt_phonebook_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/phonebook_delete_btn"
+                    android:visibility="gone" />
+            </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+    <!-- waiting downloading layout -->
+
+    <LinearLayout
+        android:id="@+id/download_phonebook_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="150dp"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/progressbar_download_phonebook"
+            android:layout_width="119dp"
+            android:layout_height="119dp"
+            android:indeterminateDrawable="@drawable/blue_progressbar" />
+
+        <TextView
+            android:id="@+id/tv_download_phonebook_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/str_download_phonebook"
+            android:textColor="#ff00ff00"
+            android:textSize="26sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/phonebookisempty"
+        android:layout_width="471dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:text="@string/phonebooklistisempty"
+        android:textSize="26sp" />
+
+</FrameLayout>

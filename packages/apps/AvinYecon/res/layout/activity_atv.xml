@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+	<com.yecon.avin.AVINSurfaceView
+	android:id="@+id/avin_surfaceview"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:background="@color/background"
+	android:onClick="onClick"
+	/>
+	
+	<FrameLayout
+	    	android:id="@+id/topbar"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="top|right"
+            android:visibility="visible" >
+            <TextView
+		        android:id="@+id/tvFormatHint"
+		        style="@style/TextView_style"
+		        android:layout_gravity="top|left"
+		        />
+			<TextView
+		        android:id="@+id/tvChannel"
+		        style="@style/TextView_style"
+		        android:layout_marginLeft="150dp"
+		        android:layout_gravity="top|left"
+		        />
+			<TextView
+		        android:id="@+id/tvHint"
+		        style="@style/TextView_style"
+		        android:layout_gravity="bottom|left"
+		        />
+	</FrameLayout>
+	
+	<TextView
+        android:id="@+id/av_signal"
+        style="@style/TextView_style"
+        android:layout_gravity="center"
+        android:drawableTop="@drawable/nosignal"
+        android:text="@string/no_tv_signal"
+        android:visibility="invisible" />
+	
+	<!-- bottom bar -->	
+	<LinearLayout
+	    	android:id="@+id/bottombar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_bottom_bar" >
+
+            <TextView
+                android:id="@+id/tvScan"
+                style="@style/BottomBarStyle"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:background="@drawable/tv_bottom_icon_bg"
+                android:onClick="onClick"
+                android:contentDescription="@string/app_name"
+                android:textColor="@color/btn_textview"
+                android:textSize="@dimen/atv_bottom_text_size"
+                android:text="@string/save_browse"/>
+
+            <ImageView
+                android:id="@+id/ivPrevious"
+                style="@style/BottomBarStyle"
+                android:layout_gravity="center_vertical"
+                android:onClick="onClick"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/selector_bt_atv_previous" />
+
+            <ImageView
+                android:id="@+id/ivNext"
+                style="@style/BottomBarStyle"
+                android:layout_gravity="center_vertical"
+                android:onClick="onClick"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/selector_bt_atv_next" />
+
+             <TextView
+                android:id="@+id/tvFormat"
+                style="@style/BottomBarStyle"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:background="@drawable/tv_bottom_icon_bg"
+                android:onClick="onClick"
+                android:contentDescription="@string/app_name"
+                android:textColor="@color/btn_textview"
+                android:textSize="@dimen/atv_bottom_text_size"
+                android:text="@string/ty_format"/>
+
+            <ImageView
+                android:id="@+id/ivInc"
+                style="@style/BottomBarStyle"
+                android:layout_gravity="center_vertical"
+                android:onClick="onClick"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/selector_bt_inc" />
+            
+            <ImageView
+                android:id="@+id/ivDec"
+                style="@style/BottomBarStyle"
+                android:layout_gravity="center_vertical"
+                android:onClick="onClick"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/selector_bt_dec" />
+            
+        </LinearLayout>
+	
+</FrameLayout>

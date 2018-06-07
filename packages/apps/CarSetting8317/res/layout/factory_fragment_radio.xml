@@ -1,0 +1,78 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:carsetting="http://schemas.android.com/apk/res/com.yecon.carsetting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:padding="@dimen/fragment_padding" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_radio_area_config"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_radio_area_config" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_radio_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_radio_area" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_radio_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_radio_type" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_fm_dx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_fm_dx" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_fm_loc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_fm_loc" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_am_dx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_am_dx" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_am_loc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_am_loc" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_oirt_dx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_oirt_dx" />
+
+        <com.yecon.carsetting.view.HeaderLayout
+            android:id="@+id/factory_oirt_loc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            carsetting:item_style="3"
+            carsetting:item_subTitle="@string/factory_oirt_loc" />
+    </LinearLayout>
+
+</ScrollView>

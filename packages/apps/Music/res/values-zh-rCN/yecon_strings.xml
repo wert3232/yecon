@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="music_no_track">当前歌曲已不存在</string>
+    <string name="music_no_file">没有音乐文件</string>
+    <string name="music_sd_error">这里空空如也</string>
+    <string name="music_scanning">歌曲扫描中，请等待！</string>
+    <string name="music_default_duration_time">00:00:00</string>
+    <string name="open">打开</string>
+    <string name="file">文件</string>
+    <string name="error">错误</string>
+    <string name="str_tab_folder">文件夹</string>
+    <string name="str_tab_list">正在播放</string>
+    <string name="str_btn_pre">上一曲</string>
+    <string name="str_btn_play">播放</string>
+    <string name="str_btn_pause">暂停</string>
+    <string name="str_btn_next">下一曲</string>
+    <string name="str_btn_rand">随机开</string>
+    <string name="str_btn_rand_off">随机关</string>
+    <string name="str_btn_loop">列表循环</string>
+    <string name="str_btn_loop_current">单曲循环</string>
+    <string name="str_btn_loop_off">关闭循环</string>
+    <string name="str_btn_list">列表</string>
+
+</resources>

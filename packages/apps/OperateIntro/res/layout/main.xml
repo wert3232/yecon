@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:OperateIntro="http://schemas.android.com/apk/res/com.yecon.OperateIntro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/fragment_padding" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/item_gap"
+        android:background="@drawable/listbk_normal"
+        android:gravity="center"
+        android:text="@string/catalogue"
+        android:textColor="@color/selector_color_state"
+        android:textSize="@dimen/textsize_l" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="2dp"
+        android:paddingTop="@dimen/item_gap" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <com.yecon.OperateIntro.HeaderLayout
+                android:id="@+id/id_Contents_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                OperateIntro:item_hintTitle="@string/app_name"
+                OperateIntro:item_stytle="0"
+                OperateIntro:item_subTitle="@string/app_name" />
+
+            <com.yecon.OperateIntro.HeaderLayout
+                android:id="@+id/id_Contents_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                OperateIntro:item_stytle="0" />
+
+            <com.yecon.OperateIntro.HeaderLayout
+                android:id="@+id/id_Contents_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                OperateIntro:item_stytle="0" />
+
+            <com.yecon.OperateIntro.HeaderLayout
+                android:id="@+id/id_Contents_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                OperateIntro:item_stytle="0" />
+
+            <com.yecon.OperateIntro.HeaderLayout
+                android:id="@+id/id_Contents_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                OperateIntro:item_stytle="0" />
+
+            <com.yecon.OperateIntro.HeaderLayout
+                android:id="@+id/id_Contents_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                OperateIntro:item_stytle="0" />
+
+            <com.yecon.OperateIntro.HeaderLayout
+                android:id="@+id/id_Contents_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                OperateIntro:item_stytle="0" />
+
+            <com.yecon.OperateIntro.HeaderLayout
+                android:id="@+id/id_Contents_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                OperateIntro:item_stytle="0" />
+
+            <com.yecon.OperateIntro.HeaderLayout
+                android:id="@+id/id_Contents_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                OperateIntro:item_stytle="0" />
+
+            <com.yecon.OperateIntro.HeaderLayout
+                android:id="@+id/id_Contents_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                OperateIntro:item_stytle="0" />
+
+            <com.yecon.OperateIntro.HeaderLayout
+                android:id="@+id/id_Contents_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                OperateIntro:item_stytle="0" />
+
+            <com.yecon.OperateIntro.HeaderLayout
+                android:id="@+id/id_Contents_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                OperateIntro:item_stytle="0" />
+
+            <com.yecon.OperateIntro.HeaderLayout
+                android:id="@+id/id_Contents_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                OperateIntro:item_stytle="0" />
+
+            <com.yecon.OperateIntro.HeaderLayout
+                android:id="@+id/id_Contents_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                OperateIntro:item_stytle="0" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

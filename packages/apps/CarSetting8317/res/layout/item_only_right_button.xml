@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingRight="0dp"
+     >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/item_prompt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/selector_color_state"
+            android:textSize="@dimen/textsize_general" />
+
+        <TextView
+            android:id="@+id/item_prompt_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/item_prompt_title"
+            android:layout_below="@+id/item_prompt_title"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/textsize_item_prompt2"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/one_right_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_right_bg"
+        android:minHeight="0dp"
+        android:minWidth="0dp" />
+
+</LinearLayout>

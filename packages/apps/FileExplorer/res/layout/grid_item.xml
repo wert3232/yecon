@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:drawablePadding="0dip"
+    android:ellipsize="marquee"
+    android:fadingEdge="horizontal"
+    android:gravity="top|center_horizontal"
+    android:maxLines="2"
+    android:padding="2dip"
+    android:textColor="@color/bright_text_dark_focused" >
+
+    <TextView
+        android:textColor="@color/bright_text_dark_focused"
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="0dip"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:gravity="top|center_horizontal"
+        android:maxLines="2"
+        android:paddingBottom="5dip"
+        android:paddingLeft="3dip"
+        android:paddingRight="3dip"
+        android:paddingTop="5dip"
+         />
+
+    <ImageView
+        android:id="@+id/grid_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="0dip"
+        android:background="#00000000"
+        android:paddingBottom="0dip"
+        android:src="@drawable/grid_check_off"
+        android:visibility="gone" />
+
+</RelativeLayout>

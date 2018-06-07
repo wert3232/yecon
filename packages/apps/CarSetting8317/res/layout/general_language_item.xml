@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/language_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@xml/selector_listview_state"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="40dp"
+        android:textColor="@color/selector_color_state"
+        android:textSize="@dimen/textsize_general" />
+<!--     android:textAppearance="?android:attr/textAppearanceLarge" -->
+
+</LinearLayout>

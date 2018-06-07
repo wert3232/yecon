@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:left="1dp">
+        <shape>
+            <solid android:color="#ffffff" />
+        </shape>
+    </item>
+    <!-- 底部线条设置 -->
+    <item android:right="1dp">
+        <shape>
+            <solid android:color="#c4c4c4" />
+        </shape>
+    </item>
+
+</layer-list>

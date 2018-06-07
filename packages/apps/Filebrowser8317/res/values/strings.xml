@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">File Browser</string>
+    <string name="no_sdcard">no sddisk</string>
+    <string name="no_usb">no udisk</string>
+    <string name="loading_sign">Loading...</string>
+    <string name="wait_sign">please wait...</string>
+    <string name="empty_folder">empty folder</string>
+    <string name="front_is_playing_avin">"front is playing avin ,please close it"</string>
+    <string name="front_is_playing_dvd">"front is playing DVD ,please close it"</string>
+    <string name="hint_video_is_playing">"video is playing,please close it"</string>
+    <string name="hint_music_is_playing">"music is playing,please close it"</string>
+    <string name="logo_set">Logo set</string>
+    <string name="btn_audio">Audio</string>
+    <string name="btn_back">Back</string>
+    <string name="alert_set_logo">Are you sure set logo picture now?</string>
+    <string name="alert_set_success">oprate sucessed！</string>
+    <string name="alert_set_fail">oprate failed！</string>
+    <string name="alert_ok">OK</string>
+    <string name="alert_cancel">Cancel</string>
+    <string name="str_tab_file">File</string>
+    <string name="str_tab_video">Video</string>
+    <string name="str_tab_music">Music</string>
+    <string name="str_tab_image">Image</string>
+    <string name="str_tab_logo">Logo</string>
+    <string name="str_tab_back">Back</string>
+    <string name="str_tab_menu">Range</string>
+
+</resources>

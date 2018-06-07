@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ci_car" />
+
+        <ImageView
+            android:id="@+id/iv_left_front_door"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ci_left_front_door"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_right_front_door"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ci_right_front_door"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_left_back_door"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ci_left_back_door"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_right_back_door"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ci_right_back_door"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_fueling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ci_fueling"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_front_cover_open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ci_front_cover_open"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_rear_door_open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ci_rear_door_open"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</RelativeLayout>

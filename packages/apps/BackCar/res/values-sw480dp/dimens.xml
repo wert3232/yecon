@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="dync_track_w">1dp</dimen>
+    <dimen name="dync_track_h">1dp</dimen>
+
+</resources>

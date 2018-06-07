@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">手机互联</string>
+    <string name="show_ui">显示</string>
+    <string name="cali">校准</string>
+    <string name="hide_ui">隐藏</string>
+    <string name="notice_title">警告</string>
+    <string name="notice_content">"检测到WLAN芯片(%1$s)不支持双通道,Miracast和Wifi station不能兼容.\n按"确定"将断开Wifi,打开Miracast.\n按"取消"将退出Miracast."</string>
+    <string name="ok">确定</string>
+    <string name="ap_warning_content">"检测到WLAN芯片(%1$s)不支持双通道,Miracast和Wifi station不能兼容."</string>
+    <string name="fail_calibrate">校准失败!</string>
+    <string name="success_calibrate">校准成功!</string>
+    <string name="connect_HID">请在手机端连接蓝牙输入设备</string>
+    <string name="calibrate_Tip">请先校准!</string>
+    <string name="continue_calibrate">continue_calibrate</string>
+    <string name="wait_invitations">等待连接</string>
+    <string name="miracast_disconnect">Miracast正在断开连接.</string>
+    <string name="disconnect_wifi">正在断开WiFi</string>
+    <string name="build_connection">"设备:%1$s, 建立连接中."</string>
+    <string name="display_direct_not_ready">加载中……</string>
+    <string name="packet_lost">检测到网络异常,数据丢失.</string>
+    <string name="wfd_connecting">Miracast正在连接中.</string>
+    <string name="wifi_disabled">Wifi已经关闭.</string>
+    <string name="wifi_enabling">Wifi正在打开.</string>
+    <string name="wifi_enabled">Wifi已经打开.</string>
+    <string name="wait_wfd_feature_on">Miracast正在打开.</string>
+	
+    <string name="wlan_title">连接WLAN</string>
+	<string name="wlan_hint">请选择一个可用的WLAN，让设备接入网络</string>
+	<string name="wlan_can_be_connect">可连接网络</string>
+	<string name="next_step">下一步</string>
+	<string name="remember_secret">记住密码</string>
+	<string name="please_input_secret">请输入WIFI密码</string>
+	<string name="signal_strength">信号强度</string>
+    <string name="security_level">安全性</string>
+    <string name="password">密码</string>
+    <string name="show_password">显示密码</string>
+    <string name="connect">连接</string>
+    <string name="disconnect">忘记</string>
+    <string name="cancel">取消</string>
+    <string name="conn_status">连接状态</string>
+    <string name="ip_address">IP地址</string>
+    <string name="scanning">正在扫描...</string>
+    <string name="exiting">正在退出...</string>
+    
+    <string name="linking">正在连接</string>
+    <string name="link_step1">1、准备WIFI</string>
+    <string name="link_step2">2、连接无线显示</string>
+    <string name="link_guide">请在手机的设置界面中找到无线显示选项，并选择本机无线显示进行连接。</string>
+    <string name="retry">重  试</string>
+    <string name="exit">退  出</string>
+    <string name="choose_wifi">选择热点</string>
+    <string name="switch_to_ap">本机做为热点</string>
+    <string name="choose_way_connect">请选择连接方式</string>
+    <string name="android_usb">安卓USB</string>
+    <string name="android_wifi">安卓WiFi</string>
+    <string name="iphone_wifi">iPhone WiFi</string>
+    
+    <string name="pull_refresh">下拉刷新</string>
+    <string name="refresh_lasttime">上次更新</string>
+    <string name="start_title">精彩互联　乐趣连连</string>
+    <string name="calibrate">校  准</string>
+    <string name="home">返回桌面</string>
+</resources>

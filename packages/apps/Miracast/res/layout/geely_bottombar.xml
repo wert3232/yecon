@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_bottombar"
+    android:layout_width="match_parent"
+    android:layout_height="@*android:dimen/navigation_bar_height"
+    android:layout_marginLeft="@dimen/activity_left_margin"
+    android:layout_gravity="bottom"
+    android:gravity="center_vertical" >
+    
+    <TextView
+        android:id="@+id/tv_prompt"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/bottombar_prompt_textview_padding"
+        android:paddingRight="@dimen/bottombar_prompt_textview_padding"
+        android:textColor="@color/white"
+        android:textSize="@dimen/bottombar_textview_textsize" />
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/bottombar_button_right_margin"
+        android:background="@drawable/ic_bottombar_home_bg" 
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_bottombar_back_bg" />
+
+</LinearLayout>

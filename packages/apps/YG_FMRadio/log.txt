@@ -1,0 +1,2837 @@
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=4.2.2
+TARGET_PRODUCT=generic_ac8317
+TARGET_BUILD_VARIANT=eng
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a-neon
+HOST_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-3.13.0-48-generic-x86_64-with-Ubuntu-14.04-trusty
+HOST_BUILD_TYPE=release
+BUILD_ID=JDQ39E
+OUT_DIR=out
+============================================
+PRODUCT_COPY_FILES device/generic/goldfish/data/etc/apns-conf.xml:system/etc/apns-conf.xml ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/Effect_Tick.ogg:system/media/audio/ui/Effect_Tick.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/KeypressStandard.ogg:system/media/audio/ui/KeypressStandard.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/KeypressSpacebar.ogg:system/media/audio/ui/KeypressSpacebar.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/KeypressDelete.ogg:system/media/audio/ui/KeypressDelete.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/KeypressReturn.ogg:system/media/audio/ui/KeypressReturn.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/VideoRecord.ogg:system/media/audio/ui/VideoRecord.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/camera_click.ogg:system/media/audio/ui/camera_click.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/LowBattery.ogg:system/media/audio/ui/LowBattery.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/Dock.ogg:system/media/audio/ui/Dock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/Undock.ogg:system/media/audio/ui/Undock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/Lock.ogg:system/media/audio/ui/Lock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/Unlock.ogg:system/media/audio/ui/Unlock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Sceptrum.ogg:system/media/audio/ringtones/Sceptrum.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/KeypressStandard_120.ogg:system/media/audio/ui/KeypressStandard.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/KeypressSpacebar_120.ogg:system/media/audio/ui/KeypressSpacebar.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/KeypressDelete_120.ogg:system/media/audio/ui/KeypressDelete.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/KeypressReturn_120.ogg:system/media/audio/ui/KeypressReturn.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/Capella.ogg:system/media/audio/notifications/Capella.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/CetiAlpha.ogg:system/media/audio/notifications/CetiAlpha.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/Polaris.ogg:system/media/audio/notifications/Polaris.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/Pollux.ogg:system/media/audio/notifications/Pollux.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/Procyon.ogg:system/media/audio/notifications/Procyon.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Aquila.ogg:system/media/audio/ringtones/Aquila.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/ArgoNavis.ogg:system/media/audio/ringtones/ArgoNavis.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Carina.ogg:system/media/audio/ringtones/Carina.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Centaurus.ogg:system/media/audio/ringtones/Centaurus.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Cygnus.ogg:system/media/audio/ringtones/Cygnus.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Draco.ogg:system/media/audio/ringtones/Draco.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Machina.ogg:system/media/audio/ringtones/Machina.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Orion.ogg:system/media/audio/ringtones/Orion.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Pegasus.ogg:system/media/audio/ringtones/Pegasus.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Pyxis.ogg:system/media/audio/ringtones/Pyxis.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Rigel.ogg:system/media/audio/ringtones/Rigel.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Scarabaeus.ogg:system/media/audio/ringtones/Scarabaeus.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Solarium.ogg:system/media/audio/ringtones/Solarium.ogg ignored.
+PRODUCT_COPY_FILES development/tools/emulator/system/camera/media_codecs.xml:system/etc/media_codecs.xml ignored.
+make: Entering directory `/home/yfzhang/yecon/yecon_ac8317'
+build/core/Makefile:686: Warning:  generate ota_public_key OTA_PUBLIC_KEYS is build/target/product/security/testkey.x509.pem
+build/core/Makefile:693: Warning: DUMPKEY_JAR is out/host/linux-x86/framework/dumpkey.jar
+build/core/Makefile:694: Warning: PRODUCT_EXTRA_RECOVERY_KEYS is 
+build/core/Makefile:696: Warning: PRIVATE_OTA_PUBLIC_KEYS is 
+target Java: YG_FMRadio (out/target/common/obj/APPS/YG_FMRadio_intermediates/classes)
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:195: <identifier> expected
+	private FreqAdapter extends BaseAdapter {
+	                   ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:195: <identifier> expected
+	private FreqAdapter extends BaseAdapter {
+	                                       ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:203: invalid method declaration; return type required
+	    public FreqAdapter(List<Integer> list, Context context) {
+	           ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:245: class, interface, or enum expected
+    private McuListener mMcuListener = new McuListener() {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:248: class, interface, or enum expected
+        public void onMcuInfoChanged(McuBaseInfo mcuBaseInfo, int infoType) {
+               ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:251: class, interface, or enum expected
+                return;
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:252: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:257: class, interface, or enum expected
+                    boolean t_isScanning = isScanning;
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:258: class, interface, or enum expected
+                    boolean t_isSeeking = isSeeking;
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:259: class, interface, or enum expected
+                    McuRadioBandInfo baseInfo = mcuBaseInfo.getRadioBandInfo();
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:260: class, interface, or enum expected
+                    isScanning = mcuBaseInfo.getRadioBandInfo().getAutoMemoryScanStatus() != 0;
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:261: class, interface, or enum expected
+                    isSeeking = mcuBaseInfo.getRadioBandInfo().getSeekStatus() > 0;
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:262: class, interface, or enum expected
+                    L.e("t_isScanning:" + t_isScanning + "   isScanning:"  + isScanning + "  : " + mcuBaseInfo.getRadioBandInfo().getAutoMemoryScanStatus() + " mCurrBandFreq:" + mCurrBandFreq);
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:263: class, interface, or enum expected
+                    L.e("isSeeking:" + baseInfo.getSeekStatus());
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:264: class, interface, or enum expected
+                    if(isScanning != t_isScanning && t_isScanning){
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:266: class, interface, or enum expected
+                    	for(int index = 0; index < mPresetList.length; index++){
+                    	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:266: class, interface, or enum expected
+                    	for(int index = 0; index < mPresetList.length; index++){
+                    	                   ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:266: class, interface, or enum expected
+                    	for(int index = 0; index < mPresetList.length; index++){
+                    	                                               ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:268: class, interface, or enum expected
+                        	if(freq == 0){
+                        	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:270: class, interface, or enum expected
+                        	}
+                        	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:273: class, interface, or enum expected
+                        		break;
+                        		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:274: class, interface, or enum expected
+                        	}
+                        	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:279: class, interface, or enum expected
+                    	for(int index = 0; index < mPresetList.length; index++){
+                    	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:279: class, interface, or enum expected
+                    	for(int index = 0; index < mPresetList.length; index++){
+                    	                   ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:279: class, interface, or enum expected
+                    	for(int index = 0; index < mPresetList.length; index++){
+                    	                                               ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:281: class, interface, or enum expected
+                        	if(freq == 0){
+                        	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:283: class, interface, or enum expected
+                        	}
+                        	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:286: class, interface, or enum expected
+                        		break;
+                        		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:287: class, interface, or enum expected
+                        	}
+                        	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:306: class, interface, or enum expected
+					freqList = baseInfo.getPresetList();
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:307: class, interface, or enum expected
+					freqAdapter.notifyDataSetChanged();
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:308: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:312: class, interface, or enum expected
+                    break;
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:313: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:322: class, interface, or enum expected
+                mCurrBandMinFreq = mBandInfo.getCurrBandMinFreq();
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:323: class, interface, or enum expected
+                mCurrBandMaxFreq = mBandInfo.getCurrBandMaxFreq();
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:325: class, interface, or enum expected
+                mCurrBandGranularity = mBandInfo.getGranularity();
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:326: class, interface, or enum expected
+                mIsLoc = mBandInfo.isLoc();
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:328: class, interface, or enum expected
+                if (isFMBand()) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:331: class, interface, or enum expected
+                        mUseStereo = mBandInfo.isUseStereo();
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:332: class, interface, or enum expected
+                    } else {
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:334: class, interface, or enum expected
+                        mUseStereo = false;
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:335: class, interface, or enum expected
+                    }
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:338: class, interface, or enum expected
+                    mUseStereo = false;
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:339: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:342: class, interface, or enum expected
+                sb.append("onRadioBandInfoChanged - ");
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:343: class, interface, or enum expected
+                sb.append("min freq: ");
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:344: class, interface, or enum expected
+                sb.append(mCurrBandMinFreq);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:345: class, interface, or enum expected
+                sb.append(" - max freq: ");
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:346: class, interface, or enum expected
+                sb.append(mCurrBandMaxFreq);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:347: class, interface, or enum expected
+                sb.append(" - curr granularity: ");
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:348: class, interface, or enum expected
+                sb.append(mCurrBandGranularity);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:349: class, interface, or enum expected
+                sb.append(" - is loc: ");
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:350: class, interface, or enum expected
+                sb.append(mIsLoc);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:351: class, interface, or enum expected
+                sb.append(" - is stereo: ");
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:352: class, interface, or enum expected
+                sb.append(mIsStereo);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:353: class, interface, or enum expected
+                sb.append(" - use stereo: ");
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:354: class, interface, or enum expected
+                sb.append(mUseStereo);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:355: class, interface, or enum expected
+                sb.append(" - mOpType: ");
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:356: class, interface, or enum expected
+                sb.append(mOpType);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:357: class, interface, or enum expected
+                printLog(sb.toString(), true);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:359: class, interface, or enum expected
+                FMRadioThread thread = new FMRadioThread(mHandler, MCU_RADIO_BAND_INFO_TYPE);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:360: class, interface, or enum expected
+                thread.start();
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:361: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:367: class, interface, or enum expected
+                mCurrBand = mPresetListInfo.getCurrBand();
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:368: class, interface, or enum expected
+                mCurrBandFreq = mPresetListInfo.getCurrBandFreq();
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:369: class, interface, or enum expected
+                mCurrPreset = mPresetListInfo.getCurrPreset();
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:370: class, interface, or enum expected
+                mPresetList = mPresetListInfo.getPresetList();
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:373: class, interface, or enum expected
+                if (isFMBand()) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:376: class, interface, or enum expected
+                    if (mBandInfo != null) {
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:378: class, interface, or enum expected
+                        mUseStereo = mBandInfo.isUseStereo();
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:379: class, interface, or enum expected
+                    } else {
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:381: class, interface, or enum expected
+                        mUseStereo = false;
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:382: class, interface, or enum expected
+                    }
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:386: class, interface, or enum expected
+                    mIsStereo = false;
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:387: class, interface, or enum expected
+                    mUseStereo = false;
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:388: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:391: class, interface, or enum expected
+                mAudioManager.setStreamVolume(AudioManager.STREAM_MUSIC, volume, 0);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:393: class, interface, or enum expected
+                StringBuffer sb = new StringBuffer();
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:394: class, interface, or enum expected
+                sb.append("onRadioPresetListInfoChanged - ");
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:395: class, interface, or enum expected
+                sb.append(" - mOpType: ");
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:396: class, interface, or enum expected
+                sb.append(mOpType);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:397: class, interface, or enum expected
+                sb.append(" - curr band: ");
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:398: class, interface, or enum expected
+                sb.append(mCurrBand);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:399: class, interface, or enum expected
+                sb.append(" - curr freq: ");
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:400: class, interface, or enum expected
+                sb.append(mCurrBandFreq);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:401: class, interface, or enum expected
+                sb.append(" - curr preset: ");
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:402: class, interface, or enum expected
+                sb.append(mCurrPreset);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:403: class, interface, or enum expected
+                sb.append(" - preset list: ");
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:404: class, interface, or enum expected
+                for (int i = 0; i < 6; i++) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:404: class, interface, or enum expected
+                for (int i = 0; i < 6; i++) {
+                                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:404: class, interface, or enum expected
+                for (int i = 0; i < 6; i++) {
+                                       ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:406: class, interface, or enum expected
+                    sb.append(" ");
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:407: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:410: class, interface, or enum expected
+                FMRadioThread thread = new FMRadioThread(mHandler, MCU_RADIO_PRESET_LIST_INFO_TYPE);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:411: class, interface, or enum expected
+                thread.start();
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:413: class, interface, or enum expected
+                mObjSaveData.setCurBand(mCurrBand);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:414: class, interface, or enum expected
+                mObjSaveData.setCurFreq(mCurrBandFreq);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:415: class, interface, or enum expected
+                mObjSaveData.setRadioListId(mCurrPreset);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:416: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:420: class, interface, or enum expected
+    private AVIN.OnCbmCmdListener mListenerCbmCmd = new AVIN.OnCbmCmdListener() {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:423: class, interface, or enum expected
+        public void onCmd(int what, int extra) {
+               ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:428: class, interface, or enum expected
+                        mBtnOpPS.performClick();
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:429: class, interface, or enum expected
+                    }
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:435: class, interface, or enum expected
+                    }
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:439: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:446: class, interface, or enum expected
+    private Handler mPSHandler = new Handler() {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:449: class, interface, or enum expected
+        public void handleMessage(Message msg) {
+               ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:452: class, interface, or enum expected
+            synchronized (lock) {
+                         ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:455: class, interface, or enum expected
+                if (mPSIsVisible) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:457: class, interface, or enum expected
+                    mPSIsVisible = false;
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:458: class, interface, or enum expected
+                } else {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:460: class, interface, or enum expected
+                    mPSIsVisible = true;
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:461: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:464: class, interface, or enum expected
+                printLog("mPSHandler - mCurrBandFreq: " + mCurrBandFreq);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:465: class, interface, or enum expected
+                if (mCurrBandFreq < mCurrBandMinFreq || mCurrBandFreq > mCurrBandMaxFreq) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:467: class, interface, or enum expected
+                    return;
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:468: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:472: class, interface, or enum expected
+                } else {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:474: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:477: class, interface, or enum expected
+                int tmpPreset = mPresetListInfo.getCurrPreset();
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:479: class, interface, or enum expected
+                if ((mCurrBand != tmpBand) || (mCurrPreset != tmpPreset)) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:481: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:484: class, interface, or enum expected
+                mCurrPreset = tmpPreset;
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:486: class, interface, or enum expected
+                mTVFreqBand.setText(BAND_TEXT[mCurrBand]);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:487: class, interface, or enum expected
+                setFmrMaxMinUnit(getResources().getString(BAND_TEXT[mCurrBand]));
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:489: class, interface, or enum expected
+                Log.e(this.getClass().getSimpleName(),"[mPSHandler]");
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:490: class, interface, or enum expected
+                for (int i = 0; i < PREVIEW_FREQ_NUM; i++) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:490: class, interface, or enum expected
+                for (int i = 0; i < PREVIEW_FREQ_NUM; i++) {
+                                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:490: class, interface, or enum expected
+                for (int i = 0; i < PREVIEW_FREQ_NUM; i++) {
+                                                      ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:494: class, interface, or enum expected
+                    } else {
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:500: class, interface, or enum expected
+                printLog("mPSHandler - psStatus: " + psStatus);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:501: class, interface, or enum expected
+                if (psStatus == 0) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:503: class, interface, or enum expected
+                    mPSIsVisible = false;
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:505: class, interface, or enum expected
+                    mPSHandler.removeCallbacks(mPSRunnable);
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:506: class, interface, or enum expected
+                    return;
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:507: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:511: class, interface, or enum expected
+                if (mCurrPSItem > mCurrPSItemCount) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:513: class, interface, or enum expected
+                    mPSIsVisible = false;
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:515: class, interface, or enum expected
+                    mPSHandler.removeCallbacks(mPSRunnable);
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:516: class, interface, or enum expected
+                } else {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:518: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:524: class, interface, or enum expected
+    private Runnable mPSRunnable = new Runnable() {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:527: class, interface, or enum expected
+        public void run() {
+               ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:529: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:532: class, interface, or enum expected
+    private Handler mASHandler = new Handler() {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:535: class, interface, or enum expected
+        public void handleMessage(Message msg) {
+               ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:538: class, interface, or enum expected
+            synchronized (lock) {
+                         ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:541: class, interface, or enum expected
+                mASCount++;
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:543: class, interface, or enum expected
+                if (mASCount == (PS_DISPLAY_DELAY / 100)) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:545: class, interface, or enum expected
+                    if (mASIsVisible) {
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:547: class, interface, or enum expected
+                    } else {
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:549: class, interface, or enum expected
+                    }
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:553: class, interface, or enum expected
+                if (mCurrBandFreq < mCurrBandMinFreq || mCurrBandFreq > mCurrBandMaxFreq) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:555: class, interface, or enum expected
+                    return;
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:556: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:560: class, interface, or enum expected
+                } else {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:562: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:565: class, interface, or enum expected
+                printLog("FMRadioMainActivity - mASHandler - asStatus: " + asStatus);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:567: class, interface, or enum expected
+                if (asStatus == 0) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:570: class, interface, or enum expected
+                    mCurrBand = mPresetListInfo.getCurrBand();
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:571: class, interface, or enum expected
+                    mCurrPreset = mPresetListInfo.getCurrPreset();
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:573: class, interface, or enum expected
+                    mTVFreqBand.setText(BAND_TEXT[mCurrBand]);
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:574: class, interface, or enum expected
+                    setFmrMaxMinUnit(getResources().getString(BAND_TEXT[mCurrBand]));
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:576: class, interface, or enum expected
+                    Log.e(this.getClass().getSimpleName(),"[mASHandler]");
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:577: class, interface, or enum expected
+                    for (int i = 0; i < PREVIEW_FREQ_NUM; i++) {
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:577: class, interface, or enum expected
+                    for (int i = 0; i < PREVIEW_FREQ_NUM; i++) {
+                                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:577: class, interface, or enum expected
+                    for (int i = 0; i < PREVIEW_FREQ_NUM; i++) {
+                                                          ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:581: class, interface, or enum expected
+                        } else {
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:587: class, interface, or enum expected
+                } else {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:589: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:596: class, interface, or enum expected
+    private Runnable mASRunnable = new Runnable() {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:599: class, interface, or enum expected
+        public void run() {
+               ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:601: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:719: class, interface, or enum expected
+    private BroadcastReceiver mMediaKeyListener = new BroadcastReceiver() {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:722: class, interface, or enum expected
+        public void onReceive(Context context, Intent intent) {
+               ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:724: class, interface, or enum expected
+            printLog("FMRadioMainActivity - mMediaKeyListener - source: " + source);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:725: class, interface, or enum expected
+            if (ACTION_AVIN_REQUEST_NOTIFY.equals(intent.getAction())) {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:727: class, interface, or enum expected
+                finish();
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:728: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:736: class, interface, or enum expected
+            printLog("FMRadioMainActivity - mMediaKeyListener - action: " + action);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:737: class, interface, or enum expected
+            if (action.equals(MCU_ACTION_MEDIA_NEXT)) {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:741: class, interface, or enum expected
+            } else if (action.equals(MCU_ACTION_MEDIA_PREVIOUS)) {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:745: class, interface, or enum expected
+            } else if (action.equals(MCU_ACTION_MEDIA_PLAY_PAUSE)) {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:747: class, interface, or enum expected
+            } else if (action.equals(MCU_ACTION_RADIO_PRESET_PRE)) {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:749: class, interface, or enum expected
+            } else if (action.equals(MCU_ACTION_RADIO_PRESET_NEXT)) {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:751: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:755: class, interface, or enum expected
+    private BroadcastReceiver mFiveHandTouchListener = new BroadcastReceiver() {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:758: class, interface, or enum expected
+        public void onReceive(Context arg0, Intent arg1) {
+               ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:759: class, interface, or enum expected
+            final String action = arg1.getAction();
+                  ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:760: class, interface, or enum expected
+            if (action.equals(TouchCheckLineLayout.ACTION_FIVEHAND_TOUCH)) {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:762: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:767: class, interface, or enum expected
+    private BroadcastReceiver mQuickBootListener = new BroadcastReceiver() {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:770: class, interface, or enum expected
+        public void onReceive(Context context, Intent intent) {
+               ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:771: class, interface, or enum expected
+            final String action = intent.getAction();
+                  ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:772: class, interface, or enum expected
+            if (null == action) {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:774: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:778: class, interface, or enum expected
+            if (ACTION_QB_POWERON.equals(action) || MCU_ACTION_ACC_ON.equals(action)) {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:782: class, interface, or enum expected
+                    public void run() {
+                           ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:786: class, interface, or enum expected
+                            printLog("mQuickBootListener - mAppIsFinished: " + mAppIsFinished);
+                            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:788: class, interface, or enum expected
+                            if (mAppIsFinished) {
+                            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:790: class, interface, or enum expected
+                            }
+                            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:794: class, interface, or enum expected
+                            initAvin();
+                            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:795: class, interface, or enum expected
+                        }
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:799: class, interface, or enum expected
+            } else if (MCU_ACTION_ACC_OFF.equals(action)) {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:801: class, interface, or enum expected
+            } else if (ACTION_QB_POWEROFF.equals(action) || ACTION_QB_PREPOWEROFF.equals(action)) {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:809: class, interface, or enum expected
+    private Object sourceTocken = null;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:812: class, interface, or enum expected
+    protected void onCreate(Bundle savedInstanceState) {
+              ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:814: class, interface, or enum expected
+        L.i("onCreate");
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:815: class, interface, or enum expected
+        isDisplaySelectedFreq = true;
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:816: class, interface, or enum expected
+        sourceTocken = SourceManager.registerSourceListener(this, SourceManager.SRC_NO.radio);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:817: class, interface, or enum expected
+        SourceManager.setAudioFocusNotify(sourceTocken, new SourceManager.AudioFocusNotify() {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:820: class, interface, or enum expected
+            public void onAudioFocusChange(int action) {
+                   ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:822: class, interface, or enum expected
+                switch (action) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:825: class, interface, or enum expected
+                        break;
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:827: class, interface, or enum expected
+                    case AudioManager.AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK:
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:830: class, interface, or enum expected
+                        break;
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:832: class, interface, or enum expected
+                    case AudioManager.AUDIOFOCUS_GAIN:
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:834: class, interface, or enum expected
+                        break;
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:835: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:839: class, interface, or enum expected
+        printLog("onCreate - start");
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:841: class, interface, or enum expected
+        sendBroadcast(new Intent(ACTION_AVIN_REQUEST_NOTIFY));
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:843: class, interface, or enum expected
+        SystemClock.sleep(100);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:845: class, interface, or enum expected
+        initData();
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:847: class, interface, or enum expected
+        initUI();
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:849: class, interface, or enum expected
+        printLog("onCreate - end");
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:851: class, interface, or enum expected
+        Handler openVolumeHandler = new Handler();
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:852: class, interface, or enum expected
+        openVolumeHandler.postDelayed(new Runnable() {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:854: class, interface, or enum expected
+			public void run() {
+			       ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:856: class, interface, or enum expected
+			}
+			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:858: class, interface, or enum expected
+    }
+    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:861: class, interface, or enum expected
+    protected void onResume() {
+              ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:863: class, interface, or enum expected
+        sendBroadcast(new Intent(MediaConstants.CURRENT_MEDIA_IS_RADIO), null);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:865: class, interface, or enum expected
+        {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:867: class, interface, or enum expected
+        	intent.putExtra(MediaConstants.EXTRA_APK_PACKAGENAME, "com.yecon.fmradio");
+        	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:868: class, interface, or enum expected
+        	intent.putExtra(MediaConstants.EXTRA_APK_ACTIVITY, "com.yecon.fmradio.FMRadioMainActivity");
+        	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:869: class, interface, or enum expected
+        	sendOrderedBroadcast(intent,null);
+        	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:870: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:874: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:876: class, interface, or enum expected
+        printLog("onResume - start");
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:878: class, interface, or enum expected
+        SystemProperties.set(PROPERTY_KEY_STARTFM, "true");
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:885: class, interface, or enum expected
+        initAvin();
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:887: class, interface, or enum expected
+        mMcuManager.Init_RPC_Volume();
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:888: class, interface, or enum expected
+        printLog("onResume - end");
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:889: class, interface, or enum expected
+        SourceManager.acquireSource(sourceTocken);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:890: class, interface, or enum expected
+    }
+    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:893: class, interface, or enum expected
+    protected void onPause() {
+              ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:896: class, interface, or enum expected
+        SystemProperties.set(PROPERTY_KEY_STARTFM, "false");
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:898: class, interface, or enum expected
+        printLog("onPause - start");
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:901: class, interface, or enum expected
+    }
+    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:904: class, interface, or enum expected
+    protected void onStop() {
+              ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:907: class, interface, or enum expected
+        printLog("onStop - start");
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:911: class, interface, or enum expected
+    }
+    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:914: class, interface, or enum expected
+    protected void onDestroy() {
+              ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:917: class, interface, or enum expected
+        printLog("onDestroy - start");
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:919: class, interface, or enum expected
+        mAppIsFinished = true;
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:921: class, interface, or enum expected
+        SourceManager.unregisterSourceListener(sourceTocken);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:925: class, interface, or enum expected
+        deinitAvin();
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:927: class, interface, or enum expected
+        reset();
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:929: class, interface, or enum expected
+        unregisterReceiver(mMediaKeyListener);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:931: class, interface, or enum expected
+        unregisterReceiver(mQuickBootListener);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:933: class, interface, or enum expected
+        unregisterReceiver(mFiveHandTouchListener);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:935: class, interface, or enum expected
+        unregisterReceiver(controlReceiver);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:943: class, interface, or enum expected
+        printLog("FMRadioMainActivity - onDestroy");
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:944: class, interface, or enum expected
+    }
+    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:949: class, interface, or enum expected
+        } catch (RemoteException e) {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:951: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:955: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:959: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:978: class, interface, or enum expected
+		mEditor = mPref.edit();
+		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:979: class, interface, or enum expected
+        mMcuManager = (McuManager) getSystemService(Context.MCU_SERVICE);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:981: class, interface, or enum expected
+        mAudioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:982: class, interface, or enum expected
+        mObjSaveData = new SaveData();
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:983: class, interface, or enum expected
+        mHandler = new FMRadioHandler();
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:985: class, interface, or enum expected
+        IntentFilter mediaKeyFilter = new IntentFilter();
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:986: class, interface, or enum expected
+        mediaKeyFilter.addAction(ACTION_AVIN_REQUEST_NOTIFY);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:987: class, interface, or enum expected
+        mediaKeyFilter.addAction(MCU_ACTION_MEDIA_NEXT);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:988: class, interface, or enum expected
+        mediaKeyFilter.addAction(MCU_ACTION_MEDIA_PREVIOUS);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:989: class, interface, or enum expected
+        mediaKeyFilter.addAction(MCU_ACTION_MEDIA_PLAY_PAUSE);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:990: class, interface, or enum expected
+        mediaKeyFilter.addAction(MCU_ACTION_RADIO_PRESET_PRE);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:991: class, interface, or enum expected
+        mediaKeyFilter.addAction(MCU_ACTION_RADIO_PRESET_NEXT);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:992: class, interface, or enum expected
+        registerReceiver(mMediaKeyListener, mediaKeyFilter);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:994: class, interface, or enum expected
+        IntentFilter qbFilter = new IntentFilter();
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:995: class, interface, or enum expected
+        qbFilter.addAction(ACTION_QB_POWERON);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:996: class, interface, or enum expected
+        qbFilter.addAction(ACTION_QB_POWEROFF);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:997: class, interface, or enum expected
+        qbFilter.addAction(ACTION_QB_PREPOWEROFF);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:998: class, interface, or enum expected
+        qbFilter.addAction(MCU_ACTION_ACC_ON);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:999: class, interface, or enum expected
+        qbFilter.addAction(MCU_ACTION_ACC_OFF);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1000: class, interface, or enum expected
+        registerReceiver(mQuickBootListener, qbFilter);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1002: class, interface, or enum expected
+        IntentFilter qbfiveHandFilter = new IntentFilter();
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1003: class, interface, or enum expected
+        qbfiveHandFilter.addAction(TouchCheckLineLayout.ACTION_FIVEHAND_TOUCH);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1004: class, interface, or enum expected
+        registerReceiver(mFiveHandTouchListener, qbfiveHandFilter);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1007: class, interface, or enum expected
+        IntentFilter controlFilter = new IntentFilter();
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1008: class, interface, or enum expected
+        controlFilter.addAction(MediaConstants.DO_PREV);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1009: class, interface, or enum expected
+        controlFilter.addAction(MediaConstants.DO_NEXT);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1010: class, interface, or enum expected
+        controlFilter.addAction(MediaConstants.CURRENT_MEDIA);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1011: class, interface, or enum expected
+		registerReceiver(controlReceiver, controlFilter);
+		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1013: class, interface, or enum expected
+		freqAdapter = new FreqAdapter(freqList,this);
+		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1015: class, interface, or enum expected
+        try {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1018: class, interface, or enum expected
+                mMcuManager.RPC_RequestMcuInfoChangedListener(mMcuListener);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1020: class, interface, or enum expected
+                printLog("initData - RPC_SetSource");
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1021: class, interface, or enum expected
+                sendBroadcast(new Intent(MediaConstants.CURRENT_MEDIA_IS_RADIO), null);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1022: class, interface, or enum expected
+                mOpType = OP_TYPE_INIT;
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1024: class, interface, or enum expected
+                printLog("initData - AVIN - start");
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1026: class, interface, or enum expected
+                initAvin();
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1028: class, interface, or enum expected
+                printLog("initData - AVIN - end");
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1029: class, interface, or enum expected
+            } else {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1031: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1034: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1041: class, interface, or enum expected
+            mAvinA = new AVIN();
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1043: class, interface, or enum expected
+            SourceManager.acquireSource(sourceTocken);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1045: class, interface, or enum expected
+            mAvinA.setOnCbmCmdListener(mListenerCbmCmd);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1047: class, interface, or enum expected
+            mAvinA.setDestination(InputSource.DEST_TYPE_FRONT);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1049: class, interface, or enum expected
+            int retValueAudio = mAvinA.setSource(InputSource.SOURCE_TYPE_AVIN,
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1051: class, interface, or enum expected
+            printLog("initAvin - initData = " + retValueAudio);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1057: class, interface, or enum expected
+            mAvinA.play();
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1059: class, interface, or enum expected
+            mHandler.removeMessages(MSG_SET_VOLUME);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1060: class, interface, or enum expected
+            Message msg = new Message();
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1061: class, interface, or enum expected
+            msg.what = MSG_SET_VOLUME;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1062: class, interface, or enum expected
+            mHandler.sendMessageDelayed(msg, SET_VOLUME_DELAY);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1063: class, interface, or enum expected
+        } else {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1065: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1071: class, interface, or enum expected
+            mAvinA.release();
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1072: class, interface, or enum expected
+            mAvinA = null;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1073: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1079: class, interface, or enum expected
+        	L.e("mBtnState.isActivated(): " + mBtnState.isActivated() + "   needMute: " + needMute );
+        	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1080: class, interface, or enum expected
+        	if(mBtnState.isActivated()){
+        	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1082: class, interface, or enum expected
+        	}
+        	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1085: class, interface, or enum expected
+                setVolumeMute(true);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1086: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1090: class, interface, or enum expected
+            if (needMute) {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1092: class, interface, or enum expected
+                Message msg = new Message();
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1093: class, interface, or enum expected
+                msg.what = MSG_SET_VOLUME;
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1094: class, interface, or enum expected
+                mHandler.sendMessageDelayed(msg, SET_VOLUME_DELAY);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1095: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1102: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1137: class, interface, or enum expected
+    private void initUI() {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1140: class, interface, or enum expected
+		mViewPager = (ViewPager) findViewById(R.id.viewpager);
+		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1142: class, interface, or enum expected
+        aList = new ArrayList<View>();
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1143: class, interface, or enum expected
+        LayoutInflater li = getLayoutInflater();
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1144: class, interface, or enum expected
+        aList.add(li.inflate(R.layout.viewpager_one,null,false));
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1145: class, interface, or enum expected
+        aList.add(li.inflate(R.layout.viewpager_two,null,false));
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1146: class, interface, or enum expected
+        aList.add(li.inflate(R.layout.viewpager_three, null, false));
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1147: class, interface, or enum expected
+        mAdapter = new MyPagerAdapter(aList);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1148: class, interface, or enum expected
+        mViewPager.setAdapter(mAdapter);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1150: class, interface, or enum expected
+        initFreq();
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1152: class, interface, or enum expected
+        initPreviewFreq();
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1154: class, interface, or enum expected
+        initOp();
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1157: class, interface, or enum expected
+        mFmrMaxUnit = (TextView) findViewById(R.id.fmr_maximum_unit);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1158: class, interface, or enum expected
+        mFmrMinUnit = (TextView) findViewById(R.id.fmr_minimum_unit);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1159: class, interface, or enum expected
+        mBtnFavorite = (TextView) findViewById(R.id.btn_freq_favorite);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1160: class, interface, or enum expected
+        mBtnDelete = (TextView)findViewById(R.id.btn_freq_del);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1161: class, interface, or enum expected
+        mBtnList = (TextView) findViewById(R.id.btn_op_list);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1162: class, interface, or enum expected
+        mBtnAuto = (TextView) findViewById(R.id.btn_op_auto);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1163: class, interface, or enum expected
+        mBtnManual = (TextView)findViewById(R.id.btn_op_manual);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1164: class, interface, or enum expected
+        mBtnSettings = (TextView) findViewById(R.id.btn_op_settings);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1165: class, interface, or enum expected
+        mBtnMute = findViewById(R.id.btn_mute);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1166: class, interface, or enum expected
+        mBtnMute.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1167: class, interface, or enum expected
+        findViewById(R.id.btn_freq_favorite).setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1168: class, interface, or enum expected
+        mBtnDelete.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1169: class, interface, or enum expected
+        mBtnList.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1170: class, interface, or enum expected
+        mBtnAuto.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1171: class, interface, or enum expected
+        mBtnManual.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1172: class, interface, or enum expected
+        mBtnSettings.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1173: class, interface, or enum expected
+        findViewById(R.id.back).setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1174: class, interface, or enum expected
+    }
+    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1178: class, interface, or enum expected
+        mTVFreqTitle = new TextView[FREQ_TITLE_NUM];
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1179: class, interface, or enum expected
+        for (int i = 0; i < FREQ_TITLE_NUM; i++) {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1179: class, interface, or enum expected
+        for (int i = 0; i < FREQ_TITLE_NUM; i++) {
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1179: class, interface, or enum expected
+        for (int i = 0; i < FREQ_TITLE_NUM; i++) {
+                                            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1181: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1184: class, interface, or enum expected
+        mSBFreq.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1187: class, interface, or enum expected
+            public void onStopTrackingTouch(SeekBar seekBar) {
+                   ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1189: class, interface, or enum expected
+                if (isFMBand()) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1191: class, interface, or enum expected
+                } else {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1193: class, interface, or enum expected
+                    if (progress == 0) {
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1195: class, interface, or enum expected
+                    } else if (progress > 0 && progress < mCurrBandGranularity) {
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1198: class, interface, or enum expected
+                        } else {
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1200: class, interface, or enum expected
+                        }
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1203: class, interface, or enum expected
+                        if (temp == 0) {
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1205: class, interface, or enum expected
+                        } else if (temp < 5) {
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1207: class, interface, or enum expected
+                        } else {
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1209: class, interface, or enum expected
+                        }
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1216: class, interface, or enum expected
+                byte[] param = new byte[4];
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1217: class, interface, or enum expected
+                param[0] = (byte) (freq >> 24 & 0xFF);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1218: class, interface, or enum expected
+                param[1] = (byte) (freq >> 16 & 0xFF);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1219: class, interface, or enum expected
+                param[2] = (byte) (freq >> 8 & 0xFF);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1220: class, interface, or enum expected
+                param[3] = (byte) (freq & 0xFF);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1221: class, interface, or enum expected
+                printLog(param, 4);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1222: class, interface, or enum expected
+                try {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1225: class, interface, or enum expected
+                    } else {
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1227: class, interface, or enum expected
+                    }
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1230: class, interface, or enum expected
+                } catch (RemoteException e) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1232: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1236: class, interface, or enum expected
+            public void onStartTrackingTouch(SeekBar seekBar) {
+                   ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1238: class, interface, or enum expected
+                if (isFMBand()) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1240: class, interface, or enum expected
+                } else {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1242: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1246: class, interface, or enum expected
+                seekBar.playSoundEffect(android.view.SoundEffectConstants.CLICK);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1247: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1250: class, interface, or enum expected
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+                   ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1252: class, interface, or enum expected
+                if (isFMBand()) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1254: class, interface, or enum expected
+                } else {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1257: class, interface, or enum expected
+                    } else if (progress > 0 && progress < mCurrBandGranularity) {
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1260: class, interface, or enum expected
+                        } else {
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1262: class, interface, or enum expected
+                        }
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1265: class, interface, or enum expected
+                        if (temp == 0) {
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1267: class, interface, or enum expected
+                        } else if (temp < 5) {
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1269: class, interface, or enum expected
+                        } else {
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1271: class, interface, or enum expected
+                        }
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1278: class, interface, or enum expected
+                setFreqNumTextView(freq);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1279: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1282: class, interface, or enum expected
+        mFreqNumTextView = (FreqNumTextView) findViewById(R.id.view_freq_num);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1284: class, interface, or enum expected
+        mIVSub = (ImageView) findViewById(R.id.iv_freq_sub);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1285: class, interface, or enum expected
+        mIVSub.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1287: class, interface, or enum expected
+        mIVAdd = (ImageView) findViewById(R.id.iv_freq_add);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1288: class, interface, or enum expected
+        mIVAdd.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1291: class, interface, or enum expected
+        mTVFreqUnit = (TextView) findViewById(R.id.tv_freq_unit);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1293: class, interface, or enum expected
+        mTVFreqBand = (TextView) findViewById(R.id.tv_fmr_band);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1295: class, interface, or enum expected
+        mTVPS = (TextView) findViewById(R.id.tv_ps);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1297: class, interface, or enum expected
+        mTVLoc = (TextView) findViewById(R.id.tv_loc);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1298: class, interface, or enum expected
+        mIVUseST = (TextView) findViewById(R.id.iv_use_st);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1299: class, interface, or enum expected
+    }
+    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1303: class, interface, or enum expected
+        mTVPreviewFreq1.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1304: class, interface, or enum expected
+        mTVPreviewFreq1.setOnLongClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1306: class, interface, or enum expected
+        mTVPreviewFreq2 = (FreqItemView) aList.get(0).findViewById(R.id.tv_freq2);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1307: class, interface, or enum expected
+        mTVPreviewFreq2.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1308: class, interface, or enum expected
+        mTVPreviewFreq2.setOnLongClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1310: class, interface, or enum expected
+        mTVPreviewFreq3 = (FreqItemView) aList.get(0).findViewById(R.id.tv_freq3);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1311: class, interface, or enum expected
+        mTVPreviewFreq3.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1312: class, interface, or enum expected
+        mTVPreviewFreq3.setOnLongClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1313: class, interface, or enum expected
+        mTVPreviewFreq4 = (FreqItemView) aList.get(0).findViewById(R.id.tv_freq4);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1314: class, interface, or enum expected
+        mTVPreviewFreq4.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1315: class, interface, or enum expected
+        mTVPreviewFreq4.setOnLongClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1317: class, interface, or enum expected
+        mTVPreviewFreq5 = (FreqItemView) aList.get(1).findViewById(R.id.tv_freq5);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1318: class, interface, or enum expected
+        mTVPreviewFreq5.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1319: class, interface, or enum expected
+        mTVPreviewFreq5.setOnLongClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1321: class, interface, or enum expected
+        mTVPreviewFreq6 = (FreqItemView) aList.get(1).findViewById(R.id.tv_freq6);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1322: class, interface, or enum expected
+        mTVPreviewFreq6.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1323: class, interface, or enum expected
+        mTVPreviewFreq6.setOnLongClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1325: class, interface, or enum expected
+        mTVPreviewFreq7 = (FreqItemView) aList.get(1).findViewById(R.id.tv_freq7);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1326: class, interface, or enum expected
+        mTVPreviewFreq7.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1327: class, interface, or enum expected
+        mTVPreviewFreq7.setOnLongClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1329: class, interface, or enum expected
+        mTVPreviewFreq8 = (FreqItemView) aList.get(1).findViewById(R.id.tv_freq8);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1330: class, interface, or enum expected
+        mTVPreviewFreq8.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1331: class, interface, or enum expected
+        mTVPreviewFreq8.setOnLongClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1333: class, interface, or enum expected
+        mTVPreviewFreq9 = (FreqItemView) aList.get(2).findViewById(R.id.tv_freq9);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1334: class, interface, or enum expected
+        mTVPreviewFreq9.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1335: class, interface, or enum expected
+        mTVPreviewFreq9.setOnLongClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1337: class, interface, or enum expected
+        mTVPreviewFreq10 = (FreqItemView) aList.get(2).findViewById(R.id.tv_freq10);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1338: class, interface, or enum expected
+        mTVPreviewFreq10.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1339: class, interface, or enum expected
+        mTVPreviewFreq10.setOnLongClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1341: class, interface, or enum expected
+        mTVPreviewFreq11 = (FreqItemView) aList.get(2).findViewById(R.id.tv_freq11);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1342: class, interface, or enum expected
+        mTVPreviewFreq11.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1343: class, interface, or enum expected
+        mTVPreviewFreq11.setOnLongClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1345: class, interface, or enum expected
+        mTVPreviewFreq12 = (FreqItemView) aList.get(2).findViewById(R.id.tv_freq12);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1346: class, interface, or enum expected
+        mTVPreviewFreq12.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1347: class, interface, or enum expected
+        mTVPreviewFreq12.setOnLongClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1349: class, interface, or enum expected
+        mPresetListMap.put(R.id.tv_freq1, 1);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1350: class, interface, or enum expected
+        mPresetListMap.put(R.id.tv_freq2, 2);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1351: class, interface, or enum expected
+        mPresetListMap.put(R.id.tv_freq3, 3);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1352: class, interface, or enum expected
+        mPresetListMap.put(R.id.tv_freq4, 4);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1353: class, interface, or enum expected
+        mPresetListMap.put(R.id.tv_freq5, 5);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1354: class, interface, or enum expected
+        mPresetListMap.put(R.id.tv_freq6, 6);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1355: class, interface, or enum expected
+        mPresetListMap.put(R.id.tv_freq7, 7);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1356: class, interface, or enum expected
+        mPresetListMap.put(R.id.tv_freq8, 8);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1357: class, interface, or enum expected
+        mPresetListMap.put(R.id.tv_freq9, 9);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1358: class, interface, or enum expected
+        mPresetListMap.put(R.id.tv_freq10, 10);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1359: class, interface, or enum expected
+        mPresetListMap.put(R.id.tv_freq11, 11);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1360: class, interface, or enum expected
+        mPresetListMap.put(R.id.tv_freq12, 12);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1362: class, interface, or enum expected
+        mTVPreviewFreqArray = new FreqItemView[PREVIEW_FREQ_NUM];
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1363: class, interface, or enum expected
+        mTVPreviewFreqArray[0] = mTVPreviewFreq1;
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1364: class, interface, or enum expected
+        mTVPreviewFreqArray[1] = mTVPreviewFreq2;
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1365: class, interface, or enum expected
+        mTVPreviewFreqArray[2] = mTVPreviewFreq3;
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1366: class, interface, or enum expected
+        mTVPreviewFreqArray[3] = mTVPreviewFreq4;
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1367: class, interface, or enum expected
+        mTVPreviewFreqArray[4] = mTVPreviewFreq5;
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1368: class, interface, or enum expected
+        mTVPreviewFreqArray[5] = mTVPreviewFreq6;
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1369: class, interface, or enum expected
+        mTVPreviewFreqArray[6] = mTVPreviewFreq7;
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1370: class, interface, or enum expected
+        mTVPreviewFreqArray[7] = mTVPreviewFreq8;
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1371: class, interface, or enum expected
+        mTVPreviewFreqArray[8] = mTVPreviewFreq9;
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1372: class, interface, or enum expected
+        mTVPreviewFreqArray[9] = mTVPreviewFreq10;
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1373: class, interface, or enum expected
+        mTVPreviewFreqArray[10] = mTVPreviewFreq11;
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1374: class, interface, or enum expected
+        mTVPreviewFreqArray[11] = mTVPreviewFreq12;
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1376: class, interface, or enum expected
+        for(int i = 0; i < mTVPreviewFreqArray.length; i++){
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1376: class, interface, or enum expected
+        for(int i = 0; i < mTVPreviewFreqArray.length; i++){
+                       ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1376: class, interface, or enum expected
+        for(int i = 0; i < mTVPreviewFreqArray.length; i++){
+                                                       ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1378: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1383: class, interface, or enum expected
+        mBtnOpBand.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1385: class, interface, or enum expected
+        mBtnOpLoc = (TextView) findViewById(R.id.btn_op_loc);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1386: class, interface, or enum expected
+        mBtnOpLoc.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1388: class, interface, or enum expected
+        mBtnOpStereo = (TextView) findViewById(R.id.btn_op_stereo);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1389: class, interface, or enum expected
+        mBtnOpStereo.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1391: class, interface, or enum expected
+        mBtnOpAS = (TextView) findViewById(R.id.btn_op_as);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1392: class, interface, or enum expected
+        mBtnOpAS.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1394: class, interface, or enum expected
+        mBtnOpPS = (TextView) findViewById(R.id.btn_op_ps);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1395: class, interface, or enum expected
+        mBtnOpPS.setOnClickListener(this);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1396: class, interface, or enum expected
+    }
+    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1401: class, interface, or enum expected
+    		}
+    		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1404: class, interface, or enum expected
+    	}else{
+    	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1408: class, interface, or enum expected
+    				mCurrentSelectFreq = (FreqItemView) freqView;
+    				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1410: class, interface, or enum expected
+    				if(mCurrentSelectFreq.valueIsEmpty()){
+    				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1413: class, interface, or enum expected
+    				}else{
+    				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1416: class, interface, or enum expected
+    				}
+    				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1420: class, interface, or enum expected
+    			}
+    			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1427: class, interface, or enum expected
+        } else {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1429: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1434: class, interface, or enum expected
+        printLog("setFreqTitle - mCurrBandMaxFreq: " + mCurrBandMaxFreq
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1438: class, interface, or enum expected
+        int data[] = new int[FREQ_TITLE_NUM];
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1439: class, interface, or enum expected
+        if (isFMBand()) {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1442: class, interface, or enum expected
+                gap -= temp;
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1443: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1445: class, interface, or enum expected
+            data[3] = (mCurrBandMinFreq + mCurrBandMaxFreq) / 2 + mCurrBandGranularity;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1446: class, interface, or enum expected
+            data[6] = (mCurrBandMaxFreq + mCurrBandMaxFreq - gap) / 2 + mCurrBandGranularity;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1448: class, interface, or enum expected
+            data[1] = data[0] + gap;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1449: class, interface, or enum expected
+            data[2] = data[1] + gap;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1450: class, interface, or enum expected
+            data[4] = data[3] + gap;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1451: class, interface, or enum expected
+            data[5] = data[6] - gap;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1453: class, interface, or enum expected
+            for (int i = 0; i < FREQ_TITLE_NUM; i++) {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1453: class, interface, or enum expected
+            for (int i = 0; i < FREQ_TITLE_NUM; i++) {
+                            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1453: class, interface, or enum expected
+            for (int i = 0; i < FREQ_TITLE_NUM; i++) {
+                                                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1455: class, interface, or enum expected
+                mTVFreqTitle[i].setText(title);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1456: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1460: class, interface, or enum expected
+                gap -= temp;
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1461: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1465: class, interface, or enum expected
+            int m = data[3] - mCurrBandMinFreq;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1466: class, interface, or enum expected
+            int n = m % mCurrBandGranularity;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1467: class, interface, or enum expected
+            if (n != 0) {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1469: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1472: class, interface, or enum expected
+            data[1] = data[2] - gap;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1473: class, interface, or enum expected
+            data[0] = data[1] - gap - mCurrBandGranularity;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1475: class, interface, or enum expected
+            data[4] = data[3] + gap + mCurrBandGranularity;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1476: class, interface, or enum expected
+            data[5] = data[4] + gap;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1477: class, interface, or enum expected
+            data[6] = data[5] + gap + mCurrBandGranularity;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1479: class, interface, or enum expected
+            for (int i = 0; i < FREQ_TITLE_NUM; i++) {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1479: class, interface, or enum expected
+            for (int i = 0; i < FREQ_TITLE_NUM; i++) {
+                            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1479: class, interface, or enum expected
+            for (int i = 0; i < FREQ_TITLE_NUM; i++) {
+                                                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1481: class, interface, or enum expected
+                mTVFreqTitle[i].setText(title);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1482: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1489: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1493: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1497: class, interface, or enum expected
+        if (isFMBand()) {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1499: class, interface, or enum expected
+            if (resId1 == 0) {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1501: class, interface, or enum expected
+            } else {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1503: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1506: class, interface, or enum expected
+            mFreqNumImageView.setImageResource2Visible(true);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1507: class, interface, or enum expected
+            mFreqNumImageView.setImageResource2(resId2);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1509: class, interface, or enum expected
+            int resId3 = (freq % 1000) / 100;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1510: class, interface, or enum expected
+            mFreqNumImageView.setImageResource3(resId3);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1512: class, interface, or enum expected
+            mFreqNumImageView.setImageResource4Visible(true);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1514: class, interface, or enum expected
+            int resId5 = (freq % 100) / 10;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1515: class, interface, or enum expected
+            mFreqNumImageView.setImageResource5(resId5);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1517: class, interface, or enum expected
+            int resId6 = freq % 10;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1518: class, interface, or enum expected
+            mFreqNumImageView.setImageResource6(resId6);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1519: class, interface, or enum expected
+        } else {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1522: class, interface, or enum expected
+            int resId2 = freq / 1000;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1523: class, interface, or enum expected
+            if (resId2 == 0) {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1525: class, interface, or enum expected
+            } else {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1528: class, interface, or enum expected
+                mFreqNumImageView.setImageResource2(resId2);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1529: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1532: class, interface, or enum expected
+            mFreqNumImageView.setImageResource3(resId3);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1534: class, interface, or enum expected
+            mFreqNumImageView.setImageResource4Visible(false);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1536: class, interface, or enum expected
+            int resId5 = (freq % 100) / 10;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1537: class, interface, or enum expected
+            mFreqNumImageView.setImageResource5(resId5);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1539: class, interface, or enum expected
+            int resId6 = freq % 10;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1540: class, interface, or enum expected
+            mFreqNumImageView.setImageResource6(resId6);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1541: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1547: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1551: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1554: class, interface, or enum expected
+        mCurrentFreqValue = freq;
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1555: class, interface, or enum expected
+        if (isFMBand()) {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1557: class, interface, or enum expected
+            if (resId1 == 0) {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1559: class, interface, or enum expected
+            } else {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1561: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1564: class, interface, or enum expected
+            mFreqNumTextView.setImageResource2Visible(true);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1565: class, interface, or enum expected
+            mFreqNumTextView.setImageResource2(resId2);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1567: class, interface, or enum expected
+            int resId3 = (freq % 1000) / 100;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1568: class, interface, or enum expected
+            mFreqNumTextView.setImageResource3(resId3);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1570: class, interface, or enum expected
+            mFreqNumTextView.setImageResource4Visible(true);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1572: class, interface, or enum expected
+            int resId5 = (freq % 100) / 10;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1573: class, interface, or enum expected
+            mFreqNumTextView.setImageResource5(resId5);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1575: class, interface, or enum expected
+            int resId6 = freq % 10;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1576: class, interface, or enum expected
+            mFreqNumTextView.setImageResource6(resId6);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1577: class, interface, or enum expected
+            mFreqNumTextView.setImageResource6Visible(false);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1578: class, interface, or enum expected
+        } else {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1581: class, interface, or enum expected
+            int resId2 = freq / 1000;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1582: class, interface, or enum expected
+            if (resId2 == 0) {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1584: class, interface, or enum expected
+            } else {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1587: class, interface, or enum expected
+                mFreqNumTextView.setImageResource2(resId2);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1588: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1591: class, interface, or enum expected
+            mFreqNumTextView.setImageResource3(resId3);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1593: class, interface, or enum expected
+            mFreqNumTextView.setImageResource4Visible(false);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1595: class, interface, or enum expected
+            int resId5 = (freq % 100) / 10;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1596: class, interface, or enum expected
+            mFreqNumTextView.setImageResource5(resId5);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1598: class, interface, or enum expected
+            int resId6 = freq % 10;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1599: class, interface, or enum expected
+            mFreqNumTextView.setImageResource6(resId6);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1600: class, interface, or enum expected
+            mFreqNumTextView.setImageResource6Visible(true);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1601: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1607: class, interface, or enum expected
+        } else {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1609: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1637: class, interface, or enum expected
+        boolean isfmband = isFMBand();
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1638: class, interface, or enum expected
+		for(int i = 0; i < mPresetList.length; i++){
+		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1638: class, interface, or enum expected
+		for(int i = 0; i < mPresetList.length; i++){
+		               ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1638: class, interface, or enum expected
+		for(int i = 0; i < mPresetList.length; i++){
+		                                       ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1640: class, interface, or enum expected
+    		if(isfmband){
+    		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1642: class, interface, or enum expected
+    			try {
+    			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1645: class, interface, or enum expected
+	    				if(TextUtils.isEmpty(oldValue) || !valueStr.equals(oldValue)){
+	    				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1649: class, interface, or enum expected
+								}else{
+								^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1651: class, interface, or enum expected
+								}
+								^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1654: class, interface, or enum expected
+							}
+							^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1659: class, interface, or enum expected
+				}
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1661: class, interface, or enum expected
+    		}else{
+    		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1665: class, interface, or enum expected
+	    				String oldValue = mTVPreviewFreqArray[i].getValue().getText().toString();
+	    				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1666: class, interface, or enum expected
+	    				if(TextUtils.isEmpty(oldValue) || !valueStr.equals(oldValue)){
+	    				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1671: class, interface, or enum expected
+								}else{
+								^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1673: class, interface, or enum expected
+								}
+								^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1676: class, interface, or enum expected
+							}
+							^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1681: class, interface, or enum expected
+    			}
+    			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1683: class, interface, or enum expected
+    		}
+    		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1689: class, interface, or enum expected
+    				}else{
+    				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1692: class, interface, or enum expected
+    				}
+    				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1699: class, interface, or enum expected
+		}else{
+		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1701: class, interface, or enum expected
+		}
+		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1704: class, interface, or enum expected
+        for (int i = 0; i < PREVIEW_FREQ_NUM; i++) {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1704: class, interface, or enum expected
+        for (int i = 0; i < PREVIEW_FREQ_NUM; i++) {
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1704: class, interface, or enum expected
+        for (int i = 0; i < PREVIEW_FREQ_NUM; i++) {
+                                              ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1708: class, interface, or enum expected
+            } else {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1715: class, interface, or enum expected
+    private void progressDynamicChange(final int loadFreq) {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1715: class, interface, or enum expected
+    private void progressDynamicChange(final int loadFreq) {
+                                             ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1719: class, interface, or enum expected
+            public void run() {
+                   ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1722: class, interface, or enum expected
+                SystemClock.sleep(50);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1724: class, interface, or enum expected
+                synchronized (lock) {
+                             ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1726: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1728: class, interface, or enum expected
+                if (isFMBand()) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1730: class, interface, or enum expected
+                } else {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1732: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1736: class, interface, or enum expected
+                    for (freq = currFreq; freq <= loadFreq; freq += mCurrBandGranularity) {
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1736: class, interface, or enum expected
+                    for (freq = currFreq; freq <= loadFreq; freq += mCurrBandGranularity) {
+                                          ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1736: class, interface, or enum expected
+                    for (freq = currFreq; freq <= loadFreq; freq += mCurrBandGranularity) {
+                                                            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1740: class, interface, or enum expected
+                            }
+                            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1745: class, interface, or enum expected
+                        } else {
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1747: class, interface, or enum expected
+                        }
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1750: class, interface, or enum expected
+                    }
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1755: class, interface, or enum expected
+                        } else {
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1757: class, interface, or enum expected
+                        }
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1761: class, interface, or enum expected
+                    for (freq = currFreq; freq >= loadFreq; freq -= mCurrBandGranularity) {
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1761: class, interface, or enum expected
+                    for (freq = currFreq; freq >= loadFreq; freq -= mCurrBandGranularity) {
+                                          ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1761: class, interface, or enum expected
+                    for (freq = currFreq; freq >= loadFreq; freq -= mCurrBandGranularity) {
+                                                            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1765: class, interface, or enum expected
+                            }
+                            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1770: class, interface, or enum expected
+                        } else {
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1772: class, interface, or enum expected
+                        }
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1775: class, interface, or enum expected
+                    }
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1780: class, interface, or enum expected
+                        } else {
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1782: class, interface, or enum expected
+                        }
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1788: class, interface, or enum expected
+    }
+    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1794: class, interface, or enum expected
+                Integer index = mPresetListMap.get(id);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1795: class, interface, or enum expected
+                if (index != null) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1797: class, interface, or enum expected
+                } else {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1799: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1802: class, interface, or enum expected
+                synchronized (lock) {
+                             ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1804: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1807: class, interface, or enum expected
+                for (int i = 0; i < PREVIEW_FREQ_NUM; i++) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1807: class, interface, or enum expected
+                for (int i = 0; i < PREVIEW_FREQ_NUM; i++) {
+                                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1807: class, interface, or enum expected
+                for (int i = 0; i < PREVIEW_FREQ_NUM; i++) {
+                                                      ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1811: class, interface, or enum expected
+                    } else {
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1819: class, interface, or enum expected
+            } catch (RemoteException e) {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1821: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1825: class, interface, or enum expected
+                Integer index = mPresetListMap.get(id);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1826: class, interface, or enum expected
+                if (index != null) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1828: class, interface, or enum expected
+                } else {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1830: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1833: class, interface, or enum expected
+            } catch (RemoteException e) {
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1835: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1838: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1844: class, interface, or enum expected
+	        Integer index = mPresetListMap.get(id);
+	        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1845: class, interface, or enum expected
+	    	if (index != null) {
+	    	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1847: class, interface, or enum expected
+	            mMcuManager.RPC_KeyCommand(T_RADIO_DEL_PRESET, param);
+	            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1848: class, interface, or enum expected
+	        }
+	        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1851: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1853: class, interface, or enum expected
+    }
+    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1859: class, interface, or enum expected
+            mMcuManager.RPC_KeyCommand(T_RADIO_TUNING_DOWN, null);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1861: class, interface, or enum expected
+            mOpType = OP_TYPE_CLICK;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1862: class, interface, or enum expected
+        } catch (RemoteException e) {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1864: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1871: class, interface, or enum expected
+            mMcuManager.RPC_KeyCommand(T_RADIO_TUNE_UP, null);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1873: class, interface, or enum expected
+            mOpType = OP_TYPE_CLICK;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1874: class, interface, or enum expected
+        } catch (RemoteException e) {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1876: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1883: class, interface, or enum expected
+            mMcuManager.RPC_KeyCommand(T_RADIO_PRESET_PRE, null);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1885: class, interface, or enum expected
+            mOpType = OP_TYPE_CLICK;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1886: class, interface, or enum expected
+        } catch (RemoteException e) {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1888: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1895: class, interface, or enum expected
+            mMcuManager.RPC_KeyCommand(T_RADIO_PRESET_NEXT, null);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1897: class, interface, or enum expected
+            mOpType = OP_TYPE_CLICK;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1898: class, interface, or enum expected
+        } catch (RemoteException e) {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1900: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1907: class, interface, or enum expected
+            mASCount = 0;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1908: class, interface, or enum expected
+            mASIsVisible = false;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1910: class, interface, or enum expected
+            mOpType = OP_TYPE_INIT;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1912: class, interface, or enum expected
+            mMcuManager.RPC_KeyCommand(T_RADIO_SEEK_DOWN, null);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1920: class, interface, or enum expected
+        } catch (RemoteException e) {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1922: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1929: class, interface, or enum expected
+            mASCount = 0;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1930: class, interface, or enum expected
+            mASIsVisible = false;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1932: class, interface, or enum expected
+            mOpType = OP_TYPE_INIT;
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1934: class, interface, or enum expected
+            mMcuManager.RPC_KeyCommand(T_RADIO_SEEK_UP, null);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1942: class, interface, or enum expected
+        } catch (RemoteException e) {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1944: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1950: class, interface, or enum expected
+    		if(fmr.startsWith("am")){
+    		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1952: class, interface, or enum expected
+    			mFmrMinUnit.setText(R.string.fmr_minimum_unit_am_value);
+    			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1954: class, interface, or enum expected
+    		}else if(fmr.startsWith("fm")){
+    		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1956: class, interface, or enum expected
+    			mFmrMinUnit.setText(R.string.fmr_minimum_unit_fm_value);
+    			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1957: class, interface, or enum expected
+    		} 
+    		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1962: class, interface, or enum expected
+    public void onClick(View view) {
+           ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1965: class, interface, or enum expected
+        switch (id) {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1969: class, interface, or enum expected
+	            	setFreqItemSelected(null);
+	            	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1970: class, interface, or enum expected
+	            	doFreqSub();
+	            	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1971: class, interface, or enum expected
+				}else
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1973: class, interface, or enum expected
+                break;
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1974: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1979: class, interface, or enum expected
+	            	setFreqItemSelected(null);
+	            	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1980: class, interface, or enum expected
+	            	doFreqAdd();
+	            	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1981: class, interface, or enum expected
+				}else
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1983: class, interface, or enum expected
+                break;
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1984: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1988: class, interface, or enum expected
+            	isDisplaySelectedFreq = true;
+            	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1989: class, interface, or enum expected
+            	setFreqItemSelected(null);
+            	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1990: class, interface, or enum expected
+                try {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1992: class, interface, or enum expected
+                    mMcuManager.RPC_KeyCommand(T_RADIO_BAND, null);
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1993: class, interface, or enum expected
+                    mOpType = OP_TYPE_INIT;
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1994: class, interface, or enum expected
+                } catch (RemoteException e) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1996: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:1998: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2002: class, interface, or enum expected
+                try {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2005: class, interface, or enum expected
+                    mOpType = OP_TYPE_LOC;
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2006: class, interface, or enum expected
+                } catch (RemoteException e) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2008: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2010: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2014: class, interface, or enum expected
+                if (isFMBand()) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2018: class, interface, or enum expected
+                        mOpType = OP_TYPE_USE_ST;
+                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2019: class, interface, or enum expected
+                    } catch (RemoteException e) {
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2021: class, interface, or enum expected
+                    }
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2024: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2029: class, interface, or enum expected
+            	setFreqItemSelected(null);
+            	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2030: class, interface, or enum expected
+                try {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2032: class, interface, or enum expected
+                    mASCount = 0;
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2034: class, interface, or enum expected
+                    byte[] param = new byte[4];
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2035: class, interface, or enum expected
+                    param[0] = 0;
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2036: class, interface, or enum expected
+                    mMcuManager.RPC_KeyCommand(T_RADIO_AS, param);
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2038: class, interface, or enum expected
+                    mOpType = OP_TYPE_AS;
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2040: class, interface, or enum expected
+                    if (mASHandler.hasCallbacks(mASRunnable)) {
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2042: class, interface, or enum expected
+                    }
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2047: class, interface, or enum expected
+                } catch (RemoteException e) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2049: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2051: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2055: class, interface, or enum expected
+                try {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2059: class, interface, or enum expected
+                    } else {
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2062: class, interface, or enum expected
+                    }
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2065: class, interface, or enum expected
+                    mCurrPSItem = 0;
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2066: class, interface, or enum expected
+                    mCurrPreset = 0;
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2067: class, interface, or enum expected
+                    mPSIsVisible = false;
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2072: class, interface, or enum expected
+                    if (mPSHandler.hasCallbacks(mPSRunnable)) {
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2074: class, interface, or enum expected
+                    }
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2077: class, interface, or enum expected
+                    mMcuManager.RPC_KeyCommand(T_RADIO_PS, null);
+                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2078: class, interface, or enum expected
+                } catch (RemoteException e) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2080: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2082: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2085: class, interface, or enum expected
+				break;
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2086: class, interface, or enum expected
+			case R.id.btn_freq_favorite:{
+			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2088: class, interface, or enum expected
+				if(mCurrentSelectFreq != null && mCurrentSelectFreq.isSelected()){
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2090: class, interface, or enum expected
+					onPresetListItemClick(mCurrentSelectFreq.getId(), 1);
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2092: class, interface, or enum expected
+					if(mCurrentSelectFreq != null){
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2094: class, interface, or enum expected
+						if(isFMBand()){
+						^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2096: class, interface, or enum expected
+						}else{
+						^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2098: class, interface, or enum expected
+						}
+						^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2100: class, interface, or enum expected
+					}
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2104: class, interface, or enum expected
+				}
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2107: class, interface, or enum expected
+			case R.id.btn_freq_del:{
+			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2109: class, interface, or enum expected
+				if(mCurrentSelectFreq != null && mCurrentSelectFreq.isSelected()){
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2111: class, interface, or enum expected
+					saveSelectFreq(0,""); //set saved SelectFreq is empty
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2112: class, interface, or enum expected
+					Log.e("FMRadioMainActivity", "delete freq  success");
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2113: class, interface, or enum expected
+					deletePreset(mCurrentSelectFreq.getId());			
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2114: class, interface, or enum expected
+				}else{
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2116: class, interface, or enum expected
+				}
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2119: class, interface, or enum expected
+            case R.id.tv_freq1:
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2132: class, interface, or enum expected
+                setFreqItemSelected(view);
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2133: class, interface, or enum expected
+                if(mCurrentSelectFreq != null && !mCurrentSelectFreq.valueIsEmpty()){
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2135: class, interface, or enum expected
+		    		saveSelectFreq(mCurrentSelectFreq);
+		    		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2136: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2138: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2142: class, interface, or enum expected
+	                public void run() {  
+	                       ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2145: class, interface, or enum expected
+	                        inst.sendKeyDownUpSync(KeyEvent.KEYCODE_BACK);  
+	                        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2146: class, interface, or enum expected
+	                   } catch (Exception e) {  
+	                   ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2148: class, interface, or enum expected
+	                    }  
+	                    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2152: class, interface, or enum expected
+				break;
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2153: class, interface, or enum expected
+            case R.id.back:{
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2155: class, interface, or enum expected
+            }
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2157: class, interface, or enum expected
+			case R.id.btn_op_auto:
+			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2160: class, interface, or enum expected
+				if(isAutoSeek){
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2162: class, interface, or enum expected
+					mBtnManual.setVisibility(View.GONE);
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2163: class, interface, or enum expected
+				}else{
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2165: class, interface, or enum expected
+					mBtnManual.setVisibility(View.VISIBLE);
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2166: class, interface, or enum expected
+				}
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2168: class, interface, or enum expected
+			case R.id.btn_op_list:
+			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2171: class, interface, or enum expected
+					View listView = View.inflate(this, R.layout.list_layout, null);
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2173: class, interface, or enum expected
+        			listView.findViewById(R.id.list_back).setOnClickListener(this);
+        			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2174: class, interface, or enum expected
+        			listView.findViewById(R.id.list_as).setOnClickListener(this);
+        			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2175: class, interface, or enum expected
+					(ListView)listView.findViewById(R.id.listview).setAdapter(freqAdapter);
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2177: class, interface, or enum expected
+					final AlertDialog dialog = builder.create();
+					      ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2179: class, interface, or enum expected
+					dialog.show();
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2180: class, interface, or enum expected
+					Window win = dialog.getWindow();
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2181: class, interface, or enum expected
+					win.getDecorView().setPadding(0, 0, 0, 0);
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2182: class, interface, or enum expected
+					WindowManager.LayoutParams lp = win.getAttributes();
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2183: class, interface, or enum expected
+        			lp.width = WindowManager.LayoutParams.FILL_PARENT;
+        			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2184: class, interface, or enum expected
+        			lp.height = WindowManager.LayoutParams.WRAP_CONTENT;
+        			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2185: class, interface, or enum expected
+        			win.setAttributes(lp);
+        			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2187: class, interface, or enum expected
+					dialog.setContentView(listView);
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2188: class, interface, or enum expected
+				}
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2190: class, interface, or enum expected
+			case R.id.btn_op_settings:
+			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2193: class, interface, or enum expected
+					View settingsView = View.inflate(this, R.layout.settings_layout, null);
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2194: class, interface, or enum expected
+        			settingsView.findViewById(R.id.settings_back).setOnClickListener(this);
+        			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2195: class, interface, or enum expected
+        			settingsView.findViewById(R.id.input_freq).setOnClickListener(this);
+        			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2196: class, interface, or enum expected
+        			settingsView.findViewById(R.id.clean_freq).setOnClickListener(this);
+        			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2198: class, interface, or enum expected
+					final AlertDialog dialog = builder.create();
+					      ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2200: class, interface, or enum expected
+					dialog.show();
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2201: class, interface, or enum expected
+					Window win = dialog.getWindow();
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2202: class, interface, or enum expected
+					win.getDecorView().setPadding(0, 0, 0, 0);
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2203: class, interface, or enum expected
+					WindowManager.LayoutParams lp = win.getAttributes();
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2204: class, interface, or enum expected
+        			lp.width = WindowManager.LayoutParams.FILL_PARENT;
+        			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2205: class, interface, or enum expected
+        			lp.height = WindowManager.LayoutParams.WRAP_CONTENT;
+        			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2206: class, interface, or enum expected
+        			win.setAttributes(lp);
+        			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2208: class, interface, or enum expected
+					dialog.setContentView(settingsView);
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2209: class, interface, or enum expected
+				}
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2212: class, interface, or enum expected
+			case R.id.clean_freq:
+			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2215: class, interface, or enum expected
+                } catch (RemoteException e) {
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2217: class, interface, or enum expected
+                }
+                ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2219: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2223: class, interface, or enum expected
+    public boolean onLongClick(View view) {
+           ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2225: class, interface, or enum expected
+        if (id == R.id.iv_freq_sub) {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2227: class, interface, or enum expected
+        } else if (id == R.id.iv_freq_add) {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2229: class, interface, or enum expected
+        } else {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2232: class, interface, or enum expected
+        	}
+        	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2234: class, interface, or enum expected
+            onPresetListItemClick(id, 1);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2235: class, interface, or enum expected
+            setFreqItemSelected(view);
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2238: class, interface, or enum expected
+            if(mCurrentSelectFreq != null){
+            ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2240: class, interface, or enum expected
+				if(isFMBand()){
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2242: class, interface, or enum expected
+				}else{
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2244: class, interface, or enum expected
+				}
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2246: class, interface, or enum expected
+			}
+			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2251: class, interface, or enum expected
+    }
+    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2254: class, interface, or enum expected
+    public boolean onKeyUp(int keyCode, KeyEvent event) {
+           ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2256: class, interface, or enum expected
+        if (keyCode == KeyEvent.KEYCODE_YECON_TUNER) {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2258: class, interface, or enum expected
+        } else if (keyCode == KeyEvent.KEYCODE_YECON_RADIO_FM) {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2266: class, interface, or enum expected
+        } else if (keyCode == KeyEvent.KEYCODE_YECON_RADIO_AM) {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2274: class, interface, or enum expected
+        } else if (keyCode == KeyEvent.KEYCODE_YECON_RADIO_AS) {
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2276: class, interface, or enum expected
+        }
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2279: class, interface, or enum expected
+    }
+    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2282: class, interface, or enum expected
+    public void onBackPressed() {
+           ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2292: class, interface, or enum expected
+         onBackPressedToHome();
+         ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2293: class, interface, or enum expected
+    }
+    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2297: class, interface, or enum expected
+        intent.addCategory(Intent.CATEGORY_HOME);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2298: class, interface, or enum expected
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2300: class, interface, or enum expected
+        startActivity(intent);
+        ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2301: class, interface, or enum expected
+    }
+    ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2306: class, interface, or enum expected
+		public void onReceive(Context context, Intent intent) {
+		       ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2308: class, interface, or enum expected
+			String mediaType = intent.getStringExtra("media_type");
+			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2309: class, interface, or enum expected
+			Log.e(this.getClass().getName(), "action:" + action + "  mediaType:" + mediaType);
+			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2310: class, interface, or enum expected
+			if(MediaConstants.CURRENT_MEDIA_IS_RADIO.equals(mediaType)){
+			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2314: class, interface, or enum expected
+					}else if(MediaConstants.DO_NEXT.equalsIgnoreCase(action)){
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2316: class, interface, or enum expected
+					}
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2319: class, interface, or enum expected
+				}
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2324: class, interface, or enum expected
+	public void clearTags(){
+	       ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2327: class, interface, or enum expected
+		}
+		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2347: class, interface, or enum expected
+	public void addFmrTags(int[] list,int minValue,int maxValue){
+	       ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2351: class, interface, or enum expected
+			int ableWidthSpace = (int) (mSBTagsWrap.getMeasuredWidth() - 9);
+			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2353: class, interface, or enum expected
+			for(int value : list){
+			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2356: class, interface, or enum expected
+				}
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2358: class, interface, or enum expected
+				ImageView imageView = new ImageView(this);
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2359: class, interface, or enum expected
+				imageView.setBackground(getResources().getDrawable(R.drawable.fmr_thumb_n));
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2360: class, interface, or enum expected
+				FrameLayout.LayoutParams lp = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.WRAP_CONTENT, FrameLayout.LayoutParams.WRAP_CONTENT);
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2361: class, interface, or enum expected
+				int marginLeft = (int) (ableWidthSpace * pre) + 3;
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2362: class, interface, or enum expected
+				lp.setMargins(marginLeft, 0, 0, 0);
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2363: class, interface, or enum expected
+				imageView.setLayoutParams(lp);
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2364: class, interface, or enum expected
+				mSBTagsWrap.addView(imageView);
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2365: class, interface, or enum expected
+				L.e(ableWidthSpace +" " + mSBTagsWrap.getMeasuredWidth() +" " + value + " " + pre +" "+ marginLeft + "  " + minValue + "  " + maxValue);
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2366: class, interface, or enum expected
+			}
+			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2371: class, interface, or enum expected
+	public void saveSelectFreq(FreqItemView freqItemView){
+	       ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2374: class, interface, or enum expected
+		}
+		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2376: class, interface, or enum expected
+		String value = freqItemView.getValue().getText().toString();
+		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2377: class, interface, or enum expected
+		if(TextUtils.isEmpty(value)){
+		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2379: class, interface, or enum expected
+			value = "";
+			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2380: class, interface, or enum expected
+		}
+		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2382: class, interface, or enum expected
+	}
+	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2384: class, interface, or enum expected
+	public void saveSelectFreq(int index,String value){
+	       ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2387: class, interface, or enum expected
+		}else{
+		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2389: class, interface, or enum expected
+		}
+		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2392: class, interface, or enum expected
+	public void saveSelectFreq(String bandType,int index,String value){
+	       ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2395: class, interface, or enum expected
+		}
+		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2398: class, interface, or enum expected
+			jsonObject.put("bandType", bandType);
+			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2399: class, interface, or enum expected
+			jsonObject.put("index", index);
+			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2400: class, interface, or enum expected
+			jsonObject.put("value", value);
+			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2401: class, interface, or enum expected
+			mEditor.putString(bandType, jsonObject.toString());
+			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2402: class, interface, or enum expected
+			mEditor.commit();
+			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2403: class, interface, or enum expected
+			L.e("save select : " + bandType + " index:" + index + "  value:" + value);
+			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2404: class, interface, or enum expected
+		} 
+		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2407: class, interface, or enum expected
+		}
+		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2409: class, interface, or enum expected
+	public void readSelectFreqAndDisPlay(){
+	       ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2412: class, interface, or enum expected
+			if(isFMBand()){
+			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2414: class, interface, or enum expected
+			}else{
+			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2416: class, interface, or enum expected
+			}
+			^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2419: class, interface, or enum expected
+				String json = isFMBand() ? mPref.getString(BAND_TYPE_FM, "") : mPref.getString(BAND_TYPE_AM, "");
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2421: class, interface, or enum expected
+				if(TextUtils.isEmpty(json)){}
+				^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2424: class, interface, or enum expected
+					String jBandType = jsonObject.getString("bandType");
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2425: class, interface, or enum expected
+					int jIndex = jsonObject.getInt("index");
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2426: class, interface, or enum expected
+					String jValue = jsonObject.getString("value");
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2427: class, interface, or enum expected
+					if(jIndex == 0 && TextUtils.isEmpty(jValue)){
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2432: class, interface, or enum expected
+								setFreqItemSelected(mCurrentSelectFreq);
+								^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2433: class, interface, or enum expected
+							}
+							^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2444: class, interface, or enum expected
+						setFreqItemSelected(freqItemView);
+						^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2445: class, interface, or enum expected
+						isDeleteSelectedFreq = false;
+						^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2446: class, interface, or enum expected
+						break;
+						^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2447: class, interface, or enum expected
+					}
+					^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2452: class, interface, or enum expected
+		}
+		^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2455: class, interface, or enum expected
+	}
+	^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2457: class, interface, or enum expected
+	public void openVolume(){
+	       ^
+yecon/packages/apps/YG_FMRadio/src/com/yecon/fmradio/FMRadioMainActivity.java:2460: class, interface, or enum expected
+		}
+		^
+925 errors
+make: *** [out/target/common/obj/APPS/YG_FMRadio_intermediates/classes-full-debug.jar] Error 41
+make: Leaving directory `/home/yfzhang/yecon/yecon_ac8317'

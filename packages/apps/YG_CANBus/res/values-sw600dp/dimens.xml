@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Dimens margin -->
+    <dimen name="view_wind_speed_item_margin">6dp</dimen>
+
+    <!-- Dimens padding -->
+    <dimen name="canbus_activity_default_padding">20dp</dimen>
+
+    <!-- Dimens textsize -->
+    <dimen name="canbus_type_textview_textsize">28sp</dimen>
+
+    <!-- Dimens width -->
+    <dimen name="canbus_button_default_width">180dp</dimen>
+    <dimen name="canbus_tv_default_width">0dp</dimen>
+    
+</resources>

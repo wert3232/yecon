@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:background="@drawable/selector_list_item_bg"
+    >
+    <TextView 
+        android:id="@+id/tv_freq"
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:textColor="@color/tv_press_color"
+        android:textSize="@dimen/bottom_bar_textview_size"
+	android:paddingLeft="15dp"
+	android:gravity="center_vertical"
+        />
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, VideoPlayerActivity!</string>
+    <string name="app_name">AVIN1</string>
+    <string name="app_name2">AVIN2</string>
+    <string name="source_tv">TV</string>
+    <string name="vga_app_name">VGA</string>
+    <string name="ypbpr_app_name">YPBPR</string>
+    <string name="digin_app_name">DIG_IN</string>
+    <string name="hdmi_app_name">HDMI</string>
+    <string name="path">/sdcard/test0.mp4</string>
+    <string name="error_title">error</string>
+    <string name="error_message">file play error!</string>
+    <string name="OK">OK</string>
+    <string name="time_escaped">"00:00:00/"</string>
+    <string name="time_all">"00:00:00"</string>
+    <string name="selectdlg">video select</string>
+
+    <string-array name="selectstr">
+        <item>video 1</item>
+        <item>video 2</item>
+        <item>video 3</item>
+        <item>video 4</item>
+        <item>video 5</item>
+    </string-array>
+
+    <string name="avin1">video1</string>
+    <string name="avin2">video2</string>
+    <string name="avin3">video3</string>
+    <string name="avin4">video4</string>
+    <string name="avin5">video5</string>
+
+    <!-- shilian test debug -->
+    <string name="select_source">Select Source</string>
+    <string name="pip">PIP</string>
+    <string name="switch_front_rear">Switch Front Rear</string>
+    <string name="auto">auto</string>
+    <string name="apply">Apply</string>
+    <string name="audio_source">Audio Source</string>
+    <string name="audio_on">On</string>
+    <string name="audio_off">Off</string>
+    <string name="audioin1">audio1</string>
+    <string name="audioin2">audio2</string>
+    <string name="audioin3">audio3</string>
+    <string name="audioin4">audio4</string>
+    <string name="audioin5">audio5</string>
+    <string name="audio_autodetect">AutoDectect</string>
+    <string name="video_source">Video Source</string>
+    <string name="video_on">On</string>
+    <string name="video_off">Off</string>
+    <string name="videoin1">video1</string>
+    <string name="videoin2">video2</string>
+    <string name="videoin3">video3</string>
+    <string name="videoin4">video4</string>
+    <string name="videoin5">video5</string>
+    <string name="video_autodetect">AutoDectect</string>
+    <string name="fmt601">Fomat 601</string>
+    <string name="fmt656">Fomat 656</string>
+    <string name="bP">Progressive</string>
+    <string name="bI">Interlace</string>
+    <string name="h480">Height 480</string>
+    <string name="h576">Height 576</string>
+    <!-- Begin : Added by yongwu.zhou 2012/06/06 -->
+    <string name="no_signal">no signal</string>
+    <!-- Begin : Added by yongwu.zhou 2012/06/06 -->
+    <string name="check_now">Checking \n please wait</string>
+    <string name="no_connect">No AV IN device connection \n please check your device</string>
+
+    <!-- End : Added by yongwu.zhou 2012/06/06 -->
+    <!-- end -->
+    <string name="front">show</string>
+    <string name="rcp">RCP</string>
+    <!-- 关闭 开启倒车 -->
+    <string name="open_avin">Start back car</string>
+    <string name="close_avin">Close back car</string>
+
+    <!-- add the sound effect -->
+    <!-- ControlPanelMusic strings -->
+    <string name="no_effects">Effects not available.</string>
+    <string name="main_toggle_effects_title">Audio effects</string>
+    <string name="eq_dialog_title">Equalizer</string>
+    <string name="headset_plug">Plug in headphones for these effects.</string>
+    <string name="bass_boost_strength">Bass boost</string>
+    <string name="virtualizer_strength">3D effect</string>
+    <string name="pr_title">Reverb:</string>
+    <string name="pr_summary">Additional room reverberation effects</string>
+    <string name="pr_dialog_title">Reverb preset</string>
+    <string name="setup">Setup</string>
+    <string name="ci_extreme">FX booster</string>
+    <string name="user">User</string>
+
+    <!-- title of control panel picker dialog [CHAR LIMIT=30] -->
+    <string name="picker_title">Music effects control panel"</string>
+
+    <!-- main info -->
+    <string name="avin_sound_title">Audio</string>
+    <string name="avin_light_title">Display</string>
+    <string name="avin_switch_title">switch</string>
+    <string name="avin_back_title">back</string>
+    <string name="avin_close_title">Close</string>
+    <string name="avin_default_title">default</string>
+    <string name="avin_switch_back">back avin</string>
+    <string name="avin_switch_front">front avin</string>
+    <string name="parking_prompt_title">Warning\n</string>
+    <string name="parking_prompt_contents">For driving safety, please pay attention to driving!</string>
+	
+    <string name="no_tv_signal">No tv signal</string>
+    <string name="save_browse">Save/Browse</string>
+    <string name="ty_format">Format</string>
+    <string name="dvr">DVR</string>
+</resources>

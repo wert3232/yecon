@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="weekday">
+        <item>SUN</item>
+        <item>MON</item>
+        <item>TUE</item>
+        <item>WED</item>
+        <item>THU</item>
+        <item>FRI</item>
+        <item>SAT</item>       
+    </string-array>
+    
+<string name="app_name">Weather</string>
+<string name="temperature_unit">℃</string>
+<string name="city">合肥</string>
+<string name="weather">多云</string>
+
+    <string name="updateing">Updateing weather &#8230;</string>
+    <string name="error">Network connection is failed！</string>
+    <string name="timeout">Network connection timeout！</string>
+    <string name="invalid_data">Returned invalid data！</string>
+    <string name="unknown">unknown</string>
+    <string name="settings_city_select">Select city</string>
+    <string name="current_city">Current select city:</string>
+    <string name="chkcurrentcity">Use current city</string>
+    <string name="default_time">00:00</string>
+
+    <string-array name="yahoo_condition ">
+        <item>tornado</item>
+        <item>tropical storm</item>
+        <item>hurricane</item>
+        <item>severe thunderstorms</item>
+        <item>thunderstorms</item>
+        <item>mixed rain and snow</item>
+        <item>mixed rain and sleet</item>
+        <item>mixed snow and sleet</item>
+        <item>freezing drizzle</item>
+        <item>drizzle</item>
+        <item>freezing</item>
+        <item>showers</item>
+        <item>showers</item>
+        <item>snow flurries</item>
+        <item>light snow showers</item>
+        <item>blowing snow</item>
+        <item>snow</item>
+        <item>hail</item>
+        <item>sleet</item>
+        <item>dust</item>
+        <item>foggy</item>
+        <item>haze</item>
+        <item>smoky</item>
+        <item>sunny</item>
+        <item>sunny</item>
+        <item>cold</item>
+        <item>cloudy</item>
+        <item>mostly cloudy (night)</item>
+        <item>mostly cloudy (day)</item>
+        <item>partly cloudy (night)</item>
+        <item>partly cloudy (day)</item>
+        <item>clear (night)</item>
+        <item>sunny</item>
+        <item>fair (night)</item>
+        <item>fair (day)</item>
+        <item>mixed rain and hail</item>
+        <item>hot</item>
+        <item>isolated thunderstorms</item>
+        <item>scattered thunderstorms</item>
+        <item>scattered thunderstorms</item>
+        <item>scattered showers</item>
+        <item>heavy snow</item>
+        <item>scattered snow showers</item>
+        <item>heavy snow</item>
+        <item>partly cloudy</item>
+        <item>thundershowers</item>
+        <item>snow showers</item>
+        <item>isolated thundershowers</item>
+    </string-array>
+    
+    <string-array name="yahoo_condition_image">
+        <item>overcase</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>snow</item>
+        <item>snow</item>
+        <item>overcase</item>
+        <item>snow</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>overcase</item>
+        <item>overcase</item>
+        <item>overcase</item>
+        <item>overcase</item>
+        <item>sunny</item>
+        <item>sunny</item>
+        <item>snow</item>
+        <item>cloudy</item>
+        <item>cloudy</item>
+        <item>cloudy</item>
+        <item>cloudy</item>
+        <item>cloudy</item>
+        <item>sunny</item>
+        <item>sunny</item>
+        <item>sunny</item>
+        <item>sunny</item>
+        <item>rain</item>
+        <item>sunny</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>snow</item>
+        <item>rain</item>
+        <item>snow</item>
+        <item>cloudy</item>
+        <item>rain</item>
+        <item>rain</item>
+        <item>rain</item>
+    </string-array>
+</resources>

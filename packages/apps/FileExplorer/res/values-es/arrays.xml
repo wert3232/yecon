@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="file_type_entries">
+        <item>Todos los archivos de vídeo</item>
+        <item>Todos los archivos de audio</item>
+        <item>Todas las imágenes</item>
+        <item>Todas APK archivos de vídeo</item>
+    </string-array>
+    
+    <string-array name="file_type_values">
+        <item>video</item>
+        <item>audio</item>
+        <item>image</item>
+        <item>apk</item>
+    </string-array>
+    
+    
+    <string-array name="file_operation_entries">
+        <item>Abrir</item>
+        <item>Subir</item>
+        <item>Copiar</item>
+        <item>Cortar</item>
+        <item>Pegar</item>
+        <item>Renombrar</item>
+        <item>Borrar</item>
+        <item>Propiedades</item>
+        <item>Nuevo</item>
+    </string-array>
+    
+    <integer-array name="file_operation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </integer-array>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dimens margin -->
+    <dimen name="textview_left_margin">20dp</dimen>
+    <dimen name="textview_right_margin">20dp</dimen>
+    <dimen name="listview_layout_margin_top">30dp</dimen>
+    <dimen name="listview_layout_margin_bottom">30dp</dimen>
+    <dimen name="listview_layout_margin_left">37dp</dimen>
+    <dimen name="listview_layout_margin_right">37dp</dimen>
+
+    <!-- Dimens padding -->
+    <dimen name="bottom_bar_drawable_padding">4dp</dimen>
+
+    <!-- Dimens textsize -->
+    <dimen name="list_item_textview_line1_size">26sp</dimen>
+    <dimen name="bottom_bar_textview_size">18sp</dimen>
+
+</resources>
